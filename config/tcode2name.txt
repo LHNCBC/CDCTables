@@ -1,0 +1,236 @@
+T56.0|Toxic effects of lead and its compounds
+T56.1|Toxic effects of mercury and its compounds
+T51.2|Toxic effect of 2-Propanol
+T52.0|Toxic effects of petroleum products
+T52.2|Toxic effects of homologues of benzene
+T56.2|Toxic effects of chromium and its compounds
+T56.9|Toxic effects of unspecified metal
+T59.3|Toxic effect of tear gas
+T52.0|Toxic effects of paraffin wax
+T52.0|Toxic effects of ether petroleum
+T52.0|Toxic effects of naphtha petroleum
+T52.0|Toxic effects of spirit petroleum
+T53.3|Toxic effects of tetrachloroethylene
+T53.2|Toxic effects of trichloroethylene
+T54.2|Toxic effects of hydrochloric acid
+T54.2|Toxic effects of sulfuric acid
+T54.3|Toxic effects of sodium hydroxide
+T54.3|Toxic effects of potassium hydroxide
+T59.9|Toxic effect of unspecified gases, fumes and vapors
+T55.0|Toxic effect of soaps
+T60.9|Toxic effect of unspecified pesticide
+T53.0|Toxic effects of carbon tetrachloride
+T52.9|Toxic effects of unspecified organic solvent
+T56.7|Toxic effects of beryllium and its compounds
+T56.3|Toxic effects of cadmium and its compounds
+T53.4|Toxic effects of dichloromethane
+T53.1|Toxic effects of chloroform
+T56.6|Toxic effects of tin and its compounds
+T52.8|Toxic effects of other organic solvents
+T53.6|Toxic effects of other halogen derivatives of aliphatic hydrocarbons
+T53.7|Toxic effects of other halogen derivatives of aromatic hydrocarbons
+T54.1|Toxic effects of other corrosive organic compounds
+T57.9|Toxic effect of unspecified inorganic substance
+T54.9|Toxic effects of unspecified corrosive substance
+T52.1|Toxic effects of benzene
+T52.3|Toxic effects of glycols
+T52.4|Toxic effects of ketones
+T53.5|Toxic effects of chlorofluorocarbons
+T53.9|Toxic effects of unspecified halogen derivatives of aliphatic and aromatic hydrocarbons
+T54.0|Toxic effects of phenol and phenol homologues
+T54.2|Toxic effects of corrosive acids and acid-like substances
+T54.3|Toxic effects of corrosive alkalis and alkali-like substances
+T56.4|Toxic effects of copper and its compounds
+T56.5|Toxic effects of zinc and its compounds
+T61.1|Histamine-like syndrome
+T36.0|Poisoning by, adverse effect of and underdosing of penicillins
+T36.1|Poisoning by, adverse effect of and underdosing of cephalosporins and other beta-lactam antibiotics
+T36.2|Poisoning by, adverse effect of and underdosing of chloramphenicol group
+T36.3|Poisoning by, adverse effect of and underdosing of macrolides
+T36.4|Poisoning by, adverse effect of and underdosing of tetracyclines
+T36.5|Poisoning by, adverse effect of and underdosing of streptomycin
+T36.5|Poisoning by, adverse effect of and underdosing of aminoglycosides
+T36.6|Poisoning by, adverse effect of and underdosing of rifampicins
+T36.7|Poisoning by, adverse effect of and underdosing of antifungal antibiotics, systemically used
+T36.8|Poisoning by, adverse effect of and underdosing of other systemic antibiotics
+T36.9|Poisoning by, adverse effect of and underdosing of unspecified systemic antibiotic
+T37.0|Poisoning by, adverse effect of and underdosing of sulfonamides
+T37.1|Poisoning by, adverse effect of and underdosing of antimycobacterial drugs
+T37.2|Poisoning by, adverse effect of and underdosing of antimalarials and drugs acting on other blood protozoa
+T37.3|Poisoning by, adverse effect of and underdosing of other antiprotozoal drugs
+T37.4|Poisoning by, adverse effect of and underdosing of anthelminthics
+T37.5|Poisoning by, adverse effect of and underdosing of antiviral drugs
+T37.8|Poisoning by, adverse effect of and underdosing of hydroxyquinoline derivatives
+T37.8|Poisoning by, adverse effect of and underdosing of other specified systemic anti-infectives and antiparasitics
+T37.9|Poisoning by, adverse effect of and underdosing of unspecified systemic anti-infective and antiparasitics
+T38.0|Poisoning by, adverse effect of and underdosing of glucocorticoids and synthetic analogues
+T38.1|Poisoning by, adverse effect of and underdosing of thyroid hormones and substitutes
+T38.2|Poisoning by, adverse effect of and underdosing of antithyroid drugs
+T38.3|Poisoning by, adverse effect of and underdosing of insulin and oral hypoglycemic [antidiabetic] drugs
+T38.4|Poisoning by, adverse effect of and underdosing of multiple- and single-ingredient oral contraceptive preparations
+T38.4|Poisoning by, adverse effect of and underdosing of oral contraceptives
+T38.5|Poisoning by, adverse effect of and underdosing of estrogens and progestogens mixtures and substitutes
+T38.5|Poisoning by, adverse effect of and underdosing of other estrogens and progestogens
+T38.6|Poisoning by, adverse effect of and underdosing of tamoxifen
+T38.6|Poisoning by, adverse effect of and underdosing of antigonadotrophins, antiestrogens, antiandrogens, not elsewhere classified
+T38.7|Poisoning by, adverse effect of and underdosing of androgens and anabolic congeners
+T38.8|Poisoning by, adverse effect of and underdosing of other and unspecified hormones and synthetic substitutes
+T38.9|Poisoning by, adverse effect of and underdosing of other and unspecified hormone antagonists
+T39.0|Poisoning by, adverse effect of and underdosing of salicylates
+T39.1|Poisoning by, adverse effect of and underdosing of 4-Aminophenol derivatives
+T39.2|Poisoning by, adverse effect of and underdosing of pyrazolone derivatives
+T39.4|Poisoning by, adverse effect of and underdosing of antirheumatics, not elsewhere classified
+T39.8|Poisoning by, adverse effect of and underdosing of other nonopioid analgesics and antipyretics, not elsewhere classified
+T39.9|Poisoning by, adverse effect of and underdosing of unspecified nonopioid analgesic, antipyretic and antirheumatic
+T40.0|Poisoning by, adverse effect of and underdosing of opium
+T40.2|Poisoning by, adverse effect of and underdosing of other opioids
+T40.3|Poisoning by, adverse effect of and underdosing of methadone
+T40.4|Poisoning by, adverse effect of and underdosing of other synthetic narcotics
+T40.5|Poisoning by, adverse effect of and underdosing of cocaine
+T40.6|Poisoning by, adverse effect of and underdosing of other and unspecified narcotics
+T40.7|Poisoning by, adverse effect of and underdosing of cannabis (derivatives)
+T40.9|Poisoning by, adverse effect of and underdosing of other and unspecified psychodysleptics [hallucinogens]
+T41.0|Poisoning by, adverse effect of and underdosing of inhaled anesthetics
+T41.1|Poisoning by, adverse effect of and underdosing of thiobarbiturates
+T41.1|Poisoning by, adverse effect of and underdosing of intravenous anesthetics
+T41.2|Poisoning by, adverse effect of and underdosing of other and unspecified general anesthetics
+T41.3|Poisoning by, adverse effect of and underdosing of local anesthetics
+T41.4|Poisoning by, adverse effect of and underdosing of unspecified anesthetic
+T41.5|Poisoning by, adverse effect of and underdosing of therapeutic gases
+T42.0|Poisoning by, adverse effect of and underdosing of hydantoin derivatives
+T42.1|Poisoning by, adverse effect of and underdosing of carbamazepine
+T42.1|Poisoning by, adverse effect of and underdosing of iminostilbenes
+T42.2|Poisoning by, adverse effect of and underdosing of succinimides and oxazolidinediones
+T42.3|Poisoning by, adverse effect of and underdosing of barbiturates
+T42.4|Poisoning by, adverse effect of and underdosing of benzodiazepines
+T42.6|Poisoning by, adverse effect of and underdosing of methaqualone
+T42.6|Poisoning by, adverse effect of and underdosing of valproic acid
+T42.6|Poisoning by, adverse effect of and underdosing of other antiepileptic and sedative-hypnotic drugs
+T42.7|Poisoning by, adverse effect of and underdosing of unspecified antiepileptic and sedative-hypnotic drugs
+T42.8|Poisoning by, adverse effect of and underdosing of amantadine
+T42.8|Poisoning by, adverse effect of and underdosing of antiparkinsonism drugs and other central muscle-tone depressants
+T43.0|Poisoning by, adverse effect of and underdosing of tricyclic and tetracyclic antidepressants
+T43.1|Poisoning by, adverse effect of and underdosing of monoamine-oxidase-inhibitor antidepressants
+T43.2|Poisoning by, adverse effect of and underdosing of other and unspecified antidepressants
+T43.3|Poisoning by, adverse effect of and underdosing of phenothiazine antipsychotics and neuroleptics
+T43.4|Poisoning by, adverse effect of and underdosing of butyrophenone and thiothixene neuroleptics
+T43.5|Poisoning by, adverse effect of and underdosing of other and unspecified antipsychotics and neuroleptics
+T43.6|Poisoning by, adverse effect of and underdosing of psychostimulants
+T43.8|Poisoning by, adverse effect of and underdosing of other psychotropic drugs
+T43.9|Poisoning by, adverse effect of and underdosing of unspecified psychotropic drug
+T44.0|Poisoning by, adverse effect of and underdosing of anticholinesterase agents
+T44.1|Poisoning by, adverse effect of and underdosing of other parasympathomimetics [cholinergics]
+T44.2|Poisoning by, adverse effect of and underdosing of ganglionic blocking drugs
+T44.3|Poisoning by, adverse effect of and underdosing of papaverine
+T44.3|Poisoning by, adverse effect of and underdosing of other parasympatholytics [anticholinergics and antimuscarinics] and spasmolytics
+T44.4|Poisoning by, adverse effect of and underdosing of metaraminol
+T44.4|Poisoning by, adverse effect of and underdosing of predominantly alpha-adrenoreceptor agonists
+T44.5|Poisoning by, adverse effect of and underdosing of predominantly beta-adrenoreceptor agonists
+T44.6|Poisoning by, adverse effect of and underdosing of alpha-adrenoreceptor antagonists
+T44.7|Poisoning by, adverse effect of and underdosing of beta-adrenoreceptor antagonists
+T44.8|Poisoning by, adverse effect of and underdosing of centrally-acting and adrenergic-neuron- blocking agents
+T44.9|Poisoning by, adverse effect of and underdosing of drug stimulating both alpha and beta-adrenoreceptors
+T44.9|Poisoning by, adverse effect of and underdosing of other and unspecified drugs primarily affecting the autonomic nervous system
+T45.0|Poisoning by, adverse effect of and underdosing of antiallergic and antiemetic drugs
+T45.1|Poisoning by, adverse effect of and underdosing of antineoplastic and immunosuppressive drugs
+T45.2|Poisoning by, adverse effect of and underdosing of vitamins
+T45.3|Poisoning by, adverse effect of and underdosing of enzymes
+T45.4|Poisoning by, adverse effect of and underdosing of iron and its compounds
+T45.5|Poisoning by, adverse effect of and underdosing of anticoagulants and antithrombotic drugs
+T45.6|Poisoning by, adverse effect of and underdosing of fibrinolysis-affecting drugs
+T45.7|Poisoning by, adverse effect of and underdosing of anticoagulant antagonists, vitamin K and other coagulants
+T45.8|Poisoning by, adverse effect of and underdosing of liver preparations and other antianemic agents
+T45.8|Poisoning by, adverse effect of and underdosing of natural blood and blood products
+T45.8|Poisoning by, adverse effect of and underdosing of plasma substitute
+T45.8|Poisoning by, adverse effect of and underdosing of other primarily systemic and hematological agents
+T45.9|Poisoning by, adverse effect of and underdosing of unspecified primarily systemic and hematological agent
+T46.0|Poisoning by, adverse effect of and underdosing of cardiac-stimulant glycosides and drugs of similar action
+T46.1|Poisoning by, adverse effect of and underdosing of calcium-channel blockers
+T46.2|Poisoning by, adverse effect of and underdosing of other antidysrhythmic drugs, not elsewhere classified
+T46.3|Poisoning by, adverse effect of and underdosing of dipyridamole
+T46.3|Poisoning by, adverse effect of and underdosing of coronary vasodilators
+T46.4|Poisoning by, adverse effect of and underdosing of angiotensin-converting-enzyme inhibitors
+T46.5|Poisoning by, adverse effect of and underdosing of other antihypertensive drugs
+T46.6|Poisoning by, adverse effect of and underdosing of antihyperlipidemic and antiarteriosclerotic drugs
+T46.7|Poisoning by, adverse effect of and underdosing of nicotinic acid (derivatives)
+T46.7|Poisoning by, adverse effect of and underdosing of peripheral vasodilators
+T46.8|Poisoning by, adverse effect of and underdosing of antivaricose drugs, including sclerosing agents
+T46.9|Poisoning by, adverse effect of and underdosing of other and unspecified agents primarily affecting the cardiovascular system
+T47.0|Poisoning by, adverse effect of and underdosing of histamine H2-receptor blockers
+T47.1|Poisoning by, adverse effect of and underdosing of other antacids and anti-gastric-secretion drugs
+T47.2|Poisoning by, adverse effect of and underdosing of stimulant laxatives
+T47.3|Poisoning by, adverse effect of and underdosing of saline and osmotic laxatives
+T47.4|Poisoning by, adverse effect of and underdosing of other laxatives
+T47.5|Poisoning by, adverse effect of and underdosing of digestants
+T47.6|Poisoning by, adverse effect of and underdosing of antidiarrheal drugs
+T47.7|Poisoning by, adverse effect of and underdosing of emetics
+T47.8|Poisoning by, adverse effect of and underdosing of other agents primarily affecting gastrointestinal system
+T47.9|Poisoning by, adverse effect of and underdosing of unspecified agents primarily affecting the gastrointestinal system
+T48.0|Poisoning by, adverse effect of and underdosing of oxytocic drugs
+T48.1|Poisoning by, adverse effect of and underdosing of skeletal muscle relaxants [neuromuscular blocking agents]
+T48.2|Poisoning by, adverse effect of and underdosing of other and unspecified drugs acting on muscles
+T48.3|Poisoning by, adverse effect of and underdosing of antitussives
+T48.4|Poisoning by, adverse effect of and underdosing of expectorants
+T48.5|Poisoning by, adverse effect of and underdosing of decongestants
+T48.5|Poisoning by, adverse effect of and underdosing of other anti-common-cold drugs
+T48.6|Poisoning by, adverse effect of and underdosing of beta-adrenoreceptor agonists used in asthma therapy
+T48.6|Poisoning by, adverse effect of and underdosing of antiasthmatics, not elsewhere classified
+T48.9|Poisoning by, adverse effect of and underdosing of other and unspecified agents primarily acting on the respiratory system
+T49.0|Poisoning by, adverse effect of and underdosing of local antifungal, anti-infective and anti-inflammatory drugs
+T49.1|Poisoning by, adverse effect of and underdosing of antipruritics
+T49.2|Poisoning by, adverse effect of and underdosing of local astringents and local detergents
+T49.3|Poisoning by, adverse effect of and underdosing of emollients, demulcents and protectants
+T49.4|Poisoning by, adverse effect of and underdosing of keratolytics, keratoplastics, and other hair treatment drugs and preparations
+T49.5|Poisoning by, adverse effect of and underdosing of ophthalmological drugs and preparations
+T49.6|Poisoning by, adverse effect of and underdosing of otorhinolaryngological drugs and preparations
+T49.7|Poisoning by, adverse effect of and underdosing of dental drugs, topically applied
+T49.8|Poisoning by, adverse effect of and underdosing of spermicides
+T49.8|Poisoning by, adverse effect of and underdosing of other topical agents
+T49.9|Poisoning by, adverse effect of and underdosing of unspecified topical agent
+T50.0|Poisoning by, adverse effect of and underdosing of mineralocorticoids and their antagonists
+T50.1|Poisoning by, adverse effect of and underdosing of loop [high-ceiling] diuretics
+T50.2|Poisoning by, adverse effect of and underdosing of acetazolamide
+T50.2|Poisoning by, adverse effect of and underdosing of carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics
+T50.3|Poisoning by, adverse effect of and underdosing of oral rehydration salts
+T50.3|Poisoning by, adverse effect of and underdosing of electrolytic, caloric and water-balance agents
+T50.4|Poisoning by, adverse effect of and underdosing of drugs affecting uric acid metabolism
+T50.5|Poisoning by, adverse effect of and underdosing of appetite depressants
+T50.6|Poisoning by, adverse effect of and underdosing of alcohol deterrents
+T50.6|Poisoning by, adverse effect of and underdosing of antidotes and chelating agents
+T50.7|Poisoning by, adverse effect of and underdosing of analeptics and opioid receptor antagonists
+T50.8|Poisoning by, adverse effect of and underdosing of diagnostic agents
+T50.9|Poisoning by, adverse effect of and underdosing of other and unspecified drugs, medicaments and biological substances
+T50.A|Poisoning by, adverse effect of and underdosing of bacterial vaccines
+T50.B|Poisoning by, adverse effect of and underdosing of viral vaccines
+T50.Z|Poisoning by, adverse effect of and underdosing of other vaccines and biological substances
+T51.3|Toxic effect of butyl [1-butanol] alcohol
+T51.3|Toxic effect of propyl [1-propanol] alcohol
+T52.0|Toxic effects of gasoline [petrol]
+T52.0|Toxic effects of kerosene [paraffin oil]
+T52.2|Toxic effects of toluene [methylbenzene]
+T52.2|Toxic effects of xylene [dimethylbenzene]
+T53.0|Toxic effects of tetrachloromethane
+T53.1|Toxic effects of trichloromethane
+T53.2|Toxic effects of trichloroethene
+T53.3|Toxic effect of tetrachloroethene
+T53.3|Toxic effects of perchloroethylene
+T53.4|Toxic effects of methylene chloride
+T58.0|Toxic effect of exhaust gas from gas engine
+T58.0|Toxic effect of exhaust gas from motor pump
+T58.0|Toxic effect of carbon monoxide from motor vehicle exhaust
+T58.1|Toxic effect of acetylene
+T58.1|Toxic effect of gas NOS used for lighting, heating, cooking
+T58.1|Toxic effect of water gas
+T58.1|Toxic effect of carbon monoxide from utility gas
+T58.2|Toxic effect of carbon monoxide from incomplete combustion of coal, coke, kerosene, wood
+T58.2|Toxic effect of carbon monoxide from incomplete combustion of other domestic fuels
+T58.8|Toxic effect of carbon monoxide from blast furnace gas
+T58.8|Toxic effect of carbon monoxide from fuels in industrial use
+T58.8|Toxic effect of carbon monoxide from kiln vapor
+T58.8|Toxic effect of carbon monoxide from other source
+T58.9|Toxic effect of carbon monoxide from unspecified source
+T64.8|Toxic effect of other mycotoxin food contaminants
+T65.3|Toxic effect of anilin [benzenamine]
+T65.3|Toxic effect of nitrobenzene
+T65.3|Toxic effect of trinitrotoluene
+T41.3|Cocaine (topical)

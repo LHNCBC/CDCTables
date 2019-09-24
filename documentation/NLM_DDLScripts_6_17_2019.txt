@@ -1,0 +1,379 @@
+*****************NLMDrugAuthoritativeSource***************************************************************************************************
+
+USE [nvss_hyatt]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugAuthoritativeSource]    Script Date: 6/17/2019 2:23:50 PM ******/
+DROP TABLE [MMD].[NLMDrugAuthoritativeSource]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugAuthoritativeSource]    Script Date: 6/17/2019 2:23:50 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [MMD].[NLMDrugAuthoritativeSource](
+	[DrugAuthoritativeSourceID] [smallint] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[Description] [varchar](100) NULL,
+	[CreationUserID] [char](4) NULL,
+	[CreationDate] [smalldatetime] NULL,
+	[UpdatedUserID] [char](5) NULL,
+	[UpdatedDate] [smalldatetime] NULL,
+	[IsActive] [bit] NULL,
+ CONSTRAINT [PK_NLMDrugAuthoritativeSourceID] PRIMARY KEY CLUSTERED 
+(
+	[DrugAuthoritativeSourceID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+
+
+***********************************************************************************************************************************************
+
+******************NLMDrugConceptType**************************************************************************************************************
+
+USE [nvss_hyatt]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugConceptType]    Script Date: 6/17/2019 12:35:32 PM ******/
+DROP TABLE [MMD].[DrugClassification]
+GO
+
+/****** Object:  Table [MMD].[DrugClassification]    Script Date: 6/17/2019 12:35:32 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [MMD].[NLMDrugConceptType](
+	[DrugConceptTypeID] [bigint] NOT NULL,
+	[Description] [varchar](50) NULL,
+	[CreationDateTime] [smalldatetime] NULL,
+	[CreationUserID] [char](4) NULL,
+	[UpdatedDateTime] [smalldatetime] NULL,
+	[UpdatedUserID] [char](4) NULL,
+	[IsActive] [bit] NULL,
+ CONSTRAINT [PK_NLMDrugConceptType] PRIMARY KEY CLUSTERED 
+(
+	[DrugConceptTypeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+***************************************************************************************************************************************************
+
+***************************************NLMDrugTermType*********************************************************************************************
+USE [nvss_hyatt]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugTermType]    Script Date: 6/17/2019 12:44:35 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [MMD].[NLMDrugTermType](
+	[DrugTTYID] [smallint] IDENTITY(1,1) NOT NULL,
+	[Abbreviation] [char](4) NOT NULL,
+	[Description] [char](50) NULL,
+	[CreationUserID] [char](4) NULL,
+	[CreationDate] [smalldatetime] NULL,
+	[UpdatedUserID] [char](5) NULL,
+	[UpdatedDate] [smalldatetime] NULL,
+	[IsActive] [bit] NULL,
+ CONSTRAINT [PK_NLMDrugTermType] PRIMARY KEY CLUSTERED 
+(
+	[DrugTTYID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+***************************************************************************************************************************************************
+
+
+*****************NLMDrugTerm***********************************************************************************************************************
+
+
+USE [nvss_hyatt]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugTerm]    Script Date: 6/17/2019 12:57:42 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [MMD].[NLMDrugTerm](
+	[DrugTermID] [bigint] IDENTITY(1,1) NOT NULL,
+	[DrugTermName] [varchar](50) NOT NULL,
+	[DrugTTYID] [smallint] NOT NULL,
+	[DrugExternalID] [varchar](32) NULL,
+	[DrugAuthoritativeSourceID] [smallint] NULL,
+	[CreationUserID] [char](4) NULL,
+	[CreationDate] [smalldatetime] NULL,
+	[UpdatedUserID] [char](5) NULL,
+	[UpdatedDate] [smalldatetime] NULL,
+	[IsActive] [bit] NULL,
+ CONSTRAINT [PK_NLMDrugTerm] PRIMARY KEY CLUSTERED 
+(
+	[DrugTermID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+
+ALTER TABLE [MMD].[NLMDrugTerm]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugTerm_NLMDrugAuthoritativeSource] FOREIGN KEY([DrugAuthoritativeSourceID])
+REFERENCES [MMD].[NLMDrugAuthoritativeSource] ([DrugAuthoritativeSourceID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugTerm] CHECK CONSTRAINT [FK_NLMDrugTerm_NLMDrugAuthoritativeSource]
+GO
+
+ALTER TABLE [MMD].[NLMDrugTerm]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugTerm_NLMDrugTermType] FOREIGN KEY([DrugTTYID])
+REFERENCES [MMD].[NLMDrugTermType] ([DrugTTYID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugTerm] CHECK CONSTRAINT [FK_NLMDrugTerm_NLMDrugTermType]
+GO
+
+***************************************************************************************************************************************************
+
+
+
+
+*******************NLMDrugConcept******************************************************************************************************************
+
+
+USE [nvss_hyatt]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] DROP CONSTRAINT [FK_NLMDrugConcept_NLMDrugAuthoritativeSource]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] DROP CONSTRAINT [DF_NLMDrugConcept_IsActive]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] DROP CONSTRAINT [DF_NLMDrugConcept_CreationUserID]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] DROP CONSTRAINT [DF_NLMDrugConcept_CreationDate]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugConcept]    Script Date: 6/17/2019 1:05:09 PM ******/
+DROP TABLE [MMD].[NLMDrugConcept]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugConcept]    Script Date: 6/17/2019 1:05:09 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [MMD].[NLMDrugConcept](
+	[DrugConceptID] [bigint] IDENTITY(1,1) NOT NULL,
+	[PreferredTermID] [bigint] NOT NULL,
+	[DrugAuthoritativeSourceID] [smallint] NOT NULL,
+	[DrugConceptTypeID] [bigint] NULL,
+	[DrugSourceConceptID] [varchar](32) NULL,
+	[CreationDate] [smalldatetime] NULL,
+	[CreationUserID] [char](4) NULL,
+	[UpdatedDate] [smalldatetime] NULL,
+	[UpdateUserID] [char](4) NULL,
+	[IsActive] [bit] NOT NULL,
+ CONSTRAINT [PK_NLMDrugConcept] PRIMARY KEY CLUSTERED 
+(
+	[DrugConceptID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] ADD  CONSTRAINT [DF_NLMDrugConcept_CreationDate]  DEFAULT (getdate()) FOR [CreationDate]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] ADD  CONSTRAINT [DF_NLMDrugConcept_CreationUserID]  DEFAULT ([Config].[udf_CreateUpdateRENVSSUserID]()) FOR [CreationUserID]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] ADD  CONSTRAINT [DF_NLMDrugConcept_IsActive]  DEFAULT ('0') FOR [IsActive]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugConcept_NLMDrugAuthoritativeSource] FOREIGN KEY([DrugAuthoritativeSourceID])
+REFERENCES [MMD].[NLMDrugAuthoritativeSource] ([DrugAuthoritativeSourceID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] CHECK CONSTRAINT [FK_NLMDrugConcept_NLMDrugAuthoritativeSource]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugConcept_NLMDrugTerm] FOREIGN KEY([PreferredTermID])
+REFERENCES [MMD].[NLMDrugTerm] ([DrugTermID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] CHECK CONSTRAINT [FK_NLMDrugConcept_NLMDrugTerm]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugConcept_NLMDrugConceptType] FOREIGN KEY([DrugConceptTypeID])
+REFERENCES [MMD].[NLMDrugConceptType] ([DrugConceptTypeID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugConcept] CHECK CONSTRAINT [FK_NLMDrugConcept_NLMDrugConceptType]
+GO
+
+***************************************************************************************************************************************************
+
+
+
+
+******NLMDrugTermTerm*******************************************************************************************************************************
+
+USE [nvss_hyatt]
+GO
+
+ALTER TABLE [MMD].[NLMDrugTermTerm] DROP CONSTRAINT [FK_NLMDrugTermTerm_NLMDrugTerm]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugTermTerm]    Script Date: 6/17/2019 1:38:59 PM ******/
+DROP TABLE [MMD].[NLMDrugTermTerm]
+GO
+
+/****** Object:  Table [MMD].[NLMDrugTermTerm]    Script Date: 6/17/2019 1:38:59 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [MMD].[NLMDrugTermTerm](
+	[DrugTermTermID] [bigint] NOT NULL,
+	[DrugTermID1] [bigint] NULL,
+	[Relation] [char](50) NULL,
+	[DrugTermID2] [bigint] NULL,
+	[CreationUserID] [char](4) NULL,
+	[CreationDateTime] [smalldatetime] NULL,
+	[UpdatedUserID] [char](4) NULL,
+	[UpdatedDateTime] [smalldatetime] NULL,
+	[IsActive] [bit] NULL,
+ CONSTRAINT [PK_NLMDrugTermTerm] PRIMARY KEY CLUSTERED 
+(
+	[DrugTermTermID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+
+ALTER TABLE [MMD].[NLMDrugTermTerm]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugTermTerm_NLMDrugTerm1] FOREIGN KEY([DrugTermID1])
+REFERENCES [MMD].[NLMDrugTerm] ([DrugTermID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugTermTerm] CHECK CONSTRAINT [FK_NLMDrugTermTerm_NLMDrugTerm1]
+GO
+
+ALTER TABLE [MMD].[NLMDrugTermTerm]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugTermTerm_NLMDrugTerm2] FOREIGN KEY([DrugTermID2])
+REFERENCES [MMD].[NLMDrugTerm] ([DrugTermID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugTermTerm] CHECK CONSTRAINT [FK_NLMDrugTermTerm_NLMDrugTerm2]
+GO
+
+
+***************************************************************************************************************************************************
+
+*********************NLMDrugConcepttoConcept*******************************************************************************************************
+
+
+USE [nvss_hyatt]
+GO
+
+
+CREATE TABLE [MMD].[NLMDrugConceptConcept](
+	[DrugConceptConceptID] [bigint] NOT NULL,
+	[DrugConceptID1] [bigint] NULL,
+	[Relation] [char](50) NULL,
+	[DrugConceptID2] [bigint] NULL,
+	[CreationUserID] [char](4) NULL,
+	[CreationDateTime] [smalldatetime] NULL,
+	[UpdatedUserID] [char](4) NULL,
+	[UpdatedDateTime] [smalldatetime] NULL,
+	[IsActive] [bit] NULL,
+ CONSTRAINT [PK_NLMDrugConceptConcept] PRIMARY KEY CLUSTERED 
+(
+	[DrugConceptConceptID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING ON
+GO
+
+ALTER TABLE [MMD].[NLMDrugConceptConcept]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugConceptConcept_NLMDrugConcept1] FOREIGN KEY([DrugConceptID1])
+REFERENCES [MMD].[NLMDrugConcept] ([DrugConceptID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugConceptConcept] CHECK CONSTRAINT [FK_NLMDrugConceptConcept_NLMDrugConcept1]
+GO
+
+ALTER TABLE [MMD].[NLMDrugConceptConcept]  WITH CHECK ADD  CONSTRAINT [FK_NLMDrugTermTerm_NLMDrugConcept2] FOREIGN KEY([DrugConceptID2])
+REFERENCES [MMD].[NLMDrugConcept] ([DrugConceptID])
+GO
+
+ALTER TABLE [MMD].[NLMDrugConceptConcept] CHECK CONSTRAINT [FK_NLMDrugConceptConcept_NLMDrugConcept2]
+GO
+
+***************************************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+

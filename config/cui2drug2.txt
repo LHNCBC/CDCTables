@@ -1,0 +1,2688 @@
+1-propanol|1362872
+2-propanol|797541
+Acebutolol|149
+Acecarbromal|16688
+Acenocoumarin|154
+Acenocoumarol|154
+Acepromazine|155
+Acetaldehyde|1311137
+P-Acetamidophenol|161
+Acetaminophen|161
+Acetanilide|162
+Acetazolamide|167
+Acetiamine|236300
+Acetic acid|168
+Acetic anhydride|1370450
+Acetohexamide|173
+Acetohydroxamic acid|16728
+Acetone|178
+Acetophenazine|16735
+Acetylcarbromal|16688
+Acetylcholine chloride|20814
+Acetylcysteine|197
+Acetyldigitoxin|132871
+Acetyldigoxin|199
+Acetylene|200
+Acetylsalicylic acid|1191
+Aciclovir|281
+Acipimox|16817
+Acitretin|16818
+Aclarubicin|239
+Aconite|242
+Aconitine|1441664
+Acriflavine|249
+Acriflavinium chloride|1664337
+Acrinol|4107
+Acrisorcin|89729
+Acrivastine|19959
+Acrylamide|1368125
+ACTH|376
+Actinomycin D|3100
+Activated charcoal|272
+Acyclovir|281
+Adenine|290
+Adenosine|296
+ADH|11149
+Adiphenine|333
+Adipiodone|5936
+Adrenaline|3992
+Adrenocorticotrophic hormone|376
+Adrenocorticotrophin|376
+Adriamycin|42512
+Aethusa cynapium|1351000
+Agar|397
+Ajmaline|423
+Albendazole|430
+Albumin bovine|1426381
+Albumin human serum|828529
+Albumin normal human serum|828529
+Albuterol|435
+Alclometasone|108088
+Alcohol|448
+Alcuronium|460
+Aldactone|151317
+Aldosterone|1312358
+Alexitol sodium|236340
+Alfacalcidol|12062
+Alfaxalone|1544577
+Alfentanil|480
+Alfuzosin|17300
+Algeldrate|612
+Algeldrate|613
+Algin|17305
+Alglucerase|46049
+Alimemazine|10825
+Alizapride|17311
+Alka-seltzer|17315
+Allantoin|508
+Allethrin|513
+Allobarbital|516
+Allopurinol|519
+Allylestrenol|525
+Allylthiourea|1318494
+Allypropymal|17381
+Almagate|17384
+Almasilate|17614
+Almitrine|528
+Aloes|318340
+Aloglutamol|17392
+Aloin|17354
+Alpha amylase|560
+Alpha tocopherol|237099
+Alphaprodine|594
+Alphaxalone|1544577
+Alprazolam|596
+Alprenolol|597
+Alprostadil|598
+Alseroxylon|599
+Alteplase|8410
+Altizide|17599
+Altretamine|5296
+Alum|221456
+Alum|54989
+Alverine|17627
+Amanita phalloides|1858554
+Amantadine|620
+Ambenonium|623
+Ambroxol|625
+Amcinonide|17652
+Amethocaine|10391
+Amethopterin|6851
+Amfebutamone|42347
+Amfepramone|3389
+Amfetamine|725
+Amidopyrine|695
+Amidotrizoate|3319
+Amikacin|641
+Amiloride|644
+Aminacrine|645
+Amineptine|17698
+Aminoacetic acid|4919
+Aminoacridine|645
+Aminobenzoic acid|74
+4-Aminobutyric acid|4617
+Aminocaproic acid|99
+Aminofenazone|695
+Aminoglutethimide|677
+Aminohippuric acid|7832
+Aminomethylbenzoic acid|14852
+Aminometradine|1440266
+Aminopentamide|1006397
+Aminophenazone|695
+Aminophylline|689
+Aminopterin sodium|1440263
+Aminopyrine|695
+Aminosalicylic acid|7833
+Amiodarone|703
+Amisulpride|46303
+Amitriptyline|704
+Amlexanox|46307
+Ammonia|1299884
+Ammoniated mercury|29542
+Ammonium bromide|1313309
+Ammonium carbonate|1310190
+Ammonium chloride|712
+Amobarbital|719
+Amodiaquine|720
+Amoxapine|722
+Amoxicillin|723
+Amphotericin B|732
+Ampicillin|733
+Amsacrine|739
+Amyl acetate|1370452
+Amyl chloride|1370452
+Amyl nitrite|742
+Amyl propionate|1370452
+Amylase|743
+Amylmetacresol|236248
+Amylobarbitone|719
+Amylopectin|1368128
+Amytal|151348
+Ancrod|772
+Androsterone|1312359
+Anemone pulsatilla|1311188
+Aneurine|10454
+Anileridine|17933
+Aniline|1441546
+Anise oil|90926
+Anisindione|17941
+Anisotropine methyl-bromide|17945
+Anistreplase|40028
+Ansamycin|55672
+Antabuse|151358
+Anthralin|873
+Anti-D immunoglobulin|35465
+Antidiuretic hormone|11149
+Antihemophilic factor|4257
+Antimony|1311407
+Antipyrine|1001
+Aplonidine|91350
+Apomorphine|1043
+Apraclonidine|14845
+Aprindine|1054
+Aprobarbital|17381
+Aprotinin|1056
+Ara-A|11194
+Arachis oil|18235
+Arginine|1091
+Articaine|592464
+Ascorbic acid|1151
+Asiaticoside|18405
+Asparaginase|1156
+Aspirin|1191
+Astemizole|42328
+Atenolol|1202
+Atracurium besilate|1219
+Atropine|1223
+Attapulgite|18516
+Auranofin|1227
+Aurantiin|31538
+Aurothioglucose|4980
+Aurothiomalate sodium|4981
+Azacitidine|1251
+Azapropazone|1029
+Azatadine|18600
+Azathioprine|1256
+Azelaic acid|18602
+Azelastine|18603
+Azidocillin|18609
+Azidothymidine|11413
+Azithromycin|18631
+Azlocillin|1266
+AZT|11413
+Aztreonam|1272
+Azulfidine|202770
+Bacampicillin|18687
+Bacillus subtilis|1311119
+Bacitracin zinc|11417
+Baclofen|1292
+Baking soda|36676
+BAL|3445
+Bambuterol|18751
+Bamethan|1321
+Bamifylline|18752
+Bamipine|18753
+Barbexaclone|46795
+Barbital|1325
+Barbitone|1325
+Barium|1311067
+Basic fuchsin|1535513
+BCNU|2105
+Beclamide|18846
+Beclomethasone|1347
+Belladonna alkaloids|1359
+Belladonna extract|89781
+Benactyzine|1361
+Benadryl|203457
+Benazepril|18867
+Bencyclane|1367
+Bendrofluazide|1369
+Bendroflumethiazide|1369
+Benfluorex|18880
+Benfotiamine|18891
+Benoxinate|18889
+Benperidol|1373
+Benproperine|236749
+Benserazide|1374
+Bentiromide|18896
+Bentonite|1375
+Benzalkonium|1378
+Benzathine benzylpenicillin|7982
+Benzathine penicillin|7982
+Benzatropine|1424
+Benzbromarone|1385
+Benzedrex|227666
+Benzenamine|1441546
+Benzene|1311295
+Benzethonium|1390
+Benzfetamine|1422
+Benzhexol|10811
+Benzhydramine|3498
+Benzimidazole|1362885
+Benznidazole|18994
+Benzocaine|1399
+Benzoic acid|18989
+Benzoin|1406
+Benzol|1311295
+Benzonatate|18993
+Benzophenones|18997
+Benzoxonium chloride|46949
+Benzoyl peroxide|1418
+Benzphetamine|1422
+Benzquinamide|19041
+Benzthiazide|19008
+Benzydamine|1425
+Benzyl acetate|1487188
+Benzyl alcohol|1426
+Benzyl benzoate|19044
+Benzyl nicotinate|31767
+Benzylpenicillin|7980
+Benzylthiouracil|19084
+Bepridil|1436
+Bergamot oil|1305651
+Bergapten|15842
+Beryllium|1310252
+Betacarotene|19143
+Betahistine|1511
+Betaine|1512
+Betamethasone|1514
+Betanidine|1523
+Betaxolol|1520
+Bethanechol|19257
+Bethanidine|1523
+Bezafibrate|1525
+BHA|1362900
+Bichromates|1313336
+Biclotymol|236268
+Bifemelane|47111
+Bile salts|1540
+Biotin|1588
+Biperiden|1589
+Bisacodyl|1596
+Bisdequalinium|19464
+Bishydroxycoumarin|1598
+Bisoprolol|19484
+Bitolterol|19499
+Bitter almond oil|1370302
+Bittersweet|285163
+Bleomycin|1622
+Bone meal|19596
+Bonine|1694
+Bopindolol|19605
+Boracic acid|1700
+Boric acid|1700
+Bornaprine|19610
+Boron|1705
+Botox|203279
+Bran|104125
+Bretylium tosilate|1737
+Brevital|227282
+British antilewisite|3445
+Bromazepam|1749
+Bromazine|19759
+Bromelains|1752
+Bromhexine|1753
+Bromocriptine|1760
+Bromodiphenhydramine|19759
+Bromopride|19768
+Bromperidol|19777
+Brompheniramine|1767
+Brotizolam|19790
+Brucine|1311059
+Bryonia|319815
+Buclizine|59636
+Budesonide|19831
+Bufferin|215770
+Buflomedil|19836
+Bumetanide|1808
+Bunazosin|19850
+Buphenine|7595
+Bupivacaine|1815
+Bupranolol|1817
+Buprenorphine|1819
+Bupropion|42347
+Buserelin|1825
+Buspirone|1827
+Butabarbital|477631
+Butabarbitone|477631
+Butacaine|1829
+Butalamine|180806
+Butalbital|19860
+Butamben|19861
+Butamirate|19862
+Butane|1310550
+Butetamate|235942
+Butethal|19874
+Butethamate|392938
+Butisol|1251601
+Butizide|19882
+Butobarbital|19874
+Butobarbitone|19874
+Butoconazole|19884
+Butorphanol|1841
+Butriptyline|19895
+Butyl acetate|1362908
+Butyl alcohol|1310579
+Butyl aminobenzoate|19861
+Butyl butyrate|1362908
+Butyl butyrate|1363628
+Butyl butyrate|1435572
+Butyl butyrate|19900
+Butyl carbitol|1552575
+Butyl lactate|1435572
+Butyl propionate|1362908
+Butyl propionate|1363628
+Butyl propionate|1435572
+Butyl propionate|19900
+Cabergoline|47579
+Cade oil|6086
+Cadexomer iodine|20012
+Cadmium|1362694
+Caffeine|1886
+Calamine|106212
+Calcifediol|1889
+Calciferol|11253
+Calciferol|4018
+Calcitonin|1311287
+Calcitriol|1894
+Calcium|1895
+Calomel|1311098
+Camomile|1309226
+Camylofin|20136
+Cannabinol|1976
+Canrenoic acid|81971
+Canrenone|1982
+Canthaxanthin|42348
+Capreomycin|78903
+Capsicum|319780
+Captan|1368147
+Captopril|1998
+Caramiphen|20191
+Carazolol|20192
+Carbachol|1999
+Carbamazepine|2002
+Carbamide|11002
+Carbamylcholine chloride|1999
+Carbaril|9724
+Carbarsone|20206
+Carbaryl|9724
+Carbazochrome|2011
+Carbenicillin|2015
+Carbenoxolone|2017
+Carbetapentane|20217
+Carbidopa|2019
+Carbimazole|2020
+Carbinol|1310568
+Carbinoxamine|20220
+Carbitol|1311147
+Carbocaine|2021
+Carbocisteine|2023
+Carbocromen|2508
+Carbolic acid|33290
+Carbon dioxide|2034
+Carbon disulfide|1311478
+Carbon monoxide|2037
+Carboplatin|40048
+Carboprost|2051
+Carboxymethyl-cellulose|2062
+S-Carboxymethyl-cysteine|2023
+Carbromal|2067
+Carbutamide|2068
+Carisoprodol|2101
+Carmellose|2062
+Carmustine|2105
+Carpipramine|20342
+Carprofen|20343
+Carrageenan|1368862
+Carteolol|2116
+Carter's Little Pills|215909
+Cascara|66869
+Cassava|1309336
+Castellani's paint|305064
+Castor oil|2129
+Catalase|2133
+Cathine|32022
+Cefaclor|2176
+Cefadroxil|2177
+Cefalexin|2231
+Cefaloridine|2233
+Cefalotin|2236
+Cefamandole|2178
+Cefapirin|2238
+Cefatrizine|2179
+Cefazolin|2180
+Cefetamet|20482
+Cefixime|25033
+Cefmetazole|2182
+Cefonicid|2183
+Cefoperazone|2184
+Ceforanide|20486
+Cefotaxime|2186
+Cefotetan|2187
+Cefotiam|2188
+Cefoxitin|2189
+Cefradine|2239
+Cefsulodin|2190
+Ceftazidime|2191
+Ceftizoxime|2192
+Ceftriaxone|2193
+Cefuroxime|2194
+Celiprolol|20498
+Cellulose hydroxyethyl|27244
+Cellulose nitrates|1425216
+Cellulose nitrates|1425879
+Cellulose nitrates|2221
+Cellulose nitrates|33504
+Cephalexin|2231
+Cephaloridine|2233
+Cephalothin|2236
+Cephalotin|2236
+Cephradine|2239
+Cerium oxalate|314546
+Cetalkonium|47907
+Cetiedil|20609
+Cetirizine|20610
+Cetrimide|288088
+Cetrimonium|20614
+Cetylpyridinium chloride|2287
+Chamomile|1309226
+Charcoal|2296
+Chelidonium majus|285220
+Chenodeoxycholic acid|2323
+Chenodiol|2323
+Chinidin|9068
+Chlophedianol|21254
+Chloral|38574
+Chlorambucil|2346
+Chloramphenicol|2348
+Chlorbutol|2378
+Chlorcyclizine|2354
+Chlordiazepoxide|2356
+Chlorhexidine|2358
+Chloride of lime|1426473
+Chloride of lime|214342
+Chloride of lime|28728
+Chlorimipramine|2597
+Chlorine|1310122
+Chlormadinone|78904
+Chlormethiazole|2372
+Chlormethine|6674
+Chlormezanone|2373
+Chloroacetic acid|2374
+Chlorobutanol|2378
+Chlorocresol|20823
+Chloroethylene|1995489
+Chloroform|1362698
+Chloroguanide|2382
+Chloromycetin|151508
+Chlorophyll|2388
+Chloroprocaine|20859
+Chloropyramine|20861
+Chloropyrilene|59695
+Chloroquine|2393
+Chlorothen|59695
+Chlorothiazide|2396
+Chlorothymol|1363702
+Chlorotrianisene|2397
+Chloroxine|20875
+Chloroxylenol|20877
+Chlorphenamine|2400
+Chlorphenesin|2399
+Chlorpheniramine|2400
+Chlorphenoxamine|20881
+Chlorpromazine|2403
+Chlorpropamide|2404
+Chlorprothixene|2406
+Chlorquinaldol|2407
+Chlorquinol|20875
+Chlortalidone|2409
+Chlortetracycline|2408
+Chlorthalidone|2409
+Chlor-Trimeton|202384
+Chlorzoxazone|2410
+Cholecalciferol|2418
+Cholecystokinin|2420
+Cholera vaccine|1812935
+Cholera vaccine|2427
+Cholestyramine|2447
+Cholic acid|1440856
+Choline|2449
+Chorionic gonadotropin|340705
+Chorionic gonadotropin|4986
+Chromium|2496
+Chromonar|2508
+Chrysarobin|1860418
+Chrysazin|22293
+Chymopapain|2525
+Chymotrypsin|2530
+Cianidanol|1367177
+Cibenzoline|21099
+Ciclacillin|2968
+Ciclopirox|21090
+Ciclosporin|3008
+Cilazapril|21102
+Cimetidine|2541
+Cinchocaine|3339
+Cinnamedrine|21130
+Cinnarizine|2549
+Cinoxacin|2550
+Ciprofibrate|21149
+Ciprofloxacin|2551
+Cisapride|35255
+Cisplatin|2555
+Citalopram|2556
+Citanest|151518
+Citric acid|21183
+Clavulanic acid|21216
+Clebopride|21224
+Clemastine|2578
+Clenbuterol|2580
+Clidinium bromide|48212
+Clindamycin|2582
+Clioquinol|5942
+Clobazam|21241
+Clobenzorex|21244
+Clobetasol|2590
+Clobetasone|108074
+Clobutinol|21247
+Clocortolone|21249
+Clodronic acid|3350
+Clofazimine|2592
+Clofedanol|21254
+Clofezone|183877
+Clofibrate|2594
+Clomethiazole|2372
+Clomifene|2596
+Clomiphene|2596
+Clomipramine|2597
+Clomocycline|21272
+Clonazepam|2598
+Clonidine|2599
+Clonixin|2601
+Clopamide|2603
+Cloperastine|2104180
+Clophedianol|1014329
+Cloprednol|21285
+Cloral betaine|89808
+Cloramfenicol|2348
+Clorazepate|2353
+Clotiapine|2620
+Clotiazepam|2622
+Clotrimazole|2623
+Cloxacillin|2625
+Cloxazolam|21311
+Clozapine|2626
+Cobalamine|42604
+Cobalt|1310300
+Cocaine|2653
+Cocarboxylase|10459
+Coccidioidin|2660
+Cochineal|1425501
+Codeine|2670
+Cod-liver oil|2669
+Coenzyme A|1314344
+Cogentin|151532
+Colace|82000
+Colaspase|1156
+Colchicine|2683
+Colecalciferol|2418
+Colestipol|2685
+Colestyramine|2447
+Colimycin|2709
+Colistimethate|2708
+Colistin|2709
+Collagen|2714
+Collagenase|58939
+Compazine|203546
+Compound E|2878
+Conjugated estrogenic substances|4099
+Convallaria majalis|1344641
+Copper|2837
+Corbadrine|132889
+Cordran|216218
+Corn starch|1039062
+Cortef|202645
+Corticotropin|376
+Cortisol|5492
+Cortisone|2878
+Cortivazol|21660
+Corynebacterium parvum|1310910
+Cosyntropin|2890
+Co-trimoxazole|10831
+Cottonseed oil|1309243
+Coumadin|202421
+Coumarin|2898
+Crataegus extract|1309793
+Crataegus extract|21716
+Creosol|1362910
+Creosote|2915
+Cresol|62130
+Cresyl acetate|14997
+Croconazole|21753
+Cromoglicic acid|42612
+Cromolyn|42612
+Crotamiton|21766
+Cryptenamine|42618
+Crystal violet|4778
+Cupric acetate|1311216
+Cupric arsenate|1552051
+Cupric sulfate|21579
+Cuprous sulfate|1423796
+Cyamemazine|21877
+Cyanide|1923817
+Cyanocobalamin|11248
+Cyclacillin|2968
+Cyclamate|2969
+Cyclandelate|2970
+Cyclizine|2977
+Cyclobarbital|2978
+Cyclobarbitone|2978
+Cyclobenzaprine|21949
+Cyclodrine|1855092
+Cyclohexane|1367180
+Cyclohexanol|2099711
+Cyclomethycaine|21990
+Cyclopentamine|59094
+Cyclopenthiazide|3000
+Cyclopentolate|3001
+Cyclophosphamide|3002
+Cycloserine|3007
+Cyclosporin|3008
+Cyclothiazide|22033
+Cycrimine|22037
+Cyproheptadine|3013
+Cyproterone|3014
+Cysteamine|3022
+Cytarabine|3041
+Cytomel|3081
+Cytosine arabinoside|3041
+Dacarbazine|3098
+Dactinomycin|3100
+DADPS|3108
+Danazol|3102
+Danthron|22293
+Dantrolene|3105
+Dantron|22293
+Dapsone|3108
+Daraprim|151583
+Daunomycin|3109
+Daunorubicin|3109
+DDAVP|203658
+DDS|3108
+Deadly nightshade|89781
+Deanol|3116
+Debrisoquine|3118
+Decadron|227682
+Declomycin|203661
+Deet|3129
+Deferoxamine|3131
+Deflazacort|22396
+Dehydrocholic acid|3141
+Dehydroemetine|3142
+Deltamethrin|22374
+Deltasone|227730
+Demecarium|107771
+Demeclocycline|3154
+Demegestone|22483
+Demerol|282381
+Demethylchlortetracycline|3154
+Denatured alcohol|216449
+Deoxycortone|3256
+2-Deoxy-5-fluorouridine|4488
+Deoxyribonuclease|3210
+Dequalinium|3226
+Deserpidine|62174
+Desferrioxamine|3131
+Desipramine|3247
+Deslanoside|3248
+Desmethylimipramine|3247
+Desmopressin|3251
+Desogestrel|22656
+Desonide|3254
+Desoximetasone|3255
+Desoxycortone|3256
+Desoxyephedrine|6816
+Dexamethasone|3264
+Dexamfetamine|3288
+Dexamphetamine|3288
+Dexbrompheniramine|22696
+Dexchlorpheniramine|22697
+Dexedrine|151612
+Dexetimide|3267
+Dexfenfluramine|3268
+Dexpanthenol|22701
+Dextran|42635
+Dextroamphetamine|3288
+Dextromethorphan|3289
+Dextromoramide|3290
+Dextropropoxyphene|8785
+Dextrose|4850
+Dextrothyroxine sodium|40070
+DFP|6027
+DHE|203176
+DHE|3418
+Diacetylmorphine|3304
+Diallylbarbituric acid|516
+Diaminodiphenylsulfone|3108
+Diamorphine|3304
+Diamox|151619
+Diaphenylsulfone|3108
+Diastase|560
+Diastase|743
+Diatrizoate|3319
+Diazepam|3322
+Diazoxide|3327
+Dibekacin|3328
+Dibenzepin|3332
+Dibenzyline|203778
+Dibromochloropropane|1367191
+Dibromomannitol|6996
+Dibromopropamidine isethionate|22862
+Dibrompropamidine|22865
+Dibucaine|3339
+Dibunate sodium|235860
+Dichlorobenzene|89548
+Dichlorobenzyl alcohol|22906
+Dichlorodifluoromethane|50110
+Dichloromethane|1311537
+Dichlorophen|3351
+Dichlorphenamide|3353
+Diclofenac|3355
+Diclofenamide|3353
+Dicloxacillin|3356
+Dicyclomine|3361
+Dicycloverine|3361
+Dideoxycytidine|3363
+Dideoxyinosine|3364
+Dienestrol|3368
+Dienoestrol|3368
+Diethyl ether|1363043
+Diethyl toluamide|3129
+Diethylcarbamazine|3384
+Diethylene glycol|1429928
+Diethylpropion|3389
+Diethylstilbestrol|3390
+Diethylstilboestrol|3390
+Diethyltoluamide|3129
+Difebarbamate|23020
+Difenidol|23370
+Difenoxin|23024
+Difetarsone|402587
+Diflorasone|91311
+Diflubenzuron|1665336
+Diflucortolone|3392
+Diflunisal|3393
+Digitalin|1923401
+Digitalis|91235
+Digitoxin|3403
+Digoxin|3407
+Digoxine|3407
+Dihydralazine|3409
+Dihydrocodeine|23088
+Dihydrocodeinone|5489
+Dihydroergocornine|3415
+Dihydroergocristine|3416
+Dihydroergokryptine|3417
+Dihydroergokryptine|42646
+Dihydroergotamine|3418
+Dihydroergotoxine|3419
+Dihydrohydroxycodeinone|7804
+Dihydrohydroxymorphinone|7814
+Dihydromorphinone|3423
+Dihydrostreptomycin|1549540
+Dihydrotachysterol|3429
+Dihydroxyaluminum aminoacetate|23162
+Dihydroxyaluminum sodium carbonate|23163
+Dihydroxycodeinone|7804
+Diiodohydroxyquin|3435
+Diiodohydroxyquinoline|3435
+Diisopromine|236206
+Diisopropylamine|1362925
+Dilantin|202740
+Dilaudid|224913
+Dill|2108821
+Dill|975763
+Diloxanide|67182
+Diltiazem|3443
+Dimenhydrinate|3444
+Dimercaprol|3445
+Dimercaptopropanol|3445
+Dimethicone|324072
+Dimethindene|3449
+Dimethoxanate|121069
+Dimethyl polysiloxane|324072
+Dimethyl sulfoxide|3455
+Dimethylamine sulfate|1745413
+Dimeticone|324072
+Dimetindene|3449
+Dimetotiazine|50138
+Dinoprost|3477
+Dinoprostone|3478
+Dioctyl sulfosuccinate|82003
+Diodoquin|204228
+Diosmin|3489
+Dipentene|28730
+Diperodon|59247
+Diphemanil|89782
+Diphenhydramine|3498
+Diphenidol|23370
+Diphenoxylate|3500
+Diphenylamine|1363044
+Diphenylbutazone|8160
+Diphenylhydantoin|8183
+Diphenylpyraline|23386
+Diphtheria antitoxin|3510
+Diphtheria toxoid|798304
+Diphtheria vaccine|798304
+Diphylline|3714
+Dipipanone|23405
+Dipivefrine|23410
+Diprophylline|3714
+Dipyridamole|3521
+Dipyrone|3523
+Disodium edetate|3539
+Disoprofol|8782
+Disopyramide|3541
+Distigmine|3551
+Disulfiram|3554
+Dithranol|873
+Diuril|216677
+Divalproex|11118
+DMCT|3154
+Dobutamine|3616
+DOCA|258333
+Docusate sodium|71722
+Dodicin|1362744
+Dolophine|202370
+Domiphen|23623
+Domperidone|3626
+Dopa|6375
+Dopamine|3628
+Dosulepin|3634
+Dothiepin|3634
+Doxapram|3637
+Doxazosin|49276
+Doxepin|3638
+Doxorubicin|3639
+Doxycycline|3640
+Doxylamine|3642
+Dramamine|151666
+Dromostanolone|23678
+Dronabinol|10402
+Droperidol|3648
+Dropropizine|23419
+Drostanolone|23678
+Drotaverine|23684
+Drotrecogin alfa|352374
+DTIC|3098
+Duboisine|153970
+Dulcolax|151672
+Dyclonine|23744
+Dydrogesterone|3706
+Dyphylline|3714
+Econazole|3743
+Ecothiopate iodide|3740
+Edathamil disodium|3539
+Edecrin|151689
+Edetate, disodium|3539
+Edoxudine|49428
+Edrophonium|3752
+EDTA|3755
+Eflornithine|569
+Efloxate|23852
+Elder|317808
+Emepronium|3816
+Emetine|3820
+Enalapril|3827
+Enalaprilat|3829
+Encainide|42368
+Enflurane|3920
+Enhexymal|5302
+Enoxacin|3925
+Enoxaparin|67108
+Ephedrine|3966
+Epinephrine|3992
+Epirubicin|3995
+Epoetin alpha|105694
+Epomediol|24263
+Epoprostenol|8814
+Eprazinone|24272
+Epsom salt|1053346
+Epsom salt|236741
+Ergobasine|4021
+Ergocalciferol|4018
+Ergoloid mesylates|4024
+Ergometrine|4021
+Ergonovine|4021
+Ergotamine|4025
+Ergotocine|4021
+Eritrityl tetranitrate|4040
+Erythrityl tetranitrate|4040
+Erythrol tetranitrate|4040
+Erythromycin|4053
+Erythropoietin|105694
+Escin|4065
+Esculin|1314351
+Esculoside|1314351
+Esmolol|49737
+Estanozolol|10032
+Estazolam|4077
+Estradiol|4083
+Estramustine|4089
+Estriol|4094
+Estrogen|4100
+Estrone|4103
+Estropipate|33747
+Etacrynic acid|4109
+Etambutol|4110
+Etamivan|24453
+Etamsylate|4112
+Ethacridine|4106
+Ethacrynic acid|4109
+Ethambutol|4110
+Ethamivan|24453
+Ethamsylate|4112
+Ethanol|448
+Ethanolamine oleate|24460
+Ethaverine|24464
+Ethchlorvynol|4118
+Ether|1363043
+Ethinamate|24474
+Ethiodized oil|4125
+Ethionamide|4127
+Ethioniamide|4127
+Ethisterone|4129
+Ethoheptazine|24484
+Ethopropazine|4134
+Ethosuximide|4135
+Ethotoin|4136
+Ethoxazene|41078
+2-Ethoxyethanol|1314365
+Ethyl acetate|1314355
+Ethyl alcohol|448
+Ethyl aminobenzoate|1399
+Ethyl benzoate|1921584
+Ethyl carbamate|1420982
+Ethyl chloride|4141
+Ethyl ether|1363043
+Ethyl fumarate|52882
+Ethyl loflazepate|24524
+Ethyl morphine|4166
+Ethylene|1314362
+Ethylenediamine theophylline|689
+Ethylestrenol|4162
+Ethylmorphine|4166
+Ethylnorepinephrine|156240
+Ethynodiol|24591
+Etidocaine|4171
+Etidronate|42682
+Etidronic acid|1356715
+Etifoxine|24441
+Etilefrine|4169
+Etodolac|24605
+Etofamide|24607
+Etofibrate|24609
+Etofylline|24611
+Etoglucid|4132
+Etomidate|4177
+Etomidoline|17684
+Etoposide|4179
+Etretinate|4182
+Etynodiol|24591
+Eucalyptus oil|59087
+Eurax|202842
+Evans blue|4191
+Factor I|4385
+Factor VIII|4257
+Factor IX complex|1670383
+Famotidine|4278
+Febarbamate|24807
+Fedrilate|235961
+Felodipine|4316
+Felypressin|4319
+Fenbendazole|4325
+Fenbutrazate|158507
+Fendiline|4327
+Fenetylline|24840
+Fenfluramine|4328
+Fenobarbital|8134
+Fenofibrate|8703
+Fenoprofen|4331
+Fenoterol|4333
+Fenoverine|24855
+Fenoxazoline|24856
+Fenproporex|24867
+Fentanyl|4337
+Feprazone|8673
+Ferric chloride|24898
+Ferric citrate|1594675
+Ferric pyrophosphate|1607976
+Ferrous phosphate|107056
+Fibrinogen|4385
+Fibrinolysin|4388
+Fiorinal|25027
+Flagyl|202866
+Flavine adenine dinucleotide|1314412
+Flavodic acid|25060
+Flavoxate|4440
+Flaxseed|318224
+Flecainide|4441
+Fleroxacin|42322
+Floctafenine|4444
+Flomax|190283
+Flopropione|25082
+Floxuridine|4488
+Flubendazole|25096
+Fluclorolone acetonide|103447
+Flucloxacillin|4448
+Fluconazole|4450
+Flucytosine|4451
+Fludrocortisone|4452
+Fludroxycortide|4500
+Flufenamic acid|4453
+Fluindione|50097
+Flumequine|25112
+Flumethasone|4458
+Flumethiazide|89911
+Flunarizine|4459
+Flunisolide|25120
+Flunitrazepam|4460
+Fluocinolone|25126
+Fluocinonide|4462
+Fluocortolone|4463
+Fluohydrocortisone|4452
+Fluopromazine|10805
+Fluorescein|25138
+Fluorine|1310123
+Fluorodeoxyuridine|4488
+Fluorometholone|4491
+Fluorouracil|4492
+Fluoxetine|4493
+Fluoxymesterone|4494
+Flupenthixol|4495
+Flupentixol|4495
+Fluphenazine|4496
+Fluprednidene|236650
+Fluprednisolone|4497
+Flurandrenolide|4500
+Flurandrenolone|4500
+Flurazepam|4501
+Flurbiprofen|4502
+Fluspirilene|4507
+Flutamide|4508
+Fluticasone propionate|50121
+Fluvoxamine|42355
+Folacin|202634
+Folic acid|4511
+Folinic acid|6313
+Fominoben|183875
+Formaldehyde|4530
+Formalin|314636
+Formic acid|4537
+Foscarnet sodium|57529
+Fosfestrol|25284
+Fosfomycin|4550
+Fosinopril|50166
+Framycetin|4556
+Frangula|324039
+Fructose|4570
+Frusemide|4603
+FSH|227518
+Fumagillin|1926480
+Fumaric acid|25389
+Furadantin|258353
+Furazolidone|4601
+Furosemide|4603
+Fursultiamine|4604
+Fusafungine|25437
+Fusidate|113608
+Fusidic acid|4608
+GABA|4617
+Galactose|4626
+Galantamine|4637
+Gallamine|4638
+Gallopamil|4648
+Gamboge|89698
+Gamma-aminobutyric acid|4617
+Gamma-benzene hexachloride|1388
+Gamma-BHC|1388
+Ganciclovir|4678
+Gelatin|4716
+Gemeprost|12449
+Gemfibrozil|4719
+Gentamicin|1596450
+Gentian|319824
+Gepefrine|41157
+Gestonorone caproate|4791
+Ginger|285241
+Ginger|899420
+Gitalin|89791
+Glibenclamide|4815
+Glibornuride|102846
+Gliclazide|4816
+Glipizide|4821
+Gliquidone|25793
+Glucagon|261716
+Glucagon|4832
+Glucosamine sulfate|4847
+Glucose|4850
+Glucurolactone|1535222
+Glutamic acid|25916
+Glutaral|4888
+Glutaraldehyde|4888
+Glutathione|4890
+Glutethimide|4903
+Glyburide|4815
+Glycerin|4910
+Glycerol|4910
+Glyceryl nitrate|1311155
+Glyceryl nitrate|1423803
+Glyceryl nitrate|1426411
+Glyceryl nitrate|1426928
+Glyceryl nitrate|1432297
+Glyceryl triacetate|10756
+Glyceryl trinitrate|4917
+Glycine|4919
+Glycols|1307155
+Glycols|1426255
+Glycopyrrolate|4955
+Glycopyrronium|1546438
+Glycyrrhiza extract|42769
+Glycyrrhizic acid|26143
+Glyphosate|1800093
+Gonadorelin|6384
+Goserelin|50610
+Grain alcohol|448
+Gramicidin|5011
+Granisetron|26237
+Gratiola officinalis|1336269
+Green soap|1042644
+Griseofulvin|5021
+Growth hormone|61148
+Guaifenesin|5032
+Guaiphenesin|5032
+Guanabenz|5033
+Guanadrel|26296
+Guanethidine|5036
+Guanfacine|40114
+Guar gum|26344
+Halazepam|26412
+Halcinonide|5084
+Halofantrine|50749
+Halometasone|26416
+Haloperidol|5093
+Haloprogin|26422
+Halothane|5095
+Hamamelis|89821
+Helium|5140
+Hemlock|285151
+Henbane|1311152
+Heparin|235473
+Heparin|5224
+Heparinoid|5228
+Hepatitis B immune globulin|26744
+Hepatitis B vaccine|797752
+Heptaminol|5254
+Heroin|3304
+HES|5531
+Hesperidin|5281
+Hetacillin|26797
+Hetastarch|5531
+Hexachlorocyclohexane|1388
+Hexachlorophene|5293
+Hexafluorenium bromide|53017
+Hexafluronium|26826
+Hexalen|153474
+Hexamethylmelamine|5296
+Hexamidine|26849
+Hexamine|6832
+Hexemal|2978
+Hexetidine|5301
+Hexobarbital|5302
+Hexobendine|5303
+Hexocyclium|26867
+Hexoprenaline|5307
+Hexylcaine|26879
+Hexylresorcinol|5321
+HGH|61148
+Histamine|5333
+Histoplasmin|5363
+Homatropine|27084
+Homosalate|91326
+Human albumin|828529
+Human growth hormone|61148
+Hyaluronidase|5464
+Hyaluronidase|578350
+Hycodan|992657
+Hydralazine|5470
+Hydriodic acid|27208
+Hydrochloric acid|5486
+Hydrochlorothiazide|5487
+Hydrocodone|5489
+Hydrocortisone|5492
+Hydrocyanic acid|1367183
+Hydroflumethiazide|5495
+Hydrofluoric acid|5496
+Hydrogen|5497
+Hydromorphone|3423
+Hydroquinidine|27220
+Hydroquinone|5509
+Hydrotalcite|27221
+Hydrous wool fat|6227
+Hydroxocobalamin|5514
+Hydroxyamphetamine|7839
+Hydroxycarbamide|5552
+Hydroxychloroquine|5521
+Hydroxyestrone|5530
+Hydroxyethyl starch|5531
+Hydroxyphenylbutazone|7816
+Hydroxyprogesterone|5542
+Hydroxyquinoline|110
+Hydroxyquinoline|42836
+Hydroxyurea|5552
+Hydroxyzine|5553
+Hyoscine|9601
+Hyoscyamine|153970
+Hyoscyamus|314674
+Hypochlorite|1483317
+Hypromellose|27334
+Ibopamine|51253
+Ibuprofen|5640
+Ichthammol|5645
+Idarubicin|5650
+Idrocilamide|19729
+Ifenprodil|27403
+Ifosfamide|5657
+Iloprost|40138
+Imipenem|5690
+Imipramine|5691
+Immune globulin|1426680
+Indanazoline|27492
+Indapamide|5764
+Inderal|151890
+Indigo carmine|227312
+Indobufen|27518
+Indocin|203365
+Indocyanine green|5775
+Indometacin|5781
+Indomethacin|5781
+Indoramin|5784
+INH|6038
+Inhibitor fibrinolysis|353110
+Inosine pranobex|6048
+Inositol|5833
+Insulin|253182
+Inulin|5924
+Invert sugar|27712
+Iocetamic acid|183830
+Iodamide|5928
+Iodinated glycerol|27723
+Iodine|5933
+Iodipamide|5936
+Iodochlorhydroxyquin|5942
+Iodochlorhydroxyquinoline|5942
+Iodoform|27748
+Iodopanoic acid|5967
+Iodoquinol|3435
+Iofendylate|5968
+Iohexol|5956
+Iopamidol|5966
+Iopanoic acid|5967
+Iopodate, sodium|9887
+Iopromide|27781
+Iotalamic acid|1546451
+Iothalamate|5970
+Iotrol|51474
+Iotrolan|51474
+Ioversol|27792
+Ioxaglate|5973
+Ioxaglic acid|1426458
+Ipecac|5975
+Ipecacuanha|5975
+Ipodate, calcium|1911
+Ipratropium|7213
+Ipriflavone|51487
+Iprindole|5979
+Iproniazid|5981
+Iproveratril|11170
+Iron|90176
+Isoaminile|27866
+Isobutyl acetate|1603476
+Isocarboxazid|6011
+Isoconazole|27901
+Isoephedrine|91168
+Isoetarine|6023
+Isoethadione|32894
+Isoetharine|6023
+Isoflurane|6026
+Isoflurophate|6027
+Isometheptene|27946
+Isoniazid|6038
+Isonicotinic acid hydrazide|6038
+Isonipecaine|103755
+Isonipecaine|6754
+Isophane insulin|1605101
+Isophosphamide|5657
+Isopregnenone|3706
+Isoprenaline|6054
+Isopropamide|89784
+Isopropanol|797541
+Isopropyl acetate|1599636
+Isopropyl alcohol|797541
+Isoproterenol|6054
+Isosorbide dinitrate|6058
+Isothipendyl|28012
+Isotretinoin|6064
+Isoxsuprine|6066
+Isradipine|33910
+Itraconazole|28031
+Ivermectin|6069
+Josamycin|6084
+Juniper tar|6086
+Kallidinogenase|6095
+Kallikrein|6095
+Kanamycin|6099
+Kaolin|6102
+Karaya|6111
+Kebuzone|28198
+Ketamine|6130
+Ketazolam|28181
+Ketoconazole|6135
+Ketoprofen|6142
+Ketorolac|35827
+Ketotifen|6146
+Khellin|6147
+Konsyl|151944
+Labetalol|6185
+Lachesine|28381
+Lacidipine|28382
+Lactic acid|28393
+Lactobacillus acidophilus|6205
+Lactobacillus bulgaricus|100272
+Lactobacillus sporogenes|1310844
+Lactoflavin|9346
+Lactose|6211
+Lactulose|6218
+Lanolin|6227
+Lasix|202991
+Lassar's paste|11423
+Latamoxef|7069
+Latex|1314891
+Laudanum|221134
+Laughing gas|7486
+L-dopa|6375
+Lead|6260
+Letosteine|28554
+Leucocianidol|28574
+Leucovorin|6313
+Leukeran|202994
+Leuprolide|42375
+Levalbuterol|237159
+Levallorphan|6370
+Levamisole|6371
+Levarterenol|7512
+Levobunolol|1813
+Levocabastine|28627
+Levocarnitine|42955
+Levodopa|6375
+Levoglutamide|4885
+Levomepromazine|6852
+Levonordefrin|132889
+Levonorgestrel|6373
+Levopromazine|6852
+Levopropoxyphene|6377
+Levorphanol|6378
+Levothyroxine|10582
+Levsin|218003
+Levulose|4570
+Lidocaine|6387
+Lidoflazine|6390
+Lignocaine|6387
+Lime|1426473
+Lime|28728
+Limonene|28730
+Lincomycin|6398
+Lindane|1388
+Linoleic acid|6400
+Linolenic acid|52071
+Linseed|6404
+Liothyronine|10814
+Lipancreatin|235379
+Liquefied petroleum gases|1426480
+Liquid paraffin|6972
+Liquid petrolatum|6972
+Liquorice|42769
+Lisinopril|29046
+Lisuride|6446
+Lithane|203322
+Lithium|6448
+Liver extract|6459
+LMD|3272
+Lobelia|1311398
+Lobeline|6464
+Lofepramine|6465
+Lomotil|28874
+Lomustine|6466
+Loperamide|6468
+Loprazolam|38555
+Lorazepam|6470
+Lormetazepam|28894
+Lovastatin|6472
+Loxapine|6475
+Lozenges|316992
+Luteinizing hormone|6383
+Lymecycline|6513
+Lynestrenol|6529
+Lypressin|6531
+Lysine vasopressin|6531
+Lysozyme|1426865
+Lysozyme|7094
+Macrogol|8516
+Mafenide|6572
+Magaldrate|29151
+Malathion|6606
+M-AMSA|739
+Mandelic acid|29256
+Manganese|6623
+Mannitol|6628
+Maphenide|6573
+Maprotiline|6646
+Marcaine|1012397
+Marplan|152005
+Matulane|203801
+Mazindol|6664
+Meballymal|9624
+Mebendazole|6672
+Mebeverine|29410
+Mebhydrolin|29411
+Mecamylamine|6673
+Mechlorethamine|6674
+Mecillinam|626
+Meclizine|6676
+Meclocycline|29418
+Meclofenamate|588003
+Meclofenamic acid|6678
+Meclofenoxate|2228
+Meclozine|6676
+Mecobalamin|29421
+Mecysteine|29426
+Medazepam|6680
+Medrogestone|6690
+Medroxyprogesterone acetate|1000112
+Medrysone|29439
+Mefenamic acid|6693
+Mefenorex|29444
+Mefloquine|6694
+Mefruside|6696
+Megestrol|6703
+Meglumine antimoniate|319866
+Meglumine diatrizoate|3320
+Meglumine iodipamide|29456
+Meglumine iotroxate|52527
+Melaleuca alternifolia oil|69627
+Melitracen|446248
+Melperone|29961
+Melphalan|6718
+Memantine|6719
+Menadiol|29491
+Menadione|6728
+Menaquinone|42781
+Menatetrenone|29495
+Menthol|6750
+Mepacrine|9061
+Mepenzolate|107770
+Meperidine|6754
+Mephenesin|6755
+Mephentermine|6756
+Mephenytoin|6757
+Mephobarbital|6758
+Mepindolol|29518
+Mepivacaine|6759
+Meprednisone|29523
+Meprobam|6760
+Meprobamate|6760
+Meptazinol|6761
+Mepyramine|9009
+Mequitazine|29528
+Merbromin|6762
+Mercaptobenzothiazole salts|1358845
+Mercaptopurine|103
+Mercuramide|6774
+Mersalyl|6774
+Mesalazine|52582
+Mesna|44
+Mesoridazine|6779
+Mesterolone|6781
+Mestranol|6782
+Mesulfen|29584
+Mesuximide|47858
+Metacycline|6812
+Metamfetamine|6816
+Metamizole sodium|1537943
+Metampicillin|29629
+Metamucil|6802
+Metandienone|6818
+Metaproterenol|7688
+Metaraminol|6805
+Metaxalone|59078
+Metenolone|6833
+Metergoline|6834
+Metformin|6809
+Methacholine|155080
+Methacycline|6812
+Methadone|6813
+Methamphetamine|6816
+Methampyrone|3523
+Methandienone|6818
+Methandriol|6817
+Methandrostenolone|6818
+Methanol|1310568
+Methantheline|6821
+Methanthelinium bromide|91163
+Methapyrilene|6822
+Methaqualone|6823
+Metharbital|6825
+Methazolamide|6826
+Methdilazine|29648
+Methenamine|6832
+Methenolone|6833
+Methergine|227555
+Methimazole|6835
+Methionine|6837
+Methisoprinol|6048
+Methixene|29682
+Methocarbamol|6845
+Methohexital|6847
+Methohexitone|6847
+Methoin|6757
+Methoserpidine|235829
+Methotrexate|6851
+Methotrimeprazine|6852
+Methoxamine|6853
+Methoxsalen|6854
+Methoxyflurane|6857
+Methoxyphenamine|29704
+5-Methoxypsoralen|15842
+8-Methoxypsoralen|6854
+Methscopolamine bromide|56092
+Methsuximide|47858
+Methyclothiazide|6860
+Methyl acrylate|1367155
+Methyl alcohol|1310568
+Methyl benzene|1311381
+Methyl benzoate|1314316
+Methyl bromide|29746
+Methyl cellulose|6873
+Methyl chloride|1305751
+Methyl ethyl ketone|1363708
+Methyl isobutyl ketone|1362929
+Methyl nicotinate|29900
+Methyl paraben|29903
+Methyl salicylate|29787
+Methylamphetamine|6816
+Methylbenzethonium chloride|1796444
+Methylcellulose|6873
+Methyldopa|6876
+Methyldopate|6877
+Methylene blue|6878
+Methylergometrine|6883
+Methylergonovine|6883
+Methylhexabital|5302
+Methylmorphine|2670
+Methylparaben|29903
+Methylphenidate|6901
+Methylphenobarbital|6758
+Methylrosaniline|4778
+Methylrosanilinium chloride|4778
+Methyltestosterone|6904
+Methylthionine chloride|6878
+Methylthioninium chloride|6878
+Methyprylon|6910
+Methysergide|6911
+Metildigoxin|6686
+Metipranolol|10824
+Metirosine|266604
+Metixene|29682
+Metoclopramide|6915
+Metolazone|6916
+Metoprolol|6918
+Metrifonate|1000581
+Metrizamide|6920
+Metronidazole|6922
+Metyrapone|6923
+Mexiletine|6926
+Mezlocillin|6927
+Mianserin|6929
+Micatin|218354
+Miconazole|6932
+Micronomicin|29996
+Midazolam|6960
+Midecamycin|30005
+Mifepristone|6964
+Minaprine|30031
+Minaxolone|1495077
+Mineral oil|6972
+Minocycline|6980
+Minoxidil|6984
+Miokamycin|6985
+Mirtazapine|15996
+Misoprostol|42331
+Mithramycin|6995
+Mitobronitol|6996
+Mitomycin|632
+Mitotane|7004
+Mitoxantrone|7005
+Mivacurium chloride|52796
+Moclobemide|30121
+Mofebutazone|30202
+Molindone|7019
+Molsidomine|7023
+Mometasone|108118
+Monistat|358859
+Monobenzone|17145
+Monochloroacetic acid|2374
+Monoethanolamine|24457
+Monooctanoin|30198
+Monophenylbutazone|30202
+Monosodium glutamate|1311588
+Monosulfiram|30206
+Moroxydine|30227
+Morphine|7052
+Mouthwash|7067
+Moxaverine|52918
+Moxisylyte|10561
+Mumps skin test antigen|89854
+Mumpsvax|93360
+Mupirocin|42372
+Muromonab-CD3|42405
+Mustine|6674
+Mydriacyl|203811
+Myleran|203010
+Mysoline|203011
+Nabilone|31447
+Nabumetone|31448
+Nadolol|7226
+Nafcillin|7233
+Naftazone|31475
+Naftidrofuryl|7236
+Naftifine|31476
+Nalbuphine|7238
+Nalidixic acid|7240
+Naloxone|7242
+Naltrexone|7243
+Namenda|405206
+Nandrolone|7244
+Naphazoline|7247
+Naphtha|1923814
+Naphthalene|1311149
+Naproxen|7258
+Narcotine|7533
+Nardil|203799
+Natamycin|7268
+Nedocromil|31563
+Nefopam|7285
+Nembutal|204354
+Neomycin|7299
+Neostigmine bromide|82055
+Nesacaine|225031
+Netilmicin|7337
+Niacin|7393
+Niacinamide|7405
+Nialamide|7394
+Niaprazine|31722
+Nicardipine|7396
+Nicergoline|7398
+Nickel|1311629
+Niclosamide|7402
+Nicofuranose|104486
+Nicorandil|31748
+Nicotinamide|7405
+Nicotine|7407
+Nicotinic acid|7393
+Nicotinyl alcohol|7414
+Nicoumalone|154
+Nifedipine|7417
+Nifuratel|7419
+Nifurtimox|7421
+Nightshade, deadly|89781
+Nikethamide|7424
+Nilutamide|31805
+Nimesulide|53694
+Nimodipine|7426
+Nimorazole|7427
+Nisoldipine|7435
+Nitrazepam|7440
+Nitrendipine|7441
+Nitric acid|1311391
+Nitric oxide|7442
+Nitrimidazine|7427
+Nitrite, amyl|742
+Nitrocellulose|1425879
+Nitrofural|7455
+Nitrofurantoin|7454
+Nitrofurazone|7455
+Nitrogen|7456
+Nitromersol|89721
+Nitroprusside|7476
+Nitrous oxide|7486
+Nitroxoline|31901
+Nitrozone|891141
+Nizatidine|42319
+Nomegestrol|31930
+Nomifensine|7500
+Noradrenaline|7512
+Nordazepam|3155
+Norepinephrine|7512
+Norethandrolone|7513
+Norethindrone|7514
+Norethisterone|7514
+Noretynodrel|7515
+Norfenefrine|31988
+Norfloxacin|7517
+Norgestrel|7518
+Norgestrienone|7519
+Norpseudoephedrine|32022
+Nortestosterone|7244
+Nortriptyline|7531
+Noscapine|7533
+Novobiocin|7538
+Noxytiolin|7543
+Nutmeg oil|1309209
+Nux vomica|314743
+Nylidrin|7595
+Nystatin|7597
+Nytol|1092413
+Obidoxime chloride|7605
+Octanoin|30198
+Octatropine methyl-bromide|17945
+Octoxinol|32301
+Octreotide|7617
+Oestradiol|4083
+Oestriol|4094
+Oestrogen|4100
+Oestrone|4103
+Ofloxacin|7623
+Olanzapine|61381
+Oleandomycin|7629
+Oleic acid|7631
+Oleum ricini|2129
+Olive oil|1309250
+Olsalazine|32385
+Omeprazole|7646
+Ondansetron|26225
+Opipramol|7674
+Orciprenaline|7688
+Ornidazole|7701
+Ornithine aspartate|32541
+Orphenadrine|7715
+Orthoboric acid|1700
+Otilonium bromide|54216
+Ouabain|7762
+Oxacillin|7773
+Oxalic acid|1427058
+Oxamniquine|7778
+Oxandrolone|7779
+Oxantel|1871175
+Oxaprozin|32613
+Oxatomide|54236
+Oxazepam|7781
+Oxazimedrine|8133
+Ox bile extract|1310249
+Oxcarbazepine|32624
+Oxeladin|32626
+Oxetorone|32633
+Oxiconazole|32638
+Oxitriptan|94
+Oxitropium bromide|54270
+Oxolamine|32658
+Oxolinic acid|7798
+Oxprenolol|7801
+Oxsoralen|227717
+Oxtriphylline|20976
+Oxybate sodium|9899
+Oxybuprocaine|18889
+Oxybutynin|32675
+Oxychlorosene|32680
+Oxycodone|7804
+Oxyfedrine|7805
+Oxygen|7806
+Oxymetazoline|7812
+Oxymetholone|7813
+Oxymorphone|7814
+Oxypertine|7815
+Oxyphenbutazone|7816
+Oxyphencyclimine|32698
+Oxyphenisatine|8136
+Oxyphenonium bromide|42833
+Oxypolygelatin|32699
+Oxyquinoline|110
+Oxytetracycline|7821
+Oxytocin|7824
+PABA|74
+Palm kernel oil|1309252
+Panadol|202432
+Pancreatin|7880
+Pancrelipase|235379
+Pancuronium|7883
+Pangamic acid|7886
+Panthenol|1044977
+Pantothenic acid|7891
+Papain|7892
+Papaveretum|7894
+Papaverine|7895
+Para-aminobenzoic acid|74
+Para-aminosalicylic acid|7833
+Paracetaldehyde|7909
+Paracetamol|161
+Parachlorophenol|14982
+Paraffin|7906
+Paraldehyde|7909
+Paramethadione|32894
+Paramethasone|7910
+Parathormone|1427222
+Paregoric|32926
+Pargyline|7930
+Parnate|203832
+Paromomycin|7934
+Paroxypropione|133070
+PAS|7833
+Peanut oil|18235
+Pectin|32987
+Pefloxacin|7960
+Pegademase, bovine|59768
+Pemirolast|19551
+Pemoline|7966
+Penbutolol|7973
+Penfluridol|7974
+Penicillamine|7975
+Penicillin|70618
+Pentaerythritol|33055
+Pentagastrin|7993
+Pentamidine|7994
+Pentazocine|8001
+Pentetrazole|8015
+Pentifylline|33086
+Pentobarbital|8004
+Pentobarbitone|8004
+Pentosan polysulfate|155046
+Pentostatin|8011
+Pentoxifylline|8013
+Pentoxyverine|20217
+Pentylenetetrazole|8015
+Peppermint|1010971
+Peppermint|33093
+Pepsin|8016
+Perazine|8042
+Pergolide|8047
+Perhexilene|8050
+Perhexiline|8050
+Periciazine|8766
+Perindopril|54552
+Permanganate|1923815
+Permethrin|33199
+Perphenazine|8076
+Pertussis vaccine|8080
+Peruvian balsam|33219
+Pethidine|6754
+Petrolatum|8091
+Petroleum|324028
+Phenacemide|33253
+Phenacetin|8113
+Phenazocine|8119
+Phenazone|1001
+Phenazopyridine|8120
+Phenbutrazate|158507
+Phendimetrazine|33272
+Phenelzine|8123
+Phenemal|8134
+Phenergan|152218
+Pheneticillin|33277
+Phenformin|8129
+Phenicarbazide|235808
+Phenindamine|33283
+Phenindione|8130
+Pheniramine|8132
+Phenmetrazine|8133
+Phenobarbital|8134
+Phenobarbitone|8134
+Phenol|33290
+Phenolphthalein|155122
+Phenolsulfonphthalein|8141
+Phenoperidine|8143
+Phenothrin|33303
+Phenoxybenzamine|8149
+Phenoxyethanol|89552
+Phenoxymethyl penicillin|7984
+Phenprocoumon|8150
+Phensuximide|33309
+Phentermine|8152
+Phentolamine|8153
+Phenyl salicylate|36122
+Phenylalanine mustard|6718
+Phenylbutazone|8160
+Phenylephrine|8163
+Phenylethylbiguanide|8129
+Phenylmercuric acetate|1426778
+Phenylmercuric nitrate|89722
+Phenylpropanol|221140
+Phenylpropanol|3266
+Phenylpropanol|8175
+Phenylpropanolamine|8175
+Phenyltoloxamine|33408
+Phenytoin|8183
+Pholcodine|33431
+Pholedrine|33432
+Phosphate|486961
+Phosphoric acid|8259
+Phosphorus|8263
+Phthalylsulfathiazole|33632
+Phylloquinone|8308
+Physostigmine|8299
+Phytomenadione|8308
+Phytonadione|8308
+Piketoprofen|82910
+Pilocarpine|8328
+Pimaricin|7268
+Pimethixene|33712
+Pimozide|8331
+Pinacidil|33717
+Pinaverium bromide|54743
+Pindolol|8332
+Pipamperone|33739
+Pipazetate|33740
+Pipemidic acid|8337
+Pipenzolate bromide|202840
+Piperacetazine|8338
+Piperacillin|8339
+Piperazine|8340
+Piperidolate|59064
+Piperocaine|33752
+Piperonyl butoxide|8345
+Pipobroman|8347
+Pipotiazine|8348
+Pirarubicin|33764
+Pirazinamide|8987
+Pirbuterol|33767
+Pirenzepine|8352
+Piretanide|33770
+Piribedil|8353
+Piritramide|8354
+Piroxicam|8356
+Pitocin|227199
+Pivampicillin|8372
+Pivmecillinam|627
+Plasmanate|358340
+Plicamycin|6995
+Podophyllotoxin|8463
+Podophyllum|324040
+Pokeweed|285160
+Polidocanol|968170
+Poloxamer|155156
+Polyestradiol phosphate|34120
+Polygeline|8521
+Polynoxylin|34188
+Polytetrafluoroethylene|1358182
+Polythiazide|8565
+Polyvidone|8610
+Polyvinylpyrrolidone|8610
+Pontocaine|3343
+Pot|8588
+Potash|1370422
+Potassium|8588
+Povidone|8610
+Practolol|8620
+Prajmalium bitartrate|236896
+Pralidoxime|34345
+Pramiverine|190433
+Pramocaine|34347
+Pramoxine|34347
+Prasterone|3143
+Pravastatin|42463
+Prazepam|8627
+Praziquantel|8628
+Prazosin|8629
+Prednicarbate|34369
+Prednimustine|8637
+Prednisolone|8638
+Prednisone|8640
+Prednylidene|12473
+Pregneninolone|4129
+Premarin|202896
+Prenylamine|8674
+Pridinol|34479
+Prifinium bromide|9021
+Prilocaine|8686
+Primaquine|8687
+Primidone|8691
+Pristinamycin|66958
+Privine|225201
+Pro-Banthine|224918
+Probenecid|8698
+Probucol|8699
+Procainamide|8700
+Procaine|8701
+Procarbazine|8702
+Procaterol|34530
+Prochlorperazine|8704
+Procyclidine|8718
+Profenamine|4134
+Proflavine|8723
+Progabide|34568
+Progesterone|8727
+Proglumide|8730
+Proguanil|2382
+Prolactin|1426890
+Prolintane|34604
+Promazine|8742
+Promegestone|8744
+Promethazine|8745
+Propafenone|8754
+Propamidine|34633
+Propane|1362877
+Propanidid|8758
+1-Propanol|1362872
+2-Propanol|797541
+Propantheline|8761
+Proparacaine|34905
+Propicillin|34649
+Propiolactone|1311565
+Propiomazine|8770
+Propionate|121047
+Propitocaine|8686
+Propofol|8782
+Propoxyphene|8785
+Propranolol|8787
+Propyl alcohol|1362872
+Propylene|1314239
+Propylhexedrine|8792
+Propyliodone|8793
+Propylparaben|34706
+Propylthiouracil|8794
+Propyphenazone|34710
+Proscillaridin|8795
+Prostacyclin|8814
+Protamine sulfate|8825
+Protease|8031
+Prothionamide|8871
+Prothipendyl|55244
+Protionamide|8871
+Protirelin|10580
+Protopam|1486892
+Protriptyline|8886
+Provera|202888
+Provitamin A|19143
+Proxibarbal|83885
+Proxymetacaine|34905
+Proxyphylline|34906
+Pseudoephedrine|8896
+Psoralene|2103294
+Psoralens|2103294
+Psyllium hydrophilic mucilloid|314809
+Pteroylglutamic acid|4511
+Pumpkin seed extract|126291
+Pyrantel|8984
+Pyrazinamide|8987
+Pyrethrum extract|1232405
+Pyridium|8998
+Pyridostigmine bromide|9001
+Pyridoxal phosphate|9004
+Pyridoxine|684879
+Pyrilamine|9009
+Pyrimethamine|9010
+Pyrithione zinc|39952
+Pyrogallic acid|9022
+Pyrogallol|9022
+Pyroxylin|1425879
+Pyrvinium chloride|35163
+Pyrvinium chloride|55347
+Quazepam|35185
+Quicklime|28728
+Quinacrine|9061
+Quinalbarbitone sodium|91110
+Quinapril|35208
+Quinestradol|35215
+Quinestrol|9066
+Quinethazone|59743
+Quinidine|9068
+Quinine|9071
+Quinupramine|35242
+Rabies immune globulin|89886
+Ramipril|35296
+Ranitidine|9143
+Raubasine|17205
+Rauwolfia|317836
+Rauwolfia|78678
+Razoxane|9154
+Remoxipride|35350
+Renese|224931
+Reproterol|35373
+Rescinnamine|9259
+Reserpin|9260
+Respaire|1372747
+Retinoic acid|10753
+Retinol|11246
+Retinol|1367187
+RhoGAM|204300
+Ribavirin|9344
+Riboflavin|9346
+Rifabutin|55672
+Rifampicin|9384
+Rifampin|9384
+Rifamycin|35616
+Rifamycin|9385
+Rifaximin|35619
+Rimantadine|9386
+Rimiterol|9388
+Ritalin|224917
+Ritodrine|9392
+Rolaids|642335
+Rolitetracycline|9462
+Rose bengal sodium|1362690
+Rosoxacin|35797
+Rotenone|1366666
+Roxatidine|114817
+Roxithromycin|9478
+Rt-PA|8410
+Rubbing alcohol|797541
+Rubella vaccine|9486
+Rubidomycin|3109
+Rue|285162
+Rutoside|9500
+Saccharated iron oxide|24909
+Saccharin|9509
+Saccharomyces boulardii|236782
+Safflower oil|9515
+Salazosulfapyridine|9524
+Salbutamol|435
+Salicylamide|9518
+Salicylazosulfapyridine|9524
+Salicylic acid|9525
+Salmeterol|36117
+Salol|36122
+Salsalate|36108
+Saluron|203464
+Sanguinaria canadensis|1311079
+Sanguinaria canadensis|670544
+Santonin|1311390
+Santyl|219803
+Saralasin|9556
+Scarlet red|36224
+Scopolamine|9601
+Secbutabarbital|477631
+Secnidazole|36314
+Secobarbital|9624
+Secretin|606396
+Secretin|9627
+Selegiline|9639
+Selenomethionine|9644
+Senna|36387
+Sennoside A+B|36387
+Seractide|1999800
+Sermorelin|56188
+Serotonin|1311214
+Serrapeptase|36434
+Shampoo|1294715
+Sildenafil|136411
+Silibinin|155067
+Silvadene|224926
+Silver|9785
+Silymarin|9794
+Simaldrate|236730
+Simethicone|9796
+Simvastatin|36567
+Sincalide|9800
+Sisomicin|9806
+Sitosterols|9808
+Smallpox vaccine|9835
+Sobrerol|36669
+Sodium acid phosphate|235496
+Sodium alginate|56446
+Sodium amidotrizoate|3321
+Sodium aminopterin|1440263
+Sodium antimony gluconate|8010
+Sodium arsenate|1364794
+Sodium aurothiomalate|4981
+Sodium aurothiosulfate|9876
+Sodium bicarbonate|36676
+Sodium biphosphate|235496
+Sodium bisulfate|1367207
+Sodium bromide|1311138
+Sodium calcium edetate|1903
+Sodium chloride|9863
+Sodium citrate|56466
+Sodium cromoglicate|3538
+Sodium cyclamate|56467
+Sodium diatrizoate|3321
+Sodium dibunate|235860
+Sodium dioctyl sulfosuccinate|71722
+Sodium edetate|3539
+Sodium ethacrynate|4108
+Sodium feredetate|105673
+Sodium fusidate|9874
+Sodium glutamate|1311588
+Sodium hydrogen carbonate|36676
+Sodium hydroxide|9880
+Sodium hypochlorite|9881
+Sodium hyposulfite|36726
+Sodium iodide|9884
+Sodium iopodate|9887
+Sodium iothalamate|9886
+Sodium iron edetate|105673
+Sodium lactate|56489
+Sodium metasilicate|1733690
+Sodium morrhuate|9892
+Sodium nafcillin|9893
+Sodium nitrate|36700
+Sodium nitrite|9894
+Sodium nitroferricyanide|9895
+Sodium nitroprusside|9895
+Sodium oxalate|1441659
+Sodium oxybate|9899
+Sodium para-aminohippurate|203194
+Sodium perborate|36702
+Sodium phytate|9903
+Sodium picosulfate|33688
+Sodium polystyrene sulfonate|56512
+Sodium propionate|56513
+Sodium salicylate|9907
+Sodium selenate|36717
+Sodium stibogluconate|8010
+Sodium sulfate|36721
+Sodium tetradecyl sulfate|9913
+Sodium thiopental|282416
+Sodium thiosalicylate|91100
+Sodium thiosulfate|36726
+Sodium tolbutamide|221173
+Sodium|9853
+Sodium tyropanoate|282508
+Sodium valproate|9919
+Solanine|1745416
+Solapsone|1551455
+Solasulfone|1551455
+Soma|204362
+Somatorelin|236901
+Somatostatin|9939
+Somatotropin|61148
+Somatrem|56570
+Somatropin|61148
+Sominex|152371
+Sorbide nitrate|6058
+Sorbitol|9945
+Sotalol|9947
+Sotradecol|42896
+Soysterol|1363446
+Spectinomycin|270
+Spigelia|1320409
+Spiramycin|9991
+Spirapril|36908
+Spironolactone|9997
+Stannous fluoride|10030
+Stanozolol|10032
+Starch|10046
+Sterculia|6111
+Stilbestrol|3390
+Stilboestrol|3390
+Streptodornase|10104
+Streptokinase|10106
+Streptomycin|10109
+Streptonivicin|7538
+Streptozocin|10114
+Streptozotocin|10114
+Strophantin-g|7762
+Strychnine|66422
+Styramate|89818
+Styrene|1362878
+Succinylcholine|10154
+Succinylsulfathiazole|37289
+Sucralfate|10156
+Sucrose|10159
+Sufentanil|56795
+Sulbactam|10167
+Sulbenicillin|10168
+Sulfacetamide|10169
+Sulfacitine|78902
+Sulfadiazine|10171
+Sulfadimethoxine|10172
+Sulfadimidine|10178
+Sulfadoxine|10173
+Sulfaethidole|37324
+Sulfafurazole|10207
+Sulfaguanidine|10174
+Sulfalene|10175
+Sulfamerazine|10176
+Sulfamethazine|10178
+Sulfamethizole|10179
+Sulfamethoxazole|10180
+Sulfamethoxypyridazine|10181
+Sulfamoxole|10183
+Sulfamylon|258054
+Sulfan blue|32950
+Sulfanilamide|10184
+Sulfapyridine|10188
+Sulfapyrimidine|10171
+Sulfasalazine|9524
+Sulfated amylopectin|1368128
+Sulfathiazole|10193
+Sulfinpyrazone|10205
+Sulfiram|30206
+Sulfisomidine|10206
+Sulfisoxazole|10207
+Sulfobromophthalein|10212
+Sulfuric acid|10231
+Sulindac|10237
+Sulisobenzone|1311567
+Sulphadiazine|10171
+Sulphadimethoxine|10172
+Sulphadimidine|10178
+Sulphafurazole|10207
+Sulphamethizole|10179
+Sulphamethoxazole|10180
+Sulphan blue|27863
+Sulphan blue|32950
+Sulphapyridine|10188
+Sulphasalazine|9524
+Sulphinpyrazone|10205
+Sulpiride|10239
+Sultamicillin|1009148
+Sulthiame|10240
+Sultiame|10240
+Sultopride|37416
+Sumatriptan|37418
+Sunflower seed oil|37422
+Suprofen|10255
+Suramin|10256
+Sutilains|227410
+Suxamethonium|10154
+Sweet oil|1309250
+Synagis|220141
+Synalar|224949
+Synthroid|224920
+Tacrine|10318
+Tadalafil|358263
+Talampicillin|10322
+Talbutal|89810
+Talcum|10323
+Tamoxifen|10324
+Tamsulosin|77492
+Tannic acid|10328
+Tapazole|224936
+Tartar emetic|981
+Tartaric acid|37578
+Tartrated antimony|981
+TCDD|2120182
+Tegafur|4582
+Tegretol|203029
+Teicoplanin|57021
+Tellurium|1311384
+Temazepam|10355
+Temocillin|37775
+Teniposide|10362
+Tenonitrozole|236186
+Tenoxicam|37790
+Terazosin|37798
+Terbutaline|10368
+Terconazole|37806
+Terfenadine|42330
+Teriparatide|32915
+Terizidone|57047
+Terlipressin|57048
+Terodiline|37815
+Terpin|89916
+Terramycin|202964
+Tertatolol|37840
+Tessalon|227783
+Testolactone|10378
+Testosterone|10379
+Tetrabenazine|10390
+Tetracaine|10391
+2,3,7,8-Tetrachlorodibenzo-p-dioxin|2120182
+Tetracosactide|2890
+Tetracosactrin|2890
+Tetracycline|10395
+Tetraethylthiuram disulfide|3554
+Tetrahydroaminoacridine|10318
+Tetrahydrocannabinol|10402
+Tetrahydrozoline|37935
+Tetrazepam|37985
+Tetryzoline|37935
+Thalidomide|10432
+Thallium|1311633
+THC|10402
+Thenyldiamine|38025
+Theobromine|10437
+Theophyllamine|689
+Theophylline|10438
+Thiabendazole|10450
+Thiamazole|6835
+Thiamine|10454
+Thiamphenicol|10463
+Thiamylal|10464
+Thiethylperazine|10471
+Thimerosal|10472
+Thiobutabarbital sodium|314874
+Thioctic acid|6417
+Thioglycolate|1370627
+Thioguanine|10485
+Thiomersal|10472
+Thiopental|10493
+Thiopentone|10493
+Thiopropazate|38133
+Thioproperazine|10498
+Thioridazine|10502
+Thiosinamine|1318494
+Thiotepa|10473
+Thiothixene|10510
+Thiphenamil|38150
+Thiram|10517
+Thonzylamine|1360721
+Thrombin|10528
+Thymol|10553
+Thymopentin|40230
+Thymoxamine|10561
+Thymus extract|10562
+Thymus extract|1322428
+Thyroglobulin|10565
+Thyroid|10572
+Thyrolar|57213
+Thyrotrophin|10579
+Thyroxine|10582
+Tiabendazole|10450
+Tianeptine|38252
+Tiapride|10588
+Tiaprofenic acid|38253
+Ticarcillin|10591
+Ticlopidine|10594
+Tiemonium|236188
+Tifenamil|38150
+Tigan|227528
+Tilactase|41397
+Tiletamine|1535217
+Tilidine|10597
+Timolol|10600
+Tin|10603
+Tinidazole|10612
+Tioclomarol|163426
+Tioconazole|38298
+Tioguanine|10485
+Tiopronin|6765
+Tiotixene|10510
+Tioxolone|2059173
+Tiratricol|13982
+Tisopurine|38136
+Titanium|1305547
+Tizanidine|57258
+TMTD|10517
+Tobramycin|10627
+Tocainide|42359
+Tocoferol|1236136
+Tocopherol|11256
+Tocopherol|1236136
+Tofisopam|38365
+Tofranil|6716
+Tolazamide|10633
+Tolazoline|10634
+Tolbutamide|10635
+Tolciclate|38372
+Tolmetin|10636
+Tolnaftate|10637
+Toloxatone|38382
+Tolperisone|10639
+Toluene|1311381
+Toremifene|38409
+Tosylchloramide sodium|20762
+Toxoid diphtheria|798304
+Toxoid tetanus|798306
+Tragacanth|1368197
+Tramadol|10689
+Tramazoline|38453
+Tranexamic acid|10691
+Tranilast|57330
+Tranxene|202966
+Tranylcypromine|10734
+Trapidil|10735
+Trazodone|10737
+Trecator|835718
+Treosulfan|38508
+Tretinoin|10753
+Triacetin|10756
+Triacetoxyanthracene|38536
+Triacetyloleandomycin|10864
+Triamcinolone|10759
+Triamterene|10763
+Triazolam|10767
+Tribenoside|38557
+Trichlorfon|1000581
+Trichlormethiazide|10772
+Triclocarban|38609
+Triclofos|38610
+Triclosan|10795
+Tridesilon|258344
+Tridione|204366
+Trientine|10798
+Triethylenethiophosphoramide|10473
+Trifluoperazine|10800
+Trifluperidol|10804
+Triflupromazine|10805
+Trifluridine|10803
+Triflusal|38655
+Trihexyphenidyl|10811
+Triiodothyronine|10814
+Trilostane|38668
+Trimebutine|10819
+Trimeprazine|10825
+Trimetaphan camsilate|38680
+Trimetazidine|10826
+Trimethadione|10827
+Trimethaphan|10828
+Trimethobenzamide|38685
+Trimethoprim|10829
+Trimetrexate|42333
+Trimipramine|10834
+Trinitrine|4917
+Trinitrophenol|1320642
+Trioxide of arsenic|18330
+Trioxysalen|10844
+Tripelennamine|10847
+Triprolidine|10849
+Trisulfapyrimidines|38802
+Tritoqualine|38810
+Trofosfamide|38865
+Troleandomycin|10864
+Tromantadine|38868
+Trometamol|10865
+Tromethamine|10865
+Tropatepine|38876
+Tropicamide|10869
+Trospium chloride|38891
+Troxerutin|38893
+Troxidone|10827
+Trypsin|10890
+Tryptizol|42940
+TSH|10579
+Tuberculin, purified protein derivative|8948
+Tubocurare|10917
+Tubocurarine|10917
+Tulobuterol|38967
+Turpentine|10938
+Tybamate|62178
+Tyloxapol|38998
+Tyropanoate|10960
+Tyrothricin|10968
+Undecenoic acid|10989
+Undecylenic acid|10989
+Uracil mustard|10996
+Uramustine|10996
+Urapidil|39230
+Urate oxidase|283821
+Urea|11002
+Urethane|1420982
+Urofollitropin|134404
+Urokinase|11055
+Ursodeoxycholic acid|11065
+Ursodiol|11065
+Vaccinia immune globulin|597392
+Valerian root|253206
+Valium|202472
+Valproate|40254
+Valproic acid|11118
+Valpromide|23420
+Vanadium|11121
+Vancomycin|11124
+Vardenafil|306674
+Vaseline|224932
+Vasopressin|11149
+Vecuronium bromide|11153
+Venlafaxine|39786
+Verapamil|11170
+Veratrum album|285168
+Vidarabine|11194
+Vigabatrin|14851
+Viloxazine|11196
+Vinblastine|11198
+Vinburnine|57954
+Vincamine|11201
+Vincristine|11202
+Vindesine|11204
+Vinorelbine tartrate|114527
+Vinpocetine|24506
+Vinyl acetate|1368177
+Vinyl bromide|1368177
+Vinyl bromide|1995489
+Vinyl chloride|1995489
+Vinylbital|19928
+Viosterol|4018
+Viquidil|39580
+Virginiamycin|11232
+Visine|227581
+Warfarin|11289
+White arsenic|18330
+Witch hazel|89821
+Wool fat|1363703
+Xamoterol|39801
+Xanthinol nicotinate|11358
+Xanthotoxin|6854
+Xantinol nicotinate|11358
+Xenon|11363
+Xibornol|39823
+Xipamide|11371
+Xylene|1311378
+Xylocaine|202398
+Xylometazoline|39841
+Yeast|214355
+Yellow fever vaccine|804187
+Yellow fever vaccine|89890
+Yellow phenolphthalein|314784
+Zalcitabine|3363
+Zaroxolyn|203794
+Zephiran|1049263
+Zeranol|1368476
+Zidovudine|11413
+Zinc|11416
+Zipeprol|39969
+Zofenopril|39990
+Zolpidem|39993
+Zomepirac|39994
+Zopiclone|40001
+Zotepine|40003
+Zuclopenthixol|114176
+Zyprexa|135423
