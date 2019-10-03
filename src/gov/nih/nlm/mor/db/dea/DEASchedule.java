@@ -5,9 +5,9 @@ public class DEASchedule {
 	private String scheduleName = "";
 	private String scheduleCode = "";
 	
-	public DEASchedule(String code, String name) {
+	public DEASchedule(String name) {
 		this.scheduleName = name;
-		this.scheduleCode = code;
+//		this.scheduleCode = code;
 	}
 	
 	public String getScheduleName() {

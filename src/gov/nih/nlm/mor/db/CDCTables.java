@@ -174,15 +174,15 @@ public class CDCTables {
 								setDrugCodesMap(rxname1, rxcui1, tcode, tdesc);
 								break;
 							case "nflis":
-								String code = values[0];
+								// String code = values[0];
 								String substance = values[1];
-								String categoryCode = values[2];
+								// String categoryCode = values[2];
 								String category = values[3];
 								String synonyms = values[4];
-								setNflisMap(code, substance, synonyms, category, categoryCode);
+								setNflisMap("", substance, synonyms, category, "");
 								break;
 							case "dea":
-								String scheduleCode = values[0];
+								//String scheduleCode = values[0];
 								String schedule = values[1];
 								String substanceDea = values[2];
 								String deaCode = values[3];
@@ -194,9 +194,9 @@ public class CDCTables {
 										synonymsDea.add(value);
 									}
 								}
-								//assumption: -1 codes don't exist and can't be added without the external sourceid
-								if( deaCode != null && !deaCode.equals("-1")) {
-									setDeaMap(scheduleCode, schedule, substanceDea, deaCode, synonymsDea, narcotic);
+
+								if( deaCode != null ) {
+									setDeaMap("", schedule, substanceDea, deaCode, synonymsDea, narcotic);
 								}
 								break;	
 							default:
@@ -225,8 +225,8 @@ public class CDCTables {
 	}
 	
 	private void setNflisMap(String code, String substance, String synonyms, String category, String categoryCode ) { 
-		NFLISCategory nflisCategory = new NFLISCategory(category, categoryCode);
-		NFLISSubstance nflisSubstance = new NFLISSubstance(code, substance, synonyms);
+		NFLISCategory nflisCategory = new NFLISCategory(category);
+		NFLISSubstance nflisSubstance = new NFLISSubstance(substance, synonyms);
 		
 		if( !this.nflisCategory2Substance.containsKey(nflisCategory) ) {
 			ArrayList<NFLISSubstance> list = new ArrayList<NFLISSubstance>();
@@ -256,7 +256,7 @@ public class CDCTables {
 	}
 	
 	private void setDeaMap(String scheduleCode, String schedule, String substance, String code, ArrayList<String> synonyms, String isNarcotic) {
-		DEASchedule deaSchedule = new DEASchedule(scheduleCode, schedule);
+		DEASchedule deaSchedule = new DEASchedule(schedule);
 		DEASubstance deaSubstance = new DEASubstance(code, substance, isNarcotic, synonyms);		
 		
 		if( this.deaSchedule2Substance.containsKey(deaSchedule)) {

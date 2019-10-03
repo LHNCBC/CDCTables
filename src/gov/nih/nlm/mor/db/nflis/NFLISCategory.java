@@ -5,8 +5,8 @@ public class NFLISCategory {
 	private String categoryName = "";
 	private String categoryCode = "";
 	
-	public NFLISCategory(String name, String code) {
-		this.categoryCode = code;
+	public NFLISCategory(String name) {
+//		this.categoryCode = code;
 		this.categoryName = name;
 	}
 	

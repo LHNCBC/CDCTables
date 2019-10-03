@@ -20,8 +20,8 @@ public class NFLISSubstance {
 	private ArrayList<String> synonyms = null;
 	private ArrayList<String> rxcuis = null;
 	
-	public NFLISSubstance(String code, String name, String synonyms) {
-		this.code = code;
+	public NFLISSubstance(String name, String synonyms) {
+//		this.code = code;
 		this.name = name;
 		//could do fancy parsing, but for now this is a curation issue
 		this.synonyms = new ArrayList<String>(Arrays.asList(synonyms.split(";")));
