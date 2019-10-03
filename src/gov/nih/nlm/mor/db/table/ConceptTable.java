@@ -3,8 +3,6 @@ package gov.nih.nlm.mor.db.table;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-import org.json.JSONObject;
-
 import gov.nih.nlm.mor.db.rxnorm.Concept;
 import gov.nih.nlm.mor.db.rxnorm.Term;
 

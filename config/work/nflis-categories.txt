@@ -1,0 +1,39 @@
+NC1|Phenethylamines (Amphetamines) (S)
+NC2|Other substances -- steroids, phencyclidine, precursors, reagents  (DEA categories 410 - 420, 550 - 555, 800 - 820)
+NC3|Stimulants  (DEA categories 100 - 120)
+NC4|Phenethylamines (Other) (S)
+NC5|Synthetic Cathinones
+NC6|Antidepressants
+NC7|Piperidines/PEA
+NC8|Depressants and Tranquilizers  (DEA categories 200 - 300)
+NC9|Benzodiazepines
+NC10|Steroids
+NC11|Hallucinogens  (DEA categories 500 - 520 and 560)
+NC12|Tryptamines
+NC13|Psychedelic
+NC14|Marijuana and THC  (DEA categories 530 -540)
+NC15|Phenethylamines (Other) (H)
+NC16|Phenethylamines (Amphetamines) (H)
+NC17|Phenethylamines (D Series) (H)
+NC18|Phenethylamines (2C Series) (H)
+NC19|Narcotic Analgesics
+NC20|Narcotics  (DEA categories 600, 630 - 660)
+NC21|Cocaine  (DEA category 620)
+NC22|Heroin (DEA categories 610-613)
+NC23|New Drug
+NC24|No substance identified  (DEA category 900)
+NC25|Piperazines (Stimulant)
+NC26|Piperazines (Hallucinogen)
+NC27|Other
+NC28|Synthetic Cannabinoids
+NC29|Synthetic Cathinones (Hallucinogen)
+NC30|Phenethylamines (Aminoindanes) (H)
+NC31|Analgesics
+NC32|Phenethylamines (Stimulant)
+NC33|Phenethylamines
+NC34|Other substances
+NC35|Stimulants
+NC36|Cannabinoids
+NC37|Phenethylamine
+NC38|Depressants and Tranquilizers
+NC39|Other susbtances

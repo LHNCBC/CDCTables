@@ -1,0 +1,3153 @@
+Amphetamine|725
+Methamphetamine|6816
+N-Acetylmethamphetamine|
+Phenylpropanolamine|8175
+Mesocarb|
+Benzphetamine|1422
+Cathine|32022
+Cathinone|
+Methcathinone|
+Hydroxyamphetamine|7839
+P-Alpha-Dimethylphenethylamine|
+N-Butylamphetamine|
+N-Ethylamphetamine|
+N,N-dimethylamphetamine|1362926
+Pyrovalerone|
+Fenethylline|24840
+Bemegride|
+Ethamivan|24453
+Nikethamide|7424
+Pentylenetetrazol|8015
+Pemoline|7966
+Brucine|2181419
+Strychnine|66422
+Caffeine|1886
+Theobromine|10437
+Fenproporex|24867
+Mefenorex|29444
+Aminorex|
+4-Methylaminorex|
+Mazindol|6664
+Diethylpropion|3389
+Phendimetrazine|33272
+Phenmetrazine|8133
+Lefetamine|
+Phentermine|8152
+Chlorphentermine|
+Clortermine|
+Fenfluramine|4328
+Modafinil|30125
+Amitriptyline|704
+Desipramine|3247
+Fluoxetine|4493
+Imipramine|5691
+Iproniazid Phosphate|
+Methylphenidate|6901
+Isocarboxazid|6011
+Nialamide|7394
+Nortriptyline|7531
+Opipramol|7674
+Pipradrol|
+Zipeprol|39969
+Protriptyline|8886
+Fencamfamin|
+Gamma hydroxy butrate|
+Gamma Hydroxy Butyl Lactone|
+Barbiturates, Other|
+Thialbarbital|
+Enallylpropymal|
+Phenallymal|
+Amobarbital|719
+Aprobarbital|17381
+Barbital|1325
+Brallobarbital|
+Narcobarbital|
+Beta-bromoallyl sec-amylbarbituric acid|
+Butalbital|19860
+Butallylonal|
+Butabarbital|477631
+Butethal|19874
+Cyclobarbital|2978
+Cyclopentobarbital|
+Allobarbital|516
+Dipropylbarbituric Acid|
+5-Ethyl-5-(1-Piperidyl)Barbituric Acid|
+Heptabarbital|
+Hexethal|
+Hexobarbital|5302
+Mephobarbital|6758
+Metharbital|6825
+Methitural|
+Methohexital|6847
+Pentobarbital|8004
+Phenobarbital|8134
+p-Hydroxyphenobarbital|
+Heptobarbital|
+Probarbital|
+Propallylonal|
+Secobarbital|9624
+Talbutal|89810
+Thiobarbital|
+Thiamylal|10464
+Thiohexethal|
+Thiopental|10493
+Vinbarbital|89811
+Vinylbital|19928
+Acecarbromal|16688
+Allylisopropylacetylurea|
+Bromal Hydrate|
+Bromoform|
+Bromoisovalerylurea|
+Carbromal|2067
+Chloral Betaine|89808
+Trichloroacetaldehyde|38574
+Chloral Hydrate|2344
+Chloralimide|
+Chloralformamide|
+Chloralosane|
+Chloralurethane|
+Chlorobutanol|2378
+Chlordiethynol|
+Chlorhexadol|
+Cryptenamine|42618
+Ectylurea|
+Ethchlorvynol|4118
+Ethinamate|24474
+Glutethimide|4903
+Meparfynol|
+Metaldehyde|
+Methaqualone|6823
+Mecloqualone|
+Methyprylon|6910
+Bromisovalum|
+Paraldehyde|7909
+Petrichloral|
+Pyrithyldione|
+Sulfondiethylmethane|
+Sulfonethylmethane|
+Sulfonmethane|
+Brometone|
+Piperidinum Thiocyanate|
+1-Formylpiperidine|
+1-Acetylpiperidine|
+Piperidine|
+1-Methylpiperidine|
+2-Methylpiperidine|
+4-Methylpiperidine|
+Acetophenazine|16735
+Amphenidone|
+Azacyclonol|
+Benactyzine|1361
+Benzquinamide|19041
+Clonazepam|2598
+Captodiame|89812
+Chlordiazepoxide|2356
+Bromazepam|1749
+Camazepam|
+Chlormezanone|2373
+Clobazam|21241
+Clotiazepam|2622
+Cloxazolam|21311
+Delorazepam|
+Estazolam|4077
+Thiothixene|10510
+Ethyl Loflazepate|24524
+Fludiazepam|
+Chlorprothixene|2406
+Halazepam|26412
+Flunitrazepam|4460
+Prazepam|8627
+Diazepam|3322
+Flurazepam|4501
+Clorazepate|2353
+Emylcamate|
+Haloxazolam|
+Ketazolam|28181
+Loprazolam|38555
+Lormetazepam|28894
+Ethomoxane|
+Brotizolam|19790
+Phenazepam|
+Haloperidol|5093
+Zolpidem|39993
+Hydroxyphenamate|
+Hydroxyzine|5553
+Mebutamate|
+Mephenoxalone|
+Doxepin|3638
+Meprobamate|6760
+Oxanamide|
+Nitrazepam|7440
+Oxazepam|7781
+Medazepam|6680
+Nimetazepam|
+Nordiazepam|3155
+Oxazolam|
+Pamabrom|54365
+Phenaglycodol|
+Piperilate|
+Promoxolane|
+Prothipendyl|55244
+Quazepam|35185
+Alprazolam|596
+Pinazepam|
+Midazolam|6960
+Lorazepam|6470
+Tetrazepam|37985
+Triazolam|10767
+Butaperazine|
+Chlorpromazine|2403
+Carphenazine Maleate|
+Fluphenazine|4496
+Mepazine|
+Methoxypromazine Maleate|
+Methotrimeprazine|6852
+Perphenazine|8076
+Piperacetazine|8338
+Promazine|8742
+Prochlorperazine|8704
+Thiopropazate|38133
+Thioridazine|10502
+Trifluoperazine|10800
+Temazepam|10355
+Zolazepam|1535252
+Tybamate|62178
+Valnoctamide|
+Xanthiol|
+Anabolic Steroids|
+Boldenone|
+Clostebol|61686
+Dehydrochloromethyltestosterone|
+Dehydroepiandrosterone|3143
+Drostanolone|23678
+Ethylestrenol|4162
+Fluoxymesterone|4494
+Formebolone|
+Mesterolone|6781
+Methandriol|6817
+Methandrostenolone|6818
+Methenolone|6833
+Methyltestosterone|6904
+Mibolerone|
+Nandrolone|7244
+Norethandrolone|7513
+Oxandrolone|7779
+Oxymesterone|
+Oxymetholone|7813
+Stanolone|
+Stanozolol|10032
+Testolactone|10378
+Testosterone|10379
+Trenbolone|1484278
+Clenbuterol|2580
+Human Growth Hormone|61148
+1,4-Butanediol|
+Tamoxifen|10324
+Human Chorionic Gonadotropin|340705
+Cyclofenil|2983
+Milk, Powdered|
+Flour, Wheat|
+Mannitol Hexanitrate|89792
+Dextrose|4850
+Lactose|6211
+Mannitol|6628
+Sucrose|10159
+Starch|10046
+Plant Material, Other|
+Catnep|
+Tobacco|
+Parsley|317857|899877
+Alfalfa|285243
+Tea|
+Oregano|1010965
+Wild Carrot (D. Carotus)|
+Periwinkle|
+Cinquefoil|
+Patchouli Oil|1309372
+Inositol|5833
+Starch, Corn|1039062
+Starch, Wheat|1367109
+Starch, Rice|1367117
+Starch, Potato|1427056
+Starch, Tapioca|901346
+Talc|10323
+Dextrin|
+Dolomite|23622
+Silicic Acid|1311243
+Stearic Acid|1310551
+Cellulose|2221
+Gelatin|4716
+Maltose|1311261
+Cocoa|1373895|891721
+Coffee|
+Lead Acetate|1423667
+Carbonate|
+Sodium Bicarbonate|36676
+Sodium Carbonate|36685
+Sodium Acetate|56443
+Phenol|33290
+Phenolphthalin|
+Tartaric Acid|37578
+Sodium Borate|36680
+Sodium Nitrite|9894
+Magnesium Sulfate|6585
+2,2-Dimethoxyethanamine|
+Ammonium Chloride|712
+Calcium Carbonate|1897
+Calcium Lactate|47622
+Calcium Sulfate|1925
+Calcium Hydroxide|1910
+Calcium|1895
+Sodium Chloride|9863
+Phosphate|486961
+Aluminum Sulfate|17621
+Alum|221456|54989
+Formic Acid|4537
+Acetonitrile|
+Acetylene|200
+Aluminum Oxide|615
+Aluminum Chloride|46241
+Aluminum|1311504
+Ammonia Gas|
+Barium Carbonate|1305530
+Acetone|178
+Barium Sulfate|1331
+Ammonium Hydroxide|1362884
+Ammonium Acetate|1362883
+Benzene|1311295
+Benzenesulfonyl Chloride|
+Butylamine|
+Carbon Dioxide|2034
+Hexane|1999411
+Heptane|1367182
+Carbon Tetrachloride|
+Sodium Benzoate|56455
+Hydrobromic Acid|1426869
+Hydrochloric Acid|5486
+Magnesium|6574
+Chromium Trioxide|1539810
+Copper Sulfate|21579
+Cuprous Oxide|21842
+Sodium Hydroxide|9880
+Cyanogen Bromide|
+Sulfuric Acid|10231
+P-Tolylsulfonylmethylnitrosamide|
+Ferric Chloride|24898
+Iron|90176
+Lithium (Metal)|
+Manganous Chloride|29261
+Manganous Carbonate|
+Mercury|6769
+Nitric Acid|1311391
+Mercuric Chloride|1311634
+Oxalic Acid|1427058
+Benzonitrile|
+Palladium On Barium Sulfate|
+Palladium Chloride|
+Phosphorus Pentoxide|
+Phosphorus Tribromide|
+Platinum|1311280
+Platinum Chloride|
+Boron Trichloride|
+Boron Trifluoride Etherate|
+Potassium Bicarbonate|34296
+Potassium-Tert-Butoxide|
+Potassium Permanganate|8604
+Pumice|1989334
+Raney Nickel|
+Chloroform|1362698
+Ethanol|448
+Ether|1363043
+N,N'Carbonyldiimidazole|
+Sodium Cyanotrihydridoborate|
+Methanol|1310568
+Sodium Phosphate Dibasic|236719
+Isopropyl Alcohol|797541
+Thorium Nitrate|
+P-Toluenesulfonyl Chloride|
+Toluene|1311381
+Molecular Sieves|
+4-Methylbenzenesulfonic Acid Monohydrate|
+Potassium Iodide|8597
+Charcoal, Activated|272
+Chromic Acid|
+Dichloroethane|
+Diethanolamine|1362911
+Diethylene Glycol|1429928
+N,N-dimethylformamide|
+Dioxane|
+Butyl Acetate|1362908
+Ethyl Acetate|1314355
+Ethylene Dichloride|
+Ethylidine Chloride|
+Florisil|
+Hydrazine|
+Hydrocyanic Acid|1367183
+Hydrogen|5497
+Hydrogen Chloride|5486
+Hydriodic Acid|27208
+Hydrogen Peroxide|5499
+Iodine|5933
+Isooctane|
+Isopropyl Ether|
+Kerosine|1311375
+Aluminum Lithium Hydride|
+Lithium Hydroxide|1546376
+Methyl Ethyl Ketone|1363708
+Methyl Isobutyl Ketone|1362929
+N-Methyl-N-Phenylformamide|
+Nitroethane|
+Nitrogen|7456
+O-Nitrobenzoic Acid|
+Palladium|1311279
+Peracetic Acid|2045732
+Perchloric Acid|
+Petroleum Benzin|
+Sodium Metabisulfite|36696
+Phosphoric Acid|8259
+Phosphoryl Chloride|
+Phosphorus Pentachloride|
+Phosphorus Trichloride|
+Platinum Oxide|
+Potassium Carbonate|34300
+Potassium Cyanide|1923819
+Potassium Hydroxide|34311
+Selenium Oxide|1309231
+Sodium|9853
+Sodium Amalgam|
+Sodium Amide|
+Sodium Benzenesulfonate|1313277
+Sodium Bisulfite|36679
+Sodium Borohydride|
+Sodium Cyanide|
+Sodium Bisulfate|1367207
+Sodium Iodide|9884
+Sodium Methoxide|
+Sodium Nitrate|36700
+Sodium Sulfate|36721
+Sodium Thiosulfate|36726
+Sulfonic Acid|
+Sulfur Trioxide|
+Tetrahydrofuran|
+1,2,3,4-Tetrahydronaphthalene|
+Thionyl Chloride|
+Tin|10603
+P-Toluenesulfonic Acid Monohydrate|
+Triethylamine|1307097
+Trifluoroacetic Acid Anhydride|
+Xylene|1311378
+Zinc|11416
+Zinc Chloride|39937
+Tribromoborane|
+Thallium Nitrate|
+Phosphorus|8263
+Phosgene|
+Hallucinogen|
+Atropa Belladonna|89781
+Atropine|1223
+Datura Strammonium|
+D-Hyoscyamine|
+Hyoscyamine|153970
+Hyoscyamus Niger|1311152
+Scopolamine|9601
+Synthetic Anticholinergics|
+Harmaline|
+Harmine|
+1,2,3,4-Tetrahydroharmine|
+AET|
+Iboga Alkaloids|
+Ibogaine|
+Ketamine|6130
+Tiletamine|1535217
+Tiletamine/Zolazepam Combos|
+Lysergic Acid|
+Dl-Acetyl-Lysergide|
+Dl-Acetyl-Lysergic Acid Monoethylamide|
+D-2-Bromo-Lysergide|
+Dihydro-D-Lysergide|
+D-2-Iodo-Lysergide|
+D-Isolysergide|
+L-Isolysergide|
+Lysergic Acid Amide|
+D-Lysergic Acid Amylamide|
+D-Lysergic Acid Butylamide|
+D-Lysergic Acid Dibutylamide|
+LSD|
+D-Lysergic Acid Di-Isopropylamide|
+D-Lysergic Acid Dimethylamide|
+D-Lysergic Acid Dipropylamide|
+D-Lysergic Acid Ethylamide|
+D-Lysergic Acid Ethylpropylamide|
+D-Lysergic Acid Heptylamide|
+D-Lysergic Acid Hexylamide|
+D-Lysergic Acid Methylamide|
+D-Lysergic Acid Methylethylamide|
+D-Lysergic Acid Methylisopropylamide|
+D-Lysergic Acid Methylpropylamide|
+D-Lysergic Acid Morpholide|
+D-Lysergic Acid Piperidide|
+D-Lysergic Acid Propylamide|
+D-Lysergic Acid Pyrrolidide|
+Dl-Methyl-2-Bromo-Lysergide|
+Dl-Methyl-Lysergide|
+Dl-Methyl-Lysergic Acid Monoethylamide|
+Dl-Methyl-Lysergic Acid Pyrolidide|
+Dl-Oxymethyl-Lysergide|
+Dl-2-Methoxy-4,5-Methylenedioxyamphetamine|
+Cannabis/THC|
+Tetrahydrocannabinol (Synthetic)|
+Cannabidiol|2045371
+Cannabinol|1976
+Parahexyl|
+Cannabichromene|
+Dimethylheptyl Tetrahydrocannabinol|
+Cannabicyclol|
+Cannabigerol|
+Nabilone|31447
+Mescaline|
+4-Benzyloxy-3,5-dimethoxyphenethylamine|
+DMPEA|
+TMA|
+DOB|
+2C-B|
+DOM|
+2,5-DMA|
+TMA|
+DOET|
+MDA|
+MMDA|
+MDOH|
+N-Methyl-1-(3,4-Methylenedioxyphenyl)-2-Butanamine|
+MDEA|
+MDMA|
+PMA|
+Peyote|
+Anhalamine|
+Anhalonidine|
+Pellotine|
+Anhalonine|
+Lophophorine|
+MBDB|
+MDMMA|
+Tryptamine|
+5-MeO-DMT|
+AMT|
+5-OH-DMT|
+DET|3129
+DMT|
+DPT|
+Psilocybine|
+Psilocin|
+5-MeO-DiPT|
+Yohimbine|220982
+4-OH-DET|
+4-Phosphoryloxy-DET|
+L-Methylpsilocybin|
+Amanita Muscaria|
+Banisteriopsis Caapi|
+Epena|
+Kava|285228
+Morning Glory Seeds|
+Nutmeg|1353217|891652
+Ipomea|
+Paprika|899873
+Hawaiian Baby Wood Rose|
+Eticyclidine|
+Rolicyclidine|
+1-Phenylcyclohexylamine|
+Tenocyclidine|
+PCP|
+1-{1-(2-Thienyl)Cyclohexyl}Pyrrolidine|
+Cyclohexylamine|
+1-Phenylcyclohexylmorpholine|
+1-Phenylcyclohexanol|
+Piperidyls|
+1-Me-3-Pip Cyclopentylphenyl Gly|
+N-Ethyl-3-Piperidylbenzilate|
+N-Ethyl-3-Piperidyl Phenylcyclopentylglycolate|
+N-Methyl-3-Piperidylbenzilate|
+N-Propyl-1-Phenylcyclohxylamine|
+N-Isopropyl-1-Phenylcyclohxylamine|
+N-Butyl-1-Phenylcyclohxylamine|
+N-Isobutyl-1-Phenylcyclohxylamine|
+Quinine|9071
+Quinidine|9068
+Ascorbic Acid|1151
+Thiamine|10454
+Niacinamide|7405
+Isonicotinamide|
+Epinephrine|3992
+Pyrilamine|9009
+Pyridoxine|684879
+Amino Acids|
+Leucine|6308
+Phenylalanine|8156
+Dipyrone|3523
+Acetaminophen|161
+Acetanilide|162
+Aminopyrine|695
+Antipyrine|1001
+Aspirin|1191
+Phenacetin|8113
+Salicylamide|9518
+Sodium Salicylate|9907
+Pseudoephedrine|8896
+Ephedrine|3966
+N-Methylephedrine|1311545
+N-Ethylephedrine|
+Mephentermine|6756
+N-Ethylpseudoephedrine|
+N-Methylpseudoephedrine|
+Phenylbutazone|8160
+Loperamide|6468
+Cinnamic Acid|1368649
+Chloroephedrine|
+Chloropseudoephedrine|
+Aminoglutethimide|677
+Phenytoin|8183
+Ethosuximide|4135
+Ethotoin|4136
+Mephenytoin|6757
+Methsuximide|47858
+Paramethadione|32894
+Phenacemide|33253
+Ethylphenacemide|
+Phensuximide|33309
+Ampicillin|733
+Penicillin|70618
+Propylhexedrine|8792
+Antazoline|865
+Carbinoxamine Maleate|91066
+Chlorcyclizine|2354
+Chlorothen Citrate|
+Chlorpheniramine|2400
+Cyclizine|2977
+Dimenhydrinate|3444
+Diphenhydramine|3498
+Doxylamine|3642
+Meclizine|6676
+Thonzylamine|1360721
+Tripelennamine|10847
+Dextromethorphan|3289
+Methapyrilene|6822
+Isobutyl Nitrite|
+Carisoprodol|2101
+Chlorzoxazone|2410
+Mephenesin|6755
+Metaxalone|59078
+Methocarbamol|6845
+Styramate|89818
+Ibuprofen|5640
+Butyl Nitrite|
+Amyl Nitrite|742
+Cyclandelate|2970
+Dipyridamole|3521
+Erythrityl Tetranitrate|4040
+Isosorbide Dinitrate|6058
+Nitroglycerine|4917
+Pentaerythritol|33055
+Trolnitrate|
+Tetracaine|10391
+Benzocaine|1399
+Piperocaine|33752
+Butacaine|1829
+Noncontrolled, non-narcotic|
+Procaine|8701
+Acetylprocaine|
+Lidocaine|6387
+Clonidine|2599
+Propranolol|8787
+Boric Acid|1700
+Amylocaine|40660
+Methyl Salicylate|29787
+Benzoic Acid|18989
+Benzaldehyde|1314334
+Citric Acid|21183
+Theophylline|10438
+Dyclonine|23744
+Guaifenesin|5032
+Potassium Guaiacolsulfonate|91275
+Ethyl Bromopyruvate|
+Ethylene Chlorohydrin|
+Furan|
+Glycine Ethyl Ester|
+Isatoic Anhydride|
+1-Methyl-4-(1-Methylenthenyl)-2-Cyclohexen-1-Ol|
+4-Methoxy-1H-Indole|
+N-Methylformamide|
+Methylhydroquinone|
+Methyl Isocyanate|
+6-Methyl-3-Pyridinecarboxylic Acid, Methyl Ester|
+Methyl 3,4,5-Trimethoxybenzoate|
+O-Nitrotoluene|
+Nitromethane|
+Norpseudoephedrine|32022
+Phenyllithium|
+Propiophenone|
+Propylene Oxide|1368175
+Pyrrole|1338938
+Pyrrolidine|
+Safrole|
+Aniline|1441546
+P-Fluoroaniline|
+Methyl Methacrylate|29897
+Phenethylamine|1309741
+Propionic Anhydride|
+Alpha-Methylstyrene|
+1,2-Benzenedicarboxamide|
+1-Benzyl-4-Piperidone|
+1-Phenethyl-4-Piperidone|
+ANPP|
+N-1-(1-Phenethyl-4-Piperidinyl)-4-Fluoroaniline|
+2-Bromopropylbenzene|
+1-(Alpha-Methylphenethyl)-4-Piperidone|
+1-(1-Methyl-2-Phenylethyl)-N-Phenyl-4-Piperidinamine|
+N-Phenyl-4-Piperidinamine|
+4-Piperidone|
+1-4-Dioxa-8-Azaspiro{4.5}Decane|
+1-Phenyl-2-Propanone|
+3,4-Methylenedioxyphenyl-2-Propanone|
+General Precursor|
+Precursor, Other|
+Allylchloride|
+2-Propenylbenzene|
+A-Acetylphenylacetonitrile|
+Cyclohexanone|
+Acetonedicarboxylic Acid|
+Acetaldehyde|1311137
+Acetamide|
+Acetic Acid|168
+Acetic Anhydride|1370450
+Methylamine|
+N-Acetylanthranilic Acid|
+2-Amino-5-Chlorobenzophenone|
+2-Amino-5-Chlorobenzophenone Oxime|
+Anthranilic Acid|
+Biphenyl|
+Bromobenzene|
+Ammonium Formate|
+Bromoacetyl Bromide|
+5-Bromoisatin|
+1-Bromo-3-Methylbutane|
+2-Bromopentane|
+3-Bromo-1-Propene|
+2-Bromopyridine|
+2-Bromothiophene|
+Carbomethoxypropional Chloride|
+Chloroacetone|
+P-Chloroaniline|
+2-Chloro-N,N-Dimethyl-1-Propanamine Hydrochloride|
+Catalyst|
+5-Chloro-2-Methylaminobenzophenone|
+Dihydroresorcinol|
+Dibromomethane|
+Benzilic Acid|1430394
+Benzoic Anhydride|1998050
+Benzoyl Chloride|
+Benzoylglycolic Acid|
+Benzyl Chloride|1311516
+Benzyl Diolamine|
+4-Benzyloxyindole|
+N-Benzyl-4-Phe-4-Cyano Piperidine|
+Bromine|1311476
+2-Bromo-2-(2-Chlorobenz)-4-Niacetam|
+Carbamoyl Chloride|
+Solvent|
+2,5-Diethoxytetrahydrofuran|
+Diethylmalonate|
+2,5-Dimethoxybenzaldehyde|
+2,5-Dimethoxytetrahydrofuran|
+Dimethyl-1,3 Acetone Dicarboxylate|
+Dimethyl Carbonate|
+2,6-Dinitrotoluene|
+1-Piperidinocyclohexanecarbonitrile|
+1-(1-Cyclohexenyl)-Piperidine|
+Ergot Alkaloid|4023
+Indole|1311224
+By-Products|
+Freon|
+Chloroacetylchloride|
+O-Chloroaniline|
+4-Chloro-Benzyldimethylcarbinol|
+O-Chloro-Alpha,Alpha-Dimethylphenethyl Alcohol|
+N-Bis-(Chloroethyl) Methylamine|
+4-Chloro-1-Phe-2-For-Amino-2-Methp|
+2-Chloropyridine|
+Citral|1362890
+Diethylamine|
+3,3-Diethyl-2,4-Pyridine-Dione|
+D-Beta-Delta-6-Dihydrodesoxycodeine|
+2,5-Dimethoxy-4-Methylbenzyl Alcohol|
+1-(2,5-Dimeth-4-Methphe)-2-Nitrope|
+1,4-Dimethoxy-2-Methylbenzene|
+Dimethylamine|1745413
+1-Dimethylamino-2-Chloropropane Hydrochloride|
+N,N-dimethylbenzenamine|
+Dimethylbenzylcarbinol|
+Alpha,Alpha-Dimethyl-Beta-Phenylpropionamide|
+Dimethyl Sulfate|
+2,4-Dinitro-Phenylhydrazine|
+Dimethylsulfone|
+Diphenylacetonitrile|
+2,2-Diphe-4-Dimethylamino-Valeronit|
+Ergonovine|4021
+Ergotamine|4025
+1,3-Dicyclohexylcarbodiimide|
+Ethyl Amine|
+Ethyl Amino Malonate|
+Ethyl Bromide|
+N-Ethyl-3-Chloropiperidine|
+Ethylene Glycol Monobenzoate|
+N-Ethyl-3-Hydroxypiperidine|
+Ethyl Magnesium Bromide|
+Formaldehyde Solution|314636
+Formamide|
+Gallic Acid|1311389
+5-Hydroxyindole|
+Hydroxylamine|
+Isobutyrophenone|
+Isobutyryl Chloride|
+Isosafrole|
+Lithium Acetylide|
+Methyl Acrylate|1367155
+Methylbenzene Sulfonate|
+Methyl Benzilate|
+2-Methylbenzoxazone|
+Methylene Chloride|1311537
+4-Methyl Formamide|
+Methyl-1,4-Hydroquinone|
+1-Methyl-3-Hydroxypiperidine|
+Methylphenylcyclopentylglycolate|
+Methyl Tropinone-2-Carboxylate|
+Nitropropane|
+Olivetol|
+Oxalyl Chloride|
+Phenylacetonitrile|
+B-Phe-B-Chloro-A-Amino-A-A-Dimethet|
+1-Phe-2-For-Amino-2-Methylpropane|
+B-Phe-B-Hydroxy-A-Amino-A-Mepropane|
+Phenylmagnesium Bromide|
+Phenyltrimethylammonium Hydroxide|
+Piperine|1311146
+Piperonal|33753
+Propionyl Chloride|
+Pyridine|
+Succinaldehyde|
+Tetranitromethane|
+O-Toluidine|
+2,4,5 Trimethoxy Benzaldehyde|
+3,4,5-Trimethoxybenzoic Acid|
+Trimethoxy Benzyl Nitropropene|
+3,4,5-Trimethoxyphenylacetylnitrile|
+Trimethoxyphenylpropene|
+Methyl Phenylacetate|
+Phenylacetic Acid|33332
+3,4,5-Trimethoxybenzaldehyde|
+3,4,5-Trimethoxybenzoyl Chloride|
+3,4,5-Trimethoxybenzyl Alcohol|
+3,4,5-Trimethoxybenzyl Chloride|
+3,4,5-Trimethoxyphenylpropene|
+Urea|11002
+Vanillin|1368176
+Dimethyl Phthalate|
+Dimethyl Terephthalate|1736744
+Alphaprodine|594
+Anileridine|17933
+Apomorphine|1043
+Trans-Cinnamic Acid|
+Benzoyltropeine|
+Pseudococaine|
+Coca Leaves|
+Cocaine|2653
+Tropacocaine|
+Norcocaine|
+Cuchygrine|
+Hygrine|
+Alpha-Truxilline|
+Codeine|2670
+Acetyldihydrocodeine|
+Benzylmorphine|
+Codeine-N-Oxide|
+Cyprenorphine|
+Desomorphine|
+Etorphine|
+Diprenorphine|
+Buprenorphine|1819
+Codeine Methylbromide|
+Codeine Cough Preparations|
+Codoxime|
+Nicodicodine|
+Norcodeine|
+Acetylcodeine|
+N-Allyl Norcodeine|
+14-Bromocodeine|
+Cotarnine|
+Dihydrocodeine|23088
+Dihydroxycodeinone|7804
+Oxycodone|7804
+Dihydromorphine|
+Hydromorphone|3423
+Hydromorphinone Sulfate|
+Difenoxin|23024
+Diphenoxylate|3500
+Ecgonidine|
+Ecgonine|
+Ecgonine Benzoylethylester|
+Ecgonine Cinnamoylmethylester|
+Ecgonine 2,6-Dimethylbenzoylmethylester|
+Ecgonine Methylester|
+Ecgonine Phenylacetylmethylester|
+Benzoylecgonine|
+Norecgonine|
+Ethylmorphine|4166
+Hydrocodone|5489
+Dihydronormorphinone|
+Morphinone|
+Heroin|3304
+Levomethorphan|
+Levorphanol|6378
+Isomethadone|
+Meperidine|6754
+Meperidine Intermediate A|
+Meperidine Intermediate B|
+Meperidine Intermediate C|
+Metazocine|
+Alpha-L-N-Dimethylmethadol|
+Methadone|6813
+4-Cyano-2-Dimethylamino-4,4-Diphenylbutane|
+Metopon|
+Propoxyphene|8785
+Morphine|7052
+Hydromorphinol|
+Methyldesorphine|
+Methyldihydromorphine|
+Morphine-N-Oxide|
+Myrophine|
+Nicocodeine|
+3-Monoacetylmorphine|
+Nicomorphine|
+Normorphine|
+Pholcodine|33431
+Thebacon|
+6-Monoacetylmorphine|
+Naltrexone|7243
+3-Cyclopropyl-Methylnaltrexone|
+Acetorphine|
+10-Ketonaltrexone|
+10-Hydroxy-Naltrexone|
+Carboxymethylmorphine|
+10-Alpha-Hydroxynaltrexone|
+Noroxycodone|
+2,2-Bis-Oxymorphone|
+N-3-Butenylnoroxymorphone|
+14-Hydroxy-1,8-Dihydroxymorphine|
+Hydrocodone Diol|
+Morphine 3-Glucuronide|
+Thebaine|
+Drotebanol|
+Morphine-3-Ethereal Sulfate|
+Propylaminomorphine|
+Dihydrothebaine|
+Nalmefene|31479
+Morphine 6-Glucuronide|
+Morphine 3,6-Diglucuronide|
+Dihydrothebainone|
+Tetrahydrothebaine|
+Nalbuphine|7238
+Pseudomorphine|
+Meconin|
+Nalorphine|
+Naloxone|7242
+Levallorphan|6370
+Neopine|
+Narceine|
+Noscapine|7533
+Opium|7676
+Acetylmethadol|6814
+Allylprodine|
+Alphacetylmethadol|
+Alphameprodine|
+Alphamethadol|
+Benzethidine|
+Betacetylmethadol|
+Betameprodine|
+Betamethadol|
+Opium Extract|
+Betaprodine|
+Clonitazene|
+Dextromoramide|3290
+Dextrorphan|
+Diampromide|
+Diethylthiambutene|
+Dimenoxadol|
+Dimepheptanol|
+Dimethylthiambutene|
+Opium Fluid Extract|
+Dioxaphetyl Butyrate|
+Dipipanone|23405
+Ethylmethylthiambutene|
+Etonitazene|
+Etoxeridine|
+Furethidine|
+Hydroxypethidine|
+Ketobemidone|
+Levomoramide|
+Opium Tincture|221134
+Levophenacylmorphan|
+Morpheridine|
+Noracymethadol|
+Norlevorphanol|
+Normethadone|32009
+Norpipanone|
+Phenadoxone|
+Phenampromide|
+Opium Powdered|
+Opium Granulated|
+Phenoperidine|8143
+Piritramide|8354
+Proheptazine|
+Properidine|
+Racemoramide|
+Trimeperidine|
+Phenomorphan|
+LAAM|
+Propiram|
+Opium Plant Form|
+Mixed Alkaloids Of Opium|
+Oxymorphone|7814
+14-Hydroxymorphinon|
+Paregoric|32926
+Papaveretum|7894
+Papaverine|7895
+14-Hydroxynormorphine|
+Desmethylprodine|
+1-(2-Phenylethyl)-4-Phenyl-4-Acetyloxypiperidine|
+1-Methyl-4-Phenyl-1,2,5,6-Tetrahydropyridine|
+14 Hydroxycodeinone|
+1-(2-Phenylethyl)-4-Phenyl-1,2,5,6-Tetrahydropyridine|
+Noroxymorphone|
+Concentrate Of Poppy Straw|
+Poppy Straw|
+Minor Alkaloids Of Opium|
+Papaver Bracteatum Concentrate|
+Dinoracymethadol|
+Alphanormethadol|
+Pentazocine|8001
+Phenazocine|8119
+Butorphanol|1841
+Piminodine|
+Methorphan|
+Racemorphan|
+Alfentanil|480
+Remifentanil|73032
+Sufentanil|56795
+Carfentanil|
+Lofentanil|
+Tilidine|10597
+Bezitramide|
+Fentanyl|4337
+Moramide-Intermediate|
+Narcotic Drug Mix. Schedule Iii E 1|
+Narcotic Drug Mix. Schedule Iii E 2|
+Narcotic Drug Mix. Schedule Iii E 3|
+Narcotic Drug Mix. Schedule Iii E 4|
+Narcotic Drug Mix. Schedule Iii E 5|
+Narcotic Drug Mix. Schedule Iii E 6|
+Narcotic Drug Mix. Schedule Iii E 7|
+Narcotic Drug Mix. Schedule Iii E 8|
+p-Fluorofentanyl|
+3-Methylfentanyl|
+Alpha-methylfentanyl|
+Acetyl-alpha-methylfentanyl|
+Acryl-alpha-methylfentanyl|
+Benzylfentanyl|
+Narcotic Drug Mix. Schedule V C 1|
+Narcotic Drug Mix. Schedule V C 2|
+Narcotic Drug Mix. Schedule V C 3|
+Narcotic Drug Mix. Schedule V C 4|
+Narcotic Drug Mix. Schedule V C 5|
+Beta-hydroxyfentanyl|
+Beta-hydroxy-3-methylfentanyl|
+Alpha-methylthiofentanyl|
+3-Methylthiofentanyl|
+Thenyl fentanyl|
+Thio fentanyl|
+No Analysis|
+No Drug Found|
+Add'L Substan.Belvd.Presnt-Not Iden|
+Chemcon|
+Some Other Substance|
+Opiates|
+Xylazine|1099660
+Amobarbital/Secobarbital|214230
+Amoxicillin|723
+Clobenzorex|21244
+Buspirone|1827
+Bumetanide|1808
+Acepromazine|155
+Carbamazepine|2002
+Ciprofloxacin|2551
+Cyclobenzaprine|21949
+Dicyclomine|3361
+Dicloxacillin|3356
+Diflunisal|3393
+Diphenylhydantoin|8183
+Doxycycline|3640
+Erythromycin|4053
+Furosemide|4603
+Insulin|253182
+Isometheptene|27946
+Nabumetone|31448
+Naproxen|7258
+Nicotinamide|7405
+Nicotine|7407
+Nicotinic Acid|7393
+Orphenadrine|7715
+Oxymetazoline|7812
+Paroxetine|32937
+Phenazopyridine|8120
+Potassium Dichromate|8595
+Ranitidine Hydrochloride|203136
+Sertraline|36437
+Sulfacetamide|10169
+Tramadol|10689
+Trazodone|10737
+Valproic Acid|11118
+Albuterol|435
+Carbidopa|2019
+Divalproex Sodium|266856
+Gabapentin|25480
+Loratadine|28889
+Metronidazole|6922
+Nitrous Oxide|7486
+Sulindac|10237
+Nandrolone|7244
+Piracetam|8351
+Promethazine|8745
+Butyrolactone|
+Triprolidine|10849
+Soap|
+Polyhydric Alcohol|
+Dronabinol|10402
+Betamethosone|
+Acyclovir|281
+Bupropion|42347
+Cephalexin|2231
+Cimetidine|2541
+Cisapride|35255
+Hydrochlorothiazide|5487
+Metoclopramide|6915
+Phenylpropanoate|
+Phenylproprionate|
+Quetiapine|51272
+Tetracycline|10395
+Trimethoprim|10829
+Controlled Substance|
+Digoxin|3407
+Estradiol|4083
+Etodolac|24605
+Famotidine|4278
+Levodopa|6375
+Lisinopril|29046
+Venlafaxine|39786
+Baclofen|1292
+Lansoprazole|17128
+Nizatidine|42319
+Carbonitrile|
+Psilocin/Psilocibin|
+Wax|
+Monoacetylmorphine|
+Intoxicant|
+Nefazodone|31565
+Reducing Sugar|
+Atenolol|1202
+Amlodipine|17767
+Benzodiazepine|
+Acid|
+Risperidone|35636
+Sildenafil Citrate (Viagra)|
+Cefaclor|2176
+Choline Magnesium Salicylate|
+Diclofenac|3355
+Oxaprozin|32613
+Terfenadine|42330
+Alcohol|448
+Water|11295
+Cetirizine|20610
+Clomiphene|2596
+Indomethacin|5781
+Nitrofurantoin|7454
+Piroxicam|8356
+Prednisone|8640
+Sulfamethoxazole|10180
+Olanzapine|61381
+Prasterone|3143
+Clindamycin|2582
+Estrogen|4100
+Xenical|226918
+Lithium Carbonate|42351
+Nelfinavir|134527
+Nevirapine|53654
+Palmitic Acid|1426390
+Polyethylene|
+Stavudine|59763
+Sibutramine|36514
+Zaleplon|74667
+Progesterone|8727
+Benzapril|
+Triamterene|10763
+Bupivacaine|1815
+Cefadroxil|2177
+Cyclohexyl Nitrite|
+Diiodohydroxyquinoline|3435
+Flavoxate|4440
+Folic Acid|4511
+Medroxyprogesterone Acetate|1000112
+Mirtazapine|15996
+Pentoxifylline|8013
+Phenyltoloxamine|33408
+HOMATROPINE|27084
+Verapamil|11170
+Pepper|
+Chlorthalidone|2409
+Genegesic Caps|
+Azidothymidine|11413
+Salicylic Acid|9525
+Abacavir|190521
+Bactrim|151399
+Celebrex|215927
+Chlorobenzoxazolon|
+Depakote|216459
+Glucophage|151827
+Ketoprofen|6142
+Loxapine|6475
+Metoprolol|6918
+Propofol|8782
+Rofecoxib|232158
+Simvastatin|36567
+Tolmetin|10636
+Trihexyphenidyl|10811
+Bisacodyl|1596
+Potassium Chloride|8591
+Amphetamines/Methamphetamines|
+Synthetics|
+Valproate|40254
+Phenothiazines|
+Metabolites Of Propoxyphene|
+Aliphatic Hydrocarbons|
+Allopurinol|519
+Bromfenac Sodium|47364
+Chlorinated Hydrocarbons|
+Ethinyl Estradiol|4124
+Ethylene Glycol|1314364
+Fluconazole|4450
+Isoniazid|6038
+Lincomycin|6398
+Medroxyprogesterone|6691
+Mepivacaine|6759
+Paramethasone|7910
+Tizanidine|57258
+Trichloromonofluoromethane|38578
+Mestanolone|
+Indinavir Sulfate|203153
+Saquinavir Mesylate|859857
+Azithromycin|18631
+Phenylephrine|8163
+Hydrocortisone|5492
+Levothyroxine|10582
+Liothyronine|10814
+Lovastatin|6472
+Citalopram|2556
+Phenethyl Alcohol|8126
+Menthol|6750
+Pannaz|
+Sage|1011627|1354504
+Valacyclovir|73645
+Wellbutrin|42568
+Ephedra Extract|
+Fexofenadine|87636
+Rimantadine|9386
+Sulfur|10223
+Colchicine|2683
+Doxazosin Mesylate|39173
+Spironolactone|9997
+Fatty Acids|
+Enalapril|3827
+Captopril|1998
+Potassium Nitrite|1365705
+4-Androstene-3,17-Dione|784
+Tryptophan|10898
+Clavulanate|48203
+Tetrahydrozoline|37935
+Trimethobenamide|
+Famciclovir|68099
+Dexamethasone|3264
+Donepezil|135447
+Bethanechol|19257
+Cyproheptadine|3013
+Ketoconazole|6135
+Levofloxacin|82122
+Montelukast Sodium|115713
+Norgestimate|31994
+Ofloxacin|7623
+Triamcinolone|10759
+Zoloft|82728
+Isosorbide|6057
+Omeprazole|7646
+Celecoxib|140587
+Augmentin|151392
+Clarithromycin|21212
+Bacatrocin|
+Biaxin|203729
+Trimethyaprin|
+Sugar|1483267
+Clomiphene Citrate|142431
+Nolvadex|281964
+Primidone|8691
+Sulfisoxazole|10207
+Alkaline Liquid|
+Lodine|202998
+Levonorgestrel|6373
+Ethambutol|4110
+1-Benzylpiperazine (BZP)|
+TFMPP|
+Axid|196464
+Azelastine|18603
+Calcitrol|
+Cefepodoximine|
+Celexa|215928
+Claritin|203576
+Cloxacillin|2625
+Conjugated Estrogens|4099
+Divalproex|11118
+Doxazosin|49276
+Epoetin Alfa|105694
+Finasteride|25025
+Labetalol|6185
+Lamotrigine|28439
+Losartan Potassium|203160
+Magnesium Salicylate|52364
+Neurontin|196498
+Nifedipine|7417
+Norethindrone|7514
+Nystatin|7597
+Paxil|114228
+Pramoxine|34347
+Prevacid|83156
+Prozac|58827
+Raloxifine|
+Relafen|
+Reserpine|9260
+Salsalate|36108
+Skelaxin|204315
+2C-T-2|
+Zidovudine|11413
+Azathioprine|1256
+Benzonatate|18993
+Cefuroxime|2194
+Clomipramine|2597
+Diphylline|3714
+Fosinopril|50166
+Glyburide|4815
+Ketorolac|35827
+Lamivudine|68244
+Metformin|6809
+Mexiletine|6926
+Sucralfate|10156
+Topiramate|38404
+3,4-Methylenedioxypropylamphetamine|
+Flurbiprofen|4502
+Cefuroxime Axetil|20493
+Orphenedrine Citrate|
+Sumatriptan|37418
+Rubber Cement|
+Enalapril Maleate|203123
+Light Petroleum Distillate|
+Medium Petroleum Distillate|
+1,1,1-Trichloroethane (Methyl Chloroform)|
+19-Norandrostenedione|
+Androstenediol|
+Androstenedione|784
+PMMA|
+Brompheniramine|1767
+Dichloralphenazone|22892
+Dihydroetorphine|
+Hypophosphorous Acid|1423684
+Phosphorus, Red|
+Phosphorus, White|
+Unknown|
+Zopiclone|40001
+Azatadine|18600
+1-(4-Chlorophenyl)Piperazine (pCPP)|
+2C-T-7|
+Acetopromazine|155
+Anastrozole|84857
+Atorvastatin|83367
+Beta-Phenethylamine|1309741
+Didanosine|3364
+Dihydroergotamine|3418
+Diltiazem|3443
+Liothyronine Sodium|142448
+Meloxicam|41493
+Methoxsalen|6854
+Netazodone|
+Potassium Iodine|
+Pyrrobutamine|
+Sodium Hydrogen Carbonate|36676
+Tocopherol|11256|1236136
+1-3,4 Methylenedioxithenyl (2, Bromopropane)|
+Clozapine|2626
+Dehydroisoandrosterone|3143
+Anhydrous Ammonia|
+Oxybutynin|32675
+Benazepril|18867
+Terazosin|37798
+Amantadine|620
+Minocycline|6980
+Selegiline|9639
+Metolazone|6916
+Ribavirin|9344
+Pimozide|8331
+Isoamyl Nitrite|
+Fluvoxamine|42355
+Phenethicillin|33277
+Hydrocodeinone|
+Dextropropoxyphene|8785
+Mecamylamine|6673
+Naphazoline|7247
+Ammonium Sulfate|1362695
+Methylephedrine|1311545|1739004
+Flecainide|4441
+Detomidine|22672
+Esomeprazole|283742
+Sulphur|10223
+Base|
+Warfarin|11289
+Ranitidine|9143
+Bisoprolol|19484
+Clidinium Bromide|48212
+Methyl Ecgonine|
+Misoprostol|42331
+Terbutaline|10368
+Methacarbamol|
+Bromocriptine|1760
+Carprofen|20343
+Clemastine Fumarate|142430
+Colesevelam|141626
+Dichlorpheniramine|
+Glipizide|4821
+Isosorbide Mououitrate|
+Mepergan|
+Pioglitazone|33738
+Pseudoephedrine Sulfate|91169
+Rabeprazole Sodium|226868
+Ramipril|35296
+Sulfapyridine|10188
+Turosemide|
+Venlafine|
+Ziprasidone|115698
+Ascriptin|18385
+Levaquin|217992
+Phenytoin Sodium|71227
+17-Alpha-Methyltestosterone|
+Cathine/Cathinone|
+Docusate|82003
+Lomotil|28874
+Aciphex|261440
+Paraphenalia|
+Ferrous Fumarate|24941
+Ferrous Sulfate|24947
+Gentamicin Sulfate|1870193
+Imidacloprid|1251576
+Marinol|224925
+Megestrol|6703
+Metaprolol Tartrate|
+Mivacurium Chloride|52796
+Mometasone Furoate|30145
+Fioricet|175184
+Prazosin|8629
+Brispen|
+Ipratropium|7213
+Levocarnitine|42955
+Marcaine|1012397
+Robaxin|202955
+Escitalopram|321988
+Polymyxin|
+Neomycin|7299
+Chloramphenicol|2348
+Creatine|2907
+Dimethylamphetamine|1362926
+Thyroxine|10582
+Comm Prep Contrl|
+Commercial Prep|
+Inhalants|
+Depressants|
+MDMA/MDA|
+Stimulants|
+Almodipine|
+1-Propoxy-2-Propanol|1358844
+1,2-Dimethyl-3-Phenylaziridine|
+Levetiracetam|114477
+Rizatriptan|88014
+Dibenzothiazepine|
+Clopidogrel Bisulfate|236991
+Colace|82000
+Herbal Stimulant|
+Ondansetron|26225
+Oxcarbazepine|32624
+Pheniramine|8132
+Salt|
+Steroids|
+Synthroid|224920
+Zolmitriptan|135775
+Mesalamine|52582
+Fenoprofen|4331
+Cyanocobalamin|11248
+Methotrexate|6851
+Thyroid|10572
+Pyridostigmine|9000
+Somatropin|61148
+Quinapril|35208
+Zafirlukast|114970
+Nebumetone|
+Pergolide|8047
+Amprenavir|228656
+Ketotifen|6146
+Effexor|151692
+Valsartan|69749
+Probenecid|8698
+Pravastatin|42463
+Tolterodine|119565
+Fluocinonide|4462
+Amylase|743
+Lipase|6406
+Protease|8031
+Cabetapentane|
+NMT|
+Minoxidil|6984
+Pysilocyn|
+Nadolol|7226
+Methylprednisolone|6902
+Hovizyme|
+Clotrimazole|2623
+Nateglinide|274332
+Valdecoxib|278567
+Halothane|5095
+5-MeO-AMT|
+Isobutyl Acetate|1603476
+Melatonin|6711
+Orphenadrine Citrate|7716
+Fluorescein Sodium|57789
+Protonix (Pantoprazole)|
+Felodipine|4316
+Disopyramide|3541
+Clavulanic Acid|21216
+Zonisamide|39998
+Rosiglitazone Maleate|253198
+Ceftriaxone Sodium|203172
+Dexbrompheniramine|22696
+Retinol|11246|1367187
+Bacteriostatic Water|
+Succinylcholine Chloride|3565
+Eugenol|4186
+Nalidixic Acid|7240
+(S)-N-Methyl-1-(1-(1,4Cycloheadienyl))-2-Propanamine|
+Naphthalene|1311149
+Sodium Hypochlorite|9881
+Methenamine|6832
+Tiagabine|31914
+Singulair|153889
+Methylprednisone|
+Trandolapril|38454
+Lindane|1388
+Pravastatin Sodium|203144
+Chromium Piccolinate|
+Sennosides|36387
+Methyl Nicotinate|29900
+Itraconazole|28031
+Triacetin|10756
+Tiagabine Hydrochloride|236875
+Magnesium Sulfate Hydrate|
+Manitol|6628
+Atomoxetine|38400
+Tadalafil|358263
+Tamsulosin|77492
+Embalming Fluid|
+Alprenolol Hydrochloride|81947
+Vardenafil|306674
+Ergocalciferol|4018
+Articaine|592464
+Gemfibrozil|4719
+Efavirenz|195085
+Hydroclorothiazide|
+1-Phenyl-2-Nitropropane|
+Methylphenobarbital (Mephobarbital)|
+Methylsulfonylmethane|23247
+N-Ethyl-3-Piperidyl Benzilate|
+N-Methyl-3-Piperidyl Benzilate|
+Pethidine|6754
+Tetrahydrocannabinols|
+Moexipril|30131
+Dichlorobenzene|89548
+Budesonide|19831
+Cilostazol|21107
+Clopidogrel|32968
+Gatifloxacin|228476
+Moxifloxacin|139462
+Glucocorticoid|
+Acetazolamide|167
+Ezetimibe|341248
+Fluvastatin|41127
+Sorbitol|9945
+Podofilox|8463
+Aripiprazole|89013
+Etanercept|214555
+Tenafovir Disoproxil|
+Metaproterenol|7688
+Jintropin|
+Terbutaline Sulfate|10369
+Trimethobenzamide HCl|57227
+Calcium Gluconate|1908
+Capecitabine (Xeloda)|
+Centrum|
+Menotropins|
+Acetomin|
+Metroprolol|
+Timolol|10600
+Corididin|
+Salmeterol|36117
+Fluticasone Propionate|50121
+Ketorolac Tromethamine|28200
+Vinpocetine|24506
+Dichloromethane|1311537
+Plavix|174742
+Pharm|
+Saquinavir|83395
+Griseofulvin|5021
+Alendronate Sodium|203152
+Hydroxychloroquine Sulfate|153972
+Glycopyrrolate|4955
+Sevelamer|214824
+Atazanavir Sulfate|358299
+Terbinafine|37801
+Carvedilol|20352
+Cefdinir|25037
+Amiodarone|703
+Dobutamine|3616
+Heparin|235473|5224
+Isotretinoin|6064
+Methscopolamine Bromide|56092
+Naratriptan|141366
+Abacavir Sulfate|221052
+Arecoline|
+Fluoride|
+Flutamide|4508
+Neviraprine|
+Propanamine|
+Methyldiethanolamine|1371054
+MeO-DMT|
+Azithromycin Dihydrate|253155
+Telithromycin|274786
+Hydralazine|5470
+Mepivacaine Hcl|203185
+Phenelzine|8123
+Tolmetin Sodium|42935
+Acamprosate|82819
+Chlorpropamide|2404
+Duloxetine|72625
+Fluphenazine Hydrochloride|203207
+Ritonavir|85762
+Potassium Salicifate|
+Methylprylon|
+Amytryptaline|
+Benzatropine|1424
+Bethanechol Chloride|47088
+Biperiden|1589
+Bismuth Subsalicylate|19478
+Azanaflex|
+Corazepam|
+Olmesartan Medoxomil|118463
+Glimepiride|25789
+Chorionic Gonadotropin|340705|4986
+Saccharin|9509
+Thalidomide|10432
+Cefixime|25033
+Magnesium Carbonate|29155
+Magnesium Oxide|6582
+Procainamide Hcl|155056
+Sulfasalazine|9524
+Keflex|203167
+Hyoscyamine Sulfate|1225
+Memantine|6719
+Peroxide|
+Magnesium Hydroxide|6581
+Acrivastine|19959
+Amiloride|644
+Bicalutamide|83008
+Black Cohosh|236665
+Colestid|151533
+Eletriptan|231049
+Erithromycin|
+Fenofibrate|8703
+Fosamprenavir|358262
+Hydroxy Chloroquine Sulfate|
+Lopinavir/Ritonavir|284640
+Lopressor|203344
+Lysine|6536
+Megestrol Acetate|29451
+Oxytocin|7824
+Potassium Phosphate|34322
+Pregabalin|187832
+Phenazopyridine Hydrochloride|203197
+Ramelteon|596205
+Remifemin|
+Riboflavin|9346
+Ropinirole|72302
+Rosuvastatin|301542
+Salvinorin-A|
+Simethicone|9796
+Ursodiol|11065
+Vitamin|
+Eszopiclone|461016
+Delta1-Dihydrotestosterone|
+13Beta-ethyl-17alpha-hydroxygon-4-en-3-one|
+17Alpha-methyl-delta1-dihydrotestosterone|
+17Alpha-methyl-3alpha,17beta-dihydroxy-5alpha-androstane|
+17Alpha-methyl-3beta, 17beta-Dihydroxy-5alpha-Androstane|
+17Alpha-methyl-3beta,17beta-dihydroxyandrost-4-ene|
+17Alpha-methyl-4-hydroxynandrolone|
+19-Nor-4-androstenediol|
+19-Nor-4-androstenedione|
+19-Nor-5-androstenediol|
+19-Nor-5-androstenediol|
+19-Nor-5-androstenedione|
+1-Androstenediol|
+1-Androstenediol|
+1-Androstenedione|
+TMA-2|
+2C-P|
+2C-T-21|
+2C-C|
+2C-I|
+2C-N|
+2C-H|
+3Alpha,17beta-dihydroxy-5alpha-androstane|
+3Beta,17beta-dihydroxy-5alpha-androstane|
+4-AcO-DET|
+4-AcO-DiPT|
+4-AcO-MiPT|
+4-Androstenediol|
+4-Androstenedione|784
+2C-E|
+4-Hydroxy-19-nortestosterone (4,17beta-dihydroxy-estr-4-en-3-one)|
+4-OH-DiPT|
+4-Hydroxytestosterone|
+4-MeO-MiPT|
+2C-D|
+4-MTA|
+API|991743
+5-Androstenediol|
+5-Androstenedione|
+5-MeO-DET|
+5-MeO-DPT|
+5-MeO-MiPT|
+Oripavine|
+9-Nor-4-androstenediol|
+Androstanedione|784
+Bolasterone|
+Calusterone|
+Chloroquine|2393
+Phenylimidothiazole Isomer Undetermined|
+Embutramide|
+Furazabol|
+Methyldienolone|
+Methyltrienolone|
+DiPT|
+MiPT|
+Norbolethone|
+Norclostebol|
+Normethandrolone|
+Phosphorous Acid|1427087
+Racephedrine Salt Undetermined (Di Ephedrine)|
+Sodium Permanganate|
+Stenbolone|
+Tetrahydroestrinone|
+Ammonium Nitrate|
+DOC|3256
+Dexmethylphenidate|352372
+Candesarten Cilexetil|
+Result Not Reported|
+Unspecified Prescription Drug|
+Unspecified Prescription Analgesic|
+Unspecified Anti-Anxiety|
+Unspecified Anti-Psychotic|
+Unspecified Analgesic|
+Khat|
+Pregnenolone|114052
+DiPT|
+Pancrelipase|235379
+Unspecified Scheduled Drug|
+Barbituric Acid|
+Dyphylline|3714
+Desloratidine|
+DOI|
+No Controlled Drug Identified|
+Negative Results - Tested For Specific Drugs|
+Cefzil (Cefprozil)|
+Cannabinoid Metabolites|
+Methylparaben|29903
+Clanzapine|
+Unspecified Pharmacuetical Preparation|
+Potassium|8588
+Calcium Chloride|1901
+Benzyl Alcohol|1426
+Polyethylene Glycol|8516
+Alendronate|46041
+Fluticasone|41126
+Varenicline|591622
+Tolazamide|10633
+Sulfadimethoxine|10172
+Ormetoprim|32533
+Pramipexole|746741
+Mupirocin|42372
+Mercaptopurine|103
+Linezolid|190376
+Kynoselen|
+Hydroxyurea (Hydroxycarbamide)|
+Emtricitabine|276237
+Domperidone|3626
+Desmopressin|3251
+Cefditoren Pivoxil|72611
+Sodium Hypophosphite|1311313
+Heavy Petroleum Distillate|
+Alpha-Galactosidase|259351
+Lisdexamfetamine|700810
+Salvia Divinorum|
+N-Methylbenzylamine|
+N-Ethylbenzylamine|
+N-Isopropylbenzylamine|
+Dothiepin|3634
+Trimeprazine|10825
+3,4-Dimethyl-5-Phenyloxazolidine|
+Parecoxib|279950
+Disulfiram|3554
+Truvada|495430
+Glatiramer Acetate|84375
+Isoflurane|6026
+Rifampin|9384
+Sematropin|
+1-(2-Methoxyphenyl)Piperazine|
+Galantamine|4637
+Guanfacine|40114
+Leflunomide|27169
+Sodium Phosphate Monobasic|235496
+Paliperidone|679314
+Propylthiouracil|8794
+Tegaserod Maleate|339270
+Lithium|6448
+Ammonia|1299884
+N-(1-Methylethyl)-Benzenemethanamine|
+Isometheptene Mucate|104994
+Norethindrone Acetate|31983
+N-Ethyl-Benzenemethanamine|
+Almotriptan Malate|283792
+Tetrahydrostatin|
+Tacrolimus|42316
+Solifenacin Succinate|476588
+Prilocaine|8686
+Polyacrylic Acid|
+NSAID|
+Mycophenolic Acid (Mycophenolate)|
+4-Fluorophenylpiperazine (pFPP)|
+Eplerenone|298869
+Dyazide|23742
+DNP|
+Coenzyme Q10|21406
+Clorzoxazone|2410
+2-Butoxyethanol|
+Benzyl Benzoate|19044
+MCPP|
+1,4-Dibenzylpiperazine (DBZP)|
+Dextrochlorpheniramine|
+Diethyl Phosphite|
+Nisoldipine|7435
+Dehydrochlromethyltestosterone|
+Stigmasterol|10079
+Naphtha|1923814
+1,1-Difluoroethane|1305515
+Alkanes (Paraffins)|
+Arginine|1091
+N-Butane|1310550
+Camphor|1952
+Cyclohexane|1367180
+Formoterol (Eformoterol)|
+Gasoline|
+Hydroxychloroquine|5521
+Methimazole (Tapazole)|
+Methyl Sulfone|23247
+Propane|1362877
+Sodium Lauryl Sulfate|9871
+Tetrachloroethylene|
+Trichloroethylene|
+Pentane|1311563
+Acetylglutamine|
+Magnesium Aspartate|142131
+Herbs|
+Cobalt Chloride|1426884
+Manganese Dioxide|29263
+Prenatal Mtr/Selenium|
+Triacontane|
+Aminophylline|689
+Felbamate|24812
+Dapsone|3108
+1,3,5-Triazine-2,4,6-Triol (Cyanuric Acid)|
+Testoprim|
+1-Dehydromethandrostenolone|
+Yasmin|
+Indapamide|5764
+Imdur|
+Enzyte|
+Methyldopa|6876
+MBZ|
+Thiazole|
+Normesoridazine|
+Floxuridine|4488
+Carboxylic Acid|
+Polystyrene|
+Amoxapine|722
+Nicofuranose|104486
+Phthalates|
+Aminocaproic Acid|99
+Magnesium Chloride|6579
+Balsalazide Disodium|153718
+Campesterol (Methylcholesterol)|
+L-Methylfolate|1025342|1592257
+N-Methyl-Benzenemethanamine|
+Stigmastanol|
+Chromium|2496
+Acebutolol|149
+Asparagine Monohydrate|1666924
+Casanthranol|66870
+Cinacalcet|407990
+Dantrolene|3105
+Irbesartan|83818
+Phenyl Salicylate|36122
+Methylene Blue|6878
+Potassium Citrate|54993
+Senna Concentrate|219860
+Trimipramine|10834
+Interferon Beta-1B|72257
+Dihydroxyprogesterone Acetophenide|
+Drospirenone|11636
+Erlotinib|337525
+Furazolidone|4601
+Letrozole|72965
+Maprotiline|6646
+Sitagliptin|593411
+Methylergonovine|6883
+Norgestrel|7518
+Pilocarpine|8328
+Pyrantel Pamoate|8985
+Sodium Fluoride|9873
+Calcium Polycarbophil|20063
+Hexamethylenetetramine Anhydromethylencitrate|
+Capsicum|319780
+Dihydrostreptomycin|1549540
+Ginseng|325526
+Ammonium Ferric Citrate|
+Tiotropium Bromide Monohydrate (Spiriva)|
+Pyrazinamide|8987
+Glycerol (Glycerin)|
+SAM|9504
+3-Methyl Phenol|
+Pindolol|8332
+Isopropanol|797541
+Droperidol|3648
+Gonadorelin Hcl|204194
+Calcium Acetate|214342
+Aspartame|1311524
+Inorganic Hydroxide|
+Synephrine (Oxedrine)|
+DMG|
+Mefenamic Acid (Ponstel|
+Tobramycin (Tobramycin Sulfate|
+Ergosterol|
+Polythiazide|8565
+Hydroxycitrate (Hydroxycut)|
+Praziquantel (Biltricide)|
+3,17-Dihydroxy-Delta-5-Etiocholane-7-One Diethylcarbonate|
+Capsaicin|1992
+Astemizole|42328
+Benzethonium Chloride|40036
+Carvacrol (Cymophenol)|
+Dragons Blood|
+Diucardin (Hydroflumethiazide)|
+Liotrix (Thyrolar)|
+Carbaryl (1-Naphthyl Methylcarbamate)|
+Uroxatral (Alfuzosin)|
+Hydramethylnon|
+Bromhexine|1753
+Molindone|7019
+Levocetirizine|356887
+Oxytetracycline|7821
+Melphalan|6718
+Diazinone|
+Dihydrotachysterol|3429
+Tylosin|995505
+EDDI|
+Fipronil|1433761
+11?-Hydroxy-4-Androstene-3,17-Dione|
+Methscopolamine Nitrate|857649
+Primaquine|8687
+JWH-018|
+JWH-073|
+Mephedrone (4-MMC)|
+Piperazine|8340
+Methscopolamine|89785
+Albendazole|430
+Betamethasone|1514
+Desvenlafaxine|734064
+Hoodia Gordonii|578315
+Propylene Glycol (1,2-Propanediol)|
+Aliskiren Hemifumarate|732498
+Sotalol|9947
+Tapentadol|787390
+Naposim (Metandienonum)|
+Cyclosporine|3008
+5-Hydroxytryptophan (5-Htp)|
+Beclomethasone Dipropionate, Monohydrate|
+Bosentan|75207
+Cefazolin|2180
+Dopamine|3628
+Extenze|
+Frovatriptan|228783
+Hydroxocobalamin|5514
+Licopodium Clavatum|
+Bromo-dragonfly|
+Squalene|10014
+Eucalyptol|21116
+Gentian Violet|4778
+Normeperidine|
+1,4-Benzoquinone|319868
+Armodafinil|641465
+8-Chlorotheophylline|236872
+Ethyl Oleate|1314361
+Guaiacol|5031
+Hexaethylene Glycol|
+MDPV|
+Valerian Root|253206
+Passiflora|
+2,2,3,4-Tetramethyl-5-Phenyloxazolidine|
+Toremifene|38409
+Methyl Benzoate|1314316
+Hydroquinone|5509
+Renax|
+Flumazenil (Flumazepil)|
+Formocresol|
+Parachlorophenol|14982
+2C-T-4|
+Amisole|
+M-Hydroxy Norephedrine|6805
+Pentosan Polysulfate Sodium|134413
+Xenadrine|
+Mefloquine|6694
+Dimethyl Isophthalate|
+Gestodene|25734
+Desogestrel|22656
+Cyproterone|3014
+Aminophenazone|695
+Milrinone|52769
+Nebivolol|31555
+Tricresol Formalin|
+Methylone (MDMC)|
+BHT|1848
+Fluorene|
+MEHP|
+Saccharate|1788997
+Benzamide|
+Benzenemethanol|1426
+Ethylenediamine|4158
+Methoprene|
+4-AcO-DMT|
+Nimesulide|53694
+Norfloxacin|7517
+Clioquinol|5942
+Secnidazole|36314
+Lacosamide|623400
+Acetylcysteine|197
+Midodrine|6963
+Propafenone|8754
+Retapamulin|642274
+Synthelamin|
+Polysorbate|8561
+Ergocristine|
+N-Methylphthalimide|
+PTHIT (Phenyltetrahydroimidazothiazole)|
+CP 47,497|
+CP 47,497 C6 Homolog|
+CP 47,497 C8 Homolog|
+CP 47,497 C9 Homolog|
+HU-210|
+HU-211|
+Desoxymethyltestosterone|
+4-hydroxyandrostenedione|15070
+1,4,6-Androstatriene-3,17-Dione|
+Boldione|
+4-Androstene-3,11,17-trione|
+4,6-Androstadiene-3,17-Dione|
+4-Androstene-3,6,17-Trione|
+19-Nor-4,9(10)-androstadienedione|
+Fospropofol|828682
+Diiodomethane (Methylene Iodide)|
+Triiodomethane (Iodoform)|
+Norepinephrine (Noradrenaline)|
+JWH-081|
+JWH-200|
+JWH-250|
+N-Acetylprocainamide|
+JWH-019|
+5-(Hydroxymethyl)Furfural|
+Nonivamide|31945
+Stearyl Alcohol|37071
+JWH-210|
+JWH-122|
+RCS-4|
+N,N-Diethyl-Meta-Toluamide (Deet)|
+Creatinine|2913
+AM-356|
+AM2201|
+AM-694|
+JWH-203|
+JWH-251|
+Crotylbarbital|
+FMC|
+Methasterone|
+Ethanamine|
+Malathion|6606
+Mitragynine|
+Oseltamivir Phosphate|259275
+RCS-8|
+Lubiprostone|623033
+Sulcralfate|
+MDPPP|
+Atovaquone|60212
+Proguanil|2382
+5-MT|
+Raltegravir (Mk-0518)|
+Cefradine|2239
+Cevimeline (Evoxac)|
+Betaxolol|1520
+N-Methyl-2-Pyrrolidone (NMP)|
+19-Norandrostenolone Decanoate|
+18-Hydroxy-Deoxycorticosterone|
+Trospium|236778
+Darifenacin|136198
+Entacapone|60307
+Ivermectin|6069
+Methylcobalamin|29421
+Repaglinide|73044
+Tenosynovitis Vaccine|
+Terpin Hydrate|89916
+Bismuth Subcarbonate|19475
+Kanamycin Sulfate|203183
+Taraxasterol|
+Bendazol|
+2,3-Butanediol|
+Androsterone|1312359
+4-Methoxyphenylpiperazine(MEOPP)|
+Sulfadiazine|10171
+Synthetic Cannabinoids|
+Rifaximin|35619
+Zileuton|40575
+Xylitol|11377
+5-HT|1311214
+Procyclidine Hcl|142443
+Miconazole|6932
+Lactase Enzyme|
+Flunisolide|25120
+Ferrocene|
+Exemestane|258494
+Differin (Adapalene)|
+Dexpanthenol|22701
+Caprolactam|
+4-OH-MiPT|
+1,4-Androstadien-11Beta-Ol-3,17-Dione|
+Butylone|
+Milnacipran|588250
+Fludrocortisone|4452
+Dutasteride|228790
+1-Methyl-4-Benzylpiperazine (MBZP)|
+Ciclopirox|21090
+Durelon|
+Clidinium|21232
+Hydrocarbons|
+4-MEC|
+Diazepines|
+Enoxaparin|67108
+Etiracetam|
+Epimedium|
+Epiandrosterone|
+Zeranol|1368476
+Borneol|1368202
+Cyclohexanol|2099711
+Dihydromorphone|
+Dimethyl Sulfoxide (DMSO)|
+Gamma-Aminobutyric Acid|4617
+Potassium Chlorate|59203
+Sodium Azide|
+Phenylephedrine|
+1-Pyrrolidinocyclohexanecarbonitrile|
+4-MEC|
+Methedrone|
+5-MeO-DALT|
+Diphenylpyraline|23386
+Pravadoline|
+JWH-302|
+Carbofuran)|
+Delta-8-Tetrahydrocannabinol|
+JWH-015|
+Oleamide|1368883
+Ethyl Citrate|1310554
+Cholesterol|2438
+Hydrocotarnine|
+Telmisartan|73494
+Sitosterol|
+Paricalcitol|73710
+Fesoterodine Fumarate|797196
+Ammonium Phosphate|17792
+Cabergoline|47579
+Acetohexamide|173
+Demeclocycline|3154
+Phenoxybenzamine|8149
+Methylhexanamine|
+4,4'-Methylenebis(2-Chloroaniline)|
+JWH-201|
+Desoxypipradrol|
+3,4-DMMC|
+4-MePPP|
+Trimethadione|10827
+1,3-Dimethylbarbituric Acid|
+Pentylone|
+JWH-022|
+Asenapine|784649
+Lurasidone|1040028
+Soriatane|196467
+Pentedrone|
+Synthetic Cannabinoid (Benzoylindoles)|
+Synthetic Cannabinoid (Naphthoylindoles)|
+Synthetic Cannabinoids (Phenylacetylindoles)|
+Fluoroamphetamine|
+TMA-6|
+6-Monoacetylcodeine (6-MAC)|
+Ethylone|
+Libigrow|
+Darunavir|460132
+Substituted Cathinones|
+Ropivacaine|35780
+Phentolamine|8153
+Naphyrone|
+Acid Phosphatase|
+N,N-dimethyl-4-hydroxyphenylethylamine (Hordenine)|
+Mocolbemide|
+Phenformin|8129
+Triazepam|
+Amforol|
+Pyridoxal-5-Phosphate|
+Fowl Pox Vaccine|
+Aluminum Hydroxide|612
+MDPBP|
+CB-13|
+Etaqualone|
+3-Methoxyphencyclidine|
+AB-001|
+DIPHENYL METHYLPHOSPHONATE|
+TETRAFLUORO-4-HYDROXYBENZOIC ACID|
+2,5-Dimethoxycinnamaldehyde|
+CHOLESTYRAMINE|2447
+Methoxetamine|
+METHIOPROPAMINE|
+AM-1220|
+4-FMA|
+Ethcathinone|
+N,N-DIMETHYLCATHINONE|
+DIMETHYLONE|
+AM-2233|
+1-(2-FLUOROPHENYL)PIPERAZINE|
+BENOCYCLIDINE|
+FENOFIBRIC ACID|24852
+HU-308|
+alpha-PVP|
+4-MePPP|
+alpha-PBP|
+AM-1220 Azepane Isomer|
+Dibutylone|
+Marrubiin|
+Ibandronate|115264
+URB754|
+URB597|
+AM-1248|
+Vilazodone|1086769
+MOPPP|
+6-APDB|
+MDAI|
+Rauvolfia Serpentina|
+Bendroflumethiazide|1369
+2-FMA|
+3-FMA|
+MAM-2201|
+Etravirine|475969
+Kaolin|6102
+Psyllium Husk|104129
+Pulmonaram|
+25I-NBOMe|
+25C-NBOMe|
+Mescaline-NBOMe|
+UR-144|
+5-IAI|
+Benzoyl Peroxide|1418
+RCS-4, C4 homolog|
+Glucosamine|4845
+Sevoflurane|36453
+XLR11|
+4,4'-Sulfonyldiphenol|
+4-Methoxyphenol|15080
+5-(1,1-Dimethyl-Heptyl)Resorcinol|
+Agmatine Sulfate|
+Propylparaben|34706
+Longicyclene|
+Lomustine|6466
+Etizolam|
+Estriol|4094
+Erbium Oxide|
+Didesmethylsibutramine|
+Tellurium Dioxide|
+phenolphthalein|155122
+Buphedrone|
+6-APB|
+Fluoromethamphetamine|
+JWH-018 adamantyl carboxamide|
+Isopentedrone|
+4-OH-MET|
+Octadecene|1367494
+2-FA|
+AKB48|
+Ceraphyl|
+Cassia Nomane|
+Citrus Aurantium|
+Mesnex (mesna)|
+Tetrahydropalmatine (THP)|
+URB602|
+STS-135|
+5-APB|
+CL-218,872|
+MPHP|
+JWH-122 N-(4-pentenyl) Analog|
+AM2201 N-(4-fluoropentyl)|
+Methyl 4'-bromomethyl biphenyl-2-carboxylate|
+17-Hydroxyprogesterone|5542
+3-Hydroxy-1,2,3-benzotriazin-4(3H)-one|
+4-Methylbuphedrone|
+Clobetasol propionate|21245
+Decabromodiphenyl ethane (DBDPE)|
+3,6-Dichloro-2-methoxybenzoic acid (Dicamba)|
+Gibberellic acid|
+7-KETO Dehydroepiandrosterone|
+Polyacrylamide|
+Thymolphthalein|
+Titanium dioxide|38323
+Tributyl citrate|1314417
+JWH-267|
+Dibenzazepine|
+4-Methylbuphedrone|
+Lilial|
+Roflumilast|1091836
+Tonalid|
+Sulfadimidine|10178
+WIN 55,212-2|
+Myristicin|
+Iloperidone|73178
+5F-AKB48 (5F-APINACA)|
+AM-679|
+1-Amino-5-phosphonoindan-1-carboxylic acid (APICA)|
+Raspberry ketone|1860422
+N-Ethylbuphedrone|
+Ethyl Maltol|1314359
+Ethylbenzoylecgonine|
+2-Mercaptobenzothiazole|1358845
+3-MEC|
+A-796260|
+Risedronate|73056
+AM-1241|
+5Cl-UR-144|
+Hydroxyephedrine|
+4-Allyloxy-3,5-dimethoxyphenethylamine|
+EAM-2201|
+Butylene|
+Calcium Citrate|47613
+Dolasetron|68091
+Magnesium Trisilicate|29170
+4-Fluoroisocathinone|
+Tulobuterol|38967
+Taurine|10337
+Dapoxetine|
+Carbamide peroxide|47686
+Buproban|
+Anisole|
+Anethole|17881
+Phytol|2046119
+Diphenidol|23370
+Ethyl Phenylacetate|
+Calcium Oxide|28728
+Toltrazuril|1535930
+2-AI|
+5F-PB-22|
+PB-22|
+Pitavastatin|861634
+25B-NBOMe|
+1,2-Cyclopentanedione|
+A-834735|
+DP2M|
+3-MMC|
+Febantel|24805
+XLR11 N-(4-fluoropentyl) isomer|
+UR-144 N-heptyl analog|
+URB937|
+Marbofloxacin|69256
+JWH-018, N-(X-Hydroxypentyl) analog|
+2,3-MDMC|
+4-MeOEC|
+4-MeOEC|
+25H-NBOMe|
+Betahistine|1511
+Trioxsalen|10844
+Ethylphenidate|
+MDMA methylene homolog|
+AB-PINACA|
+AB-FUBINACA|
+Perindopril Erbumine|72260
+4-EMC|
+Troglitazone|72610
+Telaprevir|1102261
+Melanotan II|
+ADB-PINACA|
+5F-ADBICA|
+AH-7921|
+2,5-DMMA|
+5F-AB-PINACA|
+Mifepristone|6964
+JWH-122 5-methylnapthyl Isomer|
+Linagliptin|1100699
+Firocoxib|473298
+Hexarelin|
+Insulin Growth Factor (IGF)|
+Mechano Growth Factor (MGF)|
+Polyethylene Glycol-Mechano Growth Factor (PEG MGF)|
+Hexapeptide-6 (GHRP-6)|
+5-APDB|
+Acetyl fentanyl|
+2C-B-BZP|
+Meclofenoxate|2228
+Strontium nitrate|1356142
+Voriconazole|121243
+Kigtropin|
+PV8|
+FUB-PB-22|
+BB-22|
+AM2201 Benzimidazole analog|
+Synthetic Cannabinoids (Adamantoylindoles)|
+Synthetic Cannabinoids (CYCLOPROPANOYLINDOLES)|
+Synthetic Cannabinoids (Quinolinylindolecarboxylates)|
+AB-CHMINACA|
+ADB-FUBINACA|
+NM-2201|
+FDU-PB-22|
+Dimethocaine|
+Noopept|
+Vancomycin|11124
+Ceftibuten|20492
+Osthole|1547630
+Pazopanib|714438
+Ranolazine|35829
+5-MAPB|
+THJ-2201|
+6-allyl-6-nor-LSD|
+Rivaroxaban|1114195
+Pancreatin|7880
+Piperonyl butoxide|8345
+XLR11 N-(2-fluoropentyl) isomer|
+Sodium citrate|56466
+4-Methyl-5-thiazoleethanol|
+4F-PVP|
+alpha-PVT|
+JWH-007|
+Sulbutiamine|37317
+Sodium dithionite|2056673
+Thiosildenafil|
+Thiamethoxam|
+NNEI|
+4-FA|
+DIMETHYL SULFOXIDE|3455
+sodium dichloroisocyanurate|1537575
+1,4-dimethyoxybenzene|
+1,3,5-trimethoxybenzene|38716
+1-Butylimidazole|
+1-naphthaleneacetic acid|
+2,5-dimethylpyrazine|
+2-{4-(2-hydroxyethyl)piperazine-1-yl}ethanesulfonic acid aka HEPES|
+2-amino-5-benzoylaminohydroquinone diethyl ether|
+2-aminothiazole-5-ca|
+2-hydroxypropyl methacrylate (HPMA)|
+3,4-Diaminobenzoic acid|
+3,4-Dihydroxycinnamic acid|1311397
+3,5-dimethylpyrazole|
+3-hydroxypiperadine HCL|
+4-amino-2-chlorobenzoic acid|
+4-aminophenol|1435279
+4-Quinolinol|
+7-(2,3-dihydroxypropyl)theophylline|3714
+7-Keto-DHEA|
+acetoacet-p-phenetidide|
+acetyl hydroxyproline|
+Acetyl-L-Carnitine Hydrochloride|
+Allethrin|513
+amino hydroxybutryic acid|
+amino tadalafil|
+anthraquinone|1482551
+Berberine HCl|
+BETAINE HYDROCHLORIDE|81965
+bifenthrin|
+BTS 54-505|
+butylated hydroxytolune|
+CALCIUM PHOSPHATE|1919
+Dicalcium Phosphate Dihydrate|1311201
+diethylhexyl terephthalate|
+diphenyl (2,4,6- trimethylbenzoyl)phosphine oxide|
+Epoxiconazole|
+ethyl cellulose|1310565
+ethylvanillin|
+gamma-Valerolactone|
+germanium dioxide|1309238
+glufosinate ammonium|
+heparin sodium salt|
+hetastarch|5531
+hydroxypropyl methyl cellulose|
+Imazepic|
+indole-2-carboxylic acid|
+indole-3-carbinol|
+indoleacetic acid|
+indolebutyric acid|
+Iodomethyl p-tolyl sulfone|
+Lufenuron|83586
+methyl 1-aminocyclopropanecarboxylate|
+methyl 3-(trifluoromethyl)benzoate|
+N-Ethoxycarbonyl-2-ethoxy-1,2-dihydroquinoline|
+nordihydrocapsaicin|
+Caprylic acid|20178
+octopamine hydrochloride|1744461
+oxiracetam|32645
+potassium dihydrogen phosphate|55019
+Povidone|8610
+salicin|36100
+sodium d-gluconate|
+sodium dichloroacetate|1366930
+ZINC BORATE|
+Cyclopentyl Nitrite|
+2C-T-8|
+Escaline|
+4-BMC|
+3C-P|
+N-acetyl-3,4-MDMC|
+5-EAPB|
+5F-AMB|
+FUB-144|
+5F-ABICA|
+Lorcaserin|1300701
+Diazoxide|3327
+Apocynin|
+AKB48 N-(4-fluorobenzyl)|
+3-EMC|
+calcium ammonium nitrate|
+4F-AB-PINACA|
+ADBICA|
+MAB-CHMINACA (ADB-CHMINACA)|
+5F-NPB-22|
+NPB-22|
+FUB-AMB (MMB-FUBINACA)|
+SDB-006|
+5F-SDB-006|
+SDB-006 N-phenyl analog|
+SDB-005|
+5F-SDB-005|
+AB-005|
+5F-AB-005|
+4-FMC|
+3-FMC|
+4-Methoxyphencyclidine (4-MeO-PCP)|
+MT-45|
+Proscaline|
+4F-alpha-PVP|
+4-Methyl-AET|
+Butyryl fentanyl|
+Beta-pinene|1923811
+Isobutane|1363040
+Ethylbenzene|1540523
+4-EEC|
+Alpha-ethylaminopentiophenone|
+Alpha-pinene|
+alpha-PHP|
+Diacetamide|
+A-836339|
+Butylone|
+7-APB|
+EG-018|
+alpha-PPP|
+Estropipate|33747
+25N-NBOMe|
+Alogliptin)|
+Nicotine polacrilex)|
+D-Carvone)|
+2-MAPB|
+3-BMC|
+3-BMC|
+25D-NBOMe|
+THJ-018|
+4-Methyl-alpha-ethylaminopentiophenone|
+4-CMC|
+Aniracetam|17939
+25E-NBOMe|
+2-Ethylamino-1-phenylbutane|
+Dimethylheptylpyran (DMHP)|
+Phenylthiocarbamide|
+Flubromazepam|
+PX-1|
+PX-2|
+2-Methoxydiphenidine|
+5F-MN-18|
+Diclazepam|
+Benzophenone|18997
+5F-NNEI|
+Germacrene|
+Glaucine|1368876
+Levomefolate calcium|1028454
+Magnolol|
+Mesembrine|
+3-MeOMC|
+Lovaza|278346
+Levomilnacipran|1433212
+AMB|
+4-MeO-alpha-PVP|
+Vermiculite|
+Tyrosine|10962
+Rilpivirine|1102270
+Silver nitrate|9789
+Diethyl phthalate|1362921
+6-MAPB|
+XLR11 degradant|
+Flunarizine|4459
+A-836339|
+5F-ADB (5F-MDMB-PINACA)|
+Gliclazide|4816
+N-Ethylpentylone|
+4-Hydroxyephedrine|32639
+4-EEC|
+Androsta-3,5-diene-7,17-dione|
+FUB-JWH-018|
+BNMPA|
+W-15|
+W-18|
+3,4-DMMC|
+4-EMC|
+5Br-UR-144|
+Phenibut|
+4-MeO-alpha-PVP|
+Quinine/Quinidine|
+JWH-122 3-methylnaphthyl isomer|
+Levamisole/Dexamisole|
+EG-2201|
+Dipentylone|
+Androsta-1,4-diene-3,11,17-trione|
+Dabigatran|1546356
+Prasugrel|613391
+MDMB-FUBINACA|
+Ethyl methacrylate|
+PX-3|
+Butylparaben|1306937
+5-MAPDB|
+Beta-hydroxythiofentanyl|
+Synthetic Cannabinoids (Butaldehydeamidoindoles)|
+Butaldehydeamidoindoles nitrogen-heterocyclic analog|
+AM-1172|
+p-Fluorobutyryl fentanyl|
+MA-CHMINACA (AMB-CHMINACA)|
+3-CMC|
+3,4-Methylenedioxyphenylpropan-2-one|
+NM-2AI|
+MDMB-CHMICA (MMB-CHMINACA)|
+MMB-2201|
+Flubromazolam|
+Clonazolam|
+Rocuronium|68139
+5F-ADB-PINACA|
+Methallylescaline|
+Fosfosal|
+Phenylpiracetam|
+25I-NBOH|
+5Cl-AKB48|
+Diphenidine|
+TH-PVP|
+2-Chloroacetophenone|
+Oxacillin|7773
+Furanyl fentanyl|
+Suvorexant|1547099
+Proparacaine|34905
+U-47700|
+Allococaine|
+MN-18|
+4Cl-alpha-PPP|
+4Cl-alpha-PVP|
+MMB-CHMICA|
+Chlophedianol|21254
+Dehydroepiandrosterone acetate|
+Tiaprofenic Acid|38253
+Saxagliptin|857974
+Hyaluronate sodium|42892
+Isopropamide|89784
+Etomidate|4177
+Dronedarone|233698
+Cholecalciferol|2418
+4F-PHP|
+5-BPDi|
+Valeryl fentanyl|
+Mexedrone|
+Deschloroketamine|
+PV9|
+MMB-FUBICA|
+Vortioxetine|1455099
+4-CEC|
+3-CMC|
+4-Fluoroisobutyryl fentanyl|
+EMB-FUBINACA|
+3-FPM|
+Acryl fentanyl|
+3-Hydroxyphenazepam|
+3-MAPB|
+p-methoxybutyryl fentanyl|
+3,4-MDPHP|
+cis-3-methylfentanyl|
+trans-3-Methylfentanyl|
+5-PPDi|
+4-AcO-MET|
+4-APB|
+o-Fluorofentanyl|
+AB-CHMICA|
+Acetyl norfentanyl|
+4Br-alpha-PVP|
+CMC|
+MAPB|
+Fluoroisobutyryl fentanyl|
+2,3-MDMA|
+alpha-Ethylaminohexanophenone|
+3-FA|
+Glutamine|4885
+4F-alpha-PHP|
+N-ethyl-N-methyl-1,2-diphenylethan-1-amine|
+4-Fluoromethylphenidate|
+4Cl-pentedrone|
+4-Methylaminoantipyrine|
+4-CIC|
+BMC|
+Tetrahydrocannabinolic acid A|
+4F-pentedrone|
+5F-MDMB-PICA|
+5F-CUMYL-PICA|
+1,3-Butanediol|1310542
+3-CEC|
+CEC|
+Canrenone|1982
+Dihydrocapsaicin|2166037
+Azulene|
+4F-PV9|
+Methylbutylone|
+4-fluoro BZP|
+7-Aminoclonazepam|
+Fluorofentanyl|
+D-Tertylone|
+MAAQ|
+Alprostadil|598
+Eticyclidone|
+Avanafil|1291301
+4F-PV8|
+N-methyliminopropylbenzene|
+Isopropylphenidate|
+Chlorophenylpiperazine|
+4F-AMB|
+Dextromethorphan/Levomethorphan|
+5F-AEB|
+Tetrahydrofuran fentanyl|
+Tolperisone|10639
+U-49900|
+1,2-Difluoroethane|
+Nimodipine|7426
+25B-NBOH|
+25C-NBOH|
+AKB57 (APINAC)|
+5F-AKB57 (5F-APINAC)|
+Isobutyryl fentanyl|
+bk-2C-B|
+3-MeO-PCE|
+4-BEC|
+succinic acid|37255
+4-cyano CUMYL-BUTINACA|
+4F-NNEI|
+MDA 2-aldoxime analog|
+MDA 2-amido analog|
+MMMP|
+4-Aminobenzoic Acid|74
+Yangonin|
+5-MeO-MALT|
+APB|
+MAPDB|
+Cobicistat|1306284
+Oclacitinib|1487006
+3,4-EDMA|
+3-MEC|
+Nortadalafil|
+6PPD|
+1-Methylpiperazine|
+Resveratrol|1000492
+3,4-CTMP|
+4-Hydroxycyclohexanone|
+4-MeO-PV8|
+4-Methylpentedrone|
+AB-FUBINACA 3-fluorobenzyl isomer|
+Propylone|
+Canagliflozin|1373458
+2C-B-FLY|
+Cyclopropyl fentanyl|
+Bromazolam|
+Methoxyacetyl fentanyl|
+Eutylone|
+Nonane|
+Ammonium bicarbonate|
+1,2-Dihydroxybenzene|
+Diethylstilbestrol|3390
+Linaclotide|1307404
+Galactitol|
+Dapagliflozin|1488564
+Isothipendyl|28012
+Apixaban|1364430
+Flunixin meglumine|25122
+JWH-368|
+Trendione|
+Cyclopentyl fentanyl|
+5Cl-AB-PINACA|
+Phenyl fentanyl|
+Crotonyl fentanyl|
+5F-EDMB-PINACA|
+Benzodioxole fentanyl|
+3F-AMB|
+3F-NNEI|
+6-methoxy Methylone|
+TH-PBP|
+MEO-PCP|
+APDB|
+Adrafinil|45938
+Fluoro-ADB|
+U-48800|
+Benzoylbenzyl fentanyl|
+EFLEA|
+Thiofuranyl fentanyl|
+6-MeO-DiPT|
+Fluorobutyryl fentanyl|
+Empagliflozin|1545653
+Fluoro-AMB|
+Brexpiprazole|1658314
+Elvitegravir|1306286
+Tenofovir Alafenamide|1721603
+Tenofovir|117466
+Norflunitrazepam|
+Tinidazole|10612
+Sulfanilamide|10184
+Sacubitril|1656328
+F-3,5-AB-PFUPPYCA|
+EAPB|
+unifiram|
+Dextropropoxyphene/Levopropoxyphene|
+Cypermetherin|
+Dolutegravir|1433868
+Histidine|5340
+hexachloroethane|
+gamma-Sitosterol|
+Tromethamine|10865
+2-Phenoxyethanol|89552
+Methoxyphenethylamine|
+Boron compound|
+PV10|
+methylepitiostanol|
+2,3-Pentylone isomer|
+Ticagrelor|1116632
+4,4'-Methylenedianiline|
+Cl-alpha-PVP|
+25B-NBF|
+25C-NBF|
+Cl-alpha-PPP|
+Fluoro-alpha-PHP|
+MMC|632
+Methylpentedrone|
+Fluoro-NNEI|
+Chloro-AB-PINACA|
+Fluoro-EDMB-PINACA|
+FLUORO-MDMB-PICA|
+Fluorophenmetrazine|
+FLUORO-MN-18|
+Fluorophenylpiperazine|
+N-methyl-1-phenyl-1-propanamine|
+Fluoro-AEB|
+Cyclopropyl/Crotonyl Fentanyl|
+Fentanyl-related substance (unspecified)|
+1-(1,3-BENZODIOXOL-5-YL)-2-(BENZYLAMINO)BUTAN-1-ONE|
+Ostarine|2168587
+1P-LSD|
+LAMPA|
+5-FLUORO-PY-PINACA|
+ETH-LAD|
+1,4-Dichlorobenzene|
+Trimethoxyamphetamine|
+Beta-Sitosterol|47070
+Cannabidiolic Acid|
+Cannabidiol/Cannabidiolic Acid|
+Tetrahydrocannabinol/Tetrahydrocannabinolic acid|
+SYNTHETIC CANNABINOIDS (Cumylindolecarboxamides)|
+ADAMANTYL-CHMINACA (ACHMINACA)|
+FLUOROBUTYRYL/FLUOROISOBUTYRYL FENTANYL|
+JWH 018 2'-NAPHTHYL ISOMER|
+Sofosbuvir|1484911
+Ledipasvir|1591922
+meclonazepam|
+(Fluorophenyl)propylamine|
+PMK methyl glycidate|
+chloroprocaine|20859
+Icosane (Eicosane)|
+Silodosin|720825
+Eluxadoline|1653781
+Methyl Acetyl Fentanyl|
+2-Chloroethcathinone|
+o-FBF|
+o-FIBF|
+4-Chlorobutylcathinone|
+alpha-PiHP|
+4-Methyl-N,N-dimethylcathinone|
+Mitraciliatin|
+ALD-52|
+U-51754|
+Methylclostebol|
+Thymol|10553
+Mesoridazine|6779
+Glutathione|4890
+Ornithine|7704
+Isoleucine|6033
+Valine|11115
+3-MeOPP|
+Lipoic Acid|6417
+Noraminopyrine|
+Methoxyphenylpiperazine|
+4F-EPH|
+3-Furanyl fentanyl|
+Furanyl/3-Furanyl fentanyl|
+3,4-Methylenedioxy U-47700|
+N-methyl Norfentanyl|
+4-FEC|
+4-Aco-dpt|
+Torsemide|38413
+Bismuth|1599
+Arnica Montana (Arnica)|
+Magnesium stearate|1310567
+Tranexamic acid|10691
+Brodifacoum|
+Coumarin|2898
+Limonene|28730
+3,4-Dimethoxy-alpha-PHP|
+Amikacin|641
+Cariprazine|1667655
+Silybum marianum|283579
+o-Methyl acetyl fentanyl|
+N-Ethylpentedrone|
+3,4-methylenedioxy-alpha-valerophenone|
+3,4-methylenedioxy-alpha-ethylaminovalerophenone|
+4-Benzylpiperidine|
+5Br-AKB48|
+Alpha-lipoic acid|6417
+alpha-Propylaminopentiophenone|
+Androst-5-en-3-ol-7,17-dione acetate|
+BMPEA|
+Chloro pentedrone|
+Chloro-N,N-dimethylcathinone|
+CIC|
+Dimethylphenidate|
+Fluoro-CUMYL-PINACA|
+Fluoromethylphenidate|
+Fluoro-pentedrone|
+Gabapentin|25480
+Hexahydrodibenzopyrans|
+MDMB-CHMINACA|
+MeOPP|
+Methyl-N,N-dimethylcathinone|
+Methyl-alpha-pyrrolidinohexiophenone|
+Synthetic Cannabinoids (Naphthylindolecarboxylates)|
+N-Methylphenethylamine|
+Noramidopyrine|
+Norfentanyl|
+Phenylpropionaldehydreamidoindole|
+Synthetic Cannabinoid Nitrogen-heterocyclic analog|
+4-Methylfentanyl|
+Fluoro-CUMYL-P7AICA|
+o-fluoro Acrylfentanyl|
+p-fluoro Acrylfentanyl|
+2-Fluorodeschloroketamine|
+Isopropyl U-47700|
+Flualprazolam|
+8-Hydroxyquinoline|110
+4-OH-MET/4-ACO-MET|
+5alpha-Androstane-3,6,17-trione|
+2-CL-4,5-MDA|
+Magnesium Aluminum Silicate|17614
+SYNTHETIC CANNABINOID NITROGEN-HETEROCYCLIC ANALOG|
+Acarbose|16681
+n-Phenylpropanamide|
+Clomethiazole|2372
+Dimethyl/Ethyl pentylone|
+Ethylone/butylone|
+Zinc Aceticum|
+Zinc Gluconicum|
+Delta-6-Tetrahydrocannabinol|
+4-Fluoroethylamphetamine|
+2,3-MDA|
+Sunifiram|
+1,2-Ethanediol|1314364
+Adenosine|296
+Dihydrokawain|
+Dihydromethysticin|
+5F-CUMYL-PINACA|
+4-MDMC|
+Metizolam|
+Sulfathiazole|10193
+BMDP|
+bk-MPA|
+alpha-PipBP|
+3-Fluorofentanyl|
+Nitazoxanide|31819
+Zafirkulast|
+Apremilast|1492727
+25I-NBF|
+5F-PY-PINACA|
+2-ethylhexyl fumarate|
+4-bromo-2,6-dichloroaniline|
+andarine|
+azaperone|
+dienedione|
+ibutamoren|1805438
+l-Homocystine|
+Nitenpyram|341379
+N-Methyltyramine|
+RU-58841|
+Succinamide|
+Testosterone caprylate|
+Tianeptine|38252
+Cinnamoylcocaine|
+4-ME-NEP|
+2-APB|
+Hydroxymethamphetamine|
+MDDMA|
+Desalkylflurazepam|
+Zingerone|
+[2.2]Paracyclophane|
+Despropionyl p-Fluorofentanyl|
+Furanyl benzyl fentanyl|
+Benzeneacetamide|
+Flunitrazolam|
+N-ethyl Hexylone|
+P2NP|
+Methicone|
+Pargeverine|76273
+Diphenyl Sulfone|
+Tritropium bromide|
+Panthenol|1044977
+Mirabegron|1300786
+Poly(ethylene oxide)|
+Metixene|29682
+Saccharomyces boulardii|236782
+alpha-Isonitrosopropiophenone|
+Febuxostat|73689
+Amphotericin B|732
+Selenium dioxide|1309231
+Monobenzone|17145
+Croscarmellose Sodium|1310573
+Cobalt Acetate|1369404
+Synthetic cannabinoids (alkylcarbonyl indazole carboxylates)|
+Fingolimod|1012892
+Cyfluthrin|
+Methylcellulose|6873
+Clobenztropine|
+Denatonium benzoate|1313232
+Quinolones|
+Velpatasvir|1799206
+Rivastigmine|183379
+Bictegravir|1999660
+Fluorenol|
+Spiramycin|9991
+Phloroglucinol|8196
+Terpinolene|
+Phenylboronic acid|
+L-Theanine|38022
+Apigenin|1368130
+Allyboronic acid pinacol ester|
+5-Amino-2-chloropyridine|
+4-Methylcatechol|
+4-Hydroxycoumarin|
+4-Ethynylanisole|
+4-Chloro-2-fluorobenzaldehyde|
+4-Bromo-3-fluoroaniline|
+4-Bromo-2-fluoropyridine|
+4-(Difluoromethoxy)aniline|
+2-Fluoro-4-methoxybenzaldehyde|
+2-Chloro-4-fluorobenzaldehyde|
+2,4-Difluorobenzaldehyde|
+(2,6-Dimethylphenoxy)acetic acid|
+2,2'-thiobis(4-tert-butylphenol)|
+2-(Boc-amino)ethanethiol|
+N-(2-Hydroxyethyl)ethylenediamine|
+Despropionyl meta-fluorofentanyl|
+ortho-Methoxybutyryl fentanyl|
+M5FPIC|
+Dichloropane|
+4F-MDMB-BINACA|
+para-Fluoro furanyl fentanyl|
+meta-Fluoroisobutyryl fentanyl|
+3,4-Methylenedioxy-N-isopropylaminocathinone|
+Cannabidivarin|
+Ephenidine|
+APP-BINACA|
+Butylpentylone|
+Homarylamine|
+3-Bromoamphetamine|
+N-Ethylnorketamine|
+5F-MPP-PICA|
+Phenpromethamine|
+beta-Methylphenethylamine|
+Cannabicitran|
+MDMB-4EN-PINACA|
+Benzamidenafil|
+1,2-Dibromo-4,5-methylenedioxybenzene|
+alpha-Hydroxyalprazolam|
+para-Fluoro-4-ANBP|
+Hemp|1788846
+N-Methylethylone|
+N,N-Diethylpentylone|
+3-HO-PCE|
+Palmitoylethanolamide|2001986
+Nitrazolam|
+Deschloroetizolam|
+4-MPM|
+Cannabielsoic acid|
+Acetildenafil|
+4'-Chlorodiazepam|
