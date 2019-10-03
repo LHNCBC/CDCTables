@@ -30,7 +30,7 @@ public class TermTable {
 	public boolean hasTermByName(String name, String source) {
 		boolean result = false;
 		for( Term term : rows ) {
-			if( term.getName().equals(name) && term.getSource().equals(source) ) {
+			if( term.getName().equalsIgnoreCase(name) && term.getSource().equals(source) ) {
 				result = true;
 				break;
 			}
@@ -41,7 +41,18 @@ public class TermTable {
 	public Term getTermByName(String name, String source) {
 		Term resultTerm = null;
 		for( Term term : rows ) {
-			if( term.getName().equals(name) && term.getSource().equals(source) ) {
+			if( term.getName().equalsIgnoreCase(name) && term.getSource().equals(source) ) {
+				resultTerm = term;
+				break;
+			}
+		}
+		return resultTerm;
+	}	
+	
+	public Term getTermByNameAndType(String name, String type, String source) {
+		Term resultTerm = null;
+		for( Term term : rows ) {
+			if( term.getName().equalsIgnoreCase(name) && term.getTty().equals(type) && term.getSource().equals(source) ) {
 				resultTerm = term;
 				break;
 			}
@@ -57,6 +68,10 @@ public class TermTable {
 			}
 		}
 		return result;
+	}
+	
+	public ArrayList<Term> getTerms() {
+		return this.rows;
 	}
 	
 	public void print(PrintWriter pw) {

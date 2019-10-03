@@ -9,11 +9,14 @@ package gov.nih.nlm.mor.db;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -22,6 +25,10 @@ import javax.net.ssl.HttpsURLConnection;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import gov.nih.nlm.mor.db.dea.DEASchedule;
+import gov.nih.nlm.mor.db.dea.DEASubstance;
+import gov.nih.nlm.mor.db.nflis.NFLISCategory;
+import gov.nih.nlm.mor.db.nflis.NFLISSubstance;
 import gov.nih.nlm.mor.db.rxnorm.Concept;
 import gov.nih.nlm.mor.db.rxnorm.ConceptRelationship;
 import gov.nih.nlm.mor.db.rxnorm.ConceptType;
@@ -55,14 +62,20 @@ public class CDCTables {
 	private PrintWriter term2termFile = null;
 	private PrintWriter concept2conceptFile = null;
 	
-	private final String baseUrl = "https://rxnav.nlm.nih.gov/REST";
 	private final String allConceptsUrl = "https://rxnav.nlm.nih.gov/REST/allconcepts.json?tty=IN";
 	private final String allClassesUrl = "https://rxnav.nlm.nih.gov/REST/rxclass/allClasses.json?classTypes=ATC1-4";
 	
 	private HashMap<String, ArrayList<String>> rxcui2Misspellings = new HashMap<String, ArrayList<String>>();
 	private HashMap<String, String> rxcui2ProperSpelling = new HashMap<String, String>();
+	
 	private HashMap<String, ArrayList<String>> rxcui2DrugTCodes = new HashMap<String, ArrayList<String>>();
 	private HashMap<String, String> tcode2Description = new HashMap<String, String>();
+	
+	private HashMap<NFLISCategory, ArrayList<NFLISSubstance>> nflisCategory2Substance = new HashMap<NFLISCategory, ArrayList<NFLISSubstance>>();
+	private HashMap<NFLISSubstance, ArrayList<NFLISCategory>> nflisSubstance2Category = new HashMap<NFLISSubstance, ArrayList<NFLISCategory>>();
+
+	private HashMap<DEASchedule, ArrayList<DEASubstance>> deaSchedule2Substance = new HashMap<DEASchedule, ArrayList<DEASubstance>>();
+	private HashMap<DEASubstance, ArrayList<DEASchedule>> deaSubstance2Schedule = new HashMap<DEASubstance, ArrayList<DEASchedule>>();
 	
 	private HashMap<String, String> sourceMap = new HashMap<String, String>();
 	private HashMap<String, String> termTypeMap = new HashMap<String, String>();
@@ -94,24 +107,34 @@ public class CDCTables {
 		
 		String cui2MisspellingsPath = "./config/filtered_RxNorm-msp.txt";
 		String rx2ICDPath = "./config/rx2ICD.txt";
+		String nflisPath = "./config/nflis-2018-and-2019_2.txt";
+		String deaPath = "./config/dea-2018-2.txt";
 
-		System.out.println("[1] Reading configuration files");
+		System.out.println("[1] Reading configuration files and materializing rxcuis");
 		System.out.print("  - from " + cui2MisspellingsPath); 		
 		readFile(cui2MisspellingsPath, "spell");
 		System.out.println(" ...OK");
 		
 		System.out.print("  - from " + rx2ICDPath);		
 		readFile(rx2ICDPath, "rx2icd");
-		System.out.println(" ...OK");		
+		System.out.println(" ...OK");	
+		
+		System.out.print("  - from " + nflisPath);
+		readFile(nflisPath, "nflis");
+		System.out.println(" ...OK");
+		
+		System.out.print("  - from " + deaPath);
+		readFile(deaPath, "dea");
+		System.out.println(" ...OK");
 		
 		try {
-			authoritativeSourceFile = new PrintWriter(new File(authoritativePath));
-			conceptTypeFile = new PrintWriter(new File(conceptTypePath));
-			termTypeFile = new PrintWriter(new File(termTypePath));
-			termFile = new PrintWriter(new File(termPath));
-			conceptFile = new PrintWriter(new File(conceptPath));
-			term2termFile = new PrintWriter(new File(term2termPath));
-			concept2conceptFile = new PrintWriter(new File(concept2conceptPath));
+			authoritativeSourceFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(authoritativePath)),StandardCharsets.UTF_8),true);
+			conceptTypeFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(conceptTypePath)),StandardCharsets.UTF_8),true);
+			termTypeFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(termTypePath)),StandardCharsets.UTF_8),true); 
+			termFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(termPath)),StandardCharsets.UTF_8),true);
+			conceptFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(conceptPath)),StandardCharsets.UTF_8),true);
+			term2termFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(term2termPath)),StandardCharsets.UTF_8),true);
+			concept2conceptFile = new PrintWriter(new OutputStreamWriter(new FileOutputStream(new File(concept2conceptPath)),StandardCharsets.UTF_8),true);	
 		}
 		catch(Exception e) {
 			System.err.print("There was an error trying to create one of the table files.");
@@ -150,6 +173,32 @@ public class CDCTables {
 								String tdesc = values[3];
 								setDrugCodesMap(rxname1, rxcui1, tcode, tdesc);
 								break;
+							case "nflis":
+								String code = values[0];
+								String substance = values[1];
+								String categoryCode = values[2];
+								String category = values[3];
+								String synonyms = values[4];
+								setNflisMap(code, substance, synonyms, category, categoryCode);
+								break;
+							case "dea":
+								String scheduleCode = values[0];
+								String schedule = values[1];
+								String substanceDea = values[2];
+								String deaCode = values[3];
+								String narcotic = values[4]; //not sure what we want to do with this - create a term and term-term rel?
+								ArrayList<String> synonymsDea = new ArrayList<String>();
+								for(int i=5; i < values.length; i++) {
+									String value = values[i];
+									if( !value.isEmpty() && !synonymsDea.contains(value)) {
+										synonymsDea.add(value);
+									}
+								}
+								//assumption: -1 codes don't exist and can't be added without the external sourceid
+								if( deaCode != null && !deaCode.equals("-1")) {
+									setDeaMap(scheduleCode, schedule, substanceDea, deaCode, synonymsDea, narcotic);
+								}
+								break;	
 							default:
 								System.err.println("The following config file was unexpected: " + filename);
 						}
@@ -161,9 +210,6 @@ public class CDCTables {
 					}						
 				}
 			}
-//			//			for( int i=0; i < columns.size(); i++ ) {
-//			//				columns.elementAt(i).print();
-//			//			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -176,6 +222,68 @@ public class CDCTables {
 				e.printStackTrace();
 			}
 		}				
+	}
+	
+	private void setNflisMap(String code, String substance, String synonyms, String category, String categoryCode ) { 
+		NFLISCategory nflisCategory = new NFLISCategory(category, categoryCode);
+		NFLISSubstance nflisSubstance = new NFLISSubstance(code, substance, synonyms);
+		
+		if( !this.nflisCategory2Substance.containsKey(nflisCategory) ) {
+			ArrayList<NFLISSubstance> list = new ArrayList<NFLISSubstance>();
+			list.add(nflisSubstance);
+			this.nflisCategory2Substance.put(nflisCategory, list);
+		}
+		else {
+			ArrayList<NFLISSubstance> list = this.nflisCategory2Substance.get(nflisCategory);
+			if( !list.contains(nflisSubstance) ) {
+				list.add(nflisSubstance);
+				this.nflisCategory2Substance.put(nflisCategory, list);
+			}	
+		}
+		
+		if( !this.nflisSubstance2Category.containsKey(nflisSubstance)) {
+			ArrayList<NFLISCategory> list = new ArrayList<NFLISCategory>();
+			list.add(nflisCategory);
+			this.nflisSubstance2Category.put(nflisSubstance, list);
+		}
+		else {
+			ArrayList<NFLISCategory> list = this.nflisSubstance2Category.get(nflisSubstance);
+			if( !list.contains(nflisCategory) ) {
+				list.add(nflisCategory);
+				this.nflisSubstance2Category.put(nflisSubstance, list);
+			}
+		}
+	}
+	
+	private void setDeaMap(String scheduleCode, String schedule, String substance, String code, ArrayList<String> synonyms, String isNarcotic) {
+		DEASchedule deaSchedule = new DEASchedule(scheduleCode, schedule);
+		DEASubstance deaSubstance = new DEASubstance(code, substance, isNarcotic, synonyms);		
+		
+		if( this.deaSchedule2Substance.containsKey(deaSchedule)) {
+			ArrayList<DEASubstance> substanceList = this.deaSchedule2Substance.get(deaSchedule);
+			if( !substanceList.contains(deaSubstance) ) {
+				substanceList.add(deaSubstance);
+				deaSchedule2Substance.put(deaSchedule, substanceList);
+			}
+		}
+		else {
+			ArrayList<DEASubstance> substanceList = new ArrayList<DEASubstance>();
+			substanceList.add(deaSubstance);
+			deaSchedule2Substance.put(deaSchedule, substanceList);
+		}
+		
+		if( this.deaSubstance2Schedule.containsKey(deaSubstance)) {
+			ArrayList<DEASchedule> scheduleList = this.deaSubstance2Schedule.get(deaSubstance);
+			if( !scheduleList.contains(deaSchedule) ) {
+				scheduleList.add(deaSchedule);
+				deaSubstance2Schedule.put(deaSubstance, scheduleList);
+			}
+		}
+		else {
+			ArrayList<DEASchedule> scheduleList = new ArrayList<DEASchedule>();
+			scheduleList.add(deaSchedule);
+			deaSubstance2Schedule.put(deaSubstance, scheduleList);
+		}		
 	}
 	
 	private void setMisspellingMap(String rxname, String rxcui, String misspell) {
@@ -233,7 +341,6 @@ public class CDCTables {
 					term.setSourceId("");
 					
 					term.setDrugConceptId(Integer.valueOf(drugConceptId));
-
 					
 					termTable.add(term);
 					
@@ -307,6 +414,239 @@ public class CDCTables {
 		}
 		
 	}
+	
+	private void addNFLIS() {
+		
+		for( NFLISCategory category : nflisCategory2Substance.keySet() ) {
+			ArrayList<NFLISSubstance> substances = nflisCategory2Substance.get(category);
+			Concept categoryConcept = new Concept();
+			Term categoryTerm = new Term();
+			
+			categoryTerm.setId(++codeGenerator);
+			categoryTerm.setSource(sourceMap.get("NFLIS"));
+			categoryTerm.setSourceId(category.getCategoryCode());
+			categoryTerm.setTty("");
+			categoryTerm.setName(category.getCategoryName());
+			categoryConcept.setConceptId(++codeGenerator);
+			categoryConcept.setPreferredTermId(categoryTerm.getId());
+			categoryConcept.setSource(sourceMap.get("NFLIS"));
+			categoryConcept.setSourceId(category.getCategoryCode());
+			categoryConcept.setClassType(classTypeMap.get("Class"));
+			categoryTerm.setDrugConceptId(codeGenerator);
+			conceptTable.add(categoryConcept);
+			termTable.add(categoryTerm);
+			
+			for( NFLISSubstance substance : substances ) {
+				Concept concept = new Concept();
+				Term preferredTerm = new Term();
+				
+				preferredTerm.setId(++codeGenerator);
+				preferredTerm.setName(substance.getName());
+				preferredTerm.setSourceId(substance.getCode());
+				preferredTerm.setSource(sourceMap.get("NFLIS"));
+				preferredTerm.setTty(termTypeMap.get("PV"));
+				concept.setConceptId(++codeGenerator);
+				concept.setPreferredTermId(preferredTerm.getId());
+				concept.setSource(sourceMap.get("NFLIS"));
+				concept.setSourceId(substance.getCode());
+				concept.setClassType(classTypeMap.get("Substance"));
+				
+				Concept existingConcept = conceptTable.getDrugConceptForName(substance.getName(), termTable);
+				
+				if( existingConcept == null ) {				
+					concept.setConceptId(++codeGenerator);
+					concept.setPreferredTermId(preferredTerm.getId());
+					concept.setSource(sourceMap.get("NFLIS"));
+					concept.setSourceId(substance.getCode());
+					concept.setClassType(classTypeMap.get("Substance"));
+					conceptTable.add(concept);					
+				}
+				else {
+					concept = existingConcept;
+				}
+				
+				preferredTerm.setDrugConceptId(concept.getConceptId());
+				termTable.add(preferredTerm);
+				
+				for( String s : substance.getSynonyms()) {
+					Term synonym = new Term();
+					synonym.setId(++codeGenerator);
+					synonym.setName(s.trim());
+					synonym.setSource(sourceMap.get("NFLIS"));
+					synonym.setSourceId("");
+					synonym.setTty(termTypeMap.get("SY"));
+					synonym.setDrugConceptId(concept.getConceptId());
+					termTable.add(synonym);
+					
+					if( !term2TermTable.hasPair(synonym.getId(), termTypeMap.get("SY"), preferredTerm.getId()) ) {
+						TermRelationship termRel = new TermRelationship();
+						termRel.setId(++codeGenerator);
+						termRel.setTermId1(synonym.getId());
+						termRel.setRelationship("SY");
+						termRel.setTermId2(preferredTerm.getId());
+						
+						term2TermTable.add(termRel);
+					}						
+				}
+				
+				for( String cui : substance.getRxcuis() ) {
+					if( conceptTable.hasConcept(cui, sourceMap.get("RxNorm")) ) {
+						Concept rxConcept = conceptTable.getConcept(cui, sourceMap.get("RxNorm"));
+						if( rxConcept != null && concept != null ) {
+							Integer rxConceptId = rxConcept.getConceptId();
+							
+							ConceptRelationship conRel = new ConceptRelationship();
+							conRel.setId(++codeGenerator);
+							conRel.setConceptId1(rxConceptId);
+							conRel.setRelationship("memberof");
+							conRel.setConceptId2(categoryConcept.getConceptId());
+							
+							concept2ConceptTable.add(conRel);							
+						}
+					}
+				}
+				
+			}
+		}
+	}
+	
+	private void addDEA() {
+
+		Concept narcConcept = new Concept();
+		Term narcTerm = new Term();
+		narcTerm.setId(++codeGenerator);
+		narcTerm.setSource(sourceMap.get("DEA"));
+		narcTerm.setSourceId("NARC1");
+		narcTerm.setTty("");
+		narcTerm.setName("Narcotic");
+		narcConcept.setConceptId(++codeGenerator);
+		narcConcept.setPreferredTermId(narcTerm.getId());
+		narcConcept.setSource(sourceMap.get("DEA"));
+		narcConcept.setSourceId("NARC1");
+		narcConcept.setClassType(classTypeMap.get("Class"));
+		narcTerm.setDrugConceptId(codeGenerator);
+		conceptTable.add(narcConcept);
+		termTable.add(narcTerm);
+		
+		Concept nonNarcConcept = new Concept();
+		Term nonNarcTerm = new Term();		
+		nonNarcConcept = new Concept();
+		nonNarcTerm = new Term();
+		nonNarcTerm.setId(++codeGenerator);
+		nonNarcTerm.setSource(sourceMap.get("DEA"));
+		nonNarcTerm.setSourceId("NARC2");
+		nonNarcTerm.setTty("");
+		nonNarcTerm.setName("Non-Narcotic");
+		nonNarcConcept.setConceptId(++codeGenerator);
+		nonNarcConcept.setPreferredTermId(narcTerm.getId());
+		nonNarcConcept.setSource(sourceMap.get("DEA"));
+		nonNarcConcept.setSourceId("NARC2");
+		nonNarcConcept.setClassType(classTypeMap.get("Class"));
+		nonNarcTerm.setDrugConceptId(codeGenerator);
+		conceptTable.add(nonNarcConcept);
+		termTable.add(nonNarcTerm);
+		
+		for( DEASchedule schedule : deaSchedule2Substance.keySet() ) {
+			ArrayList<DEASubstance> substances = deaSchedule2Substance.get(schedule);
+			Concept scheduleConcept = new Concept();
+			Term scheduleTerm = new Term();
+			
+			scheduleTerm.setId(++codeGenerator);
+			scheduleTerm.setSource(sourceMap.get("DEA"));
+			scheduleTerm.setSourceId(schedule.getScheduleCode());
+			scheduleTerm.setTty("");
+			scheduleTerm.setName(schedule.getScheduleName());
+			scheduleConcept.setConceptId(++codeGenerator);
+			scheduleConcept.setPreferredTermId(scheduleTerm.getId());
+			scheduleConcept.setSource(sourceMap.get("DEA"));
+			scheduleConcept.setSourceId(schedule.getScheduleCode());
+			scheduleConcept.setClassType(classTypeMap.get("Class"));
+			scheduleTerm.setDrugConceptId(codeGenerator);
+			conceptTable.add(scheduleConcept);
+			termTable.add(scheduleTerm);
+			
+			for( DEASubstance substance : substances ) {
+				Concept concept = new Concept();
+				Term preferredTerm = new Term();
+				
+				preferredTerm.setId(++codeGenerator);
+				preferredTerm.setName(substance.getName());
+				preferredTerm.setSourceId(substance.getCode());
+				preferredTerm.setSource(sourceMap.get("DEA"));
+				preferredTerm.setTty(termTypeMap.get("PV"));
+				
+				Concept existingConcept = conceptTable.getDrugConceptForName(substance.getName(), termTable);
+				
+				if( existingConcept == null ) {				
+					concept.setConceptId(++codeGenerator);
+					concept.setPreferredTermId(preferredTerm.getId());
+					concept.setSource(sourceMap.get("DEA"));
+					concept.setSourceId(substance.getCode());
+					concept.setClassType(classTypeMap.get("Substance"));
+					conceptTable.add(concept);					
+				}
+				else {
+					concept = existingConcept;
+				}
+				
+				preferredTerm.setDrugConceptId(concept.getConceptId());
+				termTable.add(preferredTerm);
+				
+				Concept narcoticConcept = substance.isNarcotic() ? narcConcept : nonNarcConcept;  
+				if( !concept2ConceptTable.containsPair(concept.getConceptId(), "memberof", narcoticConcept.getConceptId())) {
+					Integer substanceId = concept.getConceptId();
+					
+					ConceptRelationship conRel = new ConceptRelationship();
+					conRel.setId(++codeGenerator);
+					conRel.setConceptId1(substanceId);
+					conRel.setRelationship("memberof");
+					conRel.setConceptId2(narcoticConcept.getConceptId());
+					
+					concept2ConceptTable.add(conRel);						
+				}
+				
+				for( String s : substance.getSynonyms()) {
+					Term synonym = new Term();
+					synonym.setId(++codeGenerator);
+					synonym.setName(s.trim());
+					synonym.setSource(sourceMap.get("DEA"));
+					synonym.setSourceId("");
+					synonym.setTty(termTypeMap.get("SY"));
+					synonym.setDrugConceptId(concept.getConceptId());
+					termTable.add(synonym);
+					
+					if( !term2TermTable.hasPair(synonym.getId(), termTypeMap.get("SY"), preferredTerm.getId()) ) {
+						TermRelationship termRel = new TermRelationship();
+						termRel.setId(++codeGenerator);
+						termRel.setTermId1(synonym.getId());
+						termRel.setRelationship("SY");
+						termRel.setTermId2(preferredTerm.getId());
+						
+						term2TermTable.add(termRel);
+					}						
+				}
+				
+				for( String cui : substance.getRxcuis() ) {
+					if(conceptTable.hasConcept(cui, sourceMap.get("RxNorm")) ) {
+						Concept rxConcept = conceptTable.getConcept(cui, sourceMap.get("RxNorm"));
+						if( rxConcept != null && concept != null ) {
+							Integer rxConceptId = rxConcept.getConceptId();
+							
+							ConceptRelationship conRel = new ConceptRelationship();
+							conRel.setId(++codeGenerator);
+							conRel.setConceptId1(rxConceptId);
+							conRel.setRelationship("memberof");
+							conRel.setConceptId2(scheduleConcept.getConceptId());
+							
+							concept2ConceptTable.add(conRel);							
+						}
+					}
+				}
+				
+			}
+		}		
+	}
+	
 
 	
 	private void gather() {
@@ -325,7 +665,6 @@ public class CDCTables {
 		setConceptTypeTable();
 		setTermTypeTable();
 		
-//		System.out.println("allClassesUrl");
 		System.out.println("[2] Fetching ATC Classes");
 		if( allClasses != null ) {
 			if( !allClasses.isNull("rxclassMinConceptList") ) {
@@ -369,7 +708,7 @@ public class CDCTables {
 		ArrayList<Concept> conceptList = conceptTable.getConceptsOfSource(sourceMap.get("ATC"));
 		for( int i=0; i < conceptList.size(); i++ ) {
 			Concept concept = conceptList.get(i);
-			//pickup here
+
 			String graphUrl = "https://rxnav.nlm.nih.gov/REST/rxclass/classGraph.json?classId=" + concept.getSourceId() + "&source=ATC1-4";
 			JSONObject allEdges = null;
 			
@@ -434,7 +773,6 @@ public class CDCTables {
 			group = (JSONObject) allConcepts.get("minConceptGroup");
 			minConceptArray = (JSONArray) group.get("minConcept");
 			for(int i = 0; i < minConceptArray.length(); i++ ) {
-//				HashMap<Concept, ArrayList<Term>> concept2Terms = new HashMap<Concept, ArrayList<Term>>();
 				
 				if( i != 0 && i % 500 == 0 ) {
 					System.out.println("  Processed " + i + " substances of " + minConceptArray.length());
@@ -465,8 +803,6 @@ public class CDCTables {
 				concept.setPreferredTermId(preferredTermId);
 				
 				term.setDrugConceptId(conceptId);
-				
-//				Integer conceptId = codeGenerator;
 				
 				conceptTable.add(concept);
 				termTable.add(term);
@@ -533,7 +869,6 @@ public class CDCTables {
 				}
 				
 				//what are we looking for here?  Synonyms, then maybe UNIIs
-				//so far
 //				System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");
 				if( allProperties != null ) {
 					JSONObject propConceptGroup = (JSONObject) allProperties.get("propConceptGroup");
@@ -622,6 +957,12 @@ public class CDCTables {
 		System.out.println("[6] Adding T-codes");
 		addTCodes();
 		
+		System.out.println("[7] Adding NFLIS categories and substances");
+		addNFLIS();
+		
+		System.out.println("[8] Adding DEA schedules and substances");
+		addDEA();
+		
 	}
 	
 	private void setAuthoritativeSourceTable() {
@@ -629,6 +970,8 @@ public class CDCTables {
 		Source s2 = new Source();
 		Source s3 = new Source();
 		Source s4 = new Source();
+		Source s5 = new Source();
+		Source s6 = new Source();		
 		
 		s1.setId(++codeGenerator);
 		s1.setName("RxNorm");
@@ -646,11 +989,20 @@ public class CDCTables {
 		s4.setName("Misspelling");
 		sourceMap.put("Misspelling", String.valueOf(codeGenerator));
 		
+		s5.setId(++codeGenerator);
+		s5.setName("NFLIS");
+		sourceMap.put("NFLIS", String.valueOf(codeGenerator));
+		
+		s6.setId(++codeGenerator);
+		s6.setName("DEA");
+		sourceMap.put("DEA", String.valueOf(codeGenerator));		
 		
 		authoritativeSourceTable.add(s1);
 		authoritativeSourceTable.add(s2);
 		authoritativeSourceTable.add(s3);
 		authoritativeSourceTable.add(s4);
+		authoritativeSourceTable.add(s5);
+		authoritativeSourceTable.add(s6);		
 	}
 	
 	private void setConceptTypeTable() {
@@ -675,6 +1027,7 @@ public class CDCTables {
 		TermType t3 = new TermType();
 		TermType t4 = new TermType();
 		TermType t5 = new TermType();		
+		TermType t6 = new TermType();
 		
 		t1.setId(++codeGenerator);
 		t1.setAbbreviation("IN");
@@ -699,13 +1052,19 @@ public class CDCTables {
 		t5.setId(++codeGenerator);
 		t5.setAbbreviation("SY");
 		t5.setDescription("Synonym");
-		termTypeMap.put("SY", String.valueOf(codeGenerator));		
+		termTypeMap.put("SY", String.valueOf(codeGenerator));
+		
+		t6.setId(++codeGenerator);
+		t6.setAbbreviation("PV");
+		t6.setDescription("Principal Variant");
+		termTypeMap.put("PV", String.valueOf(codeGenerator));
 		
 		termTypeTable.add(t1);
 		termTypeTable.add(t2);
 		termTypeTable.add(t3);
 		termTypeTable.add(t4);		
 		termTypeTable.add(t5);
+		termTypeTable.add(t6);
 		
 	}
 		
