@@ -21,7 +21,7 @@ public class NFLISSubstance {
 	private ArrayList<String> rxcuis = null;
 	
 	public NFLISSubstance(String name, String synonyms) {
-//		this.code = code;
+//		this.code = code;  - codes don't exist, don't make use of the phony ones
 		this.name = name;
 		//could do fancy parsing, but for now this is a curation issue
 		this.synonyms = new ArrayList<String>(Arrays.asList(synonyms.split(";")));

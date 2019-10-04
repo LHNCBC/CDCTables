@@ -6,7 +6,7 @@ public class NFLISCategory {
 	private String categoryCode = "";
 	
 	public NFLISCategory(String name) {
-//		this.categoryCode = code;
+//		this.categoryCode = code; - codes don't exist, don't make use of the phony ones
 		this.categoryName = name;
 	}
 	

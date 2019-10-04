@@ -2,6 +2,7 @@
  * 
  * Tracking:
  * 	190712 - first version
+ *  191009 - addition of DEA and NFLIS content
  * 
  */
 
@@ -107,8 +108,8 @@ public class CDCTables {
 		
 		String cui2MisspellingsPath = "./config/filtered_RxNorm-msp.txt";
 		String rx2ICDPath = "./config/rx2ICD.txt";
-		String nflisPath = "./config/nflis-2018-and-2019_2.txt";
-		String deaPath = "./config/dea-2018-2.txt";
+		String nflisPath = "./config/nflis-2018-and-2019.txt";
+		String deaPath = "./config/dea-2018.txt";
 
 		System.out.println("[1] Reading configuration files and materializing rxcuis");
 		System.out.print("  - from " + cui2MisspellingsPath); 		
@@ -657,7 +658,6 @@ public class CDCTables {
 			allConcepts = getresult(allConceptsUrl);
 			allClasses = getresult(allClassesUrl);			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -715,7 +715,6 @@ public class CDCTables {
 			try {
 				allEdges = getresult(graphUrl);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			if( allEdges != null ) {
@@ -1070,7 +1069,7 @@ public class CDCTables {
 		
 	private void serialize() {
 		
-		System.out.println("[7] Serializing table files");
+		System.out.println("[9] Serializing table files");
 		
 		this.authoritativeSourceTable.print(this.authoritativeSourceFile);
 		this.conceptTypeTable.print(this.conceptTypeFile);

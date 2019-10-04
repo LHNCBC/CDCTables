@@ -7,7 +7,7 @@ public class DEASchedule {
 	
 	public DEASchedule(String name) {
 		this.scheduleName = name;
-//		this.scheduleCode = code;
+//		this.scheduleCode = code; - codes don't exist for schedules, don't make use of the phony ones
 	}
 	
 	public String getScheduleName() {
