@@ -179,7 +179,7 @@ public class CDCTables {
 								String substance = values[1];
 								// String categoryCode = values[2];
 								String category = values[3];
-								String synonyms = values[4];
+								String synonyms = values[4];					
 								setNflisMap("", substance, synonyms, category, "");
 								break;
 							case "dea":
@@ -658,6 +658,8 @@ public class CDCTables {
 			allConcepts = getresult(allConceptsUrl);
 			allClasses = getresult(allClassesUrl);			
 		} catch (IOException e) {
+			System.out.println(allConceptsUrl);
+			System.out.println(allClassesUrl);
 			e.printStackTrace();
 		}
 		
@@ -715,6 +717,7 @@ public class CDCTables {
 			try {
 				allEdges = getresult(graphUrl);
 			} catch (IOException e) {
+				System.out.println(graphUrl);
 				e.printStackTrace();
 			}
 			if( allEdges != null ) {
@@ -816,6 +819,9 @@ public class CDCTables {
 					allProperties = getresult("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");		
 					possibleMembers = getresult("https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");				
 				} catch(IOException e) {
+					System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
+					System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");
+					System.out.println("https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");
 					e.printStackTrace();
 				}
 				

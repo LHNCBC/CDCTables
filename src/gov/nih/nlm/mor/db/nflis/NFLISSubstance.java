@@ -24,7 +24,7 @@ public class NFLISSubstance {
 //		this.code = code;  - codes don't exist, don't make use of the phony ones
 		this.name = name;
 		//could do fancy parsing, but for now this is a curation issue
-		this.synonyms = new ArrayList<String>(Arrays.asList(synonyms.split(";")));
+		this.synonyms = setSynonyms(synonyms);
 		setCuis();
 	}
 	
@@ -48,8 +48,17 @@ public class NFLISSubstance {
 		return this.synonyms;
 	}
 
-	public void setSynonyms(ArrayList<String> synonyms) {
-		this.synonyms = synonyms;
+	public ArrayList<String> setSynonyms(String synonymString) {
+		ArrayList<String> synonymsList = new ArrayList<String>();
+		String[] synonymArr = synonymString.split(";");
+		for(int i=0; i < synonymArr.length; i++) {
+			String synonym = synonymArr[i].trim();
+			if( !synonym.isEmpty() && !synonymsList.contains(synonym) ) {
+				synonymsList.add(synonym);
+			}
+		}
+		
+		return synonymsList;
 	}	
 	
 	public boolean containsSynonym(String s) {
@@ -74,13 +83,15 @@ public class NFLISSubstance {
 		
 		String url = "https://rxnav.nlm.nih.gov/REST/rxcui.json?name=";
 		String urlParams = "&srclist=rxnorm&allsrc=0&search=0";
+		String cuiNameUrl = "";
 				
 		JSONObject result = null;
 		try {
 			String encodedString = URLEncoder.encode(this.name, StandardCharsets.UTF_8.toString());
-			String cuiNameUrl = url + encodedString + urlParams;					
+			cuiNameUrl = url + encodedString + urlParams;					
 			result = getresult(cuiNameUrl);
 		} catch(Exception e) {
+			System.out.println(cuiNameUrl);
 			e.printStackTrace();
 		}
 		

@@ -90,9 +90,9 @@ public class TermTable {
 		 */
 		
 		for( Term t : rows ) {
-			pw.println(t.getId() + "|" + t.getName() + "|" + t.getTty() + 
-					"|" + t.getSourceId() + "|" + t.getSource() + "||||||" + t.getDrugConceptId());
-			pw.flush();
+				pw.println(t.getId() + "|" + t.getName() + "|" + t.getTty() + 
+						"|" + t.getSourceId() + "|" + t.getSource() + "||||||" + t.getDrugConceptId());
+				pw.flush();
 		}
 		
 	}

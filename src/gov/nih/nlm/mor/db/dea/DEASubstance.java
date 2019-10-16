@@ -85,13 +85,15 @@ public class DEASubstance {
 		
 		String url = "https://rxnav.nlm.nih.gov/REST/rxcui.json?name=";
 		String urlParams = "&srclist=rxnorm&allsrc=0&search=0";
+		String cuiNameUrl = "";
 				
 		JSONObject result = null;
 		try {
 			String encodedString = URLEncoder.encode(this.name, StandardCharsets.UTF_8.toString());
-			String cuiNameUrl = url + encodedString + urlParams;					
+			cuiNameUrl = url + encodedString + urlParams;					
 			result = getresult(cuiNameUrl);
 		} catch(Exception e) {
+			System.out.println(cuiNameUrl);
 			e.printStackTrace();
 		}
 		

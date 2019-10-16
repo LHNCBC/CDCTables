@@ -25,6 +25,9 @@ public class SetConfig {
 	
 	final String url = "https://rxnav.nlm.nih.gov/REST/rxcui.json?name=";
 	final String urlParams = "&srclist=rxnorm&allsrc=0&search=0";
+	
+	final String inUrl = "https://rxnav.nlm.nih.gov/REST/rxcui/";
+	final String inUrlParams = "/related.json?tty=IN";
 	public ArrayList<String> substances = new ArrayList<String>();
 	
 	public static void main(String args[]) {
@@ -35,16 +38,65 @@ public class SetConfig {
 	public void run(String filename) {
 		readFile(filename);
 		for( String substance : substances ) {
-			System.out.print(substance + "|");
+//			if( substance.equalsIgnoreCase("Yellow fever vaccine")) { 
+//				System.out.println("HALT");
+//			}
+			System.out.print(substance + "\t");
 			ArrayList<String> cuis = returnRxCodes(substance);
-			for(int i=0; i < cuis.size(); i++) {
-				System.out.print(cuis.get(i));
-				if( i != cuis.size() - 1) {
-					System.out.print("|");
+// This will print PINs (e.g., anyhdrous terms) if existing
+//			for(int i=0; i < cuis.size(); i++) {
+//				System.out.print(cuis.get(i));
+//				if( i != cuis.size() - 1) {
+//					System.out.print("|");
+//				}
+//			}
+			for( String cui : cuis ) {
+				ArrayList<String> inCuis = returnInCodes(cui);
+				int size = inCuis.size();
+				for(int j=0; j < size; j++) {
+					System.out.print(inCuis.get(j) + "|");
 				}
 			}
 			System.out.println();
 		}
+	}
+	
+	public ArrayList<String> returnInCodes(String cui) {
+		ArrayList<String> codes = new ArrayList<String>();
+		
+		JSONObject result = null;
+		try {
+			String cuiUrl = inUrl + cui + inUrlParams;
+			result = getresult(cuiUrl);
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		if( result != null ) {
+			if( result.has("relatedGroup")) {
+				JSONObject relatedGroup = result.getJSONObject("relatedGroup");
+				if( relatedGroup.has("conceptGroup")) {
+					JSONArray arr = relatedGroup.getJSONArray("conceptGroup");
+					for(int i=0; i < arr.length(); i++) {
+						JSONObject val = arr.getJSONObject(i);
+						if( val.getString("tty").equals("IN") ) {
+							if( val.has("conceptProperties")) {
+								JSONArray conceptProperties = val.getJSONArray("conceptProperties");
+								for(int j=0; j < conceptProperties.length(); j++) {
+									JSONObject o = conceptProperties.getJSONObject(j);
+									if( o.has("rxcui")) {
+										String inCui = o.getString("rxcui");
+										codes.add(inCui);
+									}									
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		return codes;
 	}
 	
 	public ArrayList<String> returnRxCodes(String s) {
