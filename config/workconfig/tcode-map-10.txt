@@ -1,0 +1,626 @@
+S00-T88|Injury, poisoning and certain other consequences of external causes (S00-T88)
+T07|Unspecified multiple injuries
+T07-T07|Injuries involving multiple body regions (T07)
+T07-T88|Injury, poisoning and certain other consequences of external causes (T07-T88)
+T14|Injury of unspecified body region
+T14-T14|Injury of unspecified body region (T14)
+T14.8|Abrasion NOS
+T14.9|Unspecified injury
+T15|Foreign body on external eye
+T15-T19|Effects of foreign body entering through natural orifice (T15-T19)
+T15.0|Foreign body in cornea
+T15.1|Foreign body in conjunctival sac
+T15.8|Foreign body in other and multiple parts of external eye
+T15.9|Foreign body on external eye, part unspecified
+T16|Foreign body in ear
+T16.1|Foreign body in right ear
+T16.2|Foreign body in left ear
+T16.9|Foreign body in ear, unspecified ear
+T17|Foreign body in respiratory tract
+T17.0|Foreign body in nasal sinus
+T17.1|Foreign body in nostril
+T17.2|Foreign body in nasopharynx
+T17.3|Foreign body in larynx
+T17.4|Foreign body in trachea
+T17.5|Foreign body in bronchus
+T17.8|Foreign body in other parts of respiratory tract
+T17.9|Foreign body in respiratory tract, part unspecified
+T18|Foreign body in alimentary tract
+T18.0|Foreign body in mouth
+T18.1|Foreign body in esophagus
+T18.2|Foreign body in stomach
+T18.3|Foreign body in small intestine
+T18.4|Foreign body in colon
+T18.5|Foreign body in rectosigmoid (junction)
+T18.8|Foreign body in other parts of alimentary tract
+T18.9|Swallowed foreign body NOS
+T19|Foreign body in genitourinary tract
+T19.0|Foreign body in urethra
+T19.1|Foreign body in bladder
+T19.2|Foreign body in vulva and vagina
+T19.3|Foreign body in uterus
+T19.4|Foreign body in penis
+T19.8|Foreign body in other parts of genitourinary tract
+T19.9|Foreign body in genitourinary tract, part unspecified
+T20|Burn and corrosion of head, face, and neck
+T20-T25|burns and corrosions of third degree [deep necrosis of underlying tissue] [full- thickness skin loss]
+T20-T32|chemical burn [corrosion] (external) (internal)
+T20.0|Burn of unspecified degree of head, face, and neck
+T20.1|Burn of first degree of head, face, and neck
+T20.2|Burn of second degree of head, face, and neck
+T20.3|Burn of third degree of head, face, and neck
+T20.4|Corrosion of unspecified degree of head, face, and neck
+T20.5|Corrosion of first degree of head, face, and neck
+T20.6|Corrosion of second degree of head, face, and neck
+T20.7|Corrosion of third degree of head, face, and neck
+T21|burns and corrosion of hip region
+T21.0|Burn of unspecified degree of trunk
+T21.1|Burn of first degree of trunk
+T21.2|Burn of second degree of trunk
+T21.3|Burn of third degree of trunk
+T21.4|Corrosion of unspecified degree of trunk
+T21.5|Corrosion of first degree of trunk
+T21.6|Corrosion of second degree of trunk
+T21.7|Corrosion of third degree of trunk
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand
+T22.0|Burn of unspecified degree of shoulder and upper limb, except wrist and hand
+T22.1|Burn of first degree of shoulder and upper limb, except wrist and hand
+T22.2|Burn of second degree of shoulder and upper limb, except wrist and hand
+T22.3|Burn of third degree of shoulder and upper limb, except wrist and hand
+T22.4|Corrosion of unspecified degree of shoulder and upper limb, except wrist and hand
+T22.5|Corrosion of first degree of shoulder and upper limb, except wrist and hand
+T22.6|Corrosion of second degree of shoulder and upper limb, except wrist and hand
+T22.7|Corrosion of third degree of shoulder and upper limb, except wrist and hand
+T23|Burn and corrosion of wrist and hand
+T23.0|Burn of unspecified degree of wrist and hand
+T23.1|Burn of first degree of wrist and hand
+T23.2|Burn of second degree of wrist and hand
+T23.3|Burn of third degree of wrist and hand
+T23.4|Corrosion of unspecified degree of wrist and hand
+T23.5|Corrosion of first degree of wrist and hand
+T23.6|Corrosion of second degree of wrist and hand
+T23.7|Corrosion of third degree of wrist and hand
+T24|Burn and corrosion of lower limb, except ankle and foot
+T24.0|Burn of unspecified degree of lower limb, except ankle and foot
+T24.1|Burn of first degree of lower limb, except ankle and foot
+T24.2|Burn of second degree of lower limb, except ankle and foot
+T24.3|Burn of third degree of lower limb, except ankle and foot
+T24.4|Corrosion of unspecified degree of lower limb, except ankle and foot
+T24.5|Corrosion of first degree of lower limb, except ankle and foot
+T24.6|Corrosion of second degree of lower limb, except ankle and foot
+T24.7|Corrosion of third degree of lower limb, except ankle and foot
+T25|Burn and corrosion of ankle and foot
+T25.0|Burn of unspecified degree of ankle and foot
+T25.1|Burn of first degree of ankle and foot
+T25.2|Burn of second degree of ankle and foot
+T25.3|Burn of third degree of ankle and foot
+T25.4|Corrosion of unspecified degree of ankle and foot
+T25.5|Corrosion of first degree of ankle and foot
+T25.6|Corrosion of second degree of ankle and foot
+T25.7|Corrosion of third degree of ankle and foot
+T26|Burn and corrosion confined to eye and adnexa
+T26-T28|Burns and corrosions confined to eye and internal organs (T26-T28)
+T26.0|Burn of eyelid and periocular area
+T26.1|Burn of cornea and conjunctival sac
+T26.2|Burn with resulting rupture and destruction of eyeball
+T26.3|Burns of other specified parts of eye and adnexa
+T26.4|Burn of eye and adnexa, part unspecified
+T26.5|Corrosion of eyelid and periocular area
+T26.6|Corrosion of cornea and conjunctival sac
+T26.7|Corrosion with resulting rupture and destruction of eyeball
+T26.8|Corrosions of other specified parts of eye and adnexa
+T26.9|Corrosion of eye and adnexa, part unspecified
+T27|Burn and corrosion of respiratory tract
+T27.0|Burn of larynx and trachea
+T27.1|Burn involving larynx and trachea with lung
+T27.2|Burn of thoracic cavity
+T27.3|Burn of respiratory tract, part unspecified
+T27.4|Corrosion of larynx and trachea
+T27.5|Corrosion involving larynx and trachea with lung
+T27.6|Corrosion of other parts of respiratory tract
+T27.7|Corrosion of respiratory tract, part unspecified
+T28|Burn and corrosion of other internal organs
+T28.0|Burn of mouth and pharynx
+T28.1|Burn of esophagus
+T28.2|Burn of other parts of alimentary tract
+T28.3|Burn of internal genitourinary organs
+T28.4|Burns of other and unspecified internal organs
+T28.5|Corrosion of mouth and pharynx
+T28.6|Corrosion of esophagus
+T28.7|Corrosion of other parts of alimentary tract
+T28.8|Corrosion of internal genitourinary organs
+T28.9|Corrosions of other and unspecified internal organs
+T30|Burn and corrosion, body region unspecified
+T30-T32|Burns and corrosions of multiple and unspecified body regions (T30-T32)
+T30.0|This code is not for inpatient use. Code to specified site and degree of burns
+T30.4|This code is not for inpatient use. Code to specified site and degree of corrosion
+T31|Burns classified according to extent of body surface involved
+T31.0|Burns involving less than 10% of body surface
+T31.1|Burns involving 10-19% of body surface
+T31.2|Burns involving 20-29% of body surface
+T31.3|Burns involving 30-39% of body surface
+T31.4|Burns involving 40-49% of body surface
+T31.5|Burns involving 50-59% of body surface
+T31.6|Burns involving 60-69% of body surface
+T31.7|Burns involving 70-79% of body surface
+T31.8|Burns involving 80-89% of body surface
+T31.9|Burns involving 90% or more of body surface
+T32|Corrosions classified according to extent of body surface involved
+T32.0|Corrosions involving less than 10% of body surface
+T32.1|Corrosions involving 10-19% of body surface
+T32.2|Corrosions involving 20-29% of body surface
+T32.3|Corrosions involving 30-39% of body surface
+T32.4|Corrosions involving 40-49% of body surface
+T32.5|Corrosions involving 50-59% of body surface
+T32.6|Corrosions involving 60-69% of body surface
+T32.7|Corrosions involving 70-79% of body surface
+T32.8|Corrosions involving 80-89% of body surface
+T32.9|Corrosions involving 90% or more of body surface
+T33|frostbite with partial thickness skin loss
+T33-T34|Frostbite (T33-T34)
+T33.0|Superficial frostbite of head
+T33.1|Superficial frostbite of neck
+T33.2|Superficial frostbite of thorax
+T33.3|Superficial frostbite of abdominal wall, lower back and pelvis
+T33.4|Superficial frostbite of arm
+T33.5|Superficial frostbite of wrist, hand, and fingers
+T33.6|Superficial frostbite of hip and thigh
+T33.7|Superficial frostbite of knee and lower leg
+T33.8|Superficial frostbite of ankle, foot, and toe(s)
+T33.9|Superficial frostbite of other and unspecified sites
+T34|Frostbite with tissue necrosis
+T34.0|Frostbite with tissue necrosis of head
+T34.1|Frostbite with tissue necrosis of neck
+T34.2|Frostbite with tissue necrosis of thorax
+T34.3|Frostbite with tissue necrosis of abdominal wall, lower back and pelvis
+T34.4|Frostbite with tissue necrosis of arm
+T34.5|Frostbite with tissue necrosis of wrist, hand, and finger(s)
+T34.6|Frostbite with tissue necrosis of hip and thigh
+T34.7|Frostbite with tissue necrosis of knee and lower leg
+T34.8|Frostbite with tissue necrosis of ankle, foot, and toe(s)
+T34.9|Frostbite with tissue necrosis of other and unspecified sites
+T36|Poisoning by, adverse effect of and underdosing of systemic antibiotics
+T36-T50|underdosing by (inadvertently) (deliberately) taking less substance than prescribed or instructed
+T36.0|Poisoning by, adverse effect of and underdosing of penicillins|626|627|723|733|1266|2015|2625|2968|3356|4448|5690|6927|7233|7773|7980|7984|8339|8372|10167|10168|10322|10591|18609|18687|26797|29629|33277|34649|37775|2181306
+T36.1|Poisoning by, adverse effect of and underdosing of cephalosporins and other beta-lactam antibiotics|1272|2176|2177|2178|2179|2180|2182|2183|2184|2186|2187|2188|2189|2190|2191|2192|2193|2194|2231|2233|2236|2238|2239|7069|20482|20486|25033|48203
+T36.2|Poisoning by, adverse effect of and underdosing of chloramphenicol group|2348|10463
+T36.3|Poisoning by, adverse effect of and underdosing of macrolides|6084|6985|7629|9478|9991|10864|18631|30005|66958
+T36.4|Poisoning by, adverse effect of and underdosing of tetracyclines|2408|3154|3640|6513|6812|6980|7821|9462|10395|21272|29418
+T36.5|Poisoning by, adverse effect of and underdosing of aminoglycosides|270|641|3328|4556|6099|7337|7538|7934|9806|10627|29996|1549540|1596450
+T36.6|Poisoning by, adverse effect of and underdosing of rifampicins|9384|35619|55672|35616|9385
+T36.7|Poisoning by, adverse effect of and underdosing of antifungal antibiotics, systemically used|732|5021|7268|7597
+T36.8|Poisoning by, adverse effect of and underdosing of other systemic antibiotics|2551|2582|2709|3925|4550|6398|7517|7623|8536|11124|11232|25437|42322|57021|78903|113608|1926480|10180|10829
+T36.9|Poisoning by, adverse effect of and underdosing of unspecified systemic antibiotic
+T37|Poisoning by, adverse effect of and underdosing of other systemic anti-infectives and antiparasitics
+T37.0|Poisoning by, adverse effect of and underdosing of sulfonamides|3108|9524|10171|10172|10173|10174|10175|10176|10178|10179|10180|10181|10183|10184|10188|10193|10206|10207|33632|37289|37324|38802|78902
+T37.1|Poisoning by, adverse effect of and underdosing of antimycobacterial drugs|2592|3007|3108|4110|4127|6038|7833|8871|8987|57047|1551455
+T37.2|Poisoning by, adverse effect of and underdosing of antimalarials and drugs acting on other blood protozoa|569|720|2382|2393|6694|8687|9010|9061|9071|50749
+T37.3|Poisoning by, adverse effect of and underdosing of other antiprotozoal drugs|3142|3820|6922|7421|7427|7701|7994|8010|10612|18994|20206|24607|36314|67182|236186|402587
+T37.4|Poisoning by, adverse effect of and underdosing of anthelminthics|430|3351|3384|4325|6069|6371|6672|7402|7778|8340|8628|8984|10450|25096|126291|1311390|1871175
+T37.5|Poisoning by, adverse effect of and underdosing of antiviral drugs|281|3363|3364|6048|9344|9386|10803|11194|11413|30227|33562|38868|40230
+T37.8|Poisoning by, adverse effect of and underdosing of other specified systemic anti-infectives and antiparasitics|981|2550|3435|4450|4451|4601|5301|5521|5942|6922|7419|7454|7798|7960|10829|21753|25112|28031|29256|31901|35797|39823|113831|319866|618425
+T37.9|Poisoning by, adverse effect of and underdosing of unspecified systemic anti-infective and antiparasitics|249|7454|41078
+T38|Poisoning by, adverse effect of and underdosing of hormones and their synthetic substitutes and antagonists, not elsewhere classified
+T38.0|Poisoning by, adverse effect of and underdosing of glucocorticoids and synthetic analogues|3256|3264|4452|4497|5492|7910|8638|8640|10759|12473|21249|21285|21660|22396|29523|41126
+T38.1|Poisoning by, adverse effect of and underdosing of thyroid hormones and substitutes|3292|10565|10582|10814|13982
+T38.2|Poisoning by, adverse effect of and underdosing of antithyroid drugs|2020|6835|8794|19084
+T38.3|Poisoning by, adverse effect of and underdosing of insulin and oral hypoglycemic [antidiabetic] drugs|173|2068|2404|4815|4816|4821|6809|8129|10633|25793|102846|1605101|4832
+T38.4|Poisoning by, adverse effect of and underdosing of oral contraceptives|6373|6529|7514|7518|7519|24591
+T38.5|Poisoning by, adverse effect of and underdosing of other estrogens and progestogens|525|2397|2596|3368|3390|3706|4083|4094|4099|4100|4103|4129|4791|5530|5542|6690|6691|6703|6782|7515|8727|8744|9066|22483|22656|25284|31930|33747|34119|35215|78904
+T38.6|Poisoning by, adverse effect of and underdosing of antigonadotrophins, antiestrogens, antiandrogens, not elsewhere classified|3014|3102|4508|6964|10324|31805|38409
+T38.7|Poisoning by, adverse effect of and underdosing of androgens and anabolic congeners|3143|4162|4494|6781|6817|6818|6833|6904|7244|7513|7779|7813|10032|10378|10379|23678|1312359|1368476
+T38.8|Poisoning by, adverse effect of and underdosing of other and unspecified hormones and synthetic substitutes|376|1825|2890|3251|4319|6383|6384|6531|10579|10580|11149|42375|56188|56570|57048|61148|134404|227518|236901|1426890|1999800|10562|1322428|4986
+T38.9|Poisoning by, adverse effect of and underdosing of other and unspecified hormone antagonists|7617|9939|38668
+T39|Poisoning by, adverse effect of and underdosing of nonopioid analgesics, antipyretics and antirheumatics
+T39.0|Poisoning by, adverse effect of and underdosing of salicylates|1191|2449|3393|9518|9525|36108|91099|1886|19860|21183|36676
+T39.1|Poisoning by, adverse effect of and underdosing of 4-Aminophenol derivatives|161|162|8113
+T39.2|Poisoning by, adverse effect of and underdosing of pyrazolone derivatives|695|1001|1029|3523|5781|7816|8160|8673|28198|30202|34710|183877
+T39.3|Poisoning by, adverse effect of and underdosing of other nonsteroidal anti-inflammatory drugs [NSAID]|3355|4331|4453|4502|5640|5781|6142|6678|7258|8356|10237|10255|10636|20343|24605|31448|32613|37790|39994|53694|257844|588003|618442
+T39.4|Poisoning by, adverse effect of and underdosing of antirheumatics, not elsewhere classified|1227|4845|4980|36726|42547
+T39.8|Poisoning by, adverse effect of and underdosing of other nonopioid analgesics and antipyretics, not elsewhere classified|2601|4444|6761|7285|8120|32633|35827|37418|235808
+T39.9|Poisoning by, adverse effect of and underdosing of unspecified nonopioid analgesic, antipyretic and antirheumatic
+T40|Poisoning by, adverse effect of and underdosing of narcotics and psychodysleptics [hallucinogens]
+T40.0|Poisoning by, adverse effect of and underdosing of opium|7676|7894|32926
+T40.1|Poisoning by and adverse effect of heroin|3304
+T40.2|Poisoning by, adverse effect of and underdosing of other opioids|2670|3423|4166|5489|6754|7052|7804|7814|23088|27084
+T40.3|Poisoning by, adverse effect of and underdosing of methadone|6813
+T40.4|Poisoning by, adverse effect of and underdosing of other synthetic narcotics|480|594|1819|1841|3290|4337|6377|6378|6754|7238|8001|8119|8143|8354|8785|10597|10689|17933|23405|24484|56795
+T40.5|Poisoning by, adverse effect of and underdosing of cocaine|2653
+T40.6|Poisoning by, adverse effect of and underdosing of other and unspecified narcotics
+T40.7|Poisoning by, adverse effect of and underdosing of cannabis (derivatives)|1976|10402|31447
+T40.8|Poisoning by and adverse effect of lysergide [LSD]
+T40.9|Poisoning by, adverse effect of and underdosing of other and unspecified psychodysleptics [hallucinogens]
+T41|Poisoning by, adverse effect of and underdosing of anesthetics and therapeutic gases
+T41.0|Poisoning by, adverse effect of and underdosing of inhaled anesthetics|3920|5095|6026|6857|7486
+T41.1|Poisoning by, adverse effect of and underdosing of intravenous anesthetics|4177|6847|10464|38077|1544577
+T41.2|Poisoning by, adverse effect of and underdosing of other and unspecified general anesthetics|6130|8758|8782|9899|1495077|1535217
+T41.3|Cocaine (topical)|1399|1815|1829|3339|4171|6387|6759|8686|8701|10391|18889|19861|20859|21990|23744|26879|33752|34905|59247|592464
+T41.4|Poisoning by, adverse effect of and underdosing of unspecified anesthetic
+T41.5|Poisoning by, adverse effect of and underdosing of therapeutic gases|7806
+T42|Poisoning by, adverse effect of and underdosing of antiepileptic, sedative- hypnotic and antiparkinsonism drugs
+T42.0|Poisoning by, adverse effect of and underdosing of hydantoin derivatives|4136|6757|8183
+T42.1|Poisoning by, adverse effect of and underdosing of iminostilbenes|2002|32624
+T42.2|Poisoning by, adverse effect of and underdosing of succinimides and oxazolidinediones|4135|10827|32894|33309|47858
+T42.3|Poisoning by, adverse effect of and underdosing of barbiturates|516|719|1325|2978|5302|6758|6825|8004|8134|8691|9624|17381|19860|19874|19928|23020|24807|83885|89810|477631
+T42.4|Poisoning by, adverse effect of and underdosing of benzodiazepines|596|1749|2353|2356|2598|2622|2626|3155|3322|4077|4460|4501|6470|6680|6960|7440|7781|8627|10355|10767|19790|20342|21241|21311|24524|26412|28181|28894|35185|37985|38365|38555
+T42.5|Poisoning by, adverse effect of and underdosing of mixed antiepileptics
+T42.6|Poisoning by, adverse effect of and underdosing of other antiepileptic and sedative-hypnotic drugs|2067|2372|2373|2378|4118|4903|6910|7909|8691|8745|10240|14851|16688|18846|23420|24441|24474|31722|33253|34568|38382|38574|38610|39993|40001|40254|46795|47617|89808|195983|253206|1311138|1313309
+T42.7|Poisoning by, adverse effect of and underdosing of unspecified antiepileptic and sedative-hypnotic drugs
+T42.8|Poisoning by, adverse effect of and underdosing of antiparkinsonism drugs and other central muscle-tone depressants|620|1292|1374|1424|1760|2101|2399|2410|3105|6375|6446|6755|6834|6845|8047|8353|9639|19729|47579|57258|59078|89818
+T43|Poisoning by, adverse effect of and underdosing of psychotropic drugs, not elsewhere classified
+T43.0|Poisoning by, adverse effect of and underdosing of tricyclic and tetracyclic antidepressants|704|722|2597|3247|3332|3634|3638|5691|5979|6465|6646|6929|7531|7674|8886|10834|15996|17698|19895|35242|446248
+T43.1|Poisoning by, adverse effect of and underdosing of monoamine-oxidase-inhibitor antidepressants|5981|6011|7394|8123|10734|30121
+T43.2|Poisoning by, adverse effect of and underdosing of other and unspecified antidepressants|94|2556|4493|7500|10737|11196|30031|38252|39786|42347|42355|47111
+T43.3|Poisoning by, adverse effect of and underdosing of phenothiazine antipsychotics and neuroleptics|155|2403|4496|6779|6852|8042|8076|8338|8348|8704|8742|8766|10471|10498|10502|10800|10805|10825|16735|21877|29528|29648|38133|50138
+T43.4|Poisoning by, adverse effect of and underdosing of butyrophenone and thiothixene neuroleptics|1373|2406|4495|5093|10510|10804|19777|29961|33739|114176
+T43.5|Poisoning by, adverse effect of and underdosing of other and unspecified antipsychotics and neuroleptics|1827|2620|3648|4507|5553|6475|6760|7019|7815|7974|8331|10239|10390|10588|35350|37416|40003|46303|52106|55244|61381|62178
+T43.6|Poisoning by, adverse effect of and underdosing of psychostimulants|725|1886|2228|3288|6816|6901|24840|34604
+T43.8|Poisoning by, adverse effect of and underdosing of other psychotropic drugs|6719|42351|618771
+T43.9|Poisoning by, adverse effect of and underdosing of unspecified psychotropic drug
+T44|Poisoning by, adverse effect of and underdosing of drugs primarily affecting the autonomic nervous system
+T44.0|Poisoning by, adverse effect of and underdosing of anticholinesterase agents|3752|4637|6027|7315|9000|10318
+T44.1|Poisoning by, adverse effect of and underdosing of other parasympathomimetics [cholinergics]|194|1999|8328|19257|155080
+T44.2|Poisoning by, adverse effect of and underdosing of ganglionic blocking drugs|6673|10828
+T44.3|Poisoning by, adverse effect of and underdosing of other parasympatholytics [anticholinergics and antimuscarinics] and spasmolytics|333|1223|1359|1361|1424|1589|3001|3267|3361|3714|4134|4440|6821|7818|7895|8718|8761|9601|10639|10811|10819|10869|17627|17684|19610|20136|20191|21232|22037|23684|24464|24855|25082|26867|27084|27946|29410|29682|32311|32675|32698|33724|33743|34479|38150|38876|52918|59064|89781|89782|89784|89785|107770|153970|190433|236174|236188|236206|236778|314674|392938|1006397|1546438|1855092
+T44.4|Poisoning by, adverse effect of and underdosing of predominantly alpha-adrenoreceptor agonists|4169|6805|6853|7247|7512|8163|31988|41157|59094
+T44.5|Poisoning by, adverse effect of and underdosing of predominantly beta-adrenoreceptor agonists|1347|3616|3992|6023|9392|19831|34530|39801
+T44.6|Poisoning by, adverse effect of and underdosing of alpha-adrenoreceptor antagonists|5784|8149|8629|19850|37798|49276|77492
+T44.7|Poisoning by, adverse effect of and underdosing of beta-adrenoreceptor antagonists|149|597|1202|1520|1817|2116|6918|7226|7801|7973|8332|8620|8787|9947|10600|19484|19605|20192|20498|29518|37840|49737
+T44.8|Poisoning by, adverse effect of and underdosing of centrally-acting and adrenergic-neuron- blocking agents|6185
+T44.9|Poisoning by, adverse effect of and underdosing of other and unspecified drugs primarily affecting the autonomic nervous system|3628|3966|6756|8175|8792|8896|51253
+T45|Poisoning by, adverse effect of and underdosing of primarily systemic and hematological agents, not elsewhere classified
+T45.0|Poisoning by, adverse effect of and underdosing of antiallergic and antiemetic drugs|1767|2354|2400|2549|2578|2977|3013|3444|3449|3498|3626|3642|6146|6676|6822|6915|8132|8770|9009|10847|10849|17311|18600|18603|18753|19041|19759|19959|20220|20610|20861|20881|22696|22697|23370|23386|26225|26237|28012|29411|33283|33408|33712|38025|38685|38810|42328|42330|54236|57330|59636|59695|314546
+T45.1|Poisoning by, adverse effect of and underdosing of antineoplastic and immunosuppressive drugs|103|239|632|677|739|1156|1251|1256|1622|1828|2105|2346|2555|3002|3008|3041|3098|3100|3109|3639|3995|4089|4132|4179|4488|4492|4582|5296|5552|5650|5657|6466|6674|6718|6851|6995|6996|7004|7005|8011|8347|8637|8702|9154|10114|10362|10432|10473|10485|10996|11198|11201|11202|11204|33764|38508|38865|39541|40048|42333|42405|50610|133070|1310910|1420982|1440264
+T45.2|Poisoning by, adverse effect of and underdosing of vitamins|290|1151|1588|1889|1894|2418|2669|3429|4018|4604|7405|7886|7891|9002|9346|10454|12062|18891|19143|22701|62400|214355|236300|237099|684879|1044977|1236136|1314351|1314412|11246|1367187|11253|11256
+T45.3|Poisoning by, adverse effect of and underdosing of enzymes|1752|2133|2525|2530|10104|10454|10890|36434|46049|227410|5464
+T45.4|Poisoning by, adverse effect of and underdosing of iron and its compounds|24898|105673|107056|1594675|1607976
+T45.5|Poisoning by, adverse effect of and underdosing of anticoagulants and antithrombotic drugs|154|1598|2898|8130|8150|8814|10594|11289|17941|27518|38655|50097|163426|352374
+T45.6|Poisoning by, adverse effect of and underdosing of fibrinolysis-affecting drugs|99|772|1056|8410|10106|10691|11055|14852|40028
+T45.7|Poisoning by, adverse effect of and underdosing of anticoagulant antagonists, vitamin K and other coagulants|4112|6728|8308|8825|10528|29491|29495|42781|1670383
+T45.8|Poisoning by, adverse effect of and underdosing of other primarily systemic and hematological agents|3131|3272|3445|3755|4257|4511|5514|5531|6313|6459|8521|8610|10798|11248|24909|29421|32699|33835|70602|105673|105694|828529|831503|1368950|1426381|1670383
+T45.9|Poisoning by, adverse effect of and underdosing of unspecified primarily systemic and hematological agent
+T46|Poisoning by, adverse effect of and underdosing of agents primarily affecting the cardiovascular system
+T46.0|Poisoning by, adverse effect of and underdosing of cardiac-stimulant glycosides and drugs of similar action|199|3248|3403|3407|6686|8795|89791|132871|1309793|21716
+T46.1|Poisoning by, adverse effect of and underdosing of calcium-channel blockers|1436|3443|4316|4327|4648|6390|7396|7417|7426|7435|7441|11170|33910
+T46.2|Poisoning by, adverse effect of and underdosing of other antidysrhythmic drugs, not elsewhere classified|423|703|1054|3541|4441|6926|8622|8700|8754|9068|19685|21099|27220|42359|42368
+T46.3|Poisoning by, adverse effect of and underdosing of coronary vasodilators|742|2508|3521|4040|4917|5254|5303|6058|6147|6628|7023|7805|8050|8674|10735|23852|31748|33055|37815|51487|1362925
+T46.4|Poisoning by, adverse effect of and underdosing of angiotensin-converting-enzyme inhibitors|1998|3827|3829|18867|21102|29046|35208|35296|36908|39990|50166|54552
+T46.5|Poisoning by, adverse effect of and underdosing of other antihypertensive drugs|599|1523|2599|3118|3327|3409|3418|4025|5033|5036|5470|5764|6876|6877|6911|7476|7930|9259|9556|26296|28382|33717|39230|40114|62174|235829|266604
+T46.6|Poisoning by, adverse effect of and underdosing of antihyperlipidemic and antiarteriosclerotic drugs|1525|2447|2594|2685|4719|6472|7393|8699|8703|9515|9808|16817|18880|21149|24609|36567|37422|42463|70611|70616|595958|1363446
+T46.7|Poisoning by, adverse effect of and underdosing of peripheral vasodilators|598|1367|1511|2970|3415|3419|4024|4459|5833|6066|6095|6984|7393|7398|7414|7595|8013|8149|8153|10561|10634|10826|17205|19836|20609|24506|24611|27403|33086|39580|40138|57954|89795|104486|136411|180806|306674|358263
+T46.8|Poisoning by, adverse effect of and underdosing of antivaricose drugs, including sclerosing agents|9892|9913|24457|24460|968170
+T46.9|Poisoning by, adverse effect of and underdosing of other and unspecified agents primarily affecting the cardiovascular system|3489|4065|5281|9500|25060|28574|31475|31538|33432|38557|38893|235935|1441664
+T47|Poisoning by, adverse effect of and underdosing of agents primarily affecting the gastrointestinal system
+T47.0|Poisoning by, adverse effect of and underdosing of histamine H2-receptor blockers|2541|4278|9143|42319|114817
+T47.1|Poisoning by, adverse effect of and underdosing of other antacids and anti-gastric-secretion drugs|1897|2017|7646|8352|8730|9796|10156|17392|17614|23162|23163|27221|29151|36676|42331|236730|324072|644634|6581|29155|612
+T47.2|Poisoning by, adverse effect of and underdosing of stimulant laxatives|1596|2129|8136|17354|22293|36387|89698|155122|235496|236719|314784|318340|319815|324039|1546458
+T47.3|Poisoning by, adverse effect of and underdosing of saline and osmotic laxatives|6218|6628|11002|6585|236741
+T47.4|Poisoning by, adverse effect of and underdosing of other laxatives|397|2062|4910|6111|6404|6873|6972|8928|9945|36721|82003|155156
+T47.5|Poisoning by, adverse effect of and underdosing of digestants|743|1512|1540|7880|7892|8016|8031|21183|41397|42588|42625|70602|90926|235379|319824|1310249|1440856|2108821|975763|285241|899420|560
+T47.6|Poisoning by, adverse effect of and underdosing of antidiarrheal drugs|272|2296|3500|6102|6205|6468|18516|23024|32987|100272|236782|1310844|1311119|1368128|1223
+T47.7|Poisoning by, adverse effect of and underdosing of emetics|1043|5975
+T47.8|Poisoning by, adverse effect of and underdosing of other agents primarily affecting gastrointestinal system|17305|19768|21224|32385|35255|52582|324072|1368862|1535222
+T47.9|Poisoning by, adverse effect of and underdosing of unspecified agents primarily affecting the gastrointestinal system
+T48|Poisoning by, adverse effect of and underdosing of agents primarily acting on smooth and skeletal muscles and the respiratory system
+T48.0|Poisoning by, adverse effect of and underdosing of oxytocic drugs|2051|3477|3478|4021|6883|7824|12449
+T48.1|Poisoning by, adverse effect of and underdosing of skeletal muscle relaxants [neuromuscular blocking agents]|1218|10154|10917|21949|26826|30077|71535
+T48.2|Poisoning by, adverse effect of and underdosing of other and unspecified drugs acting on muscles|1712|7688
+T48.3|Poisoning by, adverse effect of and underdosing of antitussives|3289|7533|18993|19862|20217|21247|21254|23419|32658|33431|33740|39969|121069|183875|235961|236749|2104180
+T48.4|Poisoning by, adverse effect of and underdosing of expectorants|44|197|625|1753|2023|5032|5975|24272|26143|27208|27723|28554|29426|36669|38998|42769|235273|402565|8896
+T48.5|Poisoning by, adverse effect of and underdosing of other anti-common-cold drugs|6750|7247|7812|8792|21130|24856|27492|38453|39841
+T48.6|Poisoning by, adverse effect of and underdosing of antiasthmatics, not elsewhere classified|435|689|2449|2580|4333|5307|6023|6054|9388|10368|10438|18751|18752|19499|20976|25120|29704|31563|32649|33767|34906|35373|36117|38967|42612|46307|156240|235942|237159
+T48.9|Poisoning by, adverse effect of and underdosing of other and unspecified agents primarily acting on the respiratory system
+T49|poisoning by, adverse effect of and underdosing of glucocorticoids, topically used
+T49.0|Poisoning by, adverse effect of and underdosing of local antifungal, anti-infective and anti-inflammatory drugs|249|513|645|732|1291|1418|1425|1426|1514|1700|2286|2358|2378|2407|2590|2623|3129|3254|3255|3392|3743|4106|4458|4462|4463|4491|4500|4778|5011|5084|5293|5492|5499|5645|6135|6572|6762|6932|7268|7455|7543|7597|7910|8611|8723|9022|9785|9789|9793|10169|10472|10553|10637|10753|10756|10759|10795|14997|17652|18405|19044|20012|20762|20823|20875|20877|21766|22865|25126|26416|26422|26849|27748|27901|29439|29542|29584|29829|29903|30206|31476|32638|32680|33219|33290|33303|34188|34369|34633|36726|37806|38298|38372|38609|42372|47686|56513|69627|70589|82910|89552|89721|89722|89729|91311|108074|108088|108091|108118|236650|236962|288088|314881|618278|1232405|1309226|1311098|1311565|1362744|1426779|1483317|1535513|1426865|7094
+T49.1|Poisoning by, adverse effect of and underdosing of antipruritics|6086|34347
+T49.2|Poisoning by, adverse effect of and underdosing of local astringents and local detergents|448|10328|29787|89821
+T49.3|Poisoning by, adverse effect of and underdosing of emollients, demulcents and protectants|74|1375|6227|6854|8091|10323|18235|36122|91326|1039062|1309243|1311567|1318494|1425879
+T49.4|Poisoning by, adverse effect of and underdosing of keratolytics, keratoplastics, and other hair treatment drugs and preparations|508|873|6086|8462|9525|9793|10844|11423|17145|20875|29900|39952|52882|58939|70598|319780|1363702|1370627|1860418|2059173
+T49.5|Poisoning by, adverse effect of and underdosing of ophthalmological drugs and preparations|1813|7839|8299|10824|23410|27334|28381|37935|49428|89778
+T49.6|Poisoning by, adverse effect of and underdosing of otorhinolaryngological drugs and preparations|10968|22906|132889|236248|236268
+T49.7|Poisoning by, adverse effect of and underdosing of dental drugs, topically applied|10030|59087
+T49.8|Poisoning by, adverse effect of and underdosing of other topical agents|8463|11002|20762|36224|58939|114202
+T49.9|Poisoning by, adverse effect of and underdosing of unspecified topical agent
+T50|Poisoning by, adverse effect of and underdosing of diuretics and other and unspecified drugs, medicaments and biological substances
+T50.0|Poisoning by, adverse effect of and underdosing of mineralocorticoids and their antagonists|1982|3256|4452|9997|81971|1312358
+T50.1|Poisoning by, adverse effect of and underdosing of loop [high-ceiling] diuretics|1808|4603|33770|62349
+T50.2|Poisoning by, adverse effect of and underdosing of carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics|167|644|1369|2396|2409|2603|3000|3353|3714|5487|5495|6696|6774|6826|6860|6916|8565|10763|10772|10865|11371|17599|19008|19882|22033|59743|89911|1440266
+T50.3|Poisoning by, adverse effect of and underdosing of electrolytic, caloric and water-balance agents|1895|1908|1919|2969|4570|4626|4850|4919|9863|10159|25806|27712|36676|47622|56512|235496
+T50.4|Poisoning by, adverse effect of and underdosing of drugs affecting uric acid metabolism|519|1385|2683|8698|10205|38136|283821
+T50.5|Poisoning by, adverse effect of and underdosing of appetite depressants|1422|3268|3389|4328|6664|8133|8152|21244|24867|29444|32022|33272|158507
+T50.6|Poisoning by, adverse effect of and underdosing of antidotes and chelating agents|1902|3022|3554|3755|4890|6878|7975|8302|9894|34345|36726|42826
+T50.7|Poisoning by, adverse effect of and underdosing of analeptics and opioid receptor antagonists|528|3637|6370|6464|7242|7243|7424|7966|8015|24453
+T50.8|Poisoning by, adverse effect of and underdosing of diagnostic agents|2420|2660|3319|4191|5363|5775|5924|5928|5936|5956|5966|5967|5968|5970|5973|5976|6920|6923|7832|7993|8141|8793|9133|9800|9884|10960|18896|25138|27781|27792|42837|51474|52527|89854|183830|325514|1362737|1546451|27863|32950|606396|9627
+T50.9|Poisoning by, adverse effect of and underdosing of other and unspecified drugs, medicaments and biological substances|712|1091|1901|2388|2449|2714|2969|3350|4182|4885|5833|6064|6765|6854|7704|8516|9509|9794|9884|10046|15842|16728|16818|24263|30198|36676|42348|42682|42955|56466|62427|114464|155067|618060|1309252|1311214|1311287|1314344|1362900|1367177|1368197|1427222|6837|9100
+T50.A|Poisoning by, adverse effect of and underdosing of bacterial vaccines|798304|2427
+T50.B|Poisoning by, adverse effect of and underdosing of viral vaccines|9486|9835|194279|797752|798372|804187|89890
+T50.Z|Poisoning by, adverse effect of and underdosing of other vaccines and biological substances|3510|5666|26744|35465|89886|597392
+T51|Toxic effect of alcohol
+T51-T65|Toxic effects of substances chiefly nonmedicinal as to source (T51-T65)
+T51.0|Toxic effect of ethanol|448|216449
+T51.1|Toxic effect of methanol|1310568
+T51.2|Toxic effect of isopropyl alcohol|797541
+T51.3|Toxic effect of propyl [1-propanol] alcohol|1310579|1362872
+T51.8|Toxic effect of other alcohols|5296|2099711
+T51.9|Toxic effect of unspecified alcohol|448
+T52|Toxic effect of organic solvents
+T52.0|Toxic effects of kerosene [paraffin oil]
+T52.1|Toxic effects of benzene|1311295
+T52.2|Toxic effects of xylene [dimethylbenzene]|5321|5509
+T52.3|Toxic effects of glycols|1311147|1314365|1552575
+T52.4|Toxic effects of ketones|1362929|1363708
+T52.8|Toxic effects of other organic solvents|164|28730|1314316|1314355|1363043|1367180|1370452|1435572|1599636|1603476|1921584
+T52.9|Toxic effects of unspecified organic solvent
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons
+T53.0|Toxic effects of tetrachloromethane
+T53.1|Toxic effects of trichloromethane
+T53.2|Toxic effects of trichloroethene
+T53.3|Toxic effects of perchloroethylene
+T53.4|Toxic effects of methylene chloride
+T53.5|Toxic effects of chlorofluorocarbons|50110
+T53.6|Toxic effects of other halogen derivatives of aliphatic hydrocarbons|1388|1995489
+T53.7|Toxic effects of other halogen derivatives of aromatic hydrocarbons|89548|2120182
+T53.9|Toxic effects of unspecified halogen derivatives of aliphatic and aromatic hydrocarbons
+T54|Toxic effect of corrosive substances
+T54.0|Toxic effects of phenol and phenol homologues|33290
+T54.1|Toxic effects of other corrosive organic compounds
+T54.2|Toxic effects of corrosive acids and acid-like substances|168|4537|8259|10231|1427058
+T54.3|Toxic effects of corrosive alkalis and alkali-like substances|9880|28728|1310190
+T54.9|Toxic effects of unspecified corrosive substance
+T55|Toxic effect of soaps and detergents
+T55.0|Toxic effect of soaps
+T55.1|Toxic effect of detergents
+T56|toxic effects of metals from all sources, except medicinal substances
+T56.0|Toxic effects of lead and its compounds
+T56.1|Toxic effects of mercury and its compounds
+T56.2|Toxic effects of chromium and its compounds|2496
+T56.3|Toxic effects of cadmium and its compounds
+T56.4|Toxic effects of copper and its compounds|21579
+T56.5|Toxic effects of zinc and its compounds
+T56.6|Toxic effects of tin and its compounds
+T56.7|Toxic effects of beryllium and its compounds
+T56.8|Toxic effects of other metals|6448|11121|1311384
+T56.9|Toxic effects of unspecified metal
+T57|Toxic effect of other inorganic substances
+T57.0|Toxic effect of arsenic and its compounds|18330|1364794|1552051
+T57.1|Toxic effect of phosphorus and its compounds
+T57.2|Toxic effect of manganese and its compounds
+T57.3|Toxic effect of hydrogen cyanide
+T57.8|Toxic effect of other specified inorganic substances|1705|5486
+T57.9|Toxic effect of unspecified inorganic substance
+T58|toxic effect of carbon monoxide from all sources
+T58.0|Toxic effect of carbon monoxide from motor vehicle exhaust
+T58.1|Toxic effect of carbon monoxide from utility gas
+T58.2|Toxic effect of carbon monoxide from incomplete combustion of other domestic fuels
+T58.8|Toxic effect of carbon monoxide from other source
+T58.9|Toxic effect of carbon monoxide from unspecified source
+T59|aerosol propellants
+T59.0|Toxic effect of nitrogen oxides|7456
+T59.1|Toxic effect of sulfur dioxide
+T59.2|Toxic effect of formaldehyde|314636
+T59.3|Toxic effect of tear gas
+T59.4|Toxic effect of chlorine gas
+T59.5|Toxic effect of fluorine gas and hydrogen fluoride|5496
+T59.6|Toxic effect of hydrogen sulfide
+T59.7|Toxic effect of carbon dioxide
+T59.8|Toxic effect of other specified gases, fumes and vapors|5497|1314239|1995489
+T59.9|Toxic effect of unspecified gases, fumes and vapors
+T60|toxic effect of wood preservatives
+T60.0|Toxic effect of organophosphate and carbamate insecticides|9724|1000581
+T60.1|Toxic effect of halogenated insecticides|22374|33199|1665336
+T60.2|Toxic effect of other insecticides|36717|1366666
+T60.3|Toxic effect of herbicides and fungicides|10517|48008|1311216|1362885|1368147|1800093
+T60.4|Toxic effect of rodenticides
+T60.8|Toxic effect of other pesticides|3129|8345|1367191
+T60.9|Toxic effect of unspecified pesticide
+T61|Toxic effect of noxious substances eaten as seafood
+T61.0|Ciguatera fish poisoning
+T61.1|Histamine-like syndrome
+T61.7|Other fish and shellfish poisoning
+T61.8|Toxic effect of other seafood
+T61.9|Toxic effect of unspecified seafood
+T62|Toxic effect of other noxious substances eaten as food
+T62.0|Toxic effect of ingested mushrooms|1858554
+T62.1|Toxic effect of ingested berries
+T62.2|Toxic effect of other ingested (parts of) plant(s)|89781|285151|285162|285163|285168|285220|317808|1309336|1311152|1311188|1311398|1336269|1344641|1351000|1745416|1311079|670544
+T62.8|Toxic effect of other specified noxious substances eaten as food|19596|1370302
+T62.9|Toxic effect of unspecified noxious substance eaten as food
+T63|pricked or stuck by thorn or leaf
+T63.0|Toxic effect of snake venom
+T63.1|Toxic effect of venom of other reptiles
+T63.2|Toxic effect of venom of scorpion
+T63.3|Toxic effect of venom of spider
+T63.4|Toxic effect of venom of other arthropods
+T63.5|Toxic effect of contact with venomous fish
+T63.6|Toxic effect of contact with other venomous marine animals
+T63.7|Toxic effect of contact with venomous plant
+T63.8|Toxic effect of contact with other venomous animals
+T63.9|Toxic effect of contact with unspecified venomous animal
+T64|Toxic effect of aflatoxin and other mycotoxin food contaminants
+T64.0|Toxic effect of aflatoxin
+T64.8|Toxic effect of other mycotoxin food contaminants
+T65|Toxic effect of other and unspecified substances
+T65.0|Toxic effect of cyanides
+T65.1|Toxic effect of strychnine and its salts|314743|2181419
+T65.2|Toxic effect of tobacco and nicotine
+T65.3|Toxic effect of trinitrotoluene|1363044|1441546|1443000
+T65.4|Toxic effect of carbon disulfide
+T65.5|Toxic effect of 1,2,3-Propanetriol trinitrate
+T65.6|Toxic effect of paints and dyes, not elsewhere classified|1425501
+T65.8|Toxic effect of other specified substances|37578|70602|486961|1305651|1314891|1362878|1367155|1367207|1368125|1368177|1370450|1425879|1441660|1733690|1923815
+T65.9|Toxic effect of unspecified substance
+T66|Radiation sickness, unspecified
+T66-T78|Other and unspecified effects of external causes (T66-T78)
+T67|Effects of heat and light
+T67.0|Heatstroke and sunstroke
+T67.1|Heat syncope
+T67.2|Heat cramp
+T67.3|Heat prostration due to water depletion
+T67.4|Heat prostration due to salt (and water) depletion
+T67.5|Heat exhaustion, unspecified
+T67.6|Heat fatigue, transient
+T67.7|Heat edema
+T67.8|Other effects of heat and light
+T67.9|Effect of heat and light, unspecified
+T68|Hypothermia
+T69|Other effects of reduced temperature
+T69.0|Immersion hand and foot
+T69.1|Chilblains
+T69.8|Other specified effects of reduced temperature
+T69.9|Effect of reduced temperature, unspecified
+T70|Effects of air pressure and water pressure
+T70.0|Effects of change in ambient atmospheric pressure or water pressure on ears
+T70.1|Effects of change in ambient atmospheric pressure on sinuses
+T70.2|Other and unspecified effects of high altitude
+T70.3|Diver's palsy or paralysis
+T70.4|Traumatic jet injection (industrial)
+T70.8|Other effects of air pressure and water pressure
+T70.9|Effect of air pressure and water pressure, unspecified
+T71|Traumatic suffocation
+T71.1|Suffocation due to mechanical threat to breathing
+T71.2|Asphyxiation due to systemic oxygen deficiency due to low oxygen content in ambient air
+T71.9|Asphyxiation due to unspecified cause
+T73|Effects of other deprivation
+T73.0|Deprivation of food
+T73.1|Deprivation of water
+T73.2|Exhaustion due to exposure
+T73.3|Exhaustion due to overexertion
+T73.8|Other effects of deprivation
+T73.9|Effect of deprivation, unspecified
+T74|Adult and child abuse, neglect and other maltreatment, confirmed
+T74.0|Neglect or abandonment, confirmed
+T74.1|Physical abuse, confirmed
+T74.2|Sexual abuse, confirmed
+T74.3|Intimidation through social media, confirmed
+T74.4|Shaken infant syndrome
+T74.5|Forced sexual exploitation, confirmed
+T74.6|Forced labor exploitation, confirmed
+T74.9|Unspecified maltreatment, confirmed
+T75|Other and unspecified effects of other external causes
+T75.0|Struck by lightning
+T75.1|Unspecified effects of drowning and nonfatal submersion
+T75.2|Effects of vibration
+T75.3|Seasickness
+T75.4|Shock from electroshock gun (taser)
+T75.8|Other specified effects of external causes
+T76|Adult and child abuse, neglect and other maltreatment, suspected
+T76.0|Neglect or abandonment, suspected
+T76.1|Physical abuse, suspected
+T76.2|Sexual abuse, suspected
+T76.3|Intimidation through social media, suspected
+T76.5|Forced sexual exploitation, suspected
+T76.6|Forced labor exploitation, suspected
+T76.9|Unspecified maltreatment, suspected
+T78|Adverse effects, not elsewhere classified
+T78.0|Anaphylactic shock or reaction due to nonpoisonous foods
+T78.1|Other adverse food reactions, not elsewhere classified
+T78.2|Anaphylactic shock, unspecified
+T78.3|Allergic angioedema
+T78.4|Other and unspecified allergy
+T78.8|Other adverse effects, not elsewhere classified
+T79|Certain early complications of trauma, not elsewhere classified
+T79-T79|Certain early complications of trauma (T79)
+T79.0|Air embolism (traumatic)
+T79.1|Fat embolism (traumatic)
+T79.2|Traumatic secondary and recurrent hemorrhage and seroma
+T79.4|Shock (immediate) (delayed) following injury
+T79.5|Traumatic anuria
+T79.6|Traumatic ischemia of muscle
+T79.7|Traumatic subcutaneous emphysema
+T79.8|Other early complications of trauma
+T79.9|Unspecified early complication of trauma
+T79.A|Traumatic compartment syndrome
+T80|complications following perfusion
+T80-T88|Complications of surgical and medical care, not elsewhere classified (T80-T88)
+T80.0|Air embolism following infusion, transfusion and therapeutic injection
+T80.1|Vascular complications following infusion, transfusion and therapeutic injection
+T80.2|Infections following infusion, transfusion and therapeutic injection
+T80.3|ABO incompatibility reaction due to transfusion of blood or blood products
+T80.4|Rh incompatibility reaction due to transfusion of blood or blood products
+T80.5|Anaphylaxis due to serum
+T80.6|Other serum reactions
+T80.8|Other complications following infusion, transfusion and therapeutic injection
+T80.9|Unspecified complication following infusion, transfusion and therapeutic injection
+T80.A|Non-ABO incompatibility reaction due to transfusion of blood or blood products
+T81|Complications of procedures, not elsewhere classified
+T81.1|Postprocedural shock
+T81.3|Disruption of wound, not elsewhere classified
+T81.4|Infection following a procedure
+T81.5|Complications of foreign body accidentally left in body following procedure
+T81.6|Acute reaction to foreign substance accidentally left during a procedure
+T81.7|Phlebitis or thrombophlebitis resulting from a procedure
+T81.8|Other complications of procedures, not elsewhere classified
+T81.9|Unspecified complication of procedure
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts
+T82.0|Mechanical complication of artificial heart valve
+T82.1|Mechanical complication of cardiac electronic device
+T82.2|Mechanical complication of coronary artery bypass graft and biological heart valve graft
+T82.3|Mechanical complication of other vascular grafts
+T82.4|Mechanical complication of hemodialysis catheter
+T82.5|Mechanical complication of other cardiac and vascular devices and implants
+T82.6|Infection and inflammatory reaction due to cardiac valve prosthesis
+T82.7|Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts
+T82.8|Other specified complications of cardiac and vascular prosthetic devices, implants and grafts
+T82.9|Unspecified complication of cardiac and vascular prosthetic device, implant and graft
+T83|Complications of genitourinary prosthetic devices, implants and grafts
+T83.0|Mechanical complication of urinary catheter
+T83.1|Mechanical complication of other urinary devices and implants
+T83.2|Mechanical complication of graft of urinary organ
+T83.3|Mechanical complication of intrauterine contraceptive device
+T83.4|Mechanical complication of other prosthetic devices, implants and grafts of genital tract
+T83.5|Infection and inflammatory reaction due to prosthetic device, implant and graft in urinary system
+T83.6|Infection and inflammatory reaction due to prosthetic device, implant and graft in genital tract
+T83.7|Complications due to implanted mesh and other prosthetic materials
+T83.8|Other specified complications of genitourinary prosthetic devices, implants and grafts
+T83.9|Unspecified complication of genitourinary prosthetic device, implant and graft
+T84|Complications of internal orthopedic prosthetic devices, implants and grafts
+T84.0|Mechanical complication of internal joint prosthesis
+T84.1|Mechanical complication of internal fixation device of bones of limb
+T84.2|Mechanical complication of internal fixation device of other bones
+T84.3|Mechanical complication of other bone devices, implants and grafts
+T84.4|Mechanical complication of other internal orthopedic devices, implants and grafts
+T84.5|Infection and inflammatory reaction due to internal joint prosthesis
+T84.6|Infection and inflammatory reaction due to internal fixation device
+T84.7|Infection and inflammatory reaction due to other internal orthopedic prosthetic devices, implants and grafts
+T84.8|Other specified complications of internal orthopedic prosthetic devices, implants and grafts
+T84.9|Unspecified complication of internal orthopedic prosthetic device, implant and graft
+T85|Complications of other internal prosthetic devices, implants and grafts
+T85.0|Mechanical complication of ventricular intracranial (communicating) shunt
+T85.1|Mechanical complication of implanted electronic stimulator of nervous system
+T85.2|Mechanical complication of intraocular lens
+T85.3|Mechanical complication of other ocular prosthetic devices, implants and grafts
+T85.4|Mechanical complication of breast prosthesis and implant
+T85.5|Mechanical complication of gastrointestinal prosthetic devices, implants and grafts
+T85.6|Mechanical complication of other specified internal and external prosthetic devices, implants and grafts
+T85.7|Infection and inflammatory reaction due to other internal prosthetic devices, implants and grafts
+T85.8|Other specified complications of internal prosthetic devices, implants and grafts, not elsewhere classified
+T85.9|Complication of internal prosthetic device, implant and graft NOS
+T86|Complications of transplanted organs and tissue
+T86.0|Complications of bone marrow transplant
+T86.1|Complications of kidney transplant
+T86.2|Complications of heart transplant
+T86.3|Complications of heart-lung transplant
+T86.4|Complications of liver transplant
+T86.5|Complications of stem cell transplant
+T86.8|Complications of other transplanted organs and tissues
+T86.9|Complication of unspecified transplanted organ and tissue
+T87|Complications peculiar to reattachment and amputation
+T87.0|Complications of reattached (part of) upper extremity
+T87.1|Complications of reattached (part of) lower extremity
+T87.2|Complications of other reattached body part
+T87.3|Neuroma of amputation stump
+T87.4|Infection of amputation stump
+T87.5|Necrosis of amputation stump
+T87.8|Other complications of amputation stump
+T87.9|Unspecified complications of amputation stump
+T88|Other complications of surgical and medical care, not elsewhere classified
+T88.0|Sepsis following immunization
+T88.1|Rash following immunization
+T88.2|Shock due to anesthesia
+T88.3|Malignant hyperthermia due to anesthesia
+T88.4|Failed or difficult intubation
+T88.5|Other complications of anesthesia
+T88.6|Anaphylactic reaction due to adverse effect of correct drug or medicament properly administered
+T88.7|Unspecified adverse effect of drug or medicament
+T88.8|Other specified complications of surgical and medical care, not elsewhere classified
+T88.9|Complication of surgical and medical care, unspecified

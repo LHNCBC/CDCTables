@@ -47,19 +47,21 @@ public class DEASubstance {
 		this.name = name;
 	}
 
-	public ArrayList<String> getSynonyms() {
-		return synonyms;
+	public ArrayList<String> getSynonyms(boolean lower) {
+		ArrayList<String> list = new ArrayList<String>();
+		if(lower) {
+			synonyms.forEach(a -> {
+				list.add(a.toLowerCase());
+			});
+			return list;
+		}
+		else {
+			return this.synonyms;
+		}
 	}
 
 	public void setSynonyms(ArrayList<String> synonyms) {
 		this.synonyms = synonyms;
-	}
-	
-	public boolean containsSynonyms(String s) {
-		for(String synonym : this.synonyms) {
-			if( synonym.equalsIgnoreCase(s)) return true;
-		}
-		return false;
 	}
 
 	public ArrayList<String> getRxcuis() {

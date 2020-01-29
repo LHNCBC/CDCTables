@@ -7,7 +7,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import javax.net.ssl.HttpsURLConnection;
 
@@ -44,8 +43,17 @@ public class NFLISSubstance {
 		this.name = name;
 	}	
 	
-	public ArrayList<String> getSynonyms() {
-		return this.synonyms;
+	public ArrayList<String> getSynonyms(boolean lower) {
+		ArrayList<String> list = new ArrayList<String>();
+		if(lower) {
+			synonyms.forEach(a -> {
+				list.add(a.toLowerCase());
+			});
+			return list;
+		}
+		else {
+			return this.synonyms;
+		}
 	}
 
 	public ArrayList<String> setSynonyms(String synonymString) {
@@ -60,14 +68,7 @@ public class NFLISSubstance {
 		
 		return synonymsList;
 	}	
-	
-	public boolean containsSynonym(String s) {
-		for(String synonym : synonyms ) {
-			if( synonym.equalsIgnoreCase(s)) return true;
-		}
-		return false;
-	}
-	
+
 	public ArrayList<String> getRxcuis() {
 		return this.rxcuis;
 	}

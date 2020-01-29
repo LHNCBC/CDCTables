@@ -1,0 +1,15 @@
+CDC Serialization flow:
+
+
+1. Code generator is initialized to 0
+2. Configuration, bringing in all files from DEA, NFLIS, ICD-10 Hierarchy, and ICD-rxcui mapping
+3. Build the T-code hierarchy
+	a. create an ICD Class concept
+	b. create a Term for each
+	c. draw the isa relation for each
+4. Add all ATC classes and terms via the RxClass API
+	a. create an ATC Class concept
+	b. add the isa relationship in the concept-concept table
+5. Add RxNorm data via the RxNorm REST API
+	a. 
+
