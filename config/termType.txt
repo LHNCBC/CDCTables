@@ -1,0 +1,8 @@
+IN|Ingredient
+PIN|Precise Ingredient
+BN|Brand Name
+MSP|Misspelling
+SY|Synonym
+PV|Principal Variant
+UNII|Inique Ingredient Identifier
+UNSP|Unspecified

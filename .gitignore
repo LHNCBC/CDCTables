@@ -8,3 +8,6 @@ concept-concept.txt
 concept-type.txt
 term.txt
 term-type.txt
+CDCTables
+jacoco-resources
+/target/

@@ -7,6 +7,7 @@
  *  	- fix to multiple BNs for a substance so not just the first is added
  *  	- principal variant fix
  *  191206 - addition of T-codes and hierarchy, from ICD-10, and associate rx substances
+ *  200130 - addition of MCL variants as an unspecified source
  */
 
 package gov.nih.nlm.mor.db;
@@ -73,10 +74,6 @@ public class CDCTables {
 	private HashMap<String, ArrayList<String>> rxcui2Misspellings = new HashMap<String, ArrayList<String>>();
 	private HashMap<String, String> rxcui2ProperSpelling = new HashMap<String, String>();
 	
-//	private HashMap<String, ArrayList<String>> rxcui2DrugTCodes = new HashMap<String, ArrayList<String>>();
-//	private HashMap<String, String> tcode2Description = new HashMap<String, String>();
-//	private HashMap<String, ArrayList<String>> tcode2Rxcuis = new HashMap<String, ArrayList<String>>();
-	
 	private HashMap<IcdConcept, ArrayList<IcdConcept>> icdHierarchy = new HashMap<IcdConcept, ArrayList<IcdConcept>>();
 	
 	private HashMap<NFLISCategory, ArrayList<NFLISSubstance>> nflisCategory2Substance = new HashMap<NFLISCategory, ArrayList<NFLISSubstance>>();
@@ -88,7 +85,6 @@ public class CDCTables {
 	private ArrayList<IcdConcept> icdConcepts = new ArrayList<IcdConcept>();
 	private ArrayList<IcdConcept> icdConceptsWithCuis = new ArrayList<IcdConcept>();
 	
-	//I'm guessing this will change if col. 3 starts to vary
 	private HashMap<String, ArrayList<String>> mclMap = new HashMap<String, ArrayList<String>>();
 	
 	private HashMap<String, String> sourceMap = new HashMap<String, String>();
@@ -125,6 +121,8 @@ public class CDCTables {
 		String term2termPath = "./term-term.txt";
 		String concept2conceptPath = "./concept-concept.txt";
 		
+		String sourcesPath = "./config/sources.txt";
+		String typePath = "./config/termType.txt";
 		String cui2MisspellingsPath = "./config/substance-mispellings.txt";
 		String icdHierarchy = "./config/10-par-chd-rels.txt";
 		String tcode2RxPath = "./config/tcode-map.txt";
@@ -133,6 +131,15 @@ public class CDCTables {
 		String mclPath = "./config/MCL-terms";
 
 		System.out.println("[1] Reading configuration files and materializing rxcuis");
+		
+		System.out.print("  - from " + sourcesPath); 		
+		readFile(sourcesPath, "sources");
+		System.out.println(" ...OK");
+		
+		System.out.print("  - from " + typePath); 		
+		readFile(typePath, "types");
+		System.out.println(" ...OK");		
+		
 		System.out.print("  - from " + cui2MisspellingsPath); 		
 		readFile(cui2MisspellingsPath, "spell");
 		System.out.println(" ...OK");
@@ -187,11 +194,21 @@ public class CDCTables {
 				if (line == null)
 					eof = true;
 				else {	
-					if( line != null && line.contains("|") ) {
+//					if( line != null && line.contains("|") ) {
+					if( line != null ) {
 						String[] values = line.split("\\|", -1);
 
 						switch(type)
 						{
+							case "sources":
+								String source = values[0].trim();
+								setAuthoritativeSourceTable(source);
+								break;
+							case "types":
+								String tty = values[0].trim();
+								String desc = values[1].trim();
+								setTermTypeTable(tty, desc);
+								break;
 							case "spell":
 								String rxname = values[0];
 								String rxcui = values[1];
@@ -201,7 +218,9 @@ public class CDCTables {
 							case "mcl":
 								String variant = values[0];
 								String mclSubstance = values[1];
-								setMclMap(variant, mclSubstance);
+								if(!variant.toLowerCase().equals(mclSubstance.toLowerCase())) {
+									setMclMap(variant, mclSubstance);	
+								}
 								break;
 							case "tcode hierarchy":
 								String parentCode = values[0];
@@ -415,8 +434,8 @@ public class CDCTables {
 			String drugConceptId = null;
 			if( termTable.hasTermByName(properName, sourceMap.get("RxNorm")) ) {
 				properSpelling = termTable.getTermByName(properName, sourceMap.get("RxNorm"));
-				properId = termTable.getTermByName(properName, sourceMap.get("RxNorm")).getId();
-				drugConceptId = termTable.getTermByName(properName, sourceMap.get("RxNorm")).getDrugConceptId();				
+				properId = properSpelling.getId();
+				drugConceptId = properSpelling.getDrugConceptId();				
 			}
 			else return;
 			final String drugConceptIdFin = drugConceptId;
@@ -445,7 +464,6 @@ public class CDCTables {
 						termRel.setTermId2(properIdFin);
 						
 						term2TermTable.add(termRel);
-						count++;
 					}					
 				});
 				
@@ -778,9 +796,7 @@ public class CDCTables {
 			e.printStackTrace();
 		}
 		
-		setAuthoritativeSourceTable();
 		setConceptTypeTable();
-		setTermTypeTable();
 		
 		System.out.println("[6] Building T-code hierarchy");
 		buildTCodeHierarchy();				
@@ -1114,26 +1130,21 @@ public class CDCTables {
 	}
 	
 	private void addMCL() {
-				
+		
 		for(String substance : mclMap.keySet()) {
-			//does the substance exist in the database?
-			//if not, add it as a PV with the MCL source
+			Concept concept = new Concept();
+			Term preferredTerm = new Term();
 			ArrayList<Term> pvsInDb = termTable.getTermsByType(substance, termTypeMap.get("PV"));
 			ArrayList<Term> insInDb = termTable.getTermsByType(substance, termTypeMap.get("IN"));
 			pvsInDb.addAll(insInDb);
 			
+			preferredTerm.setId(++codeGenerator);
+			preferredTerm.setName(substance);
+			preferredTerm.setSource(sourceMap.get("MCL"));
+			preferredTerm.setSourceId("");
+			preferredTerm.setTty("PV");			
+			
 			if( pvsInDb.isEmpty() ) {
-				System.out.println("MCL is adding local PV: " + substance);
-				
-				Concept concept = new Concept();
-				Term preferredTerm = new Term();
-				
-				preferredTerm.setId(++codeGenerator);
-				preferredTerm.setName(substance);
-				preferredTerm.setSourceId("");  //we don't have source-codes for the MCL
-				preferredTerm.setSource(sourceMap.get("MCL"));
-				preferredTerm.setTty(termTypeMap.get("PV"));
-				
 				concept.setPreferredTermId(preferredTerm.getId());
 				concept.setSource(sourceMap.get("MCL"));
 				concept.setClassType(classTypeMap.get("Substance"));
@@ -1142,61 +1153,101 @@ public class CDCTables {
 				preferredTerm.setDrugConceptId(codeGenerator);
 				
 				conceptTable.add(concept);
-				termTable.add(preferredTerm);
-				addVariants(preferredTerm, mclMap.get(substance));
 			}
 			else {
-				for(Term pvTerm : pvsInDb ) {
-					ArrayList<String> variants = mclMap.get(substance);		
-					Integer termId = pvTerm.getId();
-					ArrayList<Term> existingMisspellings = getRelatedTermsForLHS(termId, "MSP");
-					for(Term missTerm : existingMisspellings) {
-						if(variants.contains(missTerm.getName().toLowerCase()) ) {
-							variants.remove(missTerm.getName().toLowerCase());
-						}
-					}
-					if(!variants.isEmpty()) {						
-						addVariants(pvTerm, variants);
-					}
-				}
+				concept = conceptTable.getDrugConceptForName(substance, termTable);
+				preferredTerm.setDrugConceptId(concept.getConceptId());
 			}
-			//if it does, check all variants
-			//add those that do not exist.
-//			else {
-//				substanceInDb = true;
-//			}
-//		}
-//		
-//		if( !substanceInDb ) {
-//			//add all variants as... MSPs
-//			
+			
+			termTable.add(preferredTerm);
+			
+			ArrayList<String> variants = mclMap.get(substance);
+			addVariants(preferredTerm, variants);
 		}
+				
+// LP: Doing too much here by adding a variant to every source where the term exists
+//   : Make MCL its own source
+//		
+//		for(String substance : mclMap.keySet()) {
+//			//does the substance exist in the database?
+//			//if not, add it as a PV with the MCL source
+//			ArrayList<Term> pvsInDb = termTable.getTermsByType(substance, termTypeMap.get("PV"));
+//			ArrayList<Term> insInDb = termTable.getTermsByType(substance, termTypeMap.get("IN"));
+//			pvsInDb.addAll(insInDb);
+//			
+//			Concept concept = new Concept();
+//			Term preferredTerm = new Term();			
+//			
+//			if( pvsInDb.isEmpty() ) {
+//				System.out.println("MCL is adding local PV: " + substance);
+//				
+//				preferredTerm.setId(++codeGenerator);
+//				preferredTerm.setName(substance);
+//				preferredTerm.setSourceId("");  //we don't have source-codes for the MCL
+//				preferredTerm.setSource(sourceMap.get("MCL"));
+//				preferredTerm.setTty(termTypeMap.get("PV"));
+//				
+//				concept.setPreferredTermId(preferredTerm.getId());
+//				concept.setSource(sourceMap.get("MCL"));
+//				concept.setClassType(classTypeMap.get("Substance"));
+//				concept.setConceptId(++codeGenerator);
+//				
+//				preferredTerm.setDrugConceptId(codeGenerator);
+//				
+//				conceptTable.add(concept);
+//				termTable.add(preferredTerm);
+//				addVariants(preferredTerm, mclMap.get(substance));
+//			}
+//			else {
+//								
+//				
+//				for(Term pvTerm : pvsInDb ) {
+//					ArrayList<String> variants = mclMap.get(substance);		
+////					Integer termId = pvTerm.getId();
+//// this was originally to add the variant as a misspelling.
+//// some of these variants are misspellings, though many of them are synonyms from the MCL
+//// so it is difficult to distinguish- we will use the term-type UNSP (Unspecified).					
+////					ArrayList<Term> existingMisspellings = getRelatedTermsForLHS(termId, "MSP");
+////					for(Term missTerm : existingMisspellings) {
+////						if(variants.contains(missTerm.getName().toLowerCase()) ) {
+////							variants.remove(missTerm.getName().toLowerCase());
+////						}
+////					}
+//					if(!variants.isEmpty()) {						
+//						addVariants(pvTerm, variants);
+//					}
+//				}
+//			}	
+//		}
 	
 	}
 	
 	private void addVariants(Term term, ArrayList<String> variants) {
 		for(String variant : variants) {
-			Term varTerm = new Term();
-			varTerm.setName(variant);
-			varTerm.setDrugConceptId(Integer.valueOf(term.getDrugConceptId()));
-			varTerm.setId(++codeGenerator);
-			varTerm.setSource(sourceMap.get("Misspelling"));
-			varTerm.setSourceId("");
-			varTerm.setTty(termTypeMap.get("MSP"));
-			
-			termTable.add(varTerm);
-			
-			TermRelationship tRel = new TermRelationship();
-			tRel.setId(++codeGenerator);
-			tRel.setRelationship("MSP");
-			tRel.setTermId1(varTerm.getId());
-			tRel.setTermId2(term.getId());
-			
-			System.out.println("MCL is adding to PV " + term.getName() + " (" + term.getSource() + ") the variant: " + variant);
-			term2TermTable.add(tRel);
+			if(!variant.toLowerCase().equals(term.getName().toLowerCase())) {
+				Term varTerm = new Term();
+				varTerm.setName(variant);
+				varTerm.setDrugConceptId(Integer.valueOf(term.getDrugConceptId()));
+				varTerm.setId(++codeGenerator);
+				varTerm.setSource(sourceMap.get("MCL"));
+				varTerm.setSourceId("");
+				varTerm.setTty(termTypeMap.get("UNSP"));
+				
+				termTable.add(varTerm);
+				
+				TermRelationship tRel = new TermRelationship();
+				tRel.setId(++codeGenerator);
+				tRel.setRelationship("UNSP");
+				tRel.setTermId1(varTerm.getId());
+				tRel.setTermId2(term.getId());
+				
+				System.out.println("MCL is adding to PV " + term.getName() + " (" + term.getSource() + ") the variant: " + variant);
+				term2TermTable.add(tRel);
+			}
 		}
 	}
 	
+	//may be useful again
 	private ArrayList<Term> getRelatedTermsForLHS(Integer termId, String rel) {
 		ArrayList<Term> relatedTerms = new ArrayList<Term>();
 
@@ -1242,7 +1293,7 @@ public class CDCTables {
 			}
 			else {
 				hierParent = conceptTable.getConcept(parent.getCode(), sourceMap.get("ICD"));
-				icdTerm = termTable.getTerm(parent.getCode(), termTypeMap.get("PV"), sourceMap.get("ICD"));
+//				icdTerm = termTable.getTerm(parent.getCode(), termTypeMap.get("PV"), sourceMap.get("ICD"));
 			}
 			
 			for( IcdConcept child : children ) {
@@ -1288,57 +1339,63 @@ public class CDCTables {
 		}
 	}
 	
-	private void setAuthoritativeSourceTable() {
+	private void setAuthoritativeSourceTable(String source) {
 		//this can all be made configurable if desired
 		Source s1 = new Source();
-		Source s2 = new Source();
-		Source s3 = new Source();
-		Source s4 = new Source();
-		Source s5 = new Source();
-		Source s6 = new Source();
-		Source s7 = new Source();
-		Source s8 = new Source();
 		
 		s1.setId(++codeGenerator);
-		s1.setName("RxNorm");
-		sourceMap.put("RxNorm", String.valueOf(codeGenerator) );
-		
-		s2.setId(++codeGenerator);
-		s2.setName("ATC");
-		sourceMap.put("ATC", String.valueOf(codeGenerator));
-		
-		s3.setId(++codeGenerator);
-		s3.setName("ICD");
-		sourceMap.put("ICD", String.valueOf(codeGenerator));
+		s1.setName(source);
+		sourceMap.put(source, String.valueOf(codeGenerator) );		
 
-		s4.setId(++codeGenerator);
-		s4.setName("Misspelling");
-		sourceMap.put("Misspelling", String.valueOf(codeGenerator));
-		
-		s5.setId(++codeGenerator);
-		s5.setName("NFLIS");
-		sourceMap.put("NFLIS", String.valueOf(codeGenerator));
-		
-		s6.setId(++codeGenerator);
-		s6.setName("DEA");
-		sourceMap.put("DEA", String.valueOf(codeGenerator));
-	
-		s7.setId(++codeGenerator);
-		s7.setName("FDA");
-		sourceMap.put("FDA", String.valueOf(codeGenerator));
-		
-		s8.setId(++codeGenerator);
-		s8.setName("MCL");
-		sourceMap.put("MCL", String.valueOf(codeGenerator));
-		
 		authoritativeSourceTable.add(s1);
-		authoritativeSourceTable.add(s2);
-		authoritativeSourceTable.add(s3);
-		authoritativeSourceTable.add(s4);
-		authoritativeSourceTable.add(s5);
-		authoritativeSourceTable.add(s6);
-		authoritativeSourceTable.add(s7);
-		authoritativeSourceTable.add(s8);
+		
+//		Source s2 = new Source();
+//		Source s3 = new Source();
+//		Source s4 = new Source();
+//		Source s5 = new Source();
+//		Source s6 = new Source();
+//		Source s7 = new Source();
+//		Source s8 = new Source();
+//		
+//		s1.setId(++codeGenerator);
+//		s1.setName("RxNorm");
+//		sourceMap.put("RxNorm", String.valueOf(codeGenerator) );
+//		
+//		s2.setId(++codeGenerator);
+//		s2.setName("ATC");
+//		sourceMap.put("ATC", String.valueOf(codeGenerator));
+//		
+//		s3.setId(++codeGenerator);
+//		s3.setName("ICD");
+//		sourceMap.put("ICD", String.valueOf(codeGenerator));
+//
+//		s4.setId(++codeGenerator);
+//		s4.setName("Misspelling");
+//		sourceMap.put("Misspelling", String.valueOf(codeGenerator));
+//		
+//		s5.setId(++codeGenerator);
+//		s5.setName("NFLIS");
+//		sourceMap.put("NFLIS", String.valueOf(codeGenerator));
+//		
+//		s6.setId(++codeGenerator);
+//		s6.setName("DEA");
+//		sourceMap.put("DEA", String.valueOf(codeGenerator));
+//	
+//		s7.setId(++codeGenerator);
+//		s7.setName("FDA");
+//		sourceMap.put("FDA", String.valueOf(codeGenerator));
+//		
+//		s8.setId(++codeGenerator);
+//		s8.setName("MCL");
+//		sourceMap.put("MCL", String.valueOf(codeGenerator));
+//		
+//		authoritativeSourceTable.add(s1);
+//		authoritativeSourceTable.add(s2);
+//		authoritativeSourceTable.add(s3);
+//		authoritativeSourceTable.add(s4);
+//		authoritativeSourceTable.add(s5);
+//		authoritativeSourceTable.add(s6);
+//		authoritativeSourceTable.add(s7);
 	}
 	
 	private void setConceptTypeTable() {
@@ -1357,58 +1414,70 @@ public class CDCTables {
 		conceptTypeTable.add(t2);		
 	}
 	
-	private void setTermTypeTable() {
+	private void setTermTypeTable(String tty, String desc) {
 		TermType t1 = new TermType();
-		TermType t2 = new TermType();
-		TermType t3 = new TermType();
-		TermType t4 = new TermType();
-		TermType t5 = new TermType();		
-		TermType t6 = new TermType();
-		TermType t7 = new TermType();		
-		
-		t1.setId(++codeGenerator);
-		t1.setAbbreviation("IN");
-		t1.setDescription("Ingredient");
-		termTypeMap.put("IN", String.valueOf(codeGenerator));
-		
-		t2.setId(++codeGenerator);
-		t2.setAbbreviation("PIN");
-		t2.setDescription("Precise Ingredient");
-		termTypeMap.put("PIN", String.valueOf(codeGenerator));
-		
-		t3.setId(++codeGenerator);
-		t3.setAbbreviation("BN");
-		t3.setDescription("Brand Name");
-		termTypeMap.put("BN", String.valueOf(codeGenerator));
-		
-		t4.setId(++codeGenerator);
-		t4.setAbbreviation("MSP");
-		t4.setDescription("Misspelling");
-		termTypeMap.put("MSP", String.valueOf(codeGenerator));		
-		
-		t5.setId(++codeGenerator);
-		t5.setAbbreviation("SY");
-		t5.setDescription("Synonym");
-		termTypeMap.put("SY", String.valueOf(codeGenerator));
-		
-		t6.setId(++codeGenerator);
-		t6.setAbbreviation("PV");
-		t6.setDescription("Principal Variant");
-		termTypeMap.put("PV", String.valueOf(codeGenerator));
 
-		t7.setId(++codeGenerator);
-		t7.setAbbreviation("UNII");
-		t7.setDescription("Unique Ingredient Identifier");
-		termTypeMap.put("UNII", String.valueOf(codeGenerator));		
+		t1.setId(++codeGenerator);
+		t1.setAbbreviation(tty);
+		t1.setDescription(desc);
+		termTypeMap.put(tty, String.valueOf(codeGenerator));		
 		
-		termTypeTable.add(t1);
-		termTypeTable.add(t2);
-		termTypeTable.add(t3);
-		termTypeTable.add(t4);		
-		termTypeTable.add(t5);
-		termTypeTable.add(t6);
-		termTypeTable.add(t7);
-		
+		termTypeTable.add(t1);		
+//		TermType t2 = new TermType();
+//		TermType t3 = new TermType();
+//		TermType t4 = new TermType();
+//		TermType t5 = new TermType();		
+//		TermType t6 = new TermType();
+//		TermType t7 = new TermType();
+//		TermType t8 = new TermType();
+//		
+//		t1.setId(++codeGenerator);
+//		t1.setAbbreviation("IN");
+//		t1.setDescription("Ingredient");
+//		termTypeMap.put("IN", String.valueOf(codeGenerator));
+//		
+//		t2.setId(++codeGenerator);
+//		t2.setAbbreviation("PIN");
+//		t2.setDescription("Precise Ingredient");
+//		termTypeMap.put("PIN", String.valueOf(codeGenerator));
+//		
+//		t3.setId(++codeGenerator);
+//		t3.setAbbreviation("BN");
+//		t3.setDescription("Brand Name");
+//		termTypeMap.put("BN", String.valueOf(codeGenerator));
+//		
+//		t4.setId(++codeGenerator);
+//		t4.setAbbreviation("MSP");
+//		t4.setDescription("Misspelling");
+//		termTypeMap.put("MSP", String.valueOf(codeGenerator));		
+//		
+//		t5.setId(++codeGenerator);
+//		t5.setAbbreviation("SY");
+//		t5.setDescription("Synonym");
+//		termTypeMap.put("SY", String.valueOf(codeGenerator));
+//		
+//		t6.setId(++codeGenerator);
+//		t6.setAbbreviation("PV");
+//		t6.setDescription("Principal Variant");
+//		termTypeMap.put("PV", String.valueOf(codeGenerator));
+//
+//		t7.setId(++codeGenerator);
+//		t7.setAbbreviation("UNII");
+//		t7.setDescription("Unique Ingredient Identifier");
+//		termTypeMap.put("UNII", String.valueOf(codeGenerator));		
+//		
+//		t8.setId(++codeGenerator);
+//		t8.setAbbreviation("UNSP");
+//		t8.setDescription("Unspecified");
+//		termTypeMap.put("UNSP", String.valueOf(codeGenerator));			
+//		
+//		termTypeTable.add(t1);
+//		termTypeTable.add(t2);
+//		termTypeTable.add(t3);
+//		termTypeTable.add(t4);		
+//		termTypeTable.add(t5);
+//		termTypeTable.add(t6);
+//		termTypeTable.add(t7);		
 	}
 		
 	private void serialize() {
