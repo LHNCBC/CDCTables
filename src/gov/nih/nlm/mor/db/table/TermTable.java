@@ -57,6 +57,15 @@ public class TermTable {
 		return terms;
 	}
 	
+	public String getConceptIdByTermName(String name) {
+		for(Term term : rows) {
+			if(term.getName().equalsIgnoreCase(name)) {
+				return term.getDrugConceptId();
+			}
+		}
+		return null;
+	}	
+	
 	public Term getTermById(Integer id) {
 		for( Term term : rows ) {
 			if( term.getId().equals(id) ) {
@@ -79,7 +88,7 @@ public class TermTable {
 	public ArrayList<Term> getTermsForSource(String name, String rel, String source) {
 		ArrayList<Term> terms = new ArrayList<Term>();
 		for( Term term : rows ) {
-			if(term.getName().toLowerCase().equals(name.toLowerCase()) && term.getTty().equals(rel) && term.getSource().equals(source)) {
+			if(term.getName().equalsIgnoreCase(name) && term.getTty().equals(rel) && term.getSource().equals(source)) {
 				terms.add(term);
 			}
 		}
@@ -89,12 +98,12 @@ public class TermTable {
 	public ArrayList<Term> getTermsByType(String name, String type) {
 		ArrayList<Term> result = new ArrayList<Term>();
 		for( Term term : rows ) {
-			if( term.getName().toLowerCase().equals(name.toLowerCase()) && term.getTty().equals(type)) {
+			if( term.getName().equalsIgnoreCase(name) && term.getTty().equals(type)) {
 				result.add(term);
 			}
 		}
 		return result;
-	}	
+	}
 	
 //	public ArrayList<Term> getTermsByType(Integer id, String name) {
 //		ArrayList<Term> result = new ArrayList<Term>();

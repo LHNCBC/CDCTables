@@ -68,8 +68,8 @@ public class CDCTables {
 	private PrintWriter term2termFile = null;
 	private PrintWriter concept2conceptFile = null;
 	
-	private final String allConceptsUrl = "https://rxnavstage.nlm.nih.gov/REST/allconcepts.json?tty=IN";
-	private final String allClassesUrl = "https://rxnavstage.nlm.nih.gov/REST/rxclass/allClasses.json?classTypes=ATC1-4";
+	private final String allConceptsUrl = "https://rxnav.nlm.nih.gov/REST/allconcepts.json?tty=IN";
+	private final String allClassesUrl = "https://rxnav.nlm.nih.gov/REST/rxclass/allClasses.json?classTypes=ATC1-4";
 	
 	private HashMap<String, ArrayList<String>> rxcui2Misspellings = new HashMap<String, ArrayList<String>>();
 	private HashMap<String, String> rxcui2ProperSpelling = new HashMap<String, String>();
@@ -426,7 +426,12 @@ public class CDCTables {
 	
 	private void addMisspellings() {
 		
-		rxcui2Misspellings.keySet().stream().forEach(x -> {
+		
+		for(String x : rxcui2Misspellings.keySet()) {
+		
+		
+		
+//		rxcui2Misspellings.keySet().stream().forEach(x -> {
 			ArrayList<String> misList = rxcui2Misspellings.get(x);
 			String properName = rxcui2ProperSpelling.get(x);
 			Term properSpelling = null;
@@ -437,12 +442,15 @@ public class CDCTables {
 				properId = properSpelling.getId();
 				drugConceptId = properSpelling.getDrugConceptId();				
 			}
-			else return;
+			else continue;
+// for streams, this is the "same" as continue
+			// else return;
 			final String drugConceptIdFin = drugConceptId;
 			final Term properSpellingFin = properSpelling;
 			final Integer properIdFin = properId;
 			if( properId != null ) {
-				misList.stream().forEach(y -> {
+//				misList.stream().forEach(y -> {
+				for(String y : misList ) {
 					Term term = new Term();
 					term.setId(++codeGenerator);
 					term.setTty(termTypeMap.get("MSP"));
@@ -464,11 +472,13 @@ public class CDCTables {
 						termRel.setTermId2(properIdFin);
 						
 						term2TermTable.add(termRel);
-					}					
-				});
-				
+					}
+				}
 			}
-		});
+		}
+			
+//				});
+//		});
 	
 	}
 	
@@ -512,7 +522,7 @@ public class CDCTables {
 			}
 			else {
 				concept = conceptTable.getConcept(tcode, sourceMap.get("ICD"));
-				icdId = concept.getConceptId();
+				// icdId = concept.getConceptId();
 			}
 			
 			//associate the t-code term to the drug term
@@ -583,9 +593,9 @@ public class CDCTables {
 				concept.setSourceId(substance.getCode());
 				concept.setClassType(classTypeMap.get("Substance"));
 				
-				Concept existingConcept = conceptTable.getDrugConceptForName(substance.getName(), termTable);
+				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
 				
-				if( existingConcept == null ) {				
+				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
 					concept.setPreferredTermId(preferredTerm.getId());
 					concept.setSource(sourceMap.get("NFLIS"));
@@ -595,7 +605,7 @@ public class CDCTables {
 				}
 				else {
 					//report the concept exists and everything we know about it
-					concept = existingConcept;
+					concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));
 				}
 				
 				preferredTerm.setDrugConceptId(concept.getConceptId());
@@ -708,9 +718,10 @@ public class CDCTables {
 				preferredTerm.setSource(sourceMap.get("DEA"));
 				preferredTerm.setTty(termTypeMap.get("PV"));
 				
-				Concept existingConcept = conceptTable.getDrugConceptForName(substance.getName(), termTable);
+				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
 				
-				if( existingConcept == null ) {				
+				
+				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
 					concept.setPreferredTermId(preferredTerm.getId());
 					concept.setSource(sourceMap.get("DEA"));
@@ -720,7 +731,7 @@ public class CDCTables {
 				}
 				else {
 					//report everything we know about the concept that already exists
-					concept = existingConcept;
+					concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));
 				}
 				
 				preferredTerm.setDrugConceptId(concept.getConceptId());
@@ -840,12 +851,12 @@ public class CDCTables {
 		
 		System.out.println("[3] Collecting edges of ATC classes for isa relations");
 		//collect edges for each concept
-		//https://rxnavstage.nlm.nih.gov/REST/rxclass/classGraph.json?classId=A&source=ATC1-4
+		//https://rxnav.nlm.nih.gov/REST/rxclass/classGraph.json?classId=A&source=ATC1-4
 		ArrayList<Concept> conceptList = conceptTable.getConceptsOfSource(sourceMap.get("ATC"));
 		for( int i=0; i < conceptList.size(); i++ ) {
 			Concept concept = conceptList.get(i);
 
-			String graphUrl = "https://rxnavstage.nlm.nih.gov/REST/rxclass/classGraph.json?classId=" + concept.getSourceId() + "&source=ATC1-4";
+			String graphUrl = "https://rxnav.nlm.nih.gov/REST/rxclass/classGraph.json?classId=" + concept.getSourceId() + "&source=ATC1-4";
 			JSONObject allEdges = null;
 			
 			try {
@@ -949,17 +960,17 @@ public class CDCTables {
 				JSONObject possibleMembers = null;;
 				
 				try {
-					allRelated = getresult("https://rxnavstage.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
-					allProperties = getresult("https://rxnavstage.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");		
-					possibleMembers = getresult("https://rxnavstage.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");				
+					allRelated = getresult("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
+					allProperties = getresult("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");		
+					possibleMembers = getresult("https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");				
 				} catch(IOException e) {
-					System.out.println("https://rxnavstage.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
-					System.out.println("https://rxnavstage.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");
-					System.out.println("https://rxnavstage.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");
+					System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
+					System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");
+					System.out.println("https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");
 					e.printStackTrace();
 				}
 				
-//				System.out.println("https://rxnavstage.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
+//				System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allrelated.json");
 				if( allRelated != null ) {
 					JSONObject allRelatedGroup = (JSONObject) allRelated.get("allRelatedGroup");
 					JSONArray conceptGroup = (JSONArray) allRelatedGroup.get("conceptGroup");
@@ -1011,7 +1022,7 @@ public class CDCTables {
 				}
 				
 				//what are we looking for here?  Synonyms and UNIIs
-//				System.out.println("https://rxnavstage.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");
+//				System.out.println("https://rxnav.nlm.nih.gov/REST/rxcui/" + rxcui + "/allProperties.json?prop=all");
 				if( allProperties != null ) {
 					JSONObject propConceptGroup = (JSONObject) allProperties.get("propConceptGroup");
 					JSONArray propConcept = (JSONArray) propConceptGroup.get("propConcept");
@@ -1077,7 +1088,7 @@ public class CDCTables {
 					
 				}
 				
-//				System.out.println("https://rxnavstage.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");	
+//				System.out.println("https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");	
 				if( possibleMembers != null ) {
 					if( !possibleMembers.isNull("rxclassDrugInfoList") ) {
 						JSONObject rxclassdrugInfoList = (JSONObject) possibleMembers.get("rxclassDrugInfoList");
@@ -1112,7 +1123,7 @@ public class CDCTables {
 		}
 		
 		
-		System.out.println("[5] Adding misspellings - This will take quite some time.");
+		System.out.println("[5] Adding RxNorm misspellings - This will take quite some time.");
 		addMisspellings();
 			
 		System.out.println("[7] Associating T-codes to substances");
@@ -1142,7 +1153,7 @@ public class CDCTables {
 			preferredTerm.setName(substance);
 			preferredTerm.setSource(sourceMap.get("MCL"));
 			preferredTerm.setSourceId("");
-			preferredTerm.setTty("PV");			
+			preferredTerm.setTty(termTypeMap.get("PV"));			
 			
 			if( pvsInDb.isEmpty() ) {
 				concept.setPreferredTermId(preferredTerm.getId());
@@ -1155,8 +1166,10 @@ public class CDCTables {
 				conceptTable.add(concept);
 			}
 			else {
-				concept = conceptTable.getDrugConceptForName(substance, termTable);
-				preferredTerm.setDrugConceptId(concept.getConceptId());
+//				String existingConceptId = pvsInDb.get(0).getDrugConceptId(); //
+//				concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));				
+//				concept = conceptTable.getDrugConceptForName(substance, termTable);
+				preferredTerm.setDrugConceptId(Integer.valueOf(pvsInDb.get(0).getDrugConceptId()));
 			}
 			
 			termTable.add(preferredTerm);
@@ -1241,7 +1254,7 @@ public class CDCTables {
 				tRel.setTermId1(varTerm.getId());
 				tRel.setTermId2(term.getId());
 				
-				System.out.println("MCL is adding to PV " + term.getName() + " (" + term.getSource() + ") the variant: " + variant);
+//				System.out.println("MCL is adding to PV " + term.getName() + " (" + term.getSource() + ") the variant: " + variant);
 				term2TermTable.add(tRel);
 			}
 		}
@@ -1321,7 +1334,7 @@ public class CDCTables {
 				}
 				else {
 					hierChild = conceptTable.getConcept(child.getCode(), sourceMap.get("ICD"));
-					icdChildTerm = termTable.getTerm(child.getCode(), termTypeMap.get("PV"), sourceMap.get("ICD"));
+					//icdChildTerm = termTable.getTerm(child.getCode(), termTypeMap.get("PV"), sourceMap.get("ICD"));
 				}
 				
 				if( hierParent != null && hierChild != null ) {

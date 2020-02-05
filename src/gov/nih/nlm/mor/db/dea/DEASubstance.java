@@ -47,6 +47,10 @@ public class DEASubstance {
 		this.name = name;
 	}
 
+	/**
+	 * @param lower
+	 * @return if true returns a lowercase arraylist
+	 */
 	public ArrayList<String> getSynonyms(boolean lower) {
 		ArrayList<String> list = new ArrayList<String>();
 		if(lower) {
