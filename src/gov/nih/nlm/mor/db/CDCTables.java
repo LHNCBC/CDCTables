@@ -218,9 +218,7 @@ public class CDCTables {
 							case "mcl":
 								String variant = values[0];
 								String mclSubstance = values[1];
-								if(!variant.toLowerCase().equals(mclSubstance.toLowerCase())) {
-									setMclMap(variant, mclSubstance);	
-								}
+								setMclMap(variant, mclSubstance);	
 								break;
 							case "tcode hierarchy":
 								String parentCode = values[0];
@@ -587,11 +585,11 @@ public class CDCTables {
 				preferredTerm.setSourceId(substance.getCode());
 				preferredTerm.setSource(sourceMap.get("NFLIS"));
 				preferredTerm.setTty(termTypeMap.get("PV"));
-				concept.setConceptId(++codeGenerator);
-				concept.setPreferredTermId(preferredTerm.getId());
-				concept.setSource(sourceMap.get("NFLIS"));
-				concept.setSourceId(substance.getCode());
-				concept.setClassType(classTypeMap.get("Substance"));
+//				concept.setConceptId(++codeGenerator);
+//				concept.setPreferredTermId(preferredTerm.getId());
+//				concept.setSource(sourceMap.get("NFLIS"));
+//				concept.setSourceId(substance.getCode());
+//				concept.setClassType(classTypeMap.get("Substance"));
 				
 				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
 				
@@ -1145,33 +1143,28 @@ public class CDCTables {
 		for(String substance : mclMap.keySet()) {
 			Concept concept = new Concept();
 			Term preferredTerm = new Term();
-			ArrayList<Term> pvsInDb = termTable.getTermsByType(substance, termTypeMap.get("PV"));
-			ArrayList<Term> insInDb = termTable.getTermsByType(substance, termTypeMap.get("IN"));
-			pvsInDb.addAll(insInDb);
 			
 			preferredTerm.setId(++codeGenerator);
 			preferredTerm.setName(substance);
 			preferredTerm.setSource(sourceMap.get("MCL"));
 			preferredTerm.setSourceId("");
-			preferredTerm.setTty(termTypeMap.get("PV"));			
+			preferredTerm.setTty(termTypeMap.get("PV"));
 			
-			if( pvsInDb.isEmpty() ) {
+			String existingConceptId = termTable.getConceptIdByTermName(substance);
+			
+			if( existingConceptId == null ) {
 				concept.setPreferredTermId(preferredTerm.getId());
 				concept.setSource(sourceMap.get("MCL"));
 				concept.setClassType(classTypeMap.get("Substance"));
 				concept.setConceptId(++codeGenerator);
 				
-				preferredTerm.setDrugConceptId(codeGenerator);
-				
 				conceptTable.add(concept);
 			}
 			else {
-//				String existingConceptId = pvsInDb.get(0).getDrugConceptId(); //
-//				concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));				
-//				concept = conceptTable.getDrugConceptForName(substance, termTable);
-				preferredTerm.setDrugConceptId(Integer.valueOf(pvsInDb.get(0).getDrugConceptId()));
+				concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));
 			}
-			
+
+			preferredTerm.setDrugConceptId(concept.getConceptId());
 			termTable.add(preferredTerm);
 			
 			ArrayList<String> variants = mclMap.get(substance);

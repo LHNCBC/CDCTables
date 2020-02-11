@@ -4,5 +4,5 @@ BN|Brand Name
 MSP|Misspelling
 SY|Synonym
 PV|Principal Variant
-UNII|Inique Ingredient Identifier
+UNII|Unique Ingredient Identifier
 UNSP|Unspecified
