@@ -591,7 +591,15 @@ public class CDCTables {
 //				concept.setSourceId(substance.getCode());
 //				concept.setClassType(classTypeMap.get("Substance"));
 				
-				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
+				String existingConceptId = null;
+				ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance.getName());
+				
+				for(String id : existingConceptIdArr) {
+					Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+					if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
+						existingConceptId = String.valueOf(testConcept.getConceptId());
+					}
+				}
 				
 				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
@@ -716,7 +724,15 @@ public class CDCTables {
 				preferredTerm.setSource(sourceMap.get("DEA"));
 				preferredTerm.setTty(termTypeMap.get("PV"));
 				
-				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
+				String existingConceptId = null;
+				ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance.getName());
+				
+				for(String id : existingConceptIdArr) {
+					Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+					if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
+						existingConceptId = String.valueOf(testConcept.getConceptId());
+					}
+				}
 				
 				
 				if( existingConceptId == null ) {				
@@ -913,7 +929,7 @@ public class CDCTables {
 		System.out.println("[4] Processing RxNorm substances and asserting relations");
 		if( allConcepts != null ) {
 			JSONObject group = null;
-			JSONArray minConceptArray = null;		
+			JSONArray minConceptArray = null;
 			
 			group = (JSONObject) allConcepts.get("minConceptGroup");
 			minConceptArray = (JSONArray) group.get("minConcept");
@@ -923,6 +939,7 @@ public class CDCTables {
 					System.out.println("  Processed " + i + " substances of " + minConceptArray.length());
 				}
 				
+		
 				JSONObject minConcept = (JSONObject) minConceptArray.get(i);
 				
 				String rxcui = minConcept.get("rxcui").toString();
@@ -948,7 +965,7 @@ public class CDCTables {
 				concept.setPreferredTermId(preferredTermId);
 				
 				term.setDrugConceptId(conceptId);
-				
+
 				conceptTable.add(concept);
 				termTable.add(term);
 				
@@ -1081,9 +1098,8 @@ public class CDCTables {
 							uniiRel.setRelationship("UNII");
 							
 							term2TermTable.add(uniiRel);
-						}							
+						}
 					}
-					
 				}
 				
 //				System.out.println("https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=" + rxcui + "&relaSource=ATC");	
@@ -1150,7 +1166,15 @@ public class CDCTables {
 			preferredTerm.setSourceId("");
 			preferredTerm.setTty(termTypeMap.get("PV"));
 			
-			String existingConceptId = termTable.getConceptIdByTermName(substance);
+			String existingConceptId = null;
+			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance);
+			
+			for(String id : existingConceptIdArr) {
+				Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+				if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
+					existingConceptId = String.valueOf(testConcept.getConceptId());
+				}
+			}
 			
 			if( existingConceptId == null ) {
 				concept.setPreferredTermId(preferredTerm.getId());

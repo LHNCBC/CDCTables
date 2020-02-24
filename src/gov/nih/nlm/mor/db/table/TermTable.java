@@ -57,13 +57,17 @@ public class TermTable {
 		return terms;
 	}
 	
-	public String getConceptIdByTermName(String name) {
+	public ArrayList<String> getConceptIdByTermName(String name) {
+		ArrayList<String> list = new ArrayList<String>();
 		for(Term term : rows) {
 			if(term.getName().equalsIgnoreCase(name)) {
-				return term.getDrugConceptId();
+				String conceptId = term.getDrugConceptId();
+				if(!list.contains(conceptId)) {
+					list.add(term.getDrugConceptId());
+				}
 			}
 		}
-		return null;
+		return list;
 	}	
 	
 	public Term getTermById(Integer id) {

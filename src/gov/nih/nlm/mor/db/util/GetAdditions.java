@@ -9,11 +9,14 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.StringJoiner;
+import java.util.TreeMap;
 
 import javax.net.ssl.HttpsURLConnection;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import gov.nih.nlm.mor.RxNorm.RxNormIngredient;
 
 public class GetAdditions {
 	
@@ -23,6 +26,7 @@ public class GetAdditions {
 	public ArrayList<String> records = new ArrayList<String>();
 	private final String allConceptsUrl = "https://rxnav.nlm.nih.gov/REST/allconcepts.json?tty=IN";
 	private final String allClassesUrl = "https://rxnav.nlm.nih.gov/REST/rxclass/allClasses.json?classTypes=ATC1-4";
+	private TreeMap<String, ArrayList<RxNormIngredient>> unii2Substances = new TreeMap<String, ArrayList<RxNormIngredient>>(); 
 	private PrintWriter pw = null;
 	
 	public static void main(String[] args) {
@@ -219,7 +223,7 @@ public class GetAdditions {
 				conceptJoiner.add("RxNorm");			
 				conceptJoiner.add("Substance");
 				
-				addRecord(conceptJoiner.toString());
+				addUnii(conceptJoiner.toString(), new RxNormIngredient(Integer.valueOf(rxcui), name));
 				
 				
 //				Concept concept = new Concept();
@@ -378,8 +382,10 @@ public class GetAdditions {
 							termJoiner.add("UNII");
 							termJoiner.add(name);
 							termJoiner.add(rxcui);
-							termJoiner.add("RxNorm");
-							termJoiner.add("Substance");							
+							termJoiner.add("FDA");
+							termJoiner.add("Substance");
+							
+							addUnii(prop.get("propValue").toString(), new RxNormIngredient(Integer.valueOf(rxcui), name));
 							
 							
 //							uniiCode.setId(++codeGenerator);
@@ -473,7 +479,33 @@ public class GetAdditions {
 		}
 	}
 	
+	public void addUnii(String unii, RxNormIngredient ingredient) {
+		if( unii2Substances.containsKey(unii) ) {
+			ArrayList<RxNormIngredient> ingList = unii2Substances.get(unii);			
+			if( !ingList.contains(ingredient) ) {
+				ingList.add(ingredient);
+				unii2Substances.put(unii, ingList);
+			}
+		}
+		else {
+			ArrayList<RxNormIngredient> list = new ArrayList<RxNormIngredient>();
+			list.add(ingredient);
+			unii2Substances.put(unii, list);
+		}		
+	}
+	
 	public void printRecords(ArrayList<String> recs) {
+		for(String unii : unii2Substances.keySet()) {
+			ArrayList<RxNormIngredient> list = unii2Substances.get(unii);
+			if(list.size() > 1) {
+				System.out.print(unii + "\t" );				
+				for(RxNormIngredient in : list) {
+					System.out.print(in.getName() + " (" + in.getRxcui() + ")\t" );
+				}
+				System.out.println();
+			}
+		}
+		
 		for(String record : recs) {
 			pw.println(record);
 			pw.flush();
