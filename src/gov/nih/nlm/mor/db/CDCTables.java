@@ -32,6 +32,7 @@ import org.json.JSONObject;
 
 import gov.nih.nlm.mor.db.dea.DEASchedule;
 import gov.nih.nlm.mor.db.dea.DEASubstance;
+import gov.nih.nlm.mor.db.mcl.MclTerm;
 import gov.nih.nlm.mor.db.nflis.NFLISCategory;
 import gov.nih.nlm.mor.db.nflis.NFLISSubstance;
 import gov.nih.nlm.mor.db.rxnorm.Concept;
@@ -85,7 +86,7 @@ public class CDCTables {
 	private ArrayList<IcdConcept> icdConcepts = new ArrayList<IcdConcept>();
 	private ArrayList<IcdConcept> icdConceptsWithCuis = new ArrayList<IcdConcept>();
 	
-	private HashMap<String, ArrayList<String>> mclMap = new HashMap<String, ArrayList<String>>();
+	private HashMap<String, ArrayList<MclTerm>> mclMap = new HashMap<String, ArrayList<MclTerm>>();
 	
 	private HashMap<String, String> sourceMap = new HashMap<String, String>();
 	private HashMap<String, String> termTypeMap = new HashMap<String, String>();
@@ -218,7 +219,8 @@ public class CDCTables {
 							case "mcl":
 								String variant = values[0];
 								String mclSubstance = values[1];
-								setMclMap(variant, mclSubstance);	
+								String classType = values[2];
+								setMclMap(variant, mclSubstance, classType);	
 								break;
 							case "tcode hierarchy":
 								String parentCode = values[0];
@@ -345,17 +347,22 @@ public class CDCTables {
 		}
 	}
 	
-	private void setMclMap(String variant, String substance) {
+	private void setMclMap(String variant, String substance, String type) {
+		
+		if(type.equalsIgnoreCase("unknown") || type.equalsIgnoreCase("ambiguous")) return;  //not handling right now
+		
 		variant = variant.toLowerCase();
-		substance = substance.toLowerCase();
+		substance = substance.toLowerCase();		
+		MclTerm mclTerm = new MclTerm(variant, substance, type);
+
 		if(mclMap.containsKey(substance)) {
-			ArrayList<String> list = mclMap.get(substance);
-			list.add(variant);
+			ArrayList<MclTerm> list = mclMap.get(substance);
+			list.add(mclTerm);
 			mclMap.put(substance, list);
 		}
 		else {
-			ArrayList<String> list = new ArrayList<String>();
-			list.add(variant);
+			ArrayList<MclTerm> list = new ArrayList<MclTerm>();
+			list.add(mclTerm);
 			mclMap.put(substance, list);
 		}
 	}
@@ -1156,7 +1163,7 @@ public class CDCTables {
 	
 	private void addMCL() {
 		
-		for(String substance : mclMap.keySet()) {
+		for(String substance : mclMap.keySet() ) {
 			Concept concept = new Concept();
 			Term preferredTerm = new Term();
 			
@@ -1166,34 +1173,108 @@ public class CDCTables {
 			preferredTerm.setSourceId("");
 			preferredTerm.setTty(termTypeMap.get("PV"));
 			
-			String existingConceptId = null;
 			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance);
+
+			Concept classConcept = null;
+			Concept substanceConcept = null;
 			
-			for(String id : existingConceptIdArr) {
+			for(String id : existingConceptIdArr ) {
 				Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
 				if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
-					existingConceptId = String.valueOf(testConcept.getConceptId());
+					classConcept = testConcept;
 				}
+				else if(testConcept.getClassType().contentEquals(classTypeMap.get("Class"))) {
+					substanceConcept = testConcept;
+				}						
 			}
 			
-			if( existingConceptId == null ) {
-				concept.setPreferredTermId(preferredTerm.getId());
-				concept.setSource(sourceMap.get("MCL"));
-				concept.setClassType(classTypeMap.get("Substance"));
-				concept.setConceptId(++codeGenerator);
-				
-				conceptTable.add(concept);
-			}
-			else {
-				concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));
-			}
+		
+			ArrayList<MclTerm> terms = mclMap.get(substance);
+			boolean classCreated = false;
+			boolean substanceClassCreated = false;
+			
+			for(MclTerm term : terms) {
+				if(term.isClass()) {
+					if(classConcept == null && !classCreated) {
+						concept.setClassType(classTypeMap.get("Class"));
+				    	concept.setConceptId(++codeGenerator);
+				    	concept.setPreferredTermId(preferredTerm.getId());
+				    	concept.setSource(sourceMap.get("MCL"));
+				    	concept.setSourceId("");
+				    	conceptTable.add(concept);
+						preferredTerm.setDrugConceptId(concept.getConceptId());				    	
+				    	classCreated = true; //don't add twice
+					}
+					else {
+						concept = classConcept;
+						preferredTerm.setDrugConceptId(concept.getConceptId());
+					}
 
-			preferredTerm.setDrugConceptId(concept.getConceptId());
-			termTable.add(preferredTerm);
-			
-			ArrayList<String> variants = mclMap.get(substance);
-			addVariants(preferredTerm, variants);
+					termTable.add(preferredTerm);					
+				}
+				else {
+					if(substanceConcept == null && !substanceClassCreated) {
+				    	concept.setClassType(classTypeMap.get("Substance"));  
+				    	concept.setConceptId(++codeGenerator);
+				    	concept.setPreferredTermId(preferredTerm.getId());
+				    	concept.setSource(sourceMap.get("MCL"));
+				    	concept.setSourceId("");
+				    	conceptTable.add(concept);
+						
+				    	preferredTerm.setDrugConceptId(concept.getConceptId());
+				    	termTable.add(preferredTerm);
+				    	
+				    	substanceClassCreated = true;
+				    }
+				    else {
+				    	concept = substanceConcept;
+				    	preferredTerm.setDrugConceptId(concept.getConceptId());
+				    }
+				}
+				
+				addVariant(preferredTerm, term.getVariant());
+			}
 		}
+	}
+	
+//		for(String substance : mclMap.keySet()) {
+//			Concept concept = new Concept();
+//			Term preferredTerm = new Term();
+//			
+//			preferredTerm.setId(++codeGenerator);
+//			preferredTerm.setName(substance);
+//			preferredTerm.setSource(sourceMap.get("MCL"));
+//			preferredTerm.setSourceId("");
+//			preferredTerm.setTty(termTypeMap.get("PV"));
+//			
+//			String existingConceptId = null;
+//			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance);
+//			
+//			for(String id : existingConceptIdArr) {
+//				Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+//				if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
+//					existingConceptId = String.valueOf(testConcept.getConceptId());
+//				}
+//			}
+//			
+//			if( existingConceptId == null ) {
+//				concept.setPreferredTermId(preferredTerm.getId());
+//				concept.setSource(sourceMap.get("MCL"));
+//				concept.setClassType(classTypeMap.get("Substance"));
+//				concept.setConceptId(++codeGenerator);
+//				
+//				conceptTable.add(concept);
+//			}
+//			else {
+//				concept = conceptTable.getConceptById(Integer.valueOf(existingConceptId));
+//			}
+//
+//			preferredTerm.setDrugConceptId(concept.getConceptId());
+//			termTable.add(preferredTerm);
+//			
+//			ArrayList<String> variants = mclMap.get(substance);
+//			addVariants(preferredTerm, variants);
+//		}
 				
 // LP: Doing too much here by adding a variant to every source where the term exists
 //   : Make MCL its own source
@@ -1250,8 +1331,6 @@ public class CDCTables {
 //			}	
 //		}
 	
-	}
-	
 	private void addVariants(Term term, ArrayList<String> variants) {
 		for(String variant : variants) {
 			if(!variant.toLowerCase().equals(term.getName().toLowerCase())) {
@@ -1276,6 +1355,29 @@ public class CDCTables {
 			}
 		}
 	}
+	
+	private void addVariant(Term term, String variant) {
+		if(!variant.toLowerCase().equals(term.getName().toLowerCase())) {
+			Term varTerm = new Term();
+			varTerm.setName(variant);
+			varTerm.setDrugConceptId(Integer.valueOf(term.getDrugConceptId()));
+			varTerm.setId(++codeGenerator);
+			varTerm.setSource(sourceMap.get("MCL"));
+			varTerm.setSourceId("");
+			varTerm.setTty(termTypeMap.get("UNSP"));
+			
+			termTable.add(varTerm);
+			
+			TermRelationship tRel = new TermRelationship();
+			tRel.setId(++codeGenerator);
+			tRel.setRelationship("UNSP");
+			tRel.setTermId1(varTerm.getId());
+			tRel.setTermId2(term.getId());
+			
+//				System.out.println("MCL is adding to PV " + term.getName() + " (" + term.getSource() + ") the variant: " + variant);
+			term2TermTable.add(tRel);
+		}
+	}	
 	
 	//may be useful again
 	private ArrayList<Term> getRelatedTermsForLHS(Integer termId, String rel) {
