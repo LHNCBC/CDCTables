@@ -1195,45 +1195,49 @@ public class CDCTables {
 			
 			for(MclTerm term : terms) {
 				if(term.isClass()) {
-					if(classConcept == null && !classCreated) {
+					if(classConcept != null && !classCreated) {
+						concept = classConcept;
+						preferredTerm.setDrugConceptId(concept.getConceptId());
+						termTable.add(preferredTerm);
+					}
+					else if(classConcept == null && !classCreated) {
 						concept.setClassType(classTypeMap.get("Class"));
 				    	concept.setConceptId(++codeGenerator);
 				    	concept.setPreferredTermId(preferredTerm.getId());
 				    	concept.setSource(sourceMap.get("MCL"));
 				    	concept.setSourceId("");
+				    	
 				    	conceptTable.add(concept);
-						preferredTerm.setDrugConceptId(concept.getConceptId());				    	
-				    	classCreated = true; //don't add twice
-					}
-					else {
-						concept = classConcept;
 						preferredTerm.setDrugConceptId(concept.getConceptId());
+						termTable.add(preferredTerm);
+						
+				    	classCreated = true; //don't add again
 					}
-
-					termTable.add(preferredTerm);					
 				}
 				else {
-					if(substanceConcept == null && !substanceClassCreated) {
+					if(substanceConcept != null && !substanceClassCreated ) {
+						concept = substanceConcept;
+						preferredTerm.setDrugConceptId(concept.getConceptId());
+						termTable.add(preferredTerm);
+					}
+					else if(substanceConcept == null && !substanceClassCreated) {
 				    	concept.setClassType(classTypeMap.get("Substance"));  
 				    	concept.setConceptId(++codeGenerator);
 				    	concept.setPreferredTermId(preferredTerm.getId());
 				    	concept.setSource(sourceMap.get("MCL"));
 				    	concept.setSourceId("");
+
 				    	conceptTable.add(concept);
-						
-				    	preferredTerm.setDrugConceptId(concept.getConceptId());
-				    	termTable.add(preferredTerm);
+						preferredTerm.setDrugConceptId(concept.getConceptId());
 				    	
 				    	substanceClassCreated = true;
-				    }
-				    else {
-				    	concept = substanceConcept;
-				    	preferredTerm.setDrugConceptId(concept.getConceptId());
 				    }
 				}
 				
 				addVariant(preferredTerm, term.getVariant());
 			}
+			
+			termTable.add(preferredTerm);
 		}
 	}
 	
