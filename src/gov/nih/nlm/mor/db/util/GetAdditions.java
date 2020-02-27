@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -514,14 +515,16 @@ public class GetAdditions {
 	
 	public static JSONObject getresult(String URLtoRead) throws IOException {
 		URL url;
-		HttpsURLConnection connexion;
+//		HttpsURLConnection connexion;
+		HttpURLConnection connexion;		
 		BufferedReader reader;
 		
 		String line;
 		String result="";
 		url= new URL(URLtoRead);
 	
-		connexion= (HttpsURLConnection) url.openConnection();
+//		connexion= (HttpsURLConnection) url.openConnection();
+		connexion = (HttpURLConnection) url.openConnection();		
 		connexion.setRequestMethod("GET");
 		reader= new BufferedReader(new InputStreamReader(connexion.getInputStream()));	
 		while ((line =reader.readLine())!=null) {
@@ -531,6 +534,6 @@ public class GetAdditions {
 		
 		JSONObject json = new JSONObject(result);
 		return json;
-	}		
+	}
 
 }

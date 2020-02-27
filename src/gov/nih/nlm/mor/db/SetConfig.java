@@ -393,14 +393,16 @@ public class SetConfig {
 	
 	public static JSONObject getresult(String URLtoRead) throws IOException {
 		URL url;
-		HttpsURLConnection connexion;
+//		HttpsURLConnection connexion;
+		HttpURLConnection connexion;		
 		BufferedReader reader;
 		
 		String line;
 		String result="";
 		url= new URL(URLtoRead);
 	
-		connexion= (HttpsURLConnection) url.openConnection();
+//		connexion= (HttpsURLConnection) url.openConnection();
+		connexion = (HttpURLConnection) url.openConnection();		
 		connexion.setRequestMethod("GET");
 		reader= new BufferedReader(new InputStreamReader(connexion.getInputStream()));	
 		while ((line =reader.readLine())!=null) {

@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -1279,61 +1280,7 @@ public class CDCTables {
 //			ArrayList<String> variants = mclMap.get(substance);
 //			addVariants(preferredTerm, variants);
 //		}
-				
-// LP: Doing too much here by adding a variant to every source where the term exists
-//   : Make MCL its own source
-//		
-//		for(String substance : mclMap.keySet()) {
-//			//does the substance exist in the database?
-//			//if not, add it as a PV with the MCL source
-//			ArrayList<Term> pvsInDb = termTable.getTermsByType(substance, termTypeMap.get("PV"));
-//			ArrayList<Term> insInDb = termTable.getTermsByType(substance, termTypeMap.get("IN"));
-//			pvsInDb.addAll(insInDb);
-//			
-//			Concept concept = new Concept();
-//			Term preferredTerm = new Term();			
-//			
-//			if( pvsInDb.isEmpty() ) {
-//				System.out.println("MCL is adding local PV: " + substance);
-//				
-//				preferredTerm.setId(++codeGenerator);
-//				preferredTerm.setName(substance);
-//				preferredTerm.setSourceId("");  //we don't have source-codes for the MCL
-//				preferredTerm.setSource(sourceMap.get("MCL"));
-//				preferredTerm.setTty(termTypeMap.get("PV"));
-//				
-//				concept.setPreferredTermId(preferredTerm.getId());
-//				concept.setSource(sourceMap.get("MCL"));
-//				concept.setClassType(classTypeMap.get("Substance"));
-//				concept.setConceptId(++codeGenerator);
-//				
-//				preferredTerm.setDrugConceptId(codeGenerator);
-//				
-//				conceptTable.add(concept);
-//				termTable.add(preferredTerm);
-//				addVariants(preferredTerm, mclMap.get(substance));
-//			}
-//			else {
-//								
-//				
-//				for(Term pvTerm : pvsInDb ) {
-//					ArrayList<String> variants = mclMap.get(substance);		
-////					Integer termId = pvTerm.getId();
-//// this was originally to add the variant as a misspelling.
-//// some of these variants are misspellings, though many of them are synonyms from the MCL
-//// so it is difficult to distinguish- we will use the term-type UNSP (Unspecified).					
-////					ArrayList<Term> existingMisspellings = getRelatedTermsForLHS(termId, "MSP");
-////					for(Term missTerm : existingMisspellings) {
-////						if(variants.contains(missTerm.getName().toLowerCase()) ) {
-////							variants.remove(missTerm.getName().toLowerCase());
-////						}
-////					}
-//					if(!variants.isEmpty()) {						
-//						addVariants(pvTerm, variants);
-//					}
-//				}
-//			}	
-//		}
+
 	
 	private void addVariants(Term term, ArrayList<String> variants) {
 		for(String variant : variants) {
@@ -1643,14 +1590,16 @@ public class CDCTables {
 	
 	public static JSONObject getresult(String URLtoRead) throws IOException {
 		URL url;
-		HttpsURLConnection connexion;
+//		HttpsURLConnection connexion;
+		HttpURLConnection connexion;		
 		BufferedReader reader;
 		
 		String line;
 		String result="";
 		url= new URL(URLtoRead);
 	
-		connexion= (HttpsURLConnection) url.openConnection();
+//		connexion= (HttpsURLConnection) url.openConnection();
+		connexion = (HttpURLConnection) url.openConnection();		
 		connexion.setRequestMethod("GET");
 		reader= new BufferedReader(new InputStreamReader(connexion.getInputStream()));	
 		while ((line =reader.readLine())!=null) {

@@ -3,6 +3,7 @@ package gov.nih.nlm.mor.RxNorm;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Vector;
 
@@ -73,14 +74,16 @@ public class RxNormIngredient implements java.io.Serializable {
 	
 	public static JSONObject getresult(String URLtoRead) throws IOException {
 		URL url;
-		HttpsURLConnection connexion;
+//		HttpsURLConnection connexion;
+		HttpURLConnection connexion;		
 		BufferedReader reader;
 		
 		String line;
 		String result="";
 		url= new URL(URLtoRead);
 	
-		connexion= (HttpsURLConnection) url.openConnection();
+//		connexion= (HttpsURLConnection) url.openConnection();
+		connexion = (HttpURLConnection) url.openConnection();		
 		connexion.setRequestMethod("GET");
 		reader= new BufferedReader(new InputStreamReader(connexion.getInputStream()));	
 		while ((line =reader.readLine())!=null) {
@@ -90,7 +93,7 @@ public class RxNormIngredient implements java.io.Serializable {
 		
 		JSONObject json = new JSONObject(result);
 		return json;
-	}	
+	}
 	
 	public RxNormIngredient() {
 		
