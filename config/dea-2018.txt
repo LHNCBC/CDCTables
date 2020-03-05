@@ -23,8 +23,8 @@ S1|SCHEDULE I|3,4-Methylenedioxyamphetamine|7400|N|MdA|Love drug
 S1|SCHEDULE I|3,4-Methylenedioxymethamphetamine|7405|N|MdMA|Ecstasy|XtC
 S1|SCHEDULE I|3,4-Methylenedioxy-n-ethylamphetamine|7404|N|n-ethyl MdA|MdE|MdEA
 S1|SCHEDULE I|3-Fluoro-N-methylcathinone (3-FMC)|1233|N|1-3-fluorophenyl-2-(methylamino)propan-1-one),(Positional isomer: 2-FMC)
-S1|SCHEDULE I|3-Methylfentanyl|9813|Y|China White|fentanyl
-S1|SCHEDULE I|3-Methylthiofentanyl|9833|Y|China White|fentanyl
+S1|SCHEDULE I|3-Methylfentanyl|9813|Y|China White
+S1|SCHEDULE I|3-Methylthiofentanyl|9833|Y|China White
 S1|SCHEDULE I|4-Bromo-2,5-dimethoxyamphetamine|7391|N|doB|4-bromo-dMA
 S1|SCHEDULE I|4-Bromo-2,5-dimethoxyphenethylamine|7392|N|nexus|2-CB|Ecstas|mdma
 S1|SCHEDULE I|4-Fluoro-N-methylcathinone (4-FMC)|1238|N|flephedrone|1-(4-fluorophenyl)-2-(methylamino) propan-1-one) (Positional isomer: 2-FMC)
@@ -47,8 +47,8 @@ S1|SCHEDULE I|Acetyldihydrocodeine|9051|Y|Acetylcodone
 S1|SCHEDULE I|Acetylmethadol|9601|Y|Methadyl acetate
 S1|SCHEDULE I|ADB-PINACA (N-(1-amino-3,3-dimethy1-oxobutan-2-yl)-1-pentyl-1H-indazole-3-carboxamide)|7035|N|ADB-PINACA
 S1|SCHEDULE I|AH-7921 (3,4-dichloro-N-[(1-dimethylamino)cyclohexylmethy] benzamide|9551|Y|AH-7921
-S1|SCHEDULE I|Alpha-Methylfentanyl|9814|Y|China White|fentanyl
-S1|SCHEDULE I|Alpha-Methylthiofentanyl|9832|Y|China White|fentanyl
+S1|SCHEDULE I|Alpha-Methylfentanyl|9814|Y|China White
+S1|SCHEDULE I|Alpha-Methylthiofentanyl|9832|Y|China White
 S1|SCHEDULE I|Alpha-methyltryptamine|7432|N|AMt
 S1|SCHEDULE I|alpha-pyrrolidinobutiophenone (a-PBP)|7546|N|1-phenyl-2-(pyrrolidin-1-yl)butan-1-one)
 S1|SCHEDULE I|alpha-pyrrolidinopentiophenone (aPVP)|7545|N|a-pyrrolidinovalerophenone|1-phenyl-2-(pyrrolidin-1-yl)pentan-1-one)(Positional isomers: 4-methyl-a-pyrrolidinobutiophenone (4-MePBP)|1-phenyl-2-(piperidin-1-yl)butan -1-one)
@@ -58,8 +58,8 @@ S1|SCHEDULE I|Aminorex|1585|N|methamphetamine
 S1|SCHEDULE I|Benzethidine|9606|Y
 S1|SCHEDULE I|Benzylmorphine|9052|Y
 S1|SCHEDULE I|Betacetylmethadol|9607|Y
-S1|SCHEDULE I|Beta-hydroxy-3-methylfentanyl|9831|Y|China White|fentanyl
-S1|SCHEDULE I|Beta-hydroxyfentanyl|9830|Y|China White|fentanyl
+S1|SCHEDULE I|Beta-hydroxy-3-methylfentanyl|9831|Y|China White
+S1|SCHEDULE I|Beta-hydroxyfentanyl|9830|Y|China White
 S1|SCHEDULE I|Beta-hydroxythiofentanyl|9836|Y|N-[1-[2-hydroxy-2-(thiophen-2-yl) ethyl]piperidin-4yl]-N-phenylpropionamide|N-[1-[2-hydroxy-2-(2thienyl)ethl]-4-piperidinyl]-Nphenylpropanamide
 S1|SCHEDULE I|Betameprodine|9608|Y
 S1|SCHEDULE I|Betamethadol|9609|Y
@@ -83,8 +83,8 @@ S1|SCHEDULE I|Alphacetylmethadol except levo-alphacetylmethadol|9603|Y
 S1|SCHEDULE I|Alpha-Ethyltryptamine|7249|N|ET|trip
 S1|SCHEDULE I|Alphameprodine|9604|Y
 S1|SCHEDULE I|Alphamethadol|9605|Y
-S1|SCHEDULE I|Alpha-Methylfentanyl|9814|Y|China White|fentanyl
-S1|SCHEDULE I|Alpha-Methylthiofentanyl|9832|Y|China White|fentanyl
+S1|SCHEDULE I|Alpha-Methylfentanyl|9814|Y|China White
+S1|SCHEDULE I|Alpha-Methylthiofentanyl|9832|Y|China White
 S1|SCHEDULE I|Alpha-methyltryptamine|7432|N|AMt
 S1|SCHEDULE I|alpha-pyrrolidinobutiophenone (a-PBP)|7546|N|1-phenyl-2-(pyrrolidin-1-yl)butan-1-one)
 S1|SCHEDULE I|alpha-pyrrolidinopentiophenone (aPVP)|7545|N|a-pyrrolidinovalerophenone|1-phenyl-2-(pyrrolidin-1-yl)pentan-1-one)(Positional isomers: 4-methyl-a-pyrrolidinobutiophenone (4-MePBP)|1-phenyl-2-(piperidin-1-yl)butan -1-one)
@@ -94,8 +94,8 @@ S1|SCHEDULE I|Aminorex|1585|N|methamphetamine
 S1|SCHEDULE I|Benzethidine|9606|Y
 S1|SCHEDULE I|Benzylmorphine|9052|Y
 S1|SCHEDULE I|Betacetylmethadol|9607|Y
-S1|SCHEDULE I|Beta-hydroxy-3-methylfentanyl|9831|Y|China White|fentanyl
-S1|SCHEDULE I|Beta-hydroxyfentanyl|9830|Y|China White|fentanyl
+S1|SCHEDULE I|Beta-hydroxy-3-methylfentanyl|9831|Y|China White
+S1|SCHEDULE I|Beta-hydroxyfentanyl|9830|Y|China White
 S1|SCHEDULE I|Beta-hydroxythiofentanyl|9836|Y|N-[1-[2-hydroxy-2-(thiophen-2-yl) ethyl]piperidin-4yl]-N-phenylpropionamide|N-[1-[2-hydroxy-2-(2thienyl)ethl]-4-piperidinyl]-Nphenylpropanamide
 S1|SCHEDULE I|Betameprodine|9608|Y
 S1|SCHEDULE I|Betamethadol|9609|Y
@@ -180,7 +180,7 @@ S1|SCHEDULE I|norlevorphanol|9634|Y
 S1|SCHEDULE I|normethadone|9635|Y|Phenyldimazone
 S1|SCHEDULE I|normorphine|9313|Y
 S1|SCHEDULE I|norpipanone|9636|Y
-S1|SCHEDULE I|Para-Fluorofentanyl|9812|Y|China White|fentanyl
+S1|SCHEDULE I|Para-Fluorofentanyl|9812|Y|China White
 S1|SCHEDULE I|Parahexyl|7374|N|Synhexyl,
 S1|SCHEDULE I|PB-22 (Quinolin-8-yl 1-pentyl-1H-dole-3-carboxylate)|7222|N|QUPIC|PB-22
 S1|SCHEDULE I|Pentedrone (a-methylaminovalerophenone)|1246|N|2-(methylamino)-1-phenylpentan-1-one)(Postional Isomers:3-methylethcathinone (3-MEC),4-ethylmethcathinone (4-EMC)|4-methylbuphedrone (4-MeMABP;4-MeBP)|3,4-dimethylmethcathinone (3,4-DMMC)|N-ethylbuphedrone (NEB),N-ethyl-N-methylinone(EMC)
@@ -202,7 +202,7 @@ S1|SCHEDULE I|(1-Cyclohexylethyl-3-(2-methoxyphenylacetyl) indole)|7008|N|SR-18 
 S1|SCHEDULE I|SR-19 (known as RCS-4)(1-Pentyl-3-[(4-methoxy)benzoyl] indole|7104|N|SR-19 & RCS-4|synthetic marijuana
 S1|SCHEDULE I|Tetrahydrocannabinols|7370|N|tHC|delta-8 tHC|delta-9 tHC|dronabinol
 S1|SCHEDULE I|Thebacon|9315|Y|Acetylhydrocodone|Acedicon|thebacetyl
-S1|SCHEDULE I|Thiofentanyl|9835|Y|China white|fentanyl
+S1|SCHEDULE I|Thiofentanyl|9835|Y|China white
 S1|SCHEDULE I|THJ-2201 [1-(5-fluoropentyl)-1H-indazol-3-yl] (naphthhalen-1-yl)methanone|7024|N|THJ-2201
 S1|SCHEDULE I|Tilidine|9750|Y|tilidate|Valoron|Kitadol|Lak|tilsa
 S1|SCHEDULE I|Trimeperidine|9646|Y|Promedolum

@@ -20,12 +20,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import javax.net.ssl.HttpsURLConnection;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -123,7 +122,7 @@ public class CDCTables {
 		
 		String sourcesPath = "./config/sources.txt";
 		String typePath = "./config/termType.txt";
-		String cui2MisspellingsPath = "./config/substance-mispellings.txt";
+//		String cui2MisspellingsPath = "./config/substance-mispellings.txt";
 		String icdHierarchy = "./config/10-par-chd-rels.txt";
 		String tcode2RxPath = "./config/tcode-map.txt";
 		String nflisPath = "./config/nflis-2018-and-2019.txt";
@@ -140,9 +139,9 @@ public class CDCTables {
 		readFile(typePath, "types");
 		System.out.println(" ...OK");		
 		
-		System.out.print("  - from " + cui2MisspellingsPath); 		
-		readFile(cui2MisspellingsPath, "spell");
-		System.out.println(" ...OK");
+//		System.out.print("  - from " + cui2MisspellingsPath); 		
+//		readFile(cui2MisspellingsPath, "spell");
+//		System.out.println(" ...OK");
 		
 		System.out.print("  - from " + mclPath);
 		readFile(mclPath, "mcl");
@@ -687,6 +686,13 @@ public class CDCTables {
 		conceptTable.add(nonNarcConcept);
 		termTable.add(nonNarcTerm);
 		
+		//We know this exists in both RxNorm and NFLIS, so the substance class should be found
+		String fentanylConceptId = termTable.getConceptIdByTermName("fentanyl"); 
+		Concept fentanylConcept = null;
+		if(fentanylConceptId != null) {
+			fentanylConcept = conceptTable.getConceptById(Integer.valueOf(fentanylConceptId));
+		}
+		
 		for( DEASchedule schedule : deaSchedule2Substance.keySet() ) {
 			ArrayList<DEASubstance> substances = deaSchedule2Substance.get(schedule);
 			Concept scheduleConcept = new Concept();
@@ -709,6 +715,8 @@ public class CDCTables {
 			for( DEASubstance substance : substances ) {
 				Concept concept = new Concept();
 				Term preferredTerm = new Term();
+				
+				boolean isaFentanyl = substance.getName().toLowerCase().contains("fentanyl");
 				
 				preferredTerm.setId(++codeGenerator);
 				preferredTerm.setName(substance.getName());
@@ -746,6 +754,18 @@ public class CDCTables {
 					conRel.setConceptId2(narcoticConcept.getConceptId());
 					
 					concept2ConceptTable.add(conRel);						
+				}
+
+				if( isaFentanyl && fentanylConcept != null && !concept2ConceptTable.containsPair(concept.getConceptId(), "memberof", fentanylConcept.getConceptId())) {
+					Integer substanceId = concept.getConceptId();
+					
+					ConceptRelationship conRel = new ConceptRelationship();
+					conRel.setId(++codeGenerator);
+					conRel.setConceptId1(substanceId);
+					conRel.setRelationship("memberof");
+					conRel.setConceptId2(fentanylConcept.getConceptId());
+					
+					concept2ConceptTable.add(conRel);	
 				}
 				
 				for( String s : substance.getSynonyms(false)) {
@@ -1120,9 +1140,13 @@ public class CDCTables {
 			}
 		}
 		
+		addExternalSources();
 		
-		System.out.println("[5] Adding RxNorm misspellings - This will take quite some time.");
-		addMisspellings();
+	}
+	
+	private void addExternalSources() {
+//		System.out.println("[5] Adding RxNorm misspellings - This will take quite some time.");
+//		addMisspellings();
 			
 		System.out.println("[7] Associating T-codes to substances");
 		addTCodes();
@@ -1134,8 +1158,7 @@ public class CDCTables {
 		addDEA();
 		
 		System.out.println("[10] Adding MCL variants not in the ACL");
-		addMCL();
-		
+		addMCL();		
 	}
 	
 	private void addMCL() {
@@ -1170,6 +1193,7 @@ public class CDCTables {
 			ArrayList<String> variants = mclMap.get(substance);
 			addVariants(preferredTerm, variants);
 		}
+	}		
 				
 // LP: Doing too much here by adding a variant to every source where the term exists
 //   : Make MCL its own source
@@ -1225,8 +1249,7 @@ public class CDCTables {
 //				}
 //			}	
 //		}
-	
-	}
+
 	
 	private void addVariants(Term term, ArrayList<String> variants) {
 		for(String variant : variants) {
@@ -1513,14 +1536,16 @@ public class CDCTables {
 	
 	public static JSONObject getresult(String URLtoRead) throws IOException {
 		URL url;
-		HttpsURLConnection connexion;
+//		HttpsURLConnection connexion;
+		HttpURLConnection connexion;		
 		BufferedReader reader;
 		
 		String line;
 		String result="";
 		url= new URL(URLtoRead);
 	
-		connexion= (HttpsURLConnection) url.openConnection();
+//		connexion= (HttpsURLConnection) url.openConnection();
+		connexion = (HttpURLConnection) url.openConnection();		
 		connexion.setRequestMethod("GET");
 		reader= new BufferedReader(new InputStreamReader(connexion.getInputStream()));	
 		while ((line =reader.readLine())!=null) {
@@ -1530,6 +1555,6 @@ public class CDCTables {
 		
 		JSONObject json = new JSONObject(result);
 		return json;
-	}	
+	}
 
 }
