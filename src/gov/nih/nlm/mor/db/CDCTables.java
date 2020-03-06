@@ -590,7 +590,16 @@ public class CDCTables {
 //				concept.setSourceId(substance.getCode());
 //				concept.setClassType(classTypeMap.get("Substance"));
 				
-				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
+//				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
+				String existingConceptId = null;
+				ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance.getName());
+				
+				for(String id : existingConceptIdArr) {
+					Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+					if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
+						existingConceptId = String.valueOf(testConcept.getConceptId());
+					}
+				}				
 				
 				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
@@ -687,11 +696,36 @@ public class CDCTables {
 		termTable.add(nonNarcTerm);
 		
 		//We know this exists in both RxNorm and NFLIS, so the substance class should be found
-		String fentanylConceptId = termTable.getConceptIdByTermName("fentanyl"); 
 		Concept fentanylConcept = null;
-		if(fentanylConceptId != null) {
-			fentanylConcept = conceptTable.getConceptById(Integer.valueOf(fentanylConceptId));
+		String fentanylConceptId = null;
+		
+		ArrayList<String> fentanylConceptIds = termTable.getConceptIdByTermName("fentanyl");
+		
+		for(String id : fentanylConceptIds) {
+			Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+			if(testConcept.getClassType().contentEquals(classTypeMap.get("Class"))) { 
+				fentanylConcept = testConcept;
+			} 
 		}
+		
+		if(fentanylConcept == null) {
+			fentanylConcept = new Concept();
+			Term fentanylTerm = new Term();
+			fentanylTerm.setId(++codeGenerator);
+			fentanylTerm.setSource(sourceMap.get("DEA"));
+			fentanylTerm.setSourceId("FENT1");
+			fentanylTerm.setTty("");
+			fentanylTerm.setName("Fentanyl");
+			fentanylConcept.setConceptId(++codeGenerator);
+			fentanylConcept.setPreferredTermId(fentanylTerm.getId());
+			fentanylConcept.setSource(sourceMap.get("DEA"));
+			fentanylConcept.setSourceId("FENT1");
+			fentanylConcept.setClassType(classTypeMap.get("Class"));
+			fentanylTerm.setDrugConceptId(codeGenerator);
+			conceptTable.add(fentanylConcept);
+			termTable.add(fentanylTerm);			
+		}
+
 		
 		for( DEASchedule schedule : deaSchedule2Substance.keySet() ) {
 			ArrayList<DEASubstance> substances = deaSchedule2Substance.get(schedule);
@@ -713,6 +747,13 @@ public class CDCTables {
 			termTable.add(scheduleTerm);
 			
 			for( DEASubstance substance : substances ) {
+
+//TODO: Still looking into this, seems to be behaving as expected though may require some ambiguity logic
+//				if(substance.getName().toLowerCase().equalsIgnoreCase("methamphetamine") || substance.getName().toLowerCase().equalsIgnoreCase("aminorex")) {
+//					System.out.println("halt");
+//				}
+				
+				
 				Concept concept = new Concept();
 				Term preferredTerm = new Term();
 				
@@ -724,8 +765,16 @@ public class CDCTables {
 				preferredTerm.setSource(sourceMap.get("DEA"));
 				preferredTerm.setTty(termTypeMap.get("PV"));
 				
-				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
+//				String existingConceptId = termTable.getConceptIdByTermName(substance.getName());
+				String existingConceptId = null;
+				ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance.getName());
 				
+				for(String id : existingConceptIdArr) {
+					Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id));
+					if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) {
+						existingConceptId = String.valueOf(testConcept.getConceptId());
+					}
+				}
 				
 				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
@@ -933,7 +982,7 @@ public class CDCTables {
 		System.out.println("[4] Processing RxNorm substances and asserting relations");
 		if( allConcepts != null ) {
 			JSONObject group = null;
-			JSONArray minConceptArray = null;		
+			JSONArray minConceptArray = null;
 			
 			group = (JSONObject) allConcepts.get("minConceptGroup");
 			minConceptArray = (JSONArray) group.get("minConcept");
@@ -1148,7 +1197,7 @@ public class CDCTables {
 //		System.out.println("[5] Adding RxNorm misspellings - This will take quite some time.");
 //		addMisspellings();
 			
-		System.out.println("[7] Associating T-codes to substances");
+		System.out.println("[7] Associating T-codes to RxNorm substances");
 		addTCodes();
 		
 		System.out.println("[8] Adding NFLIS categories and substances");
@@ -1173,7 +1222,15 @@ public class CDCTables {
 			preferredTerm.setSourceId("");
 			preferredTerm.setTty(termTypeMap.get("PV"));
 			
-			String existingConceptId = termTable.getConceptIdByTermName(substance);
+			String existingConceptId = null; 
+			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance); 
+
+			for(String id : existingConceptIdArr) { 
+				Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id)); 
+				if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) { 
+					existingConceptId = String.valueOf(testConcept.getConceptId()); 
+				} 
+			} 
 			
 			if( existingConceptId == null ) {
 				concept.setPreferredTermId(preferredTerm.getId());
@@ -1193,7 +1250,7 @@ public class CDCTables {
 			ArrayList<String> variants = mclMap.get(substance);
 			addVariants(preferredTerm, variants);
 		}
-	}		
+	}	
 				
 // LP: Doing too much here by adding a variant to every source where the term exists
 //   : Make MCL its own source
@@ -1275,6 +1332,29 @@ public class CDCTables {
 			}
 		}
 	}
+	
+	private void addVariant(Term term, String variant) {
+		if(!variant.toLowerCase().equals(term.getName().toLowerCase())) {
+			Term varTerm = new Term();
+			varTerm.setName(variant);
+			varTerm.setDrugConceptId(Integer.valueOf(term.getDrugConceptId()));
+			varTerm.setId(++codeGenerator);
+			varTerm.setSource(sourceMap.get("MCL"));
+			varTerm.setSourceId("");
+			varTerm.setTty(termTypeMap.get("UNSP"));
+			
+			termTable.add(varTerm);
+			
+			TermRelationship tRel = new TermRelationship();
+			tRel.setId(++codeGenerator);
+			tRel.setRelationship("UNSP");
+			tRel.setTermId1(varTerm.getId());
+			tRel.setTermId2(term.getId());
+			
+//				System.out.println("MCL is adding to PV " + term.getName() + " (" + term.getSource() + ") the variant: " + variant);
+			term2TermTable.add(tRel);
+		}
+	}	
 	
 	//may be useful again
 	private ArrayList<Term> getRelatedTermsForLHS(Integer termId, String rel) {
