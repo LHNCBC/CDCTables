@@ -62,17 +62,6 @@ public class ConceptTable {
 		return concept;
 	}
 	
-	public Concept getConceptByTerm(String s, String source) {
-		Concept concept = null;
-		for( Concept c: rows ) {
-			if( c.getPreferredTermId().equals(s) && c.getSource().equals(source) ) {
-				concept = c;
-				break;
-			}
-		}
-		return concept;
-	}
-	
 	public ArrayList<Concept> getConceptsOfSource(String source) {
 		ArrayList<Concept> list = new ArrayList<Concept>();
 		for( Concept c : rows ) {

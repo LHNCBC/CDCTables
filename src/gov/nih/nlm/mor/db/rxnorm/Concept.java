@@ -50,6 +50,6 @@ public class Concept {
 	public void setClassType(String classType) {
 		this.classType = classType;
 	}
-	
+
 
 }

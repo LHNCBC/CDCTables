@@ -1,0 +1,13 @@
+.settings
+.classpath
+.project
+index.html
+authoritative-source.txt
+concept.txt
+concept-concept.txt
+concept-type.txt
+term.txt
+term-type.txt
+CDCTables
+jacoco-resources
+/target/
