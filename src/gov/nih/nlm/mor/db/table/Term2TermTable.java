@@ -3,11 +3,15 @@ package gov.nih.nlm.mor.db.table;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
+import gov.nih.nlm.mor.db.rxnorm.Term;
 import gov.nih.nlm.mor.db.rxnorm.TermRelationship;
 
 public class Term2TermTable {
 
 	private ArrayList<TermRelationship> rows = new ArrayList<TermRelationship>();
+//	private Integer c1TermId = (int) -1;
+//	private Integer c2TermId = (int) -1;
+//	private String rel = "";
 	
 	public Term2TermTable() {
 
@@ -17,27 +21,23 @@ public class Term2TermTable {
 		this.rows.add(r);
 	}
 	
-	public boolean hasPair(Integer c1, String rel, Integer c2) {
-		boolean result = false;
-		for( TermRelationship tRel : rows ) {
-			if( tRel.getTermId1().equals(c1) && tRel.getRelationship().equals(rel) && tRel.getTermId2().equals(c2)) {
-				result = true;
-				break;
-			}
-		}
-		return result;
+	public boolean hasPair(String c1, String rel, String c2, String source) {
+		if( source == null ) source = "";
+		Term t1 = new Term(c1, rel, source);
+		Term t2 = new Term(c2, rel, source);
+		TermRelationship t2tRel = new TermRelationship(t1, rel, t2);
+		if( rows.contains(t2tRel)) return true;
+		return false;
 	}
 	
-	public TermRelationship getPair(Integer c1, String rel, Integer c2) {
-		TermRelationship resultRel = null;
-		for( TermRelationship tRel : rows ) {
-			if( tRel.getTermId1().equals(c1) && tRel.getRelationship().equals(rel) && tRel.getTermId2().equals(c2)) {
-				resultRel = tRel;
-				break;
+	public ArrayList<TermRelationship> getPairsForLHS(Integer rhsId, String rel) {
+		ArrayList<TermRelationship> rels = new ArrayList<TermRelationship>();
+		for(TermRelationship row :  rows) {
+			if(row.getTermId2().equals(rhsId) && row.getRelationship().equals(rel)) {
+				rels.add(row);
 			}
 		}
-		return resultRel;		
-		
+		return rels;
 	}
 	
 	public void print(PrintWriter pw) {

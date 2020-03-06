@@ -6,8 +6,7 @@ import java.util.ArrayList;
 import gov.nih.nlm.mor.db.rxnorm.ConceptType;
 
 public class ConceptTypeTable {
-	private int primarykey = -1;
-	private int codegenerator = 1;	
+
 	private ArrayList<ConceptType> rows = new ArrayList<ConceptType>();
 	
 	

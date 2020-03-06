@@ -1,0 +1,778 @@
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T66-T78.9|Other and unspecified effects of external causes
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T15-T19.9|Effects of foreign body entering through natural orifice
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T79-T79.9|Certain early complications of trauma
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T08-T14.9|Injuries to unspecified part of trunk, limb or body region
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T33-T35.9|Frostbite
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T80-T88.9|Complications of surgical and medical care, not elsewhere classified
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T36-T50.9|Poisoning by drugs, medicaments and biological substances
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T20-T32.9|Burns and corrosions
+S00-T98.9|Injury, poisoning and certain other consequences of external causes|T00-T07.9|Injuries involving multiple body regions
+T66-T78.9|Other and unspecified effects of external causes|T71|Asphyxiation
+T66-T78.9|Other and unspecified effects of external causes|T69|Other effects of reduced temperature
+T66-T78.9|Other and unspecified effects of external causes|T75|Effects of other external causes
+T66-T78.9|Other and unspecified effects of external causes|T66|Unspecified effects of radiation
+T66-T78.9|Other and unspecified effects of external causes|T67|Effects of heat and light
+T66-T78.9|Other and unspecified effects of external causes|T74|Maltreatment syndromes
+T66-T78.9|Other and unspecified effects of external causes|T68|Hypothermia
+T66-T78.9|Other and unspecified effects of external causes|T78|Adverse effects, not elsewhere classified
+T66-T78.9|Other and unspecified effects of external causes|T70|Effects of air pressure and water pressure
+T66-T78.9|Other and unspecified effects of external causes|T73|Effects of other deprivation
+T69|Other effects of reduced temperature|T69.9|Effect of reduced temperature, unspecified
+T69|Other effects of reduced temperature|T69.1|Effects of chilblains
+T69|Other effects of reduced temperature|T69.0|Effects of immersion hand and foot
+T69|Other effects of reduced temperature|T69.8|Other specified effects of reduced temperature
+T75|Effects of other external causes|T75.1|Drowning and nonfatal submersion
+T75|Effects of other external causes|T75.0|Effects of lightning
+T75|Effects of other external causes|T75.8|Other specified effects of external causes
+T75|Effects of other external causes|T75.3|Motion sickness
+T75|Effects of other external causes|T75.4|Effects of electric current
+T75|Effects of other external causes|T75.2|Effects of vibration
+T67|Effects of heat and light|T67.4|Effects of heat exhaustion due to salt depletion
+T67|Effects of heat and light|T67.6|Effects of heat fatigue, transient
+T67|Effects of heat and light|T67.8|Other effects of heat and light
+T67|Effects of heat and light|T67.3|Effects of heat exhaustion, anhydrotic
+T67|Effects of heat and light|T67.2|Effects of heat cramp
+T67|Effects of heat and light|T67.5|Effects of heat exhaustion, unspecified
+T67|Effects of heat and light|T67.1|Effects of heat syncope
+T67|Effects of heat and light|T67.9|Effect of heat and light, unspecified
+T67|Effects of heat and light|T67.0|Effects of heatstroke and sunstroke
+T67|Effects of heat and light|T67.7|Effects of heat oedema
+T74|Maltreatment syndromes|T74.3|Psychological abuse
+T74|Maltreatment syndromes|T74.2|Sexual abuse
+T74|Maltreatment syndromes|T74.9|Maltreatment syndrome, unspecified
+T74|Maltreatment syndromes|T74.0|Neglect or abandonment
+T74|Maltreatment syndromes|T74.1|Physical abuse
+T74|Maltreatment syndromes|T74.8|Other maltreatment syndromes
+T78|Adverse effects, not elsewhere classified|T78.9|Adverse effect, unspecified
+T78|Adverse effects, not elsewhere classified|T78.3|Angioneurotic oedema
+T78|Adverse effects, not elsewhere classified|T78.8|Other adverse effects, not elsewhere classified
+T78|Adverse effects, not elsewhere classified|T78.1|Other adverse food reactions, not elsewhere classified
+T78|Adverse effects, not elsewhere classified|T78.0|Anaphylactic shock due to adverse food reaction
+T78|Adverse effects, not elsewhere classified|T78.4|Allergy, unspecified
+T78|Adverse effects, not elsewhere classified|T78.2|Anaphylactic shock, unspecified
+T70|Effects of air pressure and water pressure|T70.3|Effects of caisson disease [decompression sickness]
+T70|Effects of air pressure and water pressure|T70.8|Other effects of air pressure and water pressure
+T70|Effects of air pressure and water pressure|T70.2|Effects of other and unspecified effects of high altitude
+T70|Effects of air pressure and water pressure|T70.0|Effects of otitic barotrauma
+T70|Effects of air pressure and water pressure|T70.9|Effect of air pressure and water pressure, unspecified
+T70|Effects of air pressure and water pressure|T70.1|Effects of sinus barotrauma
+T70|Effects of air pressure and water pressure|T70.4|Effects of high-pressure fluids
+T73|Effects of other deprivation|T73.3|Exhaustion due to excessive exertion
+T73|Effects of other deprivation|T73.1|Effects of thirst
+T73|Effects of other deprivation|T73.9|Effect of deprivation, unspecified
+T73|Effects of other deprivation|T73.8|Other effects of deprivation
+T73|Effects of other deprivation|T73.0|Effects of hunger
+T73|Effects of other deprivation|T73.2|Exhaustion due to exposure
+T15-T19.9|Effects of foreign body entering through natural orifice|T15|Foreign body on external eye
+T15-T19.9|Effects of foreign body entering through natural orifice|T18|Foreign body in alimentary tract
+T15-T19.9|Effects of foreign body entering through natural orifice|T17|Foreign body in respiratory tract
+T15-T19.9|Effects of foreign body entering through natural orifice|T19|Foreign body in genitourinary tract
+T15-T19.9|Effects of foreign body entering through natural orifice|T16|Foreign body in ear
+T15|Foreign body on external eye|T15.8|Foreign body in other and multiple parts of external eye
+T15|Foreign body on external eye|T15.0|Foreign body in cornea
+T15|Foreign body on external eye|T15.1|Foreign body in conjunctival sac
+T15|Foreign body on external eye|T15.9|Foreign body on external eye, part unspecified
+T18|Foreign body in alimentary tract|T18.8|Foreign body in other and multiple parts of alimentary tract
+T18|Foreign body in alimentary tract|T18.0|Foreign body in mouth
+T18|Foreign body in alimentary tract|T18.3|Foreign body in small intestine
+T18|Foreign body in alimentary tract|T18.4|Foreign body in colon
+T18|Foreign body in alimentary tract|T18.2|Foreign body in stomach
+T18|Foreign body in alimentary tract|T18.5|Foreign body in anus and rectum
+T18|Foreign body in alimentary tract|T18.1|Foreign body in oesophagus
+T18|Foreign body in alimentary tract|T18.9|Foreign body in alimentary tract, part unspecified
+T17|Foreign body in respiratory tract|T17.5|Foreign body in bronchus
+T17|Foreign body in respiratory tract|T17.1|Foreign body in nostril
+T17|Foreign body in respiratory tract|T17.0|Foreign body in nasal sinus
+T17|Foreign body in respiratory tract|T17.3|Foreign body in larynx
+T17|Foreign body in respiratory tract|T17.4|Foreign body in trachea
+T17|Foreign body in respiratory tract|T17.2|Foreign body in pharynx
+T17|Foreign body in respiratory tract|T17.9|Foreign body in respiratory tract, part unspecified
+T17|Foreign body in respiratory tract|T17.8|Foreign body in other and multiple parts of respiratory tract
+T19|Foreign body in genitourinary tract|T19.8|Foreign body in other and multiple parts of genitourinary tract
+T19|Foreign body in genitourinary tract|T19.3|Foreign body in uterus [any part]
+T19|Foreign body in genitourinary tract|T19.0|Foreign body in urethra
+T19|Foreign body in genitourinary tract|T19.9|Foreign body in genitourinary tract, part unspecified
+T19|Foreign body in genitourinary tract|T19.2|Foreign body in vulva and vagina
+T19|Foreign body in genitourinary tract|T19.1|Foreign body in bladder
+T79-T79.9|Certain early complications of trauma|T79|Certain early complications of trauma, not elsewhere classified
+T79|Certain early complications of trauma, not elsewhere classified|T79.4|Traumatic shock
+T79|Certain early complications of trauma, not elsewhere classified|T79.1|Fat embolism (traumatic)
+T79|Certain early complications of trauma, not elsewhere classified|T79.6|Traumatic ischaemia of muscle
+T79|Certain early complications of trauma, not elsewhere classified|T79.7|Traumatic subcutaneous emphysema
+T79|Certain early complications of trauma, not elsewhere classified|T79.8|Other early complications of trauma
+T79|Certain early complications of trauma, not elsewhere classified|T79.0|Air embolism (traumatic)
+T79|Certain early complications of trauma, not elsewhere classified|T79.3|Post-traumatic wound infection, not elsewhere classified
+T79|Certain early complications of trauma, not elsewhere classified|T79.2|Traumatic secondary and recurrent haemorrhage
+T79|Certain early complications of trauma, not elsewhere classified|T79.5|Traumatic anuria
+T79|Certain early complications of trauma, not elsewhere classified|T79.9|Unspecified early complication of trauma
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T57|Toxic effect of other inorganic substances
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T63|Toxic effect of contact with venomous animals
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T64|Toxic effect of aflatoxin and other mycotoxin food contaminants
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T60|Toxic effect of pesticides
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T55|Toxic effect of soaps and detergents
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T65|Toxic effect of other and unspecified substances
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T61|Toxic effect of noxious substances eaten as seafood
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T54|Toxic effect of corrosive substances
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T58|Toxic effect of carbon monoxide
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T52|Toxic effect of organic solvents
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T51|Toxic effect of alcohol
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T56|Toxic effect of metals
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T59|Toxic effect of other gases, fumes and vapours
+T51-T65.9|Toxic effects of substances chiefly nonmedicinal as to source|T62|Toxic effect of other noxious substances eaten as food
+T57|Toxic effect of other inorganic substances|T57.9|Toxic effect of inorganic substance, unspecified
+T57|Toxic effect of other inorganic substances|T57.0|Toxic effect of arsenic and its compounds
+T57|Toxic effect of other inorganic substances|T57.3|Toxic effect of hydrogen cyanide
+T57|Toxic effect of other inorganic substances|T57.2|Toxic effect of manganese and its compounds
+T57|Toxic effect of other inorganic substances|T57.8|Toxic effect of other specified inorganic substances
+T57|Toxic effect of other inorganic substances|T57.1|Toxic effect of phosphorus and its compounds
+T63|Toxic effect of contact with venomous animals|T63.6|Toxic effect of contact with other marine animals
+T63|Toxic effect of contact with venomous animals|T63.3|Toxic effect of venom of spider
+T63|Toxic effect of contact with venomous animals|T63.1|Toxic effect of venom of other reptiles
+T63|Toxic effect of contact with venomous animals|T63.0|Toxic effect of snake venom
+T63|Toxic effect of contact with venomous animals|T63.2|Toxic effect of venom of scorpion
+T63|Toxic effect of contact with venomous animals|T63.8|Toxic effect of contact with other venomous animals
+T63|Toxic effect of contact with venomous animals|T63.5|Toxic effect of contact with fish
+T63|Toxic effect of contact with venomous animals|T63.9|Toxic effect of contact with unspecified venomous animal
+T63|Toxic effect of contact with venomous animals|T63.4|Toxic effect of venom of other arthropods
+T60|Toxic effect of pesticides|T60.2|Toxic effect of other insecticides
+T60|Toxic effect of pesticides|T60.9|Toxic effect of pesticide, unspecified
+T60|Toxic effect of pesticides|T60.4|Toxic effect of rodenticides
+T60|Toxic effect of pesticides|T60.8|Toxic effect of other pesticides
+T60|Toxic effect of pesticides|T60.1|Toxic effect of halogenated insecticides
+T60|Toxic effect of pesticides|T60.3|Toxic effect of herbicides and fungicides
+T60|Toxic effect of pesticides|T60.0|Toxic effect of organophosphate and carbamate insecticides
+T65|Toxic effect of other and unspecified substances|T65.8|Toxic effect of other specified substances
+T65|Toxic effect of other and unspecified substances|T65.2|Toxic effect of tobacco and nicotine
+T65|Toxic effect of other and unspecified substances|T65.0|Toxic effect of cyanides
+T65|Toxic effect of other and unspecified substances|T65.5|Toxic effect of nitroglycerin and other nitric acids and esters
+T65|Toxic effect of other and unspecified substances|T65.3|Toxic effect of nitroderivatives and aminoderivatives of benzene and its homologues
+T65|Toxic effect of other and unspecified substances|T65.1|Toxic effect of strychnine and its salts
+T65|Toxic effect of other and unspecified substances|T65.9|Toxic effect of unspecified substance
+T65|Toxic effect of other and unspecified substances|T65.6|Toxic effect of paints and dyes, not elsewhere classified
+T65|Toxic effect of other and unspecified substances|T65.4|Toxic effect of carbon disulfide
+T61|Toxic effect of noxious substances eaten as seafood|T61.9|Toxic effect of unspecified seafood
+T61|Toxic effect of noxious substances eaten as seafood|T61.8|Toxic effect of other seafoods
+T61|Toxic effect of noxious substances eaten as seafood|T61.2|Other fish and shellfish poisoning
+T61|Toxic effect of noxious substances eaten as seafood|T61.0|Ciguatera fish poisoning
+T61|Toxic effect of noxious substances eaten as seafood|T61.1|Scombroid fish poisoning
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.3|Toxic effect of tetrachloroethylene
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.0|Toxic effect of carbon tetrachloride
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.7|Toxic effect of other halogen derivatives of aromatic hydrocarbons
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.9|Toxic effect of halogen derivative of aliphatic and aromatic hydrocarbons, unspecified
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.4|Toxic effect of dichloromethane
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.5|Toxic effect of chlorofluorocarbons
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.6|Toxic effect of other halogen derivatives of aliphatic hydrocarbons
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.1|Toxic effect of chloroform
+T53|Toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons|T53.2|Toxic effect of trichloroethylene
+T54|Toxic effect of corrosive substances|T54.1|Toxic effect of other corrosive organic compounds
+T54|Toxic effect of corrosive substances|T54.0|Toxic effect of phenol and phenol homologues
+T54|Toxic effect of corrosive substances|T54.9|Toxic effect of corrosive substance, unspecified
+T54|Toxic effect of corrosive substances|T54.2|Toxic effect of corrosive acids and acid-like substances
+T54|Toxic effect of corrosive substances|T54.3|Toxic effect of corrosive alkalis and alkali-like substances
+T52|Toxic effect of organic solvents|T52.4|Toxic effect of ketones
+T52|Toxic effect of organic solvents|T52.1|Toxic effect of benzene
+T52|Toxic effect of organic solvents|T52.0|Toxic effect of petroleum products
+T52|Toxic effect of organic solvents|T52.9|Toxic effect of organic solvent, unspecified
+T52|Toxic effect of organic solvents|T52.8|Toxic effect of other organic solvents
+T52|Toxic effect of organic solvents|T52.2|Toxic effect of homologues of benzene
+T52|Toxic effect of organic solvents|T52.3|Toxic effect of glycols
+T51|Toxic effect of alcohol|T51.8|Toxic effect of other alcohols
+T51|Toxic effect of alcohol|T51.2|Toxic effect of 2-propanol
+T51|Toxic effect of alcohol|T51.1|Toxic effect of methanol
+T51|Toxic effect of alcohol|T51.9|Toxic effect of alcohol, unspecified
+T51|Toxic effect of alcohol|T51.3|Toxic effect of fusel oil
+T51|Toxic effect of alcohol|T51.0|Toxic effect of ethanol
+T56|Toxic effect of metals|T56.6|Toxic effect of tin and its compounds
+T56|Toxic effect of metals|T56.8|Toxic effect of other metals
+T56|Toxic effect of metals|T56.4|Toxic effect of copper and its compounds
+T56|Toxic effect of metals|T56.3|Toxic effect of cadmium and its compounds
+T56|Toxic effect of metals|T56.1|Toxic effect of mercury and its compounds
+T56|Toxic effect of metals|T56.5|Toxic effect of zinc and its compounds
+T56|Toxic effect of metals|T56.2|Toxic effect of chromium and its compounds
+T56|Toxic effect of metals|T56.7|Toxic effect of beryllium and its compounds
+T56|Toxic effect of metals|T56.9|Toxic effect of metal, unspecified
+T56|Toxic effect of metals|T56.0|Toxic effect of lead and its compounds
+T59|Toxic effect of other gases, fumes and vapours|T59.7|Toxic effect of carbon dioxide
+T59|Toxic effect of other gases, fumes and vapours|T59.9|Toxic effect of gases, fumes and vapours, unspecified
+T59|Toxic effect of other gases, fumes and vapours|T59.2|Toxic effect of formaldehyde
+T59|Toxic effect of other gases, fumes and vapours|T59.1|Toxic effect of sulfur dioxide
+T59|Toxic effect of other gases, fumes and vapours|T59.8|Toxic effect of other specified gases, fumes and vapours
+T59|Toxic effect of other gases, fumes and vapours|T59.0|Toxic effect of nitrogen oxides
+T59|Toxic effect of other gases, fumes and vapours|T59.6|Toxic effect of hydrogen sulfide
+T59|Toxic effect of other gases, fumes and vapours|T59.4|Toxic effect of chlorine gas
+T59|Toxic effect of other gases, fumes and vapours|T59.3|Toxic effect of lacrimogenic gas
+T59|Toxic effect of other gases, fumes and vapours|T59.5|Toxic effect of fluorine gas and hydrogen fluoride
+T62|Toxic effect of other noxious substances eaten as food|T62.1|Toxic effect of ingested berries
+T62|Toxic effect of other noxious substances eaten as food|T62.2|Toxic effect of other ingested (parts of) plant(s)
+T62|Toxic effect of other noxious substances eaten as food|T62.8|Toxic effect of other specified noxious substances eaten as food
+T62|Toxic effect of other noxious substances eaten as food|T62.9|Toxic effect of noxious substance eaten as food, unspecified
+T62|Toxic effect of other noxious substances eaten as food|T62.0|Toxic effect of ingested mushrooms
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T96|Sequelae of poisoning by drugs, medicaments and biological substances
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T97|Sequelae of toxic effects of substances chiefly nonmedicinal as to source
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T90|Sequelae of injuries of head
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T95|Sequelae of burns, corrosions and frostbite
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T98|Sequelae of other and unspecified effects of external causes
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T94|Sequelae of injuries involving multiple and unspecified body regions
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T93|Sequelae of injuries of lower limb
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T91|Sequelae of injuries of neck and trunk
+T90-T98.9|Sequelae of injuries, of poisoning and of other consequences of external causes|T92|Sequelae of injuries of upper limb
+T90|Sequelae of injuries of head|T90.1|Sequelae of open wound of head
+T90|Sequelae of injuries of head|T90.8|Sequelae of other specified injuries of head
+T90|Sequelae of injuries of head|T90.9|Sequelae of unspecified injury of head
+T90|Sequelae of injuries of head|T90.2|Sequelae of fracture of skull and facial bones
+T90|Sequelae of injuries of head|T90.3|Sequelae of injury of cranial nerves
+T90|Sequelae of injuries of head|T90.5|Sequelae of intracranial injury
+T90|Sequelae of injuries of head|T90.0|Sequelae of superficial injury of head
+T90|Sequelae of injuries of head|T90.4|Sequelae of injury of eye and orbit
+T95|Sequelae of burns, corrosions and frostbite|T95.3|Sequelae of burn, corrosion and frostbite of lower limb
+T95|Sequelae of burns, corrosions and frostbite|T95.2|Sequelae of burn, corrosion and frostbite of upper limb
+T95|Sequelae of burns, corrosions and frostbite|T95.9|Sequelae of unspecified burn, corrosion and frostbite
+T95|Sequelae of burns, corrosions and frostbite|T95.4|Sequelae of burn and corrosion classifiable only according to extent of body surface involved
+T95|Sequelae of burns, corrosions and frostbite|T95.1|Sequelae of burn, corrosion and frostbite of trunk
+T95|Sequelae of burns, corrosions and frostbite|T95.8|Sequelae of other specified burn, corrosion and frostbite
+T95|Sequelae of burns, corrosions and frostbite|T95.0|Sequelae of burn, corrosion and frostbite of head and neck
+T98|Sequelae of other and unspecified effects of external causes|T98.2|Sequelae of certain early complications of trauma
+T98|Sequelae of other and unspecified effects of external causes|T98.0|Sequelae of effects of foreign body entering through natural orifice
+T98|Sequelae of other and unspecified effects of external causes|T98.1|Sequelae of other and unspecified effects of external causes
+T98|Sequelae of other and unspecified effects of external causes|T98.3|Sequelae of complications of surgical and medical care, not elsewhere classified
+T94|Sequelae of injuries involving multiple and unspecified body regions|T94.1|Sequelae of injuries, not specified by body region
+T94|Sequelae of injuries involving multiple and unspecified body regions|T94.0|Sequelae of injuries involving multiple body regions
+T93|Sequelae of injuries of lower limb|T93.5|Sequelae of injury of muscle and tendon of lower limb
+T93|Sequelae of injuries of lower limb|T93.2|Sequelae of other fractures of lower limb
+T93|Sequelae of injuries of lower limb|T93.0|Sequelae of open wound of lower limb
+T93|Sequelae of injuries of lower limb|T93.6|Sequelae of crushing injury and traumatic amputation of lower limb
+T93|Sequelae of injuries of lower limb|T93.1|Sequelae of fracture of femur
+T93|Sequelae of injuries of lower limb|T93.9|Sequelae of unspecified injury of lower limb
+T93|Sequelae of injuries of lower limb|T93.8|Sequelae of other specified injuries of lower limb
+T93|Sequelae of injuries of lower limb|T93.3|Sequelae of dislocation, sprain and strain of lower limb
+T93|Sequelae of injuries of lower limb|T93.4|Sequelae of injury of nerve of lower limb
+T91|Sequelae of injuries of neck and trunk|T91.4|Sequelae of injury of intrathoracic organs
+T91|Sequelae of injuries of neck and trunk|T91.1|Sequelae of fracture of spine
+T91|Sequelae of injuries of neck and trunk|T91.2|Sequelae of other fracture of thorax and pelvis
+T91|Sequelae of injuries of neck and trunk|T91.8|Sequelae of other specified injuries of neck and trunk
+T91|Sequelae of injuries of neck and trunk|T91.9|Sequelae of unspecified injury of neck and trunk
+T91|Sequelae of injuries of neck and trunk|T91.0|Sequelae of superficial injury and open wound of neck and trunk
+T91|Sequelae of injuries of neck and trunk|T91.3|Sequelae of injury of spinal cord
+T91|Sequelae of injuries of neck and trunk|T91.5|Sequelae of injury of intra-abdominal and pelvic organs
+T92|Sequelae of injuries of upper limb|T92.0|Sequelae of open wound of upper limb
+T92|Sequelae of injuries of upper limb|T92.5|Sequelae of injury of muscle and tendon of upper limb
+T92|Sequelae of injuries of upper limb|T92.9|Sequelae of unspecified injury of upper limb
+T92|Sequelae of injuries of upper limb|T92.2|Sequelae of fracture at wrist and hand level
+T92|Sequelae of injuries of upper limb|T92.8|Sequelae of other specified injuries of upper limb
+T92|Sequelae of injuries of upper limb|T92.4|Sequelae of injury of nerve of upper limb
+T92|Sequelae of injuries of upper limb|T92.6|Sequelae of crushing injury and traumatic amputation of upper limb
+T92|Sequelae of injuries of upper limb|T92.3|Sequelae of dislocation, sprain and strain of upper limb
+T92|Sequelae of injuries of upper limb|T92.1|Sequelae of fracture of arm
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T12|Fracture of lower limb, level unspecified
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T13|Other injuries of lower limb, level unspecified
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T11|Other injuries of upper limb, level unspecified
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T14|Injury of unspecified body region
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T08|Fracture of spine, level unspecified
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T10|Fracture of upper limb, level unspecified
+T08-T14.9|Injuries to unspecified part of trunk, limb or body region|T09|Other injuries of spine and trunk, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.5|Injury of unspecified muscle and tendon of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.8|Other specified injuries of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.4|Injury of unspecified blood vessel of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.0|Superficial injury of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.3|Injury of unspecified nerve of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.9|Unspecified injury of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.6|Traumatic amputation of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.2|Dislocation, sprain and strain of unspecified joint and ligament of lower limb, level unspecified
+T13|Other injuries of lower limb, level unspecified|T13.1|Open wound of lower limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.3|Injury of unspecified nerve of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.9|Unspecified injury of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.4|Injury of unspecified blood vessel of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.8|Other specified injuries of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.1|Open wound of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.6|Traumatic amputation of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.2|Dislocation, sprain and strain of unspecified joint and ligament of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.0|Superficial injury of upper limb, level unspecified
+T11|Other injuries of upper limb, level unspecified|T11.5|Injury of unspecified muscle and tendon of upper limb, level unspecified
+T14|Injury of unspecified body region|T14.7|Crushing injury and traumatic amputation of unspecified body region
+T14|Injury of unspecified body region|T14.2|Fracture of unspecified body region
+T14|Injury of unspecified body region|T14.6|Injury of muscles and tendons of unspecified body region
+T14|Injury of unspecified body region|T14.0|Superficial injury of unspecified body region
+T14|Injury of unspecified body region|T14.9|Injury, unspecified
+T14|Injury of unspecified body region|T14.4|Injury of nerve(s) of unspecified body region
+T14|Injury of unspecified body region|T14.3|Dislocation, sprain and strain of unspecified body region
+T14|Injury of unspecified body region|T14.5|Injury of blood vessel(s) of unspecified body region
+T14|Injury of unspecified body region|T14.8|Other injuries of unspecified body region
+T14|Injury of unspecified body region|T14.1|Open wound of unspecified body region
+T09|Other injuries of spine and trunk, level unspecified|T09.9|Unspecified injury of trunk, level unspecified
+T09|Other injuries of spine and trunk, level unspecified|T09.1|Open wound of trunk, level unspecified
+T09|Other injuries of spine and trunk, level unspecified|T09.6|Traumatic amputation of trunk, level unspecified
+T09|Other injuries of spine and trunk, level unspecified|T09.2|Dislocation, sprain and strain of unspecified joint and ligament of trunk
+T09|Other injuries of spine and trunk, level unspecified|T09.0|Superficial injury of trunk, level unspecified
+T09|Other injuries of spine and trunk, level unspecified|T09.4|Injury of unspecified nerve, spinal nerve root and plexus of trunk
+T09|Other injuries of spine and trunk, level unspecified|T09.3|Injury of spinal cord, level unspecified
+T09|Other injuries of spine and trunk, level unspecified|T09.8|Other specified injuries of trunk, level unspecified
+T09|Other injuries of spine and trunk, level unspecified|T09.5|Injury of unspecified muscle and tendon of trunk
+T33-T35.9|Frostbite|T33|Superficial frostbite
+T33-T35.9|Frostbite|T34|Frostbite with tissue necrosis
+T33-T35.9|Frostbite|T35|Frostbite involving multiple body regions and unspecified frostbite
+T33|Superficial frostbite|T33.8|Superficial frostbite of ankle and foot
+T33|Superficial frostbite|T33.6|Superficial frostbite of hip and thigh
+T33|Superficial frostbite|T33.2|Superficial frostbite of thorax
+T33|Superficial frostbite|T33.7|Superficial frostbite of knee and lower leg
+T33|Superficial frostbite|T33.9|Superficial frostbite of other and unspecified sites
+T33|Superficial frostbite|T33.4|Superficial frostbite of arm
+T33|Superficial frostbite|T33.1|Superficial frostbite of neck
+T33|Superficial frostbite|T33.5|Superficial frostbite of wrist and hand
+T33|Superficial frostbite|T33.0|Superficial frostbite of head
+T33|Superficial frostbite|T33.3|Superficial frostbite of abdominal wall, lower back and pelvis
+T34|Frostbite with tissue necrosis|T34.5|Frostbite with tissue necrosis of wrist and hand
+T34|Frostbite with tissue necrosis|T34.7|Frostbite with tissue necrosis of knee and lower leg
+T34|Frostbite with tissue necrosis|T34.3|Frostbite with tissue necrosis of abdominal wall, lower back and pelvis
+T34|Frostbite with tissue necrosis|T34.4|Frostbite with tissue necrosis of arm
+T34|Frostbite with tissue necrosis|T34.2|Frostbite with tissue necrosis of thorax
+T34|Frostbite with tissue necrosis|T34.6|Frostbite with tissue necrosis of hip and thigh
+T34|Frostbite with tissue necrosis|T34.0|Frostbite with tissue necrosis of head
+T34|Frostbite with tissue necrosis|T34.1|Frostbite with tissue necrosis of neck
+T34|Frostbite with tissue necrosis|T34.9|Frostbite with tissue necrosis of other and unspecified sites
+T34|Frostbite with tissue necrosis|T34.8|Frostbite with tissue necrosis of ankle and foot
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.3|Unspecified frostbite of thorax, abdomen, lower back and pelvis
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.5|Unspecified frostbite of lower limb
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.4|Unspecified frostbite of upper limb
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.0|Superficial frostbite involving multiple body regions
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.6|Unspecified frostbite involving multiple body regions
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.2|Unspecified frostbite of head and neck
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.7|Unspecified frostbite of unspecified site
+T35|Frostbite involving multiple body regions and unspecified frostbite|T35.1|Frostbite with tissue necrosis involving multiple body regions
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T88|Other complications of surgical and medical care, not elsewhere classified
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T80|Complications following infusion, transfusion and therapeutic injection
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T86|Failure and rejection of transplanted organs and tissues
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T82|Complications of cardiac and vascular prosthetic devices, implants and grafts
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T81|Complications of procedures, not elsewhere classified
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T87|Complications peculiar to reattachment and amputation
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T84|Complications of internal orthopaedic prosthetic devices, implants and grafts
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T83|Complications of genitourinary prosthetic devices, implants and grafts
+T80-T88.9|Complications of surgical and medical care, not elsewhere classified|T85|Complications of other internal prosthetic devices, implants and grafts
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.3|Malignant hyperthermia due to anaesthesia
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.8|Other specified complications of surgical and medical care, not elsewhere classified
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.2|Shock due to anaesthesia
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.9|Complication of surgical and medical care, unspecified
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.0|Infection following immunization
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.5|Other complications of anaesthesia
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.4|Failed or difficult intubation
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.1|Other complications following immunization, not elsewhere classified
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.7|Unspecified adverse effect of drug or medicament
+T88|Other complications of surgical and medical care, not elsewhere classified|T88.6|Anaphylactic shock due to adverse effect of correct drug or medicament properly administered
+T80|Complications following infusion, transfusion and therapeutic injection|T80.6|Other serum reactions
+T80|Complications following infusion, transfusion and therapeutic injection|T80.2|Infections following infusion, transfusion and therapeutic injection
+T80|Complications following infusion, transfusion and therapeutic injection|T80.8|Other complications following infusion, transfusion and therapeutic injection
+T80|Complications following infusion, transfusion and therapeutic injection|T80.0|Air embolism following infusion, transfusion and therapeutic injection
+T80|Complications following infusion, transfusion and therapeutic injection|T80.3|ABO incompatibility reaction
+T80|Complications following infusion, transfusion and therapeutic injection|T80.4|Rh incompatibility reaction
+T80|Complications following infusion, transfusion and therapeutic injection|T80.5|Anaphylactic shock due to serum
+T80|Complications following infusion, transfusion and therapeutic injection|T80.9|Unspecified complication following infusion, transfusion and therapeutic injection
+T80|Complications following infusion, transfusion and therapeutic injection|T80.1|Vascular complications following infusion, transfusion and therapeutic injection
+T86|Failure and rejection of transplanted organs and tissues|T86.1|Kidney transplant failure and rejection
+T86|Failure and rejection of transplanted organs and tissues|T86.2|Heart transplant failure and rejection
+T86|Failure and rejection of transplanted organs and tissues|T86.8|Failure and rejection of other transplanted organs and tissues
+T86|Failure and rejection of transplanted organs and tissues|T86.3|Heart-lung transplant failure and rejection
+T86|Failure and rejection of transplanted organs and tissues|T86.4|Liver transplant failure and rejection
+T86|Failure and rejection of transplanted organs and tissues|T86.9|Failure and rejection of unspecified transplanted organ and tissue
+T86|Failure and rejection of transplanted organs and tissues|T86.0|Bone-marrow transplant rejection
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.2|Mechanical complication of coronary artery bypass and valve grafts
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.8|Other complications of cardiac and vascular prosthetic devices, implants and grafts
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.0|Mechanical complication of heart valve prosthesis
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.3|Mechanical complication of other vascular grafts
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.7|Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.1|Mechanical complication of cardiac electronic device
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.5|Mechanical complication of other cardiac and vascular devices and implants
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.6|Infection and inflammatory reaction due to cardiac valve prosthesis
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.4|Mechanical complication of vascular dialysis catheter
+T82|Complications of cardiac and vascular prosthetic devices, implants and grafts|T82.9|Unspecified complication of cardiac and vascular prosthetic device, implant and graft
+T81|Complications of procedures, not elsewhere classified|T81.4|Infection following a procedure, not elsewhere classified
+T81|Complications of procedures, not elsewhere classified|T81.6|Acute reaction to foreign substance accidentally left during a procedure
+T81|Complications of procedures, not elsewhere classified|T81.5|Foreign body accidentally left in body cavity or operation wound following a procedure
+T81|Complications of procedures, not elsewhere classified|T81.3|Disruption of operation wound, not elsewhere classified
+T81|Complications of procedures, not elsewhere classified|T81.2|Accidental puncture and laceration during a procedure, not elsewhere classified
+T81|Complications of procedures, not elsewhere classified|T81.8|Other complications of procedures, not elsewhere classified
+T81|Complications of procedures, not elsewhere classified|T81.9|Unspecified complication of procedure
+T81|Complications of procedures, not elsewhere classified|T81.1|Shock during or resulting from a procedure, not elsewhere classified
+T81|Complications of procedures, not elsewhere classified|T81.0|Haemorrhage and haematoma complicating a procedure, not elsewhere classified
+T81|Complications of procedures, not elsewhere classified|T81.7|Vascular complications following a procedure, not elsewhere classified
+T87|Complications peculiar to reattachment and amputation|T87.5|Necrosis of amputation stump
+T87|Complications peculiar to reattachment and amputation|T87.6|Other and unspecified complications of amputation stump
+T87|Complications peculiar to reattachment and amputation|T87.1|Complications of reattached (part of) lower extremity
+T87|Complications peculiar to reattachment and amputation|T87.3|Neuroma of amputation stump
+T87|Complications peculiar to reattachment and amputation|T87.0|Complications of reattached (part of) upper extremity
+T87|Complications peculiar to reattachment and amputation|T87.4|Infection of amputation stump
+T87|Complications peculiar to reattachment and amputation|T87.2|Complications of other reattached body part
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.8|Other complications of internal orthopaedic prosthetic devices, implants and grafts
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.4|Mechanical complication of other internal orthopaedic devices, implants and grafts
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.0|Mechanical complication of internal joint prosthesis
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.7|Infection and inflammatory reaction due to other internal orthopaedic prosthetic devices, implants and grafts
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.2|Mechanical complication of internal fixation device of other bones
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.5|Infection and inflammatory reaction due to internal joint prosthesis
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.6|Infection and inflammatory reaction due to internal fixation device [any site]
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.9|Unspecified complication of internal orthopaedic prosthetic device, implant and graft
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.3|Mechanical complication of other bone devices, implants and grafts
+T84|Complications of internal orthopaedic prosthetic devices, implants and grafts|T84.1|Mechanical complication of internal fixation device of bones of limb
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.5|Infection and inflammatory reaction due to prosthetic device, implant and graft in urinary system
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.2|Mechanical complication of graft of urinary organ
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.8|Other complications of genitourinary prosthetic devices, implants and grafts
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.3|Mechanical complication of intrauterine contraceptive device
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.1|Mechanical complication of other urinary devices and implants
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.0|Mechanical complication of urinary (indwelling) catheter
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.6|Infection and inflammatory reaction due to prosthetic device, implant and graft in genital tract
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.4|Mechanical complication of other prosthetic devices, implants and grafts in genital tract
+T83|Complications of genitourinary prosthetic devices, implants and grafts|T83.9|Unspecified complication of genitourinary prosthetic device, implant and graft
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.6|Mechanical complication of other specified internal prosthetic devices, implants and grafts
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.9|Unspecified complication of internal prosthetic device, implant and graft
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.4|Mechanical complication of breast prosthesis and implant
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.1|Mechanical complication of implanted electronic stimulator of nervous system
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.3|Mechanical complication of other ocular prosthetic devices, implants and grafts
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.0|Mechanical complication of ventricular intracranial (communicating) shunt
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.8|Other complications of internal prosthetic devices, implants and grafts, not elsewhere classified
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.2|Mechanical complication of intraocular lens
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.5|Mechanical complication of gastrointestinal prosthetic devices, implants and grafts
+T85|Complications of other internal prosthetic devices, implants and grafts|T85.7|Infection and inflammatory reaction due to other internal prosthetic devices, implants and grafts
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T46|Poisoning by agents primarily affecting the cardiovascular system
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T40|Poisoning by narcotics and psychodysleptics [hallucinogens]
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T47|Poisoning by agents primarily affecting the gastrointestinal system
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T41|Poisoning by anaesthetics and therapeutic gases
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T37|Poisoning by other systemic anti-infectives and antiparasitics
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T44|Poisoning by drugs primarily affecting the autonomic nervous system
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T36|Poisoning by systemic antibiotics
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system
+T36-T50.9|Poisoning by drugs, medicaments and biological substances|T43|Poisoning by psychotropic drugs, not elsewhere classified
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.6|Poisoning by antihyperlipidaemic and antiarteriosclerotic drugs
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.4|Poisoning by angiotensin-converting-enzyme inhibitors
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.9|Poisoning by other and unspecified agents primarily affecting the cardiovascular system
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.7|Poisoning by peripheral vasodilators
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.5|Poisoning by other antihypertensive drugs, not elsewhere classified
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.8|Poisoning by antivaricose drugs, including sclerosing agents
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.1|Poisoning by calcium-channel blockers
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.2|Poisoning by other antidysrhythmic drugs, not elsewhere classified
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.0|Poisoning by cardiac-stimulant glycosides and drugs of similar action
+T46|Poisoning by agents primarily affecting the cardiovascular system|T46.3|Poisoning by coronary vasodilators, not elsewhere classified
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.3|Poisoning by electrolytic, caloric and water-balance agents
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.6|Poisoning by antidotes and chelating agents, not elsewhere classified
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.1|Poisoning by loop [high-ceiling] diuretics
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.8|Poisoning by diagnostic agents
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.5|Poisoning by appetite depressants
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.2|Poisoning by carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.4|Poisoning by drugs affecting uric acid metabolism
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.9|Poisoning by other and unspecified drugs, medicaments and biological substances
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.7|Poisoning by analeptics and opioid receptor antagonists
+T50|Poisoning by diuretics and other and unspecified drugs, medicaments and biological substances|T50.0|Poisoning by mineralocorticoids and their antagonists
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.6|Poisoning by other and unspecified narcotics
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.2|Poisoning by other opioids
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.5|Poisoning by cocaine
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.8|Poisoning by lysergide [LSD]
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.7|Poisoning by cannabis (derivatives)
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.1|Poisoning by heroin
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.0|Poisoning by opium
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.4|Poisoning by other synthetic narcotics
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.3|Poisoning by methadone
+T40|Poisoning by narcotics and psychodysleptics [hallucinogens]|T40.9|Poisoning by other and unspecified psychodysleptics [hallucinogens]
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.6|Poisoning by fibrinolysis-affecting drugs
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.2|Poisoning by vitamins, not elsewhere classified
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.3|Poisoning by enzymes, not elsewhere classified
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.8|Poisoning by other primarily systemic and haematological agents
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.0|Poisoning by antiallergic and antiemetic drugs
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.7|Poisoning by anticoagulant antagonists, vitamin K and other coagulants
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.4|Poisoning by iron and its compounds
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.1|Poisoning by antineoplastic and immunosuppressive drugs
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.9|Poisoning by primarily systemic and haematological agent, unspecified
+T45|Poisoning by primarily systemic and haematological agents, not elsewhere classified|T45.5|Poisoning by anticoagulants
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.5|Poisoning by ophthalmological drugs and preparations
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.7|Poisoning by dental drugs, topically applied
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.9|Poisoning by topical agent, unspecified
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.6|Poisoning by otorhinolaryngological drugs and preparations
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.8|Poisoning by other topical agents
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.1|Poisoning by antipruritics
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.0|Poisoning by local antifungal, anti-infective and anti-inflammatory drugs, not elsewhere classified
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.2|Poisoning by local astringents and local detergents
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.4|Poisoning by keratolytics, keratoplastics and other hair treatment drugs and preparations
+T49|Poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological, otorhinolaryngological and dental drugs|T49.3|Poisoning by emollients, demulcents and protectants
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.7|Poisoning by androgens and anabolic congeners
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.5|Poisoning by other estrogens and progestogens
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.6|Poisoning by antigonadotrophins, antiestrogens, antiandrogens, not elsewhere classified
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.0|Poisoning by glucocorticoids and synthetic analogues
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.4|Poisoning by oral contraceptives
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.2|Poisoning by antithyroid drugs
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.8|Poisoning by other and unspecified hormones and their synthetic substitutes
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.3|Poisoning by insulin and oral hypoglycaemic [antidiabetic] drugs
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.1|Poisoning by thyroid hormones and substitutes
+T38|Poisoning by hormones and their synthetic substitutes and antagonists, not elsewhere classified|T38.9|Poisoning by other and unspecified hormone antagonists
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.0|Poisoning by histamine H2-receptor antagonists
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.4|Poisoning by other laxatives
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.1|Poisoning by other antacids and anti-gastric-secretion drugs
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.9|Poisoning by agent primarily affecting the gastrointestinal system, unspecified
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.2|Poisoning by stimulant laxatives
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.6|Poisoning by antidiarrhoeal drugs
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.3|Poisoning by saline and osmotic laxatives
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.8|Poisoning by other agents primarily affecting the gastrointestinal system
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.5|Poisoning by digestants
+T47|Poisoning by agents primarily affecting the gastrointestinal system|T47.7|Poisoning by emetics
+T41|Poisoning by anaesthetics and therapeutic gases|T41.5|Poisoning by therapeutic gases
+T41|Poisoning by anaesthetics and therapeutic gases|T41.1|Poisoning by intravenous anaesthetics
+T41|Poisoning by anaesthetics and therapeutic gases|T41.3|Poisoning by local anaesthetics
+T41|Poisoning by anaesthetics and therapeutic gases|T41.0|Poisoning by inhaled anaesthetics
+T41|Poisoning by anaesthetics and therapeutic gases|T41.4|Poisoning by anaesthetic, unspecified
+T41|Poisoning by anaesthetics and therapeutic gases|T41.2|Poisoning by other and unspecified general anaesthetics
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.1|Poisoning by antimycobacterial drugs
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.4|Poisoning by anthelminthics
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.9|Poisoning by systemic anti-infective and antiparasitic, unspecified
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.2|Poisoning by antimalarials and drugs acting on other blood protozoa
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.5|Poisoning by antiviral drugs
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.0|Poisoning by sulfonamides
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.3|Poisoning by other antiprotozoal drugs
+T37|Poisoning by other systemic anti-infectives and antiparasitics|T37.8|Poisoning by other specified systemic anti-infectives and antiparasitics
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.5|Poisoning by predominantly beta-adrenoreceptor agonists, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.2|Poisoning by ganglionic blocking drugs, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.4|Poisoning by predominantly alpha-adrenoreceptor agonists, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.8|Poisoning by centrally acting and adrenergic-neuron-blocking agents, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.1|Poisoning by other parasympathomimetics [cholinergics]
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.7|Poisoning by beta-adrenoreceptor antagonists, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.9|Poisoning by other and unspecified drugs primarily affecting the autonomic nervous system
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.3|Poisoning by other parasympatholytics [anticholinergics and antimuscarinics] and spasmolytics, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.6|Poisoning by alpha-adrenoreceptor antagonists, not elsewhere classified
+T44|Poisoning by drugs primarily affecting the autonomic nervous system|T44.0|Poisoning by anticholinesterase agents
+T36|Poisoning by systemic antibiotics|T36.6|Poisoning by rifamycins
+T36|Poisoning by systemic antibiotics|T36.8|Poisoning by other systemic antibiotics
+T36|Poisoning by systemic antibiotics|T36.1|Poisoning by cefalosporins and other beta-lactam antibiotics
+T36|Poisoning by systemic antibiotics|T36.0|Poisoning by penicillins
+T36|Poisoning by systemic antibiotics|T36.9|Poisoning by systemic antibiotic, unspecified
+T36|Poisoning by systemic antibiotics|T36.4|Poisoning by tetracyclines
+T36|Poisoning by systemic antibiotics|T36.3|Poisoning by macrolides
+T36|Poisoning by systemic antibiotics|T36.5|Poisoning by aminoglycosides
+T36|Poisoning by systemic antibiotics|T36.7|Poisoning by antifungal antibiotics, systemically used
+T36|Poisoning by systemic antibiotics|T36.2|Poisoning by chloramphenicol group
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.0|Poisoning by salicylates
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.9|Poisoning by nonopioid analgesic, antipyretic and antirheumatic, unspecified
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.3|Poisoning by other nonsteroidal anti-inflammatory drugs [NSAID]
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.8|Poisoning by other nonopioid analgesics and antipyretics, not elsewhere classified
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.2|Poisoning by pyrazolone derivatives
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.4|Poisoning by antirheumatics, not elsewhere classified
+T39|Poisoning by nonopioid analgesics, antipyretics and antirheumatics|T39.1|Poisoning by 4-aminophenol derivatives
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.7|Poisoning by antiepileptic and sedative-hypnotic drugs, unspecified
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.2|Poisoning by succinimides and oxazolidinediones
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.3|Poisoning by barbiturates
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.1|Poisoning by iminostilbenes
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.4|Poisoning by benzodiazepines
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.0|Poisoning by hydantoin derivatives
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.5|Poisoning by mixed antiepileptics, not elsewhere classified
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.8|Poisoning by antiparkinsonism drugs and other central muscle-tone depressants
+T42|Poisoning by antiepileptic, sedative-hypnotic and antiparkinsonism drugs|T42.6|Poisoning by other antiepileptic and sedative-hypnotic drugs
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.5|Poisoning by anti-common-cold drugs
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.4|Poisoning by expectorants
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.7|Poisoning by other and unspecified agents primarily acting on the respiratory system
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.1|Poisoning by skeletal muscle relaxants [neuromuscular blocking agents]
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.3|Poisoning by antitussives
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.6|Poisoning by antiasthmatics, not elsewhere classified
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.0|Poisoning by oxytocic drugs
+T48|Poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system|T48.2|Poisoning by other and unspecified agents primarily acting on muscles
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.3|Poisoning by phenothiazine antipsychotics and neuroleptics
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.6|Poisoning by psychostimulants with abuse potential
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.8|Poisoning by other psychotropic drugs, not elsewhere classified
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.9|Poisoning by psychotropic drug, unspecified
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.1|Poisoning by monoamine-oxidase-inhibitor antidepressants
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.4|Poisoning by butyrophenone and thioxanthene neuroleptics
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.0|Poisoning by tricyclic and tetracyclic antidepressants
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.5|Poisoning by other and unspecified antipsychotics and neuroleptics
+T43|Poisoning by psychotropic drugs, not elsewhere classified|T43.2|Poisoning by other and unspecified antidepressants
+T20-T32.9|Burns and corrosions|T26-T28.9|Burns and corrosions confined to eye and internal organs
+T20-T32.9|Burns and corrosions|T29-T32.9|Burns and corrosions of multiple and unspecified body regions
+T20-T32.9|Burns and corrosions|T20-T25.9|Burns and corrosions of external body surface, specified by site
+T26-T28.9|Burns and corrosions confined to eye and internal organs|T26|Burn and corrosion confined to eye and adnexa
+T26-T28.9|Burns and corrosions confined to eye and internal organs|T27|Burn and corrosion of respiratory tract
+T26-T28.9|Burns and corrosions confined to eye and internal organs|T28|Burn and corrosion of other internal organs
+T26|Burn and corrosion confined to eye and adnexa|T26.3|Burn of other parts of eye and adnexa
+T26|Burn and corrosion confined to eye and adnexa|T26.0|Burn of eyelid and periocular area
+T26|Burn and corrosion confined to eye and adnexa|T26.5|Corrosion of eyelid and periocular area
+T26|Burn and corrosion confined to eye and adnexa|T26.4|Burn of eye and adnexa, part unspecified
+T26|Burn and corrosion confined to eye and adnexa|T26.7|Corrosion with resulting rupture and destruction of eyeball
+T26|Burn and corrosion confined to eye and adnexa|T26.8|Corrosion of other parts of eye and adnexa
+T26|Burn and corrosion confined to eye and adnexa|T26.2|Burn with resulting rupture and destruction of eyeball
+T26|Burn and corrosion confined to eye and adnexa|T26.6|Corrosion of cornea and conjunctival sac
+T26|Burn and corrosion confined to eye and adnexa|T26.1|Burn of cornea and conjunctival sac
+T26|Burn and corrosion confined to eye and adnexa|T26.9|Corrosion of eye and adnexa, part unspecified
+T27|Burn and corrosion of respiratory tract|T27.2|Burn of other parts of respiratory tract
+T27|Burn and corrosion of respiratory tract|T27.6|Corrosion of other parts of respiratory tract
+T27|Burn and corrosion of respiratory tract|T27.0|Burn of larynx and trachea
+T27|Burn and corrosion of respiratory tract|T27.3|Burn of respiratory tract, part unspecified
+T27|Burn and corrosion of respiratory tract|T27.1|Burn involving larynx and trachea with lung
+T27|Burn and corrosion of respiratory tract|T27.5|Corrosion involving larynx and trachea with lung
+T27|Burn and corrosion of respiratory tract|T27.4|Corrosion of larynx and trachea
+T27|Burn and corrosion of respiratory tract|T27.7|Corrosion of respiratory tract, part unspecified
+T28|Burn and corrosion of other internal organs|T28.7|Corrosion of other parts of alimentary tract
+T28|Burn and corrosion of other internal organs|T28.6|Corrosion of oesophagus
+T28|Burn and corrosion of other internal organs|T28.5|Corrosion of mouth and pharynx
+T28|Burn and corrosion of other internal organs|T28.0|Burn of mouth and pharynx
+T28|Burn and corrosion of other internal organs|T28.8|Corrosion of internal genitourinary organs
+T28|Burn and corrosion of other internal organs|T28.2|Burn of other parts of alimentary tract
+T28|Burn and corrosion of other internal organs|T28.9|Corrosion of other and unspecified internal organs
+T28|Burn and corrosion of other internal organs|T28.4|Burn of other and unspecified internal organs
+T28|Burn and corrosion of other internal organs|T28.3|Burn of internal genitourinary organs
+T28|Burn and corrosion of other internal organs|T28.1|Burn of oesophagus
+T29-T32.9|Burns and corrosions of multiple and unspecified body regions|T32|Corrosions classified according to extent of body surface involved
+T29-T32.9|Burns and corrosions of multiple and unspecified body regions|T29|Burns and corrosions of multiple body regions
+T29-T32.9|Burns and corrosions of multiple and unspecified body regions|T31|Burns classified according to extent of body surface involved
+T29-T32.9|Burns and corrosions of multiple and unspecified body regions|T30|Burn and corrosion, body region unspecified
+T32|Corrosions classified according to extent of body surface involved|T32.1|Corrosions involving 10-19% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.6|Corrosions involving 60-69% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.5|Corrosions involving 50-59% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.8|Corrosions involving 80-89% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.4|Corrosions involving 40-49% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.3|Corrosions involving 30-39% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.7|Corrosions involving 70-79% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.2|Corrosions involving 20-29% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.0|Corrosions involving less than 10% of body surface
+T32|Corrosions classified according to extent of body surface involved|T32.9|Corrosions involving 90% or more of body surface
+T29|Burns and corrosions of multiple body regions|T29.5|Corrosions of multiple regions, no more than first-degree corrosions mentioned
+T29|Burns and corrosions of multiple body regions|T29.1|Burns of multiple regions, no more than first-degree burns mentioned
+T29|Burns and corrosions of multiple body regions|T29.0|Burns of multiple regions, unspecified degree
+T29|Burns and corrosions of multiple body regions|T29.2|Burns of multiple regions, no more than second-degree burns mentioned
+T29|Burns and corrosions of multiple body regions|T29.6|Corrosions of multiple regions, no more than second-degree corrosions mentioned
+T29|Burns and corrosions of multiple body regions|T29.3|Burns of multiple regions, at least one burn of third degree mentioned
+T29|Burns and corrosions of multiple body regions|T29.7|Corrosions of multiple regions, at least one corrosion of third degree mentioned
+T29|Burns and corrosions of multiple body regions|T29.4|Corrosions of multiple regions, unspecified degree
+T31|Burns classified according to extent of body surface involved|T31.4|Burns involving 40-49% of body surface
+T31|Burns classified according to extent of body surface involved|T31.6|Burns involving 60-69% of body surface
+T31|Burns classified according to extent of body surface involved|T31.3|Burns involving 30-39% of body surface
+T31|Burns classified according to extent of body surface involved|T31.1|Burns involving 10-19% of body surface
+T31|Burns classified according to extent of body surface involved|T31.0|Burns involving less than 10% of body surface
+T31|Burns classified according to extent of body surface involved|T31.5|Burns involving 50-59% of body surface
+T31|Burns classified according to extent of body surface involved|T31.9|Burns involving 90% or more of body surface
+T31|Burns classified according to extent of body surface involved|T31.8|Burns involving 80-89% of body surface
+T31|Burns classified according to extent of body surface involved|T31.2|Burns involving 20-29% of body surface
+T31|Burns classified according to extent of body surface involved|T31.7|Burns involving 70-79% of body surface
+T30|Burn and corrosion, body region unspecified|T30.7|Corrosion of third degree, body region unspecified
+T30|Burn and corrosion, body region unspecified|T30.1|Burn of first degree, body region unspecified
+T30|Burn and corrosion, body region unspecified|T30.3|Burn of third degree, body region unspecified
+T30|Burn and corrosion, body region unspecified|T30.6|Corrosion of second degree, body region unspecified
+T30|Burn and corrosion, body region unspecified|T30.5|Corrosion of first degree, body region unspecified
+T30|Burn and corrosion, body region unspecified|T30.2|Burn of second degree, body region unspecified
+T30|Burn and corrosion, body region unspecified|T30.0|Burn of unspecified body region, unspecified degree
+T30|Burn and corrosion, body region unspecified|T30.4|Corrosion of unspecified body region, unspecified degree
+T20-T25.9|Burns and corrosions of external body surface, specified by site|T23|Burn and corrosion of wrist and hand
+T20-T25.9|Burns and corrosions of external body surface, specified by site|T25|Burn and corrosion of ankle and foot
+T20-T25.9|Burns and corrosions of external body surface, specified by site|T21|Burn and corrosion of trunk
+T20-T25.9|Burns and corrosions of external body surface, specified by site|T22|Burn and corrosion of shoulder and upper limb, except wrist and hand
+T20-T25.9|Burns and corrosions of external body surface, specified by site|T24|Burn and corrosion of hip and lower limb, except ankle and foot
+T20-T25.9|Burns and corrosions of external body surface, specified by site|T20|Burn and corrosion of head and neck
+T23|Burn and corrosion of wrist and hand|T23.5|Corrosion of first degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.1|Burn of first degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.6|Corrosion of second degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.0|Burn of unspecified degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.7|Corrosion of third degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.4|Corrosion of unspecified degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.3|Burn of third degree of wrist and hand
+T23|Burn and corrosion of wrist and hand|T23.2|Burn of second degree of wrist and hand
+T25|Burn and corrosion of ankle and foot|T25.2|Burn of second degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.0|Burn of unspecified degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.1|Burn of first degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.7|Corrosion of third degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.3|Burn of third degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.4|Corrosion of unspecified degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.5|Corrosion of first degree of ankle and foot
+T25|Burn and corrosion of ankle and foot|T25.6|Corrosion of second degree of ankle and foot
+T21|Burn and corrosion of trunk|T21.1|Burn of first degree of trunk
+T21|Burn and corrosion of trunk|T21.3|Burn of third degree of trunk
+T21|Burn and corrosion of trunk|T21.7|Corrosion of third degree of trunk
+T21|Burn and corrosion of trunk|T21.5|Corrosion of first degree of trunk
+T21|Burn and corrosion of trunk|T21.4|Corrosion of unspecified degree of trunk
+T21|Burn and corrosion of trunk|T21.0|Burn of unspecified degree of trunk
+T21|Burn and corrosion of trunk|T21.2|Burn of second degree of trunk
+T21|Burn and corrosion of trunk|T21.6|Corrosion of second degree of trunk
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.1|Burn of first degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.6|Corrosion of second degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.7|Corrosion of third degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.4|Corrosion of unspecified degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.3|Burn of third degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.2|Burn of second degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.0|Burn of unspecified degree of shoulder and upper limb, except wrist and hand
+T22|Burn and corrosion of shoulder and upper limb, except wrist and hand|T22.5|Corrosion of first degree of shoulder and upper limb, except wrist and hand
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.6|Corrosion of second degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.1|Burn of first degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.7|Corrosion of third degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.4|Corrosion of unspecified degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.3|Burn of third degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.0|Burn of unspecified degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.5|Corrosion of first degree of hip and lower limb, except ankle and foot
+T24|Burn and corrosion of hip and lower limb, except ankle and foot|T24.2|Burn of second degree of hip and lower limb, except ankle and foot
+T20|Burn and corrosion of head and neck|T20.7|Corrosion of third degree of head and neck
+T20|Burn and corrosion of head and neck|T20.5|Corrosion of first degree of head and neck
+T20|Burn and corrosion of head and neck|T20.6|Corrosion of second degree of head and neck
+T20|Burn and corrosion of head and neck|T20.1|Burn of first degree of head and neck
+T20|Burn and corrosion of head and neck|T20.4|Corrosion of unspecified degree of head and neck
+T20|Burn and corrosion of head and neck|T20.0|Burn of unspecified degree of head and neck
+T20|Burn and corrosion of head and neck|T20.3|Burn of third degree of head and neck
+T20|Burn and corrosion of head and neck|T20.2|Burn of second degree of head and neck
+T00-T07.9|Injuries involving multiple body regions|T04|Crushing injuries involving multiple body regions
+T00-T07.9|Injuries involving multiple body regions|T03|Dislocations, sprains and strains involving multiple body regions
+T00-T07.9|Injuries involving multiple body regions|T00|Superficial injuries involving multiple body regions
+T00-T07.9|Injuries involving multiple body regions|T02|Fractures involving multiple body regions
+T00-T07.9|Injuries involving multiple body regions|T06|Other injuries involving multiple body regions, not elsewhere classified
+T00-T07.9|Injuries involving multiple body regions|T07|Unspecified multiple injuries
+T00-T07.9|Injuries involving multiple body regions|T05|Traumatic amputations involving multiple body regions
+T00-T07.9|Injuries involving multiple body regions|T01|Open wounds involving multiple body regions
+T04|Crushing injuries involving multiple body regions|T04.1|Crushing injuries involving thorax with abdomen, lower back and pelvis
+T04|Crushing injuries involving multiple body regions|T04.9|Multiple crushing injuries, unspecified
+T04|Crushing injuries involving multiple body regions|T04.0|Crushing injuries involving head with neck
+T04|Crushing injuries involving multiple body regions|T04.2|Crushing injuries involving multiple regions of upper limb(s)
+T04|Crushing injuries involving multiple body regions|T04.8|Crushing injuries involving other combinations of body regions
+T04|Crushing injuries involving multiple body regions|T04.4|Crushing injuries involving multiple regions of upper limb(s) with lower limb(s)
+T04|Crushing injuries involving multiple body regions|T04.3|Crushing injuries involving multiple regions of lower limb(s)
+T04|Crushing injuries involving multiple body regions|T04.7|Crushing injuries of thorax with abdomen, lower back and pelvis with limb(s)
+T03|Dislocations, sprains and strains involving multiple body regions|T03.3|Dislocations, sprains and strains involving multiple regions of lower limb(s)
+T03|Dislocations, sprains and strains involving multiple body regions|T03.2|Dislocations, sprains and strains involving multiple regions of upper limb(s)
+T03|Dislocations, sprains and strains involving multiple body regions|T03.1|Dislocations, sprains and strains involving thorax with lower back and pelvis
+T03|Dislocations, sprains and strains involving multiple body regions|T03.4|Dislocations, sprains and strains involving multiple regions of upper limb(s) with lower limb(s)
+T03|Dislocations, sprains and strains involving multiple body regions|T03.9|Multiple dislocations, sprains and strains, unspecified
+T03|Dislocations, sprains and strains involving multiple body regions|T03.8|Dislocations, sprains and strains involving other combinations of body regions
+T03|Dislocations, sprains and strains involving multiple body regions|T03.0|Dislocations, sprains and strains involving head with neck
+T00|Superficial injuries involving multiple body regions|T00.9|Multiple superficial injuries, unspecified
+T00|Superficial injuries involving multiple body regions|T00.8|Superficial injuries involving other combinations of body regions
+T00|Superficial injuries involving multiple body regions|T00.1|Superficial injuries involving thorax with abdomen, lower back and pelvis
+T00|Superficial injuries involving multiple body regions|T00.3|Superficial injuries involving multiple regions of lower limb(s)
+T00|Superficial injuries involving multiple body regions|T00.0|Superficial injuries involving head with neck
+T00|Superficial injuries involving multiple body regions|T00.2|Superficial injuries involving multiple regions of upper limb(s)
+T00|Superficial injuries involving multiple body regions|T00.6|Superficial injuries involving multiple regions of upper limb(s) with lower limb(s)
+T02|Fractures involving multiple body regions|T02.2|Fractures involving multiple regions of one upper limb
+T02|Fractures involving multiple body regions|T02.3|Fractures involving multiple regions of one lower limb
+T02|Fractures involving multiple body regions|T02.1|Fractures involving thorax with lower back and pelvis
+T02|Fractures involving multiple body regions|T02.7|Fractures involving thorax with lower back and pelvis with limb(s)
+T02|Fractures involving multiple body regions|T02.4|Fractures involving multiple regions of both upper limbs
+T02|Fractures involving multiple body regions|T02.6|Fractures involving multiple regions of upper limb(s) with lower limb(s)
+T02|Fractures involving multiple body regions|T02.5|Fractures involving multiple regions of both lower limbs
+T02|Fractures involving multiple body regions|T02.0|Fractures involving head with neck
+T02|Fractures involving multiple body regions|T02.8|Fractures involving other combinations of body regions
+T02|Fractures involving multiple body regions|T02.9|Multiple fractures, unspecified
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.8|Other specified injuries involving multiple body regions
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.4|Injuries of muscles and tendons involving multiple body regions
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.1|Injuries of nerves and spinal cord involving other multiple body regions
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.2|Injuries of nerves involving multiple body regions
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.0|Injuries of brain and cranial nerves with injuries of nerves and spinal cord at neck level
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.5|Injuries of intrathoracic organs with intra-abdominal and pelvic organs
+T06|Other injuries involving multiple body regions, not elsewhere classified|T06.3|Injuries of blood vessels involving multiple body regions
+T05|Traumatic amputations involving multiple body regions|T05.8|Traumatic amputations involving other combinations of body regions
+T05|Traumatic amputations involving multiple body regions|T05.5|Traumatic amputation of both legs [any level]
+T05|Traumatic amputations involving multiple body regions|T05.4|Traumatic amputation of one foot and other leg [any level, except foot]
+T05|Traumatic amputations involving multiple body regions|T05.3|Traumatic amputation of both feet
+T05|Traumatic amputations involving multiple body regions|T05.9|Multiple traumatic amputations, unspecified
+T05|Traumatic amputations involving multiple body regions|T05.1|Traumatic amputation of one hand and other arm [any level, except hand]
+T05|Traumatic amputations involving multiple body regions|T05.0|Traumatic amputation of both hands
+T05|Traumatic amputations involving multiple body regions|T05.2|Traumatic amputation of both arms [any level]
+T05|Traumatic amputations involving multiple body regions|T05.6|Traumatic amputation of upper and lower limbs, any combination [any level]
+T01|Open wounds involving multiple body regions|T01.9|Multiple open wounds, unspecified
+T01|Open wounds involving multiple body regions|T01.1|Open wounds involving thorax with abdomen, lower back and pelvis
+T01|Open wounds involving multiple body regions|T01.6|Open wounds involving multiple regions of upper limb(s) with lower limb(s)
+T01|Open wounds involving multiple body regions|T01.0|Open wounds involving head with neck
+T01|Open wounds involving multiple body regions|T01.2|Open wounds involving multiple regions of upper limb(s)
+T01|Open wounds involving multiple body regions|T01.8|Open wounds involving other combinations of body regions
+T01|Open wounds involving multiple body regions|T01.3|Open wounds involving multiple regions of lower limb(s)
+Finished hierarchy retrieval in 1055 seconds.

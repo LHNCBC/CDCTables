@@ -3,13 +3,11 @@ package gov.nih.nlm.mor.db.nflis;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
-
-import javax.net.ssl.HttpsURLConnection;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -44,8 +42,17 @@ public class NFLISSubstance {
 		this.name = name;
 	}	
 	
-	public ArrayList<String> getSynonyms() {
-		return this.synonyms;
+	public ArrayList<String> getSynonyms(boolean lower) {
+		ArrayList<String> list = new ArrayList<String>();
+		if(lower) {
+			synonyms.forEach(a -> {
+				list.add(a.toLowerCase());
+			});
+			return list;
+		}
+		else {
+			return this.synonyms;
+		}
 	}
 
 	public ArrayList<String> setSynonyms(String synonymString) {
@@ -60,14 +67,7 @@ public class NFLISSubstance {
 		
 		return synonymsList;
 	}	
-	
-	public boolean containsSynonym(String s) {
-		for(String synonym : synonyms ) {
-			if( synonym.equalsIgnoreCase(s)) return true;
-		}
-		return false;
-	}
-	
+
 	public ArrayList<String> getRxcuis() {
 		return this.rxcuis;
 	}
@@ -112,14 +112,16 @@ public class NFLISSubstance {
 	
 	public static JSONObject getresult(String URLtoRead) throws IOException {
 		URL url;
-		HttpsURLConnection connexion;
+//		HttpsURLConnection connexion;
+		HttpURLConnection connexion;		
 		BufferedReader reader;
 		
 		String line;
 		String result="";
 		url= new URL(URLtoRead);
 	
-		connexion= (HttpsURLConnection) url.openConnection();
+//		connexion= (HttpsURLConnection) url.openConnection();
+		connexion = (HttpURLConnection) url.openConnection();		
 		connexion.setRequestMethod("GET");
 		reader= new BufferedReader(new InputStreamReader(connexion.getInputStream()));	
 		while ((line =reader.readLine())!=null) {
