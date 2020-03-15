@@ -1,4 +1,6 @@
 package gov.nih.nlm.mor.db.rxnorm;
+import java.time.LocalDateTime;            // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
 
 /*
  * 	[DrugTTYID] [smallint] IDENTITY(1,1) NOT NULL,
@@ -18,10 +20,13 @@ public class TermType {
 	private String createionDate = "";
 	private String updatedUserId = "";
 	private String updatedDate = "";
-	private String isActive = "";
+	private String isActive = "1";
 	
 	public TermType() {
-		
+	    LocalDateTime myDateObj = LocalDateTime.now();
+	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	    String formattedDate = myDateObj.format(myFormatObj);
+	    setCreateionDate(formattedDate);
 	}
 
 	public Integer getId() {
