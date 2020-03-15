@@ -2,6 +2,8 @@ package gov.nih.nlm.mor.db.table;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.time.LocalDateTime;            // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
 
 import gov.nih.nlm.mor.db.rxnorm.Term;
 
@@ -137,10 +139,14 @@ public class TermTable {
 	190717: ++[DrugConceptID] [bigint] NULL	
 		 * 
 		 */
+	    LocalDateTime myDateObj = LocalDateTime.now();
+	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	    String formattedDate = myDateObj.format(myFormatObj);
 		
 		for( Term t : rows ) {
 				pw.println(t.getId() + "|" + t.getName() + "|" + t.getTty() + 
-						"|" + t.getSourceId() + "|" + t.getSource() + "||||||" + t.getDrugConceptId());
+						"|" + t.getSourceId() + "|" + t.getSource() + 
+						"||"+formattedDate+"|||1|" + t.getDrugConceptId());
 				pw.flush();
 		}
 		
