@@ -1,4 +1,6 @@
 package gov.nih.nlm.mor.db.rxnorm;
+import java.time.LocalDateTime;            // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
 
 /*	[DrugConceptTypeID] [bigint] NOT NULL,
 	[Description] [varchar](50) NULL,
@@ -16,10 +18,13 @@ public class ConceptType {
 	private String creationUserId = "";
 	private String updatedDateTime = "";
 	private String updatedUserId = "";
-	private String isActive = "";
+	private String isActive = "1";
 	
 	public ConceptType() {
-		
+	    LocalDateTime myDateObj = LocalDateTime.now();
+	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	    String formattedDate = myDateObj.format(myFormatObj);
+	    setCreationDateTime(formattedDate);
 	}
 
 	public Integer getId() {
