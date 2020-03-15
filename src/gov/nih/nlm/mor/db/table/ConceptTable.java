@@ -2,6 +2,9 @@ package gov.nih.nlm.mor.db.table;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.time.LocalDateTime;            // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
+
 
 import gov.nih.nlm.mor.db.rxnorm.Concept;
 import gov.nih.nlm.mor.db.rxnorm.Term;
@@ -85,10 +88,13 @@ public class ConceptTable {
 	[IsActive] [bit] NOT NULL,
 		 * 
 		 */
+	    LocalDateTime myDateObj = LocalDateTime.now();
+	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	    String formattedDate = myDateObj.format(myFormatObj);
 		
 		for( Concept c : rows ) {
 			pw.println(c.getConceptId() + "|" + c.getPreferredTermId() + "|" + c.getSource() + "|" +
-					c.getClassType() + "|" + c.getSourceId() + "||||||");
+					c.getClassType() + "|" + c.getSourceId() + "|" + formattedDate + "||||1");
 			pw.flush();
 		}
 		
