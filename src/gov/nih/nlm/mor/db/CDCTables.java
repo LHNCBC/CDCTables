@@ -84,7 +84,10 @@ public class CDCTables {
 	private ArrayList<IcdConcept> icdConcepts = new ArrayList<IcdConcept>();
 	private ArrayList<IcdConcept> icdConceptsWithCuis = new ArrayList<IcdConcept>();
 	
+	// map of Manually Curated List - key is principal variant, value = array of variants
 	private HashMap<String, ArrayList<String>> mclMap = new HashMap<String, ArrayList<String>>();
+	// map of MCL type (CLASS/SUBSTANCE) - key is principal variant, value = variant type (e.g. CLASS)
+	private HashMap<String, String> mclTypeMap = new HashMap<String, String>();
 	
 	private HashMap<String, String> sourceMap = new HashMap<String, String>();
 	private HashMap<String, String> termTypeMap = new HashMap<String, String>();
@@ -217,7 +220,9 @@ public class CDCTables {
 							case "mcl":
 								String variant = values[0];
 								String mclSubstance = values[1];
-								setMclMap(variant, mclSubstance);	
+								String mclConceptType = values[2];   // added 10-Mar-2020
+//								setMclMap(variant, mclSubstance);
+								setMclMap(variant, mclSubstance, mclConceptType);
 								break;
 							case "tcode hierarchy":
 								String parentCode = values[0];
@@ -343,10 +348,20 @@ public class CDCTables {
 			}
 		}
 	}
-	
-	private void setMclMap(String variant, String substance) {
+	// process the MCL data 
+//	private void setMclMap(String variant, String substance) {
+	private void setMclMap(String variant, String substance, String type) {
+		// ignore any variants in AMBIGUOUS principal variant
+		if (substance.equalsIgnoreCase("ambiguous"))
+			return;
 		variant = variant.toLowerCase();
 		substance = substance.toLowerCase();
+		type = type.toLowerCase();
+		// if principal variant ends with "+", chop it off
+		int sublen = substance.length();
+		if (substance.substring(sublen-1,sublen).contentEquals("+"))
+			substance = substance.substring(0,sublen-1);
+
 		if(mclMap.containsKey(substance)) {
 			ArrayList<String> list = mclMap.get(substance);
 			list.add(variant);
@@ -356,6 +371,7 @@ public class CDCTables {
 			ArrayList<String> list = new ArrayList<String>();
 			list.add(variant);
 			mclMap.put(substance, list);
+			mclTypeMap.put(substance, type);
 		}
 	}
 	
@@ -1216,6 +1232,11 @@ public class CDCTables {
 			Concept concept = new Concept();
 			Term preferredTerm = new Term();
 			
+			// get the concept type - added 10-Mar-2020
+			String mclType = mclTypeMap.get(substance);
+			if (mclType == null) // shouldn't happen
+				mclType = "substance"; 
+			
 			preferredTerm.setId(++codeGenerator);
 			preferredTerm.setName(substance);
 			preferredTerm.setSource(sourceMap.get("MCL"));
@@ -1224,18 +1245,41 @@ public class CDCTables {
 			
 			String existingConceptId = null; 
 			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(substance); 
-
+            
+			// found this term in another source
+			// NOTE: once a match is found, use it (that is, use the first match)
 			for(String id : existingConceptIdArr) { 
+				// Must check that the Type (CLASS or SUBSTANCE) match
 				Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id)); 
 				if(testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) { 
-					existingConceptId = String.valueOf(testConcept.getConceptId()); 
-				} 
+					if (!mclType.equalsIgnoreCase("class")) {
+						existingConceptId = String.valueOf(testConcept.getConceptId()); 
+						break;
+					}
+				}
+				else { // this is a class
+					if (mclType.equalsIgnoreCase("class")) {
+						existingConceptId = String.valueOf(testConcept.getConceptId());
+						break;
+					}
+						
+				}
 			} 
+			// match to Principal variant (PV) not found
+			// try to match the MCL variants with other PVs?
+			ArrayList<String> variants = mclMap.get(substance);
+			if( existingConceptId == null ) {
+				existingConceptId = findConceptUsingVariants(variants, substance);
+			}
 			
 			if( existingConceptId == null ) {
 				concept.setPreferredTermId(preferredTerm.getId());
 				concept.setSource(sourceMap.get("MCL"));
-				concept.setClassType(classTypeMap.get("Substance"));
+				// check if MCL is a class or substance
+				if (mclType.equalsIgnoreCase("class"))
+					concept.setClassType(classTypeMap.get("Class"));
+				else
+					concept.setClassType(classTypeMap.get("Substance"));
 				concept.setConceptId(++codeGenerator);
 				
 				conceptTable.add(concept);
@@ -1247,11 +1291,36 @@ public class CDCTables {
 			preferredTerm.setDrugConceptId(concept.getConceptId());
 			termTable.add(preferredTerm);
 			
-			ArrayList<String> variants = mclMap.get(substance);
 			addVariants(preferredTerm, variants);
 		}
 	}	
-				
+	// added 13-Mar-2020 find a concept using MCL variants
+	private String findConceptUsingVariants(ArrayList<String> variants, String pv)
+	{
+		String conceptId = null;
+		String matchedVariant = null;
+		for(String variant : variants) {
+			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(variant);
+			for(String id : existingConceptIdArr) { 
+				if (conceptId == null) {
+					conceptId = id;
+					matchedVariant = variant;
+				}
+				else {
+					if (!conceptId.equals(id)) {
+						System.out.println("Multiple concept - variant match - concepts: "
+								+ conceptId + "," + id + ", variants: " + matchedVariant + "; "
+								+ variant + " for pv=" + pv);
+						return null;
+					}
+				}
+			}
+		}
+        if (conceptId != null)
+        	System.out.println("Found a MCL variant match (" + matchedVariant + ") to conceptId=" 
+        			+ conceptId + " for pv=" +pv);
+		return conceptId;
+	}
 // LP: Doing too much here by adding a variant to every source where the term exists
 //   : Make MCL its own source
 //		
