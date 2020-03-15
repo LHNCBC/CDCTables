@@ -2,6 +2,8 @@ package gov.nih.nlm.mor.db.table;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.time.LocalDateTime;            // Import the LocalDateTime class
+import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
 
 import gov.nih.nlm.mor.db.rxnorm.Term;
 import gov.nih.nlm.mor.db.rxnorm.TermRelationship;
@@ -52,9 +54,13 @@ public class Term2TermTable {
 	[IsActive] [bit] NULL,
 		 * 
 		 */
+	    LocalDateTime myDateObj = LocalDateTime.now();
+	    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	    String formattedDate = myDateObj.format(myFormatObj);
+		
 		for( TermRelationship r : rows ) {
 			pw.println(r.getId() + "|" + r.getTermId1() + "|" + r.getRelationship() + 
-					"|" + r.getTermId2() + "|||||");
+					"|" + r.getTermId2() + "||"+formattedDate +"|||1");
 		}
 		
 	}
