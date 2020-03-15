@@ -22,7 +22,8 @@ public class NFLISSubstance {
 //		this.code = code;  - codes don't exist, don't make use of the phony ones
 		this.name = name;
 		//could do fancy parsing, but for now this is a curation issue
-		this.synonyms = setSynonyms(synonyms);
+//		this.synonyms = setSynonyms(synonyms);
+		this.synonyms = setSynonyms(synonyms, name);
 		setCuis();
 	}
 	
@@ -55,8 +56,75 @@ public class NFLISSubstance {
 		}
 	}
 
-	public ArrayList<String> setSynonyms(String synonymString) {
+	// modified 12-Mar-2020 use this pattern to process multiple synonyms
+	//  synonym string:  pv (syn1; syn2; syn3)
+//	public ArrayList<String> setSynonyms(String synonymString) {
+	public ArrayList<String> setSynonyms(String synonymString, String name) {
 		ArrayList<String> synonymsList = new ArrayList<String>();
+
+		// Does string have more than one synomym?
+		int idx = synonymString.indexOf(";");
+		if (idx < 0 || idx == synonymString.length()-1)  // only 1 synonym
+		{
+			if (idx == synonymString.length()-1 && synonymString.length() > 1)
+				synonymsList.add(synonymString.substring(0,synonymString.length()-1));
+			else
+			    synonymsList.add(synonymString.trim());
+		}
+		else {  // handle multiple synonyms
+			String[] synonymArr = synonymString.split(";");
+			for(int i=0; i < synonymArr.length; i++) {
+				String variant = synonymArr[i].trim();
+				if (variant.isEmpty())
+					continue;
+				if (i==0) {
+					// look for patttern "pv (term"
+					String [] tmp1 = variant.split("\\(");
+					String [] tmp2 = variant.split("\\)");
+					String lastChar = variant.substring(variant.length()-1);
+					// non-matching paren?
+					if (tmp1.length > tmp2.length && !lastChar.equals(")")) {
+						int idx2 = variant.indexOf(" (");
+						if (idx2 < 0) {  // didn't find pattern 
+							synonymsList.add(variant);
+						}
+						else {  // split into 2
+							String var1 = variant.substring(0,idx2).trim();
+							if (!synonymsList.contains(var1)  && !var1.equalsIgnoreCase(name))
+								synonymsList.add(var1);
+							String var2 = variant.substring(idx2+2).trim();
+							if (!synonymsList.contains(var2) && !var2.equalsIgnoreCase(name))
+								synonymsList.add(var2);							
+						}
+					}
+					else {  // no mismatched paren
+						synonymsList.add(variant);
+					}
+				}
+				else if (i == synonymArr.length-1) {  //last entry
+					// look for mis-matched paren
+					String [] tmp1 = variant.split("\\(");
+					String [] tmp2 = variant.split("\\)");
+					String lastChar = variant.substring(variant.length()-1);
+					// non-matching paren?
+					if (tmp1.length == tmp2.length && lastChar.equals(")")) {
+						String var1 = variant.substring(0,variant.length()-1).trim();
+						if (!synonymsList.contains(var1)  && !var1.equalsIgnoreCase(name))
+							synonymsList.add(var1);
+					}
+					else {
+						if (!synonymsList.contains(variant) && !variant.equalsIgnoreCase(name))
+							synonymsList.add(variant);
+					}
+				}
+				else {
+					if (!synonymsList.contains(variant) && !variant.equalsIgnoreCase(name))
+						synonymsList.add(variant);
+				}
+			}
+		}
+		
+/*			
 		String[] synonymArr = synonymString.split(";");
 		for(int i=0; i < synonymArr.length; i++) {
 			String synonym = synonymArr[i].trim();
@@ -64,7 +132,7 @@ public class NFLISSubstance {
 				synonymsList.add(synonym);
 			}
 		}
-		
+*/		
 		return synonymsList;
 	}	
 
