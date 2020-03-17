@@ -81,6 +81,20 @@ public class TermTable {
 		return null;
 	}	
 	
+	// 17-Mar-2020 added
+	public Term getTermByConceptId( String conceptId, String name, String source)
+	{
+		Term result = null;
+		for ( Term term : rows ) {
+			if( term.getDrugConceptId().equals(conceptId) && term.getName().equalsIgnoreCase(name)
+			  && term.getSource().equalsIgnoreCase(source)) {
+				result = term;
+				return result;
+			}
+		}
+		return result;
+	}
+	
 	public Term getTerm(String sourceId, String type, String source) {
 		Term result = null;
 		for( Term term : rows ) {
