@@ -791,7 +791,11 @@ public class CDCTables {
 						existingConceptId = String.valueOf(testConcept.getConceptId());
 					}
 				}
-				
+				// Added 16-Mar-2020 use synonyms to find existing concept
+				if( existingConceptId == null ) {
+					existingConceptId = findConceptUsingVariants(substance.getSynonyms(false), 
+							                                     substance.getName(), "DEA");
+				}
 				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
 					concept.setPreferredTermId(preferredTerm.getId());
@@ -1269,7 +1273,7 @@ public class CDCTables {
 			// try to match the MCL variants with other PVs?
 			ArrayList<String> variants = mclMap.get(substance);
 			if( existingConceptId == null ) {
-				existingConceptId = findConceptUsingVariants(variants, substance);
+				existingConceptId = findConceptUsingVariants(variants, substance, "MCL");
 			}
 			
 			if( existingConceptId == null ) {
@@ -1294,19 +1298,31 @@ public class CDCTables {
 			addVariants(preferredTerm, variants);
 		}
 	}	
-	// added 13-Mar-2020 find a concept using MCL variants
-	private String findConceptUsingVariants(ArrayList<String> variants, String pv)
+	// added 13-Mar-2020 find a concept using variants
+	private String findConceptUsingVariants(ArrayList<String> variants, String pv, String source)
 	{
 		String conceptId = null;
 		String matchedVariant = null;
+		// search for all concept variants to see if they are contained in other concepts
 		for(String variant : variants) {
+			// get any concepts which contain the variant
 			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(variant);
 			for(String id : existingConceptIdArr) { 
 				if (conceptId == null) {
-					conceptId = id;
-					matchedVariant = variant;
+					// check if this source already has this term mapped
+					// if so, don't add to this concept (same source should have distinct concepts)
+					Term srcTerm = termTable.getTermByConceptId(id, variant, sourceMap.get(source));
+					if (srcTerm == null) {
+						conceptId = id;
+						matchedVariant = variant;
+					} else {
+						System.out.println("Variant " + variant + " of source " + source
+								+ " already exists in another concept - " + id);
+						return null;  
+					}
 				}
 				else {
+					// if more than one concept is mapped to the variants, don't try to match
 					if (!conceptId.equals(id)) {
 						System.out.println("Multiple concept - variant match - concepts: "
 								+ conceptId + "," + id + ", variants: " + matchedVariant + "; "
@@ -1316,8 +1332,8 @@ public class CDCTables {
 				}
 			}
 		}
-        if (conceptId != null)
-        	System.out.println("Found a MCL variant match (" + matchedVariant + ") to conceptId=" 
+        if (conceptId != null)  // found a match
+        	System.out.println("Found a variant match (" + matchedVariant + ") to conceptId=" 
         			+ conceptId + " for pv=" +pv);
 		return conceptId;
 	}
