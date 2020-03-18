@@ -61,7 +61,9 @@ public class NFLISSubstance {
 //	public ArrayList<String> setSynonyms(String synonymString) {
 	public ArrayList<String> setSynonyms(String synonymString, String name) {
 		ArrayList<String> synonymsList = new ArrayList<String>();
-
+        // could have no synonyms
+		if (synonymString == null || synonymString.trim().length()==0)
+			return synonymsList;
 		// Does string have more than one synomym?
 		int idx = synonymString.indexOf(";");
 		if (idx < 0 || idx == synonymString.length()-1)  // only 1 synonym
