@@ -617,6 +617,11 @@ public class CDCTables {
 					}
 				}				
 				
+				// Added 24-Mar-2020 use synonyms to find existing concept
+				if( existingConceptId == null ) {
+					existingConceptId = findConceptUsingVariants(substance.getSynonyms(false), 
+							                                     substance.getName(), "NFLIS");
+				}
 				if( existingConceptId == null ) {				
 					concept.setConceptId(++codeGenerator);
 					concept.setPreferredTermId(preferredTerm.getId());
@@ -1308,6 +1313,12 @@ public class CDCTables {
 			// get any concepts which contain the variant
 			ArrayList<String> existingConceptIdArr = termTable.getConceptIdByTermName(variant);
 			for(String id : existingConceptIdArr) { 
+				// check the id is not a type=CLASS only deal with substance matches
+				// Must check that the Type (CLASS or SUBSTANCE) match
+				Concept testConcept = conceptTable.getConceptById(Integer.valueOf(id)); 
+				if(!testConcept.getClassType().contentEquals(classTypeMap.get("Substance"))) { 
+					continue;
+				}
 				if (conceptId == null) {
 					// check if this source already has this term mapped
 					// if so, don't add to this concept (same source should have distinct concepts)
