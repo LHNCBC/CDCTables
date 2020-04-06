@@ -8,6 +8,7 @@
  *  	- principal variant fix
  *  191206 - addition of T-codes and hierarchy, from ICD-10, and associate rx substances
  *  200130 - addition of MCL variants as an unspecified source
+ *  200402 - begin implementing subtraction method
  */
 
 package gov.nih.nlm.mor.db;
@@ -1302,7 +1303,8 @@ public class CDCTables {
 			
 			addVariants(preferredTerm, variants);
 		}
-	}	
+	}
+	
 	// added 13-Mar-2020 find a concept using variants
 	private String findConceptUsingVariants(ArrayList<String> variants, String pv, String source)
 	{
@@ -1429,6 +1431,7 @@ public class CDCTables {
 		}
 	}
 	
+	@SuppressWarnings("unused")
 	private void addVariant(Term term, String variant) {
 		if(!variant.toLowerCase().equals(term.getName().toLowerCase())) {
 			Term varTerm = new Term();
@@ -1453,6 +1456,7 @@ public class CDCTables {
 	}	
 	
 	//may be useful again
+	@SuppressWarnings("unused")
 	private ArrayList<Term> getRelatedTermsForLHS(Integer termId, String rel) {
 		ArrayList<Term> relatedTerms = new ArrayList<Term>();
 
@@ -1627,7 +1631,8 @@ public class CDCTables {
 		t1.setDescription(desc);
 		termTypeMap.put(tty, String.valueOf(codeGenerator));		
 		
-		termTypeTable.add(t1);		
+		termTypeTable.add(t1);
+//remove hard-codings
 //		TermType t2 = new TermType();
 //		TermType t3 = new TermType();
 //		TermType t4 = new TermType();
