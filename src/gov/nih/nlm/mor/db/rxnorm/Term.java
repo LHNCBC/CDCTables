@@ -6,7 +6,8 @@ public class Term {
 	String tty = "";
 	String sourceId = "";
 	String source = "";
-	String drugConceptId = "";	
+	String drugConceptId = "";
+	boolean isActive = true;
 	
 	public Integer getId() {
 		return id;
@@ -65,11 +66,22 @@ public class Term {
 	public Term() {
 		
 	}
+	
+	public void setIsActive(boolean b) {
+		this.isActive = b;
+	}	
+	
+	public boolean getIsActive() {
+		return this.isActive;
+	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ((drugConceptId == null) ? 0 : drugConceptId.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + (isActive ? 1231 : 1237);
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + ((source == null) ? 0 : source.hashCode());
 		result = prime * result + ((sourceId == null) ? 0 : sourceId.hashCode());
@@ -86,6 +98,18 @@ public class Term {
 		if (getClass() != obj.getClass())
 			return false;
 		Term other = (Term) obj;
+		if (drugConceptId == null) {
+			if (other.drugConceptId != null)
+				return false;
+		} else if (!drugConceptId.equals(other.drugConceptId))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		if (isActive != other.isActive)
+			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;
@@ -108,5 +132,7 @@ public class Term {
 			return false;
 		return true;
 	}
+
+
 
 }

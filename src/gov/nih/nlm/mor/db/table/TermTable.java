@@ -6,16 +6,34 @@ import java.time.LocalDateTime;            // Import the LocalDateTime class
 import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
 
 import gov.nih.nlm.mor.db.rxnorm.Term;
+import gov.nih.nlm.mor.util.WordCheck;
 
 public class TermTable {
 	private ArrayList<Term> rows = new ArrayList<Term>();
+	private WordCheck wordCheck = new WordCheck();
+	private ArrayList<String> seenWords = new ArrayList<String>();
+	private String brandNameCode = null;
 	
 	public TermTable() {
 		
 	}
 	
 	public void add(Term t) {
-		rows.add(t);
+		if(t.getTty().equals(brandNameCode) && wordCheck.isWord(t.getName())) {
+			t.setIsActive(false);
+			if(!seenWords.contains(t.getName()) ) seenWords.add(t.getName());
+//			System.out.println(t.getName() + " (BN as a word) will be loaded as a deactivated row.");			
+		}
+		rows.add(t);		
+	}
+	
+
+	public void setBnCode(String code) {
+		this.brandNameCode = code;
+	}
+
+	public ArrayList<String> getSeenWords() {
+		return this.seenWords;
 	}
 	
 	public boolean hasTerm(String sourceId, String rel, String source) {
@@ -158,12 +176,16 @@ public class TermTable {
 	    String formattedDate = myDateObj.format(myFormatObj);
 		
 		for( Term t : rows ) {
-				pw.println(t.getId() + "|" + t.getName() + "|" + t.getTty() + 
-						"|" + t.getSourceId() + "|" + t.getSource() + 
-						"||"+formattedDate+"|||1|" + t.getDrugConceptId());
-				pw.flush();
+			String isActive = "1";
+			if(!t.getIsActive()) isActive = "0";
+			
+			pw.println(t.getId() + "|" + t.getName() + "|" + t.getTty() + 
+					"|" + t.getSourceId() + "|" + t.getSource() + 
+					"||"+formattedDate+"|||"+ isActive + "|" + t.getDrugConceptId());
+			pw.flush();
 		}
 		
 	}
+
 
 }

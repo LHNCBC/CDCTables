@@ -8,7 +8,7 @@
  *  	- principal variant fix
  *  191206 - addition of T-codes and hierarchy, from ICD-10, and associate rx substances
  *  200130 - addition of MCL variants as an unspecified source
- *  200402 - begin implementing subtraction method
+ *  200402 - begin implementing blacklist and subtraction method
  */
 
 package gov.nih.nlm.mor.db;
@@ -25,6 +25,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 import org.json.JSONArray;
@@ -93,7 +94,9 @@ public class CDCTables {
 	private HashMap<String, String> sourceMap = new HashMap<String, String>();
 	private HashMap<String, String> termTypeMap = new HashMap<String, String>();
 	private HashMap<String, String> classTypeMap = new HashMap<String, String>();
-	
+
+	//TODO
+	boolean subtractionMode = false;
 	
 	private Integer codeGenerator = (int) 0;
 	private Integer misspellingCount = (int) 0;
@@ -103,18 +106,25 @@ public class CDCTables {
 	public static void main(String[] args) {
 		CDCTables tables = new CDCTables();
 		long start = System.currentTimeMillis();				
-		tables.configure();
+		tables.configure(args);
 		tables.gather();
 		tables.serialize();
 		tables.cleanup();
 		System.out.println("Finished data serialization in " + (System.currentTimeMillis() - start) / 1000 + " seconds.");		
 	}
 	
-	private void configure() {
+	private void configure(String[] arguments) {
 		//We are going to hardcode these filenames to ensure
 		//deliverable consistency to CDC
 		
 		org.apache.log4j.Logger.getRootLogger().setLevel(org.apache.log4j.Level.OFF);
+		
+		if(arguments.length > 0) {
+			//for now, the only argument allowed is a subtraction mode
+			if(arguments[0].replace("-", "").equalsIgnoreCase("subtract")) {
+				subtractionMode = true;
+			}
+		}
 		
 		String authoritativePath = "./authoritative-source.txt";
 		String conceptTypePath = "./concept-type.txt";
@@ -126,6 +136,10 @@ public class CDCTables {
 		
 		String sourcesPath = "./config/sources.txt";
 		String typePath = "./config/termType.txt";
+		
+// do this dynamically during term addition		
+//		String blackListPath = "./config/bn-english-words.txt";
+	
 //		String cui2MisspellingsPath = "./config/substance-mispellings.txt";
 		String icdHierarchy = "./config/10-par-chd-rels.txt";
 		String tcode2RxPath = "./config/tcode-map.txt";
@@ -141,7 +155,9 @@ public class CDCTables {
 		
 		System.out.print("  - from " + typePath); 		
 		readFile(typePath, "types");
-		System.out.println(" ...OK");		
+		System.out.println(" ...OK");
+		
+		termTable.setBnCode(this.termTypeMap.get("BN"));
 		
 //		System.out.print("  - from " + cui2MisspellingsPath); 		
 //		readFile(cui2MisspellingsPath, "spell");
@@ -902,10 +918,10 @@ public class CDCTables {
 		
 		setConceptTypeTable();
 		
-		System.out.println("[6] Building T-code hierarchy");
+		System.out.println("[2] Building T-code hierarchy");
 		buildTCodeHierarchy();				
 		
-		System.out.println("[2] Fetching ATC Classes");
+		System.out.println("[3] Fetching ATC Classes");
 		if( allClasses != null ) {
 			if( !allClasses.isNull("rxclassMinConceptList") ) {
 				JSONObject rxclassMinConceptList = (JSONObject) allClasses.get("rxclassMinConceptList");
@@ -942,7 +958,7 @@ public class CDCTables {
 			}
 		}
 		
-		System.out.println("[3] Collecting edges of ATC classes for isa relations");
+		System.out.println("[4] Collecting edges of ATC classes for isa relations");
 		//collect edges for each concept
 		//https://rxnav.nlm.nih.gov/REST/rxclass/classGraph.json?classId=A&source=ATC1-4
 		ArrayList<Concept> conceptList = conceptTable.getConceptsOfSource(sourceMap.get("ATC"));
@@ -1005,7 +1021,7 @@ public class CDCTables {
 		}
 		
 //		System.out.println(allConceptsUrl);
-		System.out.println("[4] Processing RxNorm substances and asserting relations");
+		System.out.println("[5] Processing RxNorm substances and asserting relations");
 		if( allConcepts != null ) {
 			JSONObject group = null;
 			JSONArray minConceptArray = null;
@@ -1013,7 +1029,6 @@ public class CDCTables {
 			group = (JSONObject) allConcepts.get("minConceptGroup");
 			minConceptArray = (JSONArray) group.get("minConcept");
 			for(int i = 0; i < minConceptArray.length(); i++ ) {
-				
 				if( i != 0 && i % 500 == 0 ) {
 					System.out.println("  Processed " + i + " substances of " + minConceptArray.length());
 				}
@@ -1022,8 +1037,8 @@ public class CDCTables {
 				
 				String rxcui = minConcept.get("rxcui").toString();
 				String name = minConcept.get("name").toString();
-				String type = minConcept.get("tty").toString();	
-				
+				String type = minConcept.get("tty").toString();
+						
 				Concept concept = new Concept();
 				Term term = new Term();
 
@@ -1032,7 +1047,7 @@ public class CDCTables {
 				term.setName(name);
 				term.setTty(termTypeMap.get(type)); //this could be IN instead
 				term.setSourceId(rxcui);
-				term.setSource(sourceMap.get("RxNorm"));				
+				term.setSource(sourceMap.get("RxNorm"));
 				
 		
 				concept.setConceptId(++codeGenerator);
@@ -1215,6 +1230,14 @@ public class CDCTables {
 			}
 		}
 		
+		System.out.println("The following substance Brand names were detected as English words.");
+		System.out.println("They have been added to the database marked as inactive.");
+		ArrayList<String> seenWords = termTable.getSeenWords();
+		Collections.sort(seenWords);
+		for(String bn : seenWords) {
+			System.out.println(bn);
+		}
+		
 		addExternalSources();
 		
 	}
@@ -1223,16 +1246,16 @@ public class CDCTables {
 //		System.out.println("[5] Adding RxNorm misspellings - This will take quite some time.");
 //		addMisspellings();
 			
-		System.out.println("[7] Associating T-codes to RxNorm substances");
+		System.out.println("[6] Associating T-codes to RxNorm substances");
 		addTCodes();
 		
-		System.out.println("[8] Adding NFLIS categories and substances");
+		System.out.println("[7] Adding NFLIS categories and substances");
 		addNFLIS();
 		
-		System.out.println("[9] Adding DEA schedules and substances");
+		System.out.println("[8] Adding DEA schedules and substances");
 		addDEA();
 		
-		System.out.println("[10] Adding MCL variants not in the ACL");
+		System.out.println("[9] Adding MCL variants not in the ACL");
 		addMCL();		
 	}
 	
@@ -1632,6 +1655,7 @@ public class CDCTables {
 		termTypeMap.put(tty, String.valueOf(codeGenerator));		
 		
 		termTypeTable.add(t1);
+		
 //remove hard-codings
 //		TermType t2 = new TermType();
 //		TermType t3 = new TermType();
