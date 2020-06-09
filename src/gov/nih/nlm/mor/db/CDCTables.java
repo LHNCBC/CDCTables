@@ -94,9 +94,6 @@ public class CDCTables {
 	private HashMap<String, String> sourceMap = new HashMap<String, String>();
 	private HashMap<String, String> termTypeMap = new HashMap<String, String>();
 	private HashMap<String, String> classTypeMap = new HashMap<String, String>();
-
-	//TODO
-	boolean subtractionMode = false;
 	
 	private Integer codeGenerator = (int) 0;
 	private Integer misspellingCount = (int) 0;
@@ -106,25 +103,18 @@ public class CDCTables {
 	public static void main(String[] args) {
 		CDCTables tables = new CDCTables();
 		long start = System.currentTimeMillis();				
-		tables.configure(args);
+		tables.configure();
 		tables.gather();
 		tables.serialize();
 		tables.cleanup();
 		System.out.println("Finished data serialization in " + (System.currentTimeMillis() - start) / 1000 + " seconds.");		
 	}
 	
-	private void configure(String[] arguments) {
+	private void configure() {
 		//We are going to hardcode these filenames to ensure
 		//deliverable consistency to CDC
 		
 		org.apache.log4j.Logger.getRootLogger().setLevel(org.apache.log4j.Level.OFF);
-		
-		if(arguments.length > 0) {
-			//for now, the only argument allowed is a subtraction mode
-			if(arguments[0].replace("-", "").equalsIgnoreCase("subtract")) {
-				subtractionMode = true;
-			}
-		}
 		
 		String authoritativePath = "./authoritative-source.txt";
 		String conceptTypePath = "./concept-type.txt";
@@ -136,19 +126,15 @@ public class CDCTables {
 		
 		String sourcesPath = "./config/sources.txt";
 		String typePath = "./config/termType.txt";
-		
-// do this dynamically during term addition		
-//		String blackListPath = "./config/bn-english-words.txt";
-	
+
 //		String cui2MisspellingsPath = "./config/substance-mispellings.txt";
 		String icdHierarchy = "./config/10-par-chd-rels.txt";
 		String tcode2RxPath = "./config/tcode-map.txt";
 		String nflisPath = "./config/nflis-2018-and-2019.txt";
 		String deaPath = "./config/dea-2018.txt";
 		String mclPath = "./config/MCL-terms";
-
-		System.out.println("[1] Reading configuration files and materializing rxcuis");
 		
+		System.out.println("[1] Reading configuration files and materializing rxcuis");		
 		System.out.print("  - from " + sourcesPath); 		
 		readFile(sourcesPath, "sources");
 		System.out.println(" ...OK");
