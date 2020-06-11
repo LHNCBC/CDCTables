@@ -36,7 +36,7 @@ def run_full_query(query, commit):
 	print(query)
 	records = ""
 	try:
-		conx = mariadb.connect(user='root', password='************', database='opioid')
+		conx = mariadb.connect(user='root', password='**********', database='opioid')
 		cursor = conx.cursor()
 		cursor.execute(query)
 		if "SELECT" in query:
@@ -58,6 +58,7 @@ def deactivate_term(termId, conceptId):
 	run_full_query(updateQuery, "true")
 	getTermsQuery = "SELECT DrugTermID from NLMDrugTerm WHERE DrugConceptID='" + str(conceptId) + "' and IsActive=1"
 	records = run_full_query(getTermsQuery, "false")
+#       If there are not active terms in the concept, deactivate the concept
 	if len(records) == 0:
 		updateConcept = "UPDATE NLMDrugConcept SET IsActive=0, UpdatedDate='" + str(formattedDate) + "' WHERE DrugConceptID='" + str(conceptId) + "'"
 		run_full_query(updateConcept, "true")
@@ -74,9 +75,9 @@ if arglen == 4:
 			conceptId = d[0]
 			termId = d[1]
 			deactivate_term(termId, conceptId)
-		print("Term ({}) has been deleted.".format(termName))
+		print("DELETED: Term ({}) has been deleted (marked as Inactive).".format(termName))
 	else:
-		print("No records found for term ({}).".format(termName))
+		print("NOT DELETED: No records found for term ({}) with preferred name ({}) of source ({}).".format(termName, preferredName, conceptSource))
 else:
 	print("FORMAT:   python {} [term] [source] [preferred term]".format(sys.argv[0]))
 	sys.exit()

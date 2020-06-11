@@ -4,25 +4,25 @@
 import sys
 import mysql.connector as mariadb
 
-def concept_exists(name, source, type):
+def concept_exists(name, source, conceptType):
 	conceptQuery1 = "SELECT t.DrugConceptID from NLMDrugTerm as t, NLMDrugConcept as c, NLMDrugConceptType as y "
 	conceptQuery2 = "WHERE t.DrugTermName= %s and t.DrugTermID=c.PreferredTermID and t.IsActive=1 "
 	conceptQuery3 = "and c.DrugConceptTypeID=y.DrugConceptTypeID and y.Description= %s"
 	conceptQuery = conceptQuery1 + conceptQuery2 + conceptQuery3
-	args = (name, type)
+	args = (name, conceptType)
 	results = run_select_query(conceptQuery,args)
 	if len(results) > 0:
 		for r in results:
-			print("Concept already exists (ConceptID {})".format(r[0]))
+			print("Concept already exists for {} (ConceptID {})".format(name,r[0]))
 		return "true"
 	else:
-		print("Concept doesn't exist.")
+		# print("Concept doesn't exist.")
 		return "false"
 
 def run_select_query(query, args):
 	records = ""
 	try:
-		print("In runQuery")
+		# print("In runQuery")
 		print("Query: " + query)
 		print("Args: {}".format(args))
 		conx = mariadb.connect(user='root', password='************', database='opioid')
@@ -99,12 +99,15 @@ def get_max_index():
 		records = cursor.fetchall()
 		for r in records:
 			tmpMax = r[0]
-			print("Max test: {}".format(tmpMax))
+			# print("Max test: {}".format(tmpMax))
 			if tmpMax > maxIndex:
 				maxIndex = tmpMax
 #	print("Max is {}".format(maxIndex))
 	return maxIndex
-
+# arguments to this function
+#  concept name to add (this is also the principle variant)
+#  concept source (should be an existing one)
+#  concept type (SUBSTANCE or CLASS)
 arglen = len(sys.argv)	
 if arglen == 4:
 	conceptName = sys.argv[1]
@@ -136,17 +139,17 @@ if arglen == 4:
 		if sourceId != None and conceptTypeId != None and pvTypeId != None:
 			termId = create_term(conceptName, sourceId, pvTypeId)
 			create_concept(termId, sourceId, conceptTypeId)
-			print("Concept created for {} (Concept ID, {})".format(conceptName, termId + 1))
+			print("Concept created for {} (Concept ID= {})".format(conceptName, termId + 1))
 		else:
 			if sourceId == None:
-				print("Source doesn't exist - add not executed")
+				print("Source doesn't exist {} - add not executed".format(conceptSource))
 			if conceptTypeId == None:
-				print("Concept type doesn't exist - add not executed")
+				print("Concept type doesn't exist {} - add not executed".format(conceptType))
 			if pvTypeId == None:
 				print("Term type dosen't exist - add not executed")
-	else:
-		print("Concept already exists. Exiting.")
+	# else:
+		# print("Concept already exists. Exiting.")
 else:
-    print("FORMAT:   python {} [term] [source] [type]".format(sys.argv[0]))
+    print("FORMAT:   python {} [term] [source] [conceptType]".format(sys.argv[0]))
     sys.exit()
 
