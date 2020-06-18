@@ -58,3 +58,7 @@ The script will pull the source data from the directory it is run
 ```
 mysql --local-infile=1 -u root -p opioid < load_opioid_data.sql
 ```
+## Scripts to read and change data in the opioid database
+There are python scripts to change and read data in the opioid database located in the scripts/Python directory. 
+See the README file for more details
+
