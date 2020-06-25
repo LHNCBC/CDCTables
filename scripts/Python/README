@@ -1,0 +1,18 @@
+This directory contains some python script files for accessing and manipulating the MariaDB database.
+These script need python version 3 or greater to run.
+
+These scripts modify the database:
+MariaDB_addConcept.py - add a concept to the database
+MariaDB_addTerms.py - add terms to the database 
+MariaDB_deleteTerm.py - delete a term in the database (marks as inactive)
+MariaDB_mergeconcept.py - merge a concept into a second concept
+
+These scripts read from the database:
+MariaDB_getConceptTerms.py - get terms in a concept
+MariaDB_getTermInfo.py - get information about a term
+MariaDB_housekeeping.py - lists the sources, term types and relations in the database
+MariaDB_isa.py - get the descendents and ancestors of a class
+MariaDB_memberof.py - get classes that a substance is a member of
+MariaDB_members.py - get substance members of a class concept
+MariaDB_relatedbyId.py - get the term relations from a term identifier
+MariaDB_relatedbyName.py  - get the term relations from a term name
