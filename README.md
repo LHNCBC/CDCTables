@@ -1,4 +1,4 @@
-# CDCTables [![Build Status](https://travis-ci.org/rwynne/CDCTables.svg?branch=master)](https://travis-ci.org/rwynne/CDCTables)
+# CDCTables
 Pull data from RxNorm and RxClass APIs to produce tables for the CDC opioid database
 Add NFLIS and DEA content of illicit substances, their categories, and synonyms 
 
